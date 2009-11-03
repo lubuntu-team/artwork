@@ -3,6 +3,13 @@ Upstream-Name: Lubuntu Artwork
 Upstream-Maintainer: Lubuntu Team <lubuntu-desktop@lists.launchpad.net>
 
 Files: *
+Copyright: Copyright (C) 2008 Hong Jen Yee (PCMan)
+License: GPL-2+
+ On Debian systems the full text of the GNU General Public License can be found
+ in the `/usr/share/common-licenses/GPL-2' file.
+Comment: Artwork is LXDE artwork for now
+
+Files: debian/*
 Copyright: Copyright 2009, Julien Lavergne <gilir@ubuntu.com>
 License: GPL-2+
  On Debian systems the full text of the GNU General Public License can be found
