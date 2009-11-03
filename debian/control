@@ -4,9 +4,9 @@ Priority: optional
 Maintainer: Julien Lavergne <gilir@ubuntu.com>
 Build-Depends: debhelper (>= 7), intltool
 Standards-Version: 3.8.3
-Homepage:
-Vcs-Bzr: 
-Vcs-Browser: 
+Homepage: https://launchpad.net/~lubuntu-desktop
+Vcs-Bzr: lp:~lubuntu-desktop/+junk/lubuntu-artwork
+Vcs-Browser: http://bazaar.launchpad.net/~lubuntu-desktop/+junk/artwork/files
 
 Package: lubuntu-artwork
 Architecture: all
