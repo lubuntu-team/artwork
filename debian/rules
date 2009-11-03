@@ -16,7 +16,7 @@ install: build
 	dh_testroot
 	dh_prep
 	dh_installdirs
-	$(MAKE) DESTDIR=$(CURDIR)/debian/lubuntu-default-settings
+	$(MAKE) DESTDIR=$(CURDIR)/debian/lubuntu-artwork
 
 binary-indep: build install
 	dh_testdir
