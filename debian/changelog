@@ -1,3 +1,9 @@
+lubuntu-artwork (0.3) UNRELEASED; urgency=low
+
+  * 
+
+ -- Julien Lavergne <gilir@ubuntu.com>  Sat, 28 Nov 2009 00:39:04 +0100
+
 lubuntu-artwork (0.2) lucid; urgency=low
 
   * Add specific lxpanel background file, the same that LXDE for now.  
