@@ -1,6 +1,6 @@
 lubuntu-artwork (0.4) UNRELEASED; urgency=low
 
-  * 
+  * debian/links: Add symlink to jpg wallpaper file for backward compatibility.
 
  -- Julien Lavergne <gilir@ubuntu.com>  Sun, 13 Dec 2009 17:42:25 +0100
 
