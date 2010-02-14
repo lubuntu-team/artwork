@@ -4,6 +4,8 @@ lubuntu-artwork (0.4) UNRELEASED; urgency=low
   * debian/control : Add a plymouth theme binary.
   * debian/*.install & *.links: Reorganize with the new binary.
   * debian/rules: Install in debian/tmp and use dh_install for installation.
+  * debian/lubuntu-plymouth-theme.postinst: Set lubuntu-logo as default
+    plymouth settings.
   * Switch to a Lubuntu custom theme, made by Rafael Laguna.
    - Add a lubuntu-logo plymouth theme, based on the ubuntu-logo.
    - Add a custom logo-banner.png, lubuntu-logo.png and wallpaper.
