@@ -12,6 +12,7 @@ License: GPL-2+
 Files: usr/share/lxpanel/images/*.png
        usr/share/lubuntu/images/*.png
        usr/share/lubuntu/wallpapers/*.png
+       usr/share/lubuntu/lxdm/themes/Lubuntu/*
 Copyright: Copyright (C) 2010 Rafael Laguna <rafaellaguna@gmail.com>
 License: GPL-2+
  On Debian systems the full text of the GNU General Public License can be found

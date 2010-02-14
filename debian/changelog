@@ -10,6 +10,7 @@ lubuntu-artwork (0.4) UNRELEASED; urgency=low
    - Add a lubuntu-logo plymouth theme, based on the ubuntu-logo.
    - Add a custom logo-banner.png, lubuntu-logo.png and panel wallpaper.
    - Add new wallpaper.
+   - Add a custom lxdm theme.
 
  -- Julien Lavergne <gilir@ubuntu.com>  Sun, 13 Dec 2009 17:42:25 +0100
 
