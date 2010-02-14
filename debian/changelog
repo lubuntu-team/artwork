@@ -6,6 +6,7 @@ lubuntu-artwork (0.4) UNRELEASED; urgency=low
   * debian/rules: Install in debian/tmp and use dh_install for installation.
   * Switch to a Lubuntu custom theme, made by Rafael Laguna.
    - Add a lubuntu-logo plymouth theme, based on the ubuntu-logo.
+   - Add a custom logo-banner.png, lubuntu-logo.png and wallpaper.
 
  -- Julien Lavergne <gilir@ubuntu.com>  Sun, 13 Dec 2009 17:42:25 +0100
 
