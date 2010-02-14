@@ -14,3 +14,9 @@ Depends: ${misc:Depends}
 Description: artwork for Lubuntu
  Artwork for Lubuntu, contained the wallpaper and others specific images and 
  logos.
+
+Package: lubuntu-plymouth-theme
+Architecture: all
+Depends: plymouth, ${misc:Depends}
+Description: plymouth theme for Lubuntu
+ This package contain a specific Lubuntu theme for plymouth.
