@@ -2,6 +2,13 @@ Format-Specification: http://wiki.debian.org/Proposals/CopyrightFormat
 Upstream-Name: Lubuntu Artwork
 Upstream-Maintainer: Lubuntu Team <lubuntu-desktop@lists.launchpad.net>
 
+Files: lib/
+Copyright: Copyright (C) 2009 Canonical Ltd.
+           Copyright (C) 2010 Rafael Laguna <rafaellaguna@gmail.com>
+License: GPL-2+
+ On Debian systems the full text of the GNU General Public License can be found
+ in the `/usr/share/common-licenses/GPL-2' file.
+
 Files: *
 Copyright: Copyright (C) 2008 Hong Jen Yee (PCMan)
 License: GPL-2+
