@@ -2,6 +2,7 @@ lubuntu-artwork (0.4) UNRELEASED; urgency=low
 
   * debian/links: Add symlink to jpg wallpaper file for backward compatibility.
   * debian/control : Add a plymouth theme binary.
+  * debian/*.install & *.links: Reorganize with the new binary.
   * Switch to a Lubuntu custom theme, made by Rafael Laguna.
    - Add a lubuntu-logo plymouth theme, based on the ubuntu-logo.
 
