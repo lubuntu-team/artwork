@@ -1,4 +1,4 @@
-lubuntu-artwork (0.4) UNRELEASED; urgency=low
+lubuntu-artwork (0.4) lucid; urgency=low
 
   * debian/links: Add symlink to jpg wallpaper file for backward compatibility.
   * debian/control : Add a plymouth theme binary.
@@ -12,7 +12,7 @@ lubuntu-artwork (0.4) UNRELEASED; urgency=low
    - Add new wallpaper.
    - Add a custom lxdm theme.
 
- -- Julien Lavergne <gilir@ubuntu.com>  Sun, 13 Dec 2009 17:42:25 +0100
+ -- Julien Lavergne <gilir@ubuntu.com>  Tue, 16 Feb 2010 03:02:04 +0100
 
 lubuntu-artwork (0.3) lucid; urgency=low
 
