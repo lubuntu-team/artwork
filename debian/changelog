@@ -1,6 +1,7 @@
 lubuntu-artwork (0.5) UNRELEASED; urgency=low
 
   * Update logo with the new branding.
+  * lubuntu-logo.script: Backport changes made on ubuntu-logo.script.
 
  -- Julien Lavergne <gilir@ubuntu.com>  Sat, 13 Mar 2010 18:29:26 +0100
 
