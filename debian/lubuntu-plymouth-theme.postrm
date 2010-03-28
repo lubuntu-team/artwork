@@ -1,30 +1,50 @@
-#!/bin/sh
+#!/bin/sh -e
+# This script can be called in the following ways:
 #
-# see: dh_installdeb(1)
-
-set -e
-
-# summary of how this script can be called:
-#        * <postrm> `remove'
-#        * <postrm> `purge'
-#        * <old-postrm> `upgrade' <new-version>
-#        * <new-postrm> `failed-upgrade' <old-version>
-#        * <new-postrm> `abort-install'
-#        * <new-postrm> `abort-install' <old-version>
-#        * <new-postrm> `abort-upgrade' <old-version>
-#        * <disappearer's-postrm> `disappear' <overwriter>
-#          <overwriter-version>
-# for details, see http://www.debian.org/doc/debian-policy/ or
-# the debian-policy package
+# After the package was removed:
+#       <postrm> remove
+#
+# After the package was purged:
+#       <postrm> purge
+#
+# After the package was upgraded:
+#       <old-postrm> upgrade <new-version>
+# if that fails:
+#       <new-postrm> failed-upgrade <old-version>
+#
+#
+# After all of the packages files have been replaced:
+#       <postrm> disappear <overwriting-package> <version>
+#
+#
+# If preinst fails during install:
+#       <new-postrm> abort-install
+#
+# If preinst fails during upgrade of removed package:
+#       <new-postrm> abort-install <old-version>
+#
+# If preinst fails during upgrade:
+#       <new-postrm> abort-upgrade <old-version>
 
 
 case "$1" in
-	purge|remove)
-	# FIXME: do this with alternatives
-	/usr/sbin/plymouth-set-default-theme --rebuild-initrd ubuntu-logo
+    remove)
+	update-alternatives \
+		--remove default.plymouth /lib/plymouth/themes/lubuntu-logo/lubuntu-logo.plymouth
+
+	if which update-initramfs >/dev/null 2>&1
+	then
+	    update-initramfs -u
+	fi
 	;;
 
-    upgrade|failed-upgrade|abort-install|abort-upgrade|disappear)
+    purge)
+	;;
+
+    upgrade|failed-upgrade|disappear)
+	;;
+
+    abort-install|abort-upgrade)
 	;;
 
     *)
@@ -34,5 +54,4 @@ case "$1" in
 esac
 
 #DEBHELPER#
-
 exit 0

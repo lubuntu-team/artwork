@@ -2,6 +2,9 @@ lubuntu-artwork (0.5) UNRELEASED; urgency=low
 
   * Update logo with the new branding.
   * lubuntu-logo.script: Backport changes made on ubuntu-logo.script.
+  * debian/lubuntu-plymouth-theme.postinst
+    debian/lubuntu-plymouth-theme.postrm
+     - Update to the new way to set the default plymouth theme (LP: #550011)
 
  -- Julien Lavergne <gilir@ubuntu.com>  Sat, 13 Mar 2010 18:29:26 +0100
 
