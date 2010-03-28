@@ -5,6 +5,7 @@ lubuntu-artwork (0.5) UNRELEASED; urgency=low
   * debian/lubuntu-plymouth-theme.postinst
     debian/lubuntu-plymouth-theme.postrm
      - Update to the new way to set the default plymouth theme (LP: #550011)
+  * debian/control: Provide plymouth-theme for lubuntu-plymouth-theme.
 
  -- Julien Lavergne <gilir@ubuntu.com>  Sat, 13 Mar 2010 18:29:26 +0100
 

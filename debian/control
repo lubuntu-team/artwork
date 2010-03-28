@@ -18,5 +18,6 @@ Description: artwork for Lubuntu
 Package: lubuntu-plymouth-theme
 Architecture: all
 Depends: plymouth, ${misc:Depends}
+Provides: plymouth-theme
 Description: plymouth theme for Lubuntu
  This package contain a specific Lubuntu theme for plymouth.
