@@ -1,8 +1,9 @@
-lubuntu-artwork (0.7) UNRELEASED; urgency=low
+lubuntu-artwork (0.7) lucid; urgency=low
 
-  * 
+  * lib/plymouth/themes/lubuntu-logo/lubuntu-logo.script:
+    - Add the support for receiving a localised progress string (LP: #553954).
 
- -- Julien Lavergne <gilir@ubuntu.com>  Mon, 05 Apr 2010 15:46:20 +0200
+ -- Alberto Milone <alberto.milone@canonical.com>  Tue, 13 Apr 2010 18:36:32 +0200
 
 lubuntu-artwork (0.6) lucid; urgency=low
 
