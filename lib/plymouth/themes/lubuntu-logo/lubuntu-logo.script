@@ -133,6 +133,18 @@ fun StringCopy (source, beginning, end) {
     return local.destination;
 }
 
+fun StringReplace (source, pattern, replacement) {
+    local.found = StringString(source, pattern);
+    if (local.found == NULL)
+        return source;
+
+    local.new_string = StringCopy (source, 0, local.found - 1) +
+                       replacement +
+                       StringCopy (source, local.found + StringLength(pattern), NULL);
+
+    return local.new_string;
+}
+
 # it makes sense to use it only for
 # numbers up to 100
 fun StringToInteger (str) {
@@ -640,11 +652,12 @@ fun set_progress_label_opacity (opacity) {
 #       label, the associated
 #       device and the image size of the sprite.
 
-fun init_progress_label (device) {
+fun init_progress_label (device, status_string) {
     # Make the slot unavailable
     global.progress_label.is_available = 0;
     progress_label.progress = 0;
     progress_label.device = device;
+    progress_label.status_string = status_string;
 }
 
 # See if the progress label is keeping track of the fsck
@@ -677,7 +690,12 @@ fun update_progress_label (progress) {
         }
     }    
     # Update progress label here
-    label = "Checking disk " + global.counter.current + " of " + global.counter.total + " (" + progress_label.progress + "% complete)";
+    #
+    # FIXME: the queue logic from this theme should really be moved into mountall
+    # instead of using string replacement to deal with localised strings.
+    label = StringReplace (progress_label.status_string[0], "%1$d", global.counter.current);
+    label = StringReplace (label, "%2$d",  global.counter.total);
+    label = StringReplace (label, "%3$d",  progress_label.progress);
 
     progress_label = get_fsck_label (label, 0);
     #progress_label.progress = progress;
@@ -824,7 +842,7 @@ fun update_progress_in_queue (index, device, progress) {
 #
 # NOTE: no more than "progress_bar.max_number" bars are allowed
 #
-fun fsck_check (device, progress) {
+fun fsck_check (device, progress, status_string) {
 
     # The 1st time this will take place
     if (!global.progress_label) {
@@ -832,7 +850,7 @@ fun fsck_check (device, progress) {
         increase_fsck_count ();
 
         # Set up a new label for the check
-        init_progress_label (device);
+        init_progress_label (device, status_string);
         update_progress_label (progress);
 
         return;
@@ -868,7 +886,7 @@ fun fsck_check (device, progress) {
             #Debug("setting new label for device " + device + " progress " + progress);
 
             # Set up a new label for the check
-            init_progress_label (device);
+            init_progress_label (device, status_string);
             update_progress_label (progress);
             
         }
@@ -936,12 +954,15 @@ fun update_status_callback (status) {
 #    my_string = update_strings[0] + " " + update_strings[1] + " " + update_strings[2];
 #    Debug(my_string);
     # Let's assume that we're dealing with these strings fsck:sda1:40
-    if ((string_it == 2) && (update_strings[0] == "fsck")) {
+    if ((string_it >= 2) && (update_strings[0] == "fsck")) {
         
         device = update_strings[1];
         progress = update_strings[2];
+        status_string[0] = update_strings[3]; # "Checking disk %1$d of %2$d (%3$d %% complete)"
         
-        if ((device != "") && (progress != "")) {
+        if ((device != "") &&
+            (progress != "") &&
+            (status_string[0] != "")) {
             progress = StringToInteger (progress);
         
             # Make sure that the fsck_queue is initialised
@@ -956,7 +977,7 @@ fun update_status_callback (status) {
 #                create_extra_fsck_label ();
             
             # Keep track of the fsck check
-            fsck_check (device, progress);
+            fsck_check (device, progress, status_string);
         }
         
     }
