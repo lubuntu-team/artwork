@@ -7,7 +7,6 @@
     <child>
       <object class="GtkVBox" id="vbox1">
         <property name="visible">True</property>
-        <property name="orientation">vertical</property>
         <child>
           <object class="GtkLabel" id="time">
             <property name="visible">True</property>
@@ -29,7 +28,6 @@
             <child>
               <object class="GtkVBox" id="vbox2">
                 <property name="visible">True</property>
-                <property name="orientation">vertical</property>
                 <child>
                   <object class="GtkImage" id="image1">
                     <property name="visible">True</property>
@@ -193,12 +191,12 @@
                 </child>
                 <child>
                   <object class="GtkButton" id="exit">
-                    <property name="label">gtk-quit</property>
+                    <property name="label">Exit</property>
                     <property name="visible">True</property>
                     <property name="can_focus">True</property>
                     <property name="receives_default">True</property>
+                    <property name="image">image4</property>
                     <property name="relief">none</property>
-                    <property name="use_stock">True</property>
                   </object>
                   <packing>
                     <property name="expand">False</property>
@@ -216,5 +214,9 @@
         </child>
       </object>
     </child>
+  </object>
+  <object class="GtkImage" id="image4">
+    <property name="visible">True</property>
+    <property name="pixbuf">exit.png</property>
   </object>
 </interface>
