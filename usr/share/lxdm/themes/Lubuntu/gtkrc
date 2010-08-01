@@ -5,10 +5,10 @@ style "back"
 		image
 		{
 			function = FLAT_BOX
-			shadow=NONE
+			shadow = NONE
 			state = NORMAL
-			file="wall.svg"
-			stretch=TRUE
+			file = "wall.png"
+			stretch = TRUE
 			detail = "base"
 		}
 	}
@@ -16,29 +16,29 @@ style "back"
 
 style "time"
 {
-	fg[NORMAL]="#ffffff"
-	font_name="Sans 12"
+	fg[NORMAL] = "#ffffff"
+	font_name = "Sans 10"
 }
 
 style "prompt"
 {
-	fg[NORMAL]="#ffffff"
-	font_name="Sans Bold 14"
+	fg[NORMAL] = "#ffffff"
+	font_name = "Sans Bold 10"
 }
 
 # Normally this won't paint an invisible event box, but we did some hacks in greeter.c.
 style "bottom"
 {
-	font_name="Sans 12"
+	font_name = "Sans 10"
 	fg[NORMAL] = "#9E9D9B"
 	engine "pixmap"
 	{
 		image
 		{
 			function = FLAT_BOX
-			file="shade.png"
-			stretch=TRUE
-			detail="eventbox"
+			file = "shade.png"
+			stretch = TRUE
+			detail = "eventbox"
 		}
 	}
 }
