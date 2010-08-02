@@ -1,8 +1,8 @@
-lubuntu-artwork (0.8) UNRELEASED; urgency=low
+lubuntu-artwork (0.8) maverick; urgency=low
 
-  * New theme, made by Rafael Laguna.
+  * Update the theme for Maverick, made by Rafael Laguna.
 
- -- Julien Lavergne <gilir@ubuntu.com>  Fri, 09 Jul 2010 21:47:19 +0200
+ -- Julien Lavergne <gilir@ubuntu.com>  Mon, 02 Aug 2010 22:26:09 +0200
 
 lubuntu-artwork (0.7) lucid; urgency=low
 
