@@ -21,3 +21,10 @@ Depends: plymouth, plymouth-label, ${misc:Depends}
 Provides: plymouth-theme
 Description: plymouth theme for Lubuntu
  This package contain a specific Lubuntu theme for plymouth.
+
+Package: lubuntu-icon-theme
+Architecture: all
+Depends: elementary-icon-theme
+Description: icon theme for Lubuntu
+ This package contain a specific Lubuntu icon theme. It provides specific icons
+for main menu and distributor icons.

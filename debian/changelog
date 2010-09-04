@@ -4,6 +4,8 @@ lubuntu-artwork (0.9) UNRELEASED; urgency=low
    - Update logo color.
   * usr/share/icons:
    - Add Lubuntu icon theme, which inherits from elementary-monochrome.
+  * debian/control:
+   - Add lubuntu-icon-theme binary.
 
  -- Julien Lavergne <gilir@ubuntu.com>  Mon, 30 Aug 2010 23:49:59 +0200
 
