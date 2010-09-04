@@ -696,6 +696,7 @@ fun update_progress_label (progress) {
     label = StringReplace (progress_label.status_string[0], "%1$d", global.counter.current);
     label = StringReplace (label, "%2$d",  global.counter.total);
     label = StringReplace (label, "%3$d",  progress_label.progress);
+    label = StringReplace (label, "%%",  "%");
 
     progress_label = get_fsck_label (label, 0);
     #progress_label.progress = progress;
@@ -959,10 +960,10 @@ fun update_status_callback (status) {
         device = update_strings[1];
         progress = update_strings[2];
         status_string[0] = update_strings[3]; # "Checking disk %1$d of %2$d (%3$d %% complete)"
+        if (!status_string[0])
+            status_string[0] = "Checking disk %1$d of %2$d (%3$d %% complete)";
         
-        if ((device != "") &&
-            (progress != "") &&
-            (status_string[0] != "")) {
+        if ((device != "") && (progress != "")) {
             progress = StringToInteger (progress);
         
             # Make sure that the fsck_queue is initialised

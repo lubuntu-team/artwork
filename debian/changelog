@@ -2,6 +2,7 @@ lubuntu-artwork (0.9) UNRELEASED; urgency=low
 
   * plymouth theme:
    - Update logo color.
+   - Sync with ubuntu-logo.script.
   * usr/share/icons:
    - Add Lubuntu icon theme, which inherits from elementary-monochrome.
   * debian/control:
