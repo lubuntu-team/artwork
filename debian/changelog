@@ -2,6 +2,8 @@ lubuntu-artwork (0.9) UNRELEASED; urgency=low
 
   * plymouth theme:
    - Update logo color.
+  * usr/share/icons:
+   - Add Lubuntu icon theme, which inherits from elementary-monochrome.
 
  -- Julien Lavergne <gilir@ubuntu.com>  Mon, 30 Aug 2010 23:49:59 +0200
 
