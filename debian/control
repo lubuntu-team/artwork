@@ -28,4 +28,4 @@ Architecture: all
 Depends: elementary-icon-theme
 Description: icon theme for Lubuntu
  This package contain a specific Lubuntu icon theme. It provides specific icons
-for main menu and distributor icons.
+ for main menu and distributor icons.
