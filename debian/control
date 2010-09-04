@@ -17,8 +17,9 @@ Description: artwork for Lubuntu
 
 Package: plymouth-theme-lubuntu-logo
 Architecture: all
-Depends: plymouth, plymouth-label, ${misc:Depends}
+Depends: ${shlibs:Depends}, ${misc:Depends}, plymouth, plymouth-label
 Provides: plymouth-theme
+Replaces: plymouth (<< 0.8.1-1~)
 Description: plymouth theme for Lubuntu
  This package contain a specific Lubuntu theme for plymouth.
 

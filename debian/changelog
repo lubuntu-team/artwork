@@ -8,6 +8,8 @@ lubuntu-artwork (0.9) UNRELEASED; urgency=low
   * debian/control:
    - Add lubuntu-icon-theme binary.
    - Rename plymouth theme binary to plymouth-theme-lubuntu-logo.
+   - Add ${shlibs:Depends} and Replaces: plymouth (<< 0.8.1-1~) for
+     plymouth-theme-lubuntu-logo.
 
  -- Julien Lavergne <gilir@ubuntu.com>  Mon, 30 Aug 2010 23:49:59 +0200
 
