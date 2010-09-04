@@ -15,7 +15,7 @@ Description: artwork for Lubuntu
  Artwork for Lubuntu, contained the wallpaper and others specific images and 
  logos.
 
-Package: lubuntu-plymouth-theme
+Package: plymouth-theme-lubuntu-logo
 Architecture: all
 Depends: plymouth, plymouth-label, ${misc:Depends}
 Provides: plymouth-theme
