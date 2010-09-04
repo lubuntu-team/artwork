@@ -1,3 +1,10 @@
+lubuntu-artwork (0.9) UNRELEASED; urgency=low
+
+  * plymouth theme:
+   - Update logo color.
+
+ -- Julien Lavergne <gilir@ubuntu.com>  Mon, 30 Aug 2010 23:49:59 +0200
+
 lubuntu-artwork (0.8) maverick; urgency=low
 
   * Update the theme for Maverick, made by Rafael Laguna.
