@@ -10,6 +10,7 @@ lubuntu-artwork (0.9) UNRELEASED; urgency=low
    - Rename plymouth theme binary to plymouth-theme-lubuntu-logo.
    - Add ${shlibs:Depends} and Replaces: plymouth (<< 0.8.1-1~) for
      plymouth-theme-lubuntu-logo.
+   - Add build-depends on icon-naming-utils.
   * debian/rules:
    - Add icon-name-mapping for lubuntu-icon-theme.
 
