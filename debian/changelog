@@ -12,7 +12,7 @@ lubuntu-artwork (0.9) UNRELEASED; urgency=low
      plymouth-theme-lubuntu-logo.
    - Add build-depends on icon-naming-utils.
    - Add ${misc:Depends} to lubuntu-icon-theme.
-  * lubuntu-plymouth-theme.install:
+  * debian/lubuntu-plymouth-theme.install:
    - Rename to plymouth-theme-lubuntu-logo.install.
   * debian/lubuntu-icon-theme.install:
    - Install icons.
