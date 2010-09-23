@@ -14,6 +14,8 @@ lubuntu-artwork (0.9) UNRELEASED; urgency=low
    - Add ${misc:Depends} to lubuntu-icon-theme.
   * lubuntu-plymouth-theme.install:
    - Rename to plymouth-theme-lubuntu-logo.install.
+  * debian/lubuntu-icon-theme.install:
+   - Install icons.
   * debian/rules:
    - Add icon-name-mapping for lubuntu-icon-theme.
 
