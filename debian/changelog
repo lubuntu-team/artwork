@@ -1,4 +1,4 @@
-lubuntu-artwork (0.9) UNRELEASED; urgency=low
+lubuntu-artwork (0.9) maverick; urgency=low
 
   * plymouth theme:
    - Update logo color.
@@ -21,7 +21,7 @@ lubuntu-artwork (0.9) UNRELEASED; urgency=low
   * debian/rules:
    - Add icon-name-mapping for lubuntu-icon-theme.
 
- -- Julien Lavergne <gilir@ubuntu.com>  Sat, 04 Sep 2010 15:03:42 +0200
+ -- Julien Lavergne <gilir@ubuntu.com>  Fri, 24 Sep 2010 01:45:37 +0200
 
 lubuntu-artwork (0.8) maverick; urgency=low
 
