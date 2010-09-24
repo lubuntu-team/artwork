@@ -2,6 +2,8 @@ lubuntu-artwork (0.10) UNRELEASED; urgency=low
 
   * debian/control
    - Conflicts/Replaces lubuntu-plymouth-theme by plymouth-theme-lubuntu-logo.
+  * debian/*.postinst debian/*.postrm
+   - Rename to plymouth-theme-lubuntu-logo.* .
 
  -- Julien Lavergne <gilir@ubuntu.com>  Fri, 24 Sep 2010 18:39:39 +0200
 
