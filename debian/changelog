@@ -1,9 +1,9 @@
-lubuntu-artwork (0.11) UNRELEASED; urgency=low
+lubuntu-artwork (0.11) maverick; urgency=low
 
-  * lubuntu icon theme:
+  * usr/share/icons:
    - Fix broken links.
 
- -- Julien Lavergne <gilir@ubuntu.com>  Thu, 30 Sep 2010 23:24:34 +0200
+ -- Julien Lavergne <gilir@ubuntu.com>  Fri, 01 Oct 2010 02:47:44 +0200
 
 lubuntu-artwork (0.10) maverick; urgency=low
 
