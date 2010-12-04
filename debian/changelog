@@ -1,6 +1,11 @@
 lubuntu-artwork (0.12) UNRELEASED; urgency=low
 
-  * 
+  * lib/plymouth/themes/lubuntu-text:
+   - New text theme, based on kubuntu one.
+  * debian/control
+   - New lubuntu-text binary.
+  * debian/plymouth-theme-lubuntu-text.*
+   - Install and configure the new text theme.
 
  -- Julien Lavergne <gilir@ubuntu.com>  Fri, 01 Oct 2010 02:50:18 +0200
 

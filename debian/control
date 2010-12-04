@@ -24,6 +24,15 @@ Conflicts: lubuntu-plymouth-theme
 Description: plymouth theme for Lubuntu
  This package contain a specific Lubuntu theme for plymouth.
 
+Package: plymouth-theme-lubuntu-text
+Architecture: all
+Depends: ${shlibs:Depends}, ${misc:Depends}, plymouth, plymouth-label
+Provides: plymouth-theme
+Replaces: plymouth (<< 0.8.1-1~)
+Description: plymouth text theme for Lubuntu
+ This package contain a specific Lubuntu theme for plymouth, which display a
+ simple text.
+
 Package: lubuntu-icon-theme
 Architecture: all
 Depends: ${misc:Depends}, elementary-icon-theme
