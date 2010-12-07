@@ -1,17 +1,17 @@
-lubuntu-artwork (0.12) UNRELEASED; urgency=low
+lubuntu-artwork (0.12) natty; urgency=low
 
   * lib/plymouth/themes/lubuntu-text:
    - New text theme, based on kubuntu one.
   * debian/control
    - New lubuntu-text binary.
-   - Depends on elementary-icon-theme >= 2.6 to use the new name of the
-     theme.
+   - Icon theme depends on elementary-icon-theme >= 2.6 to use the new name of
+     the theme.
   * debian/plymouth-theme-lubuntu-text.*
    - Install and configure the new text theme.
   * usr/share/icons:
-   - Inherits from elementary, to match new color of the theme.
+   - Inherits from elementary, to match the new color of the theme.
 
- -- Julien Lavergne <gilir@ubuntu.com>  Fri, 01 Oct 2010 02:50:18 +0200
+ -- Julien Lavergne <gilir@ubuntu.com>  Wed, 08 Dec 2010 00:24:14 +0100
 
 lubuntu-artwork (0.11) maverick; urgency=low
 
