@@ -35,7 +35,7 @@ Description: plymouth text theme for Lubuntu
 
 Package: lubuntu-icon-theme
 Architecture: all
-Depends: ${misc:Depends}, elementary-icon-theme (>= 2.6.0)
+Depends: ${misc:Depends}, elementary-icon-theme (>= 2.6)
 Description: icon theme for Lubuntu
  This package contain a specific Lubuntu icon theme. It provides specific icons
  for main menu and distributor icons.

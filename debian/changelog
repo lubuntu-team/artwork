@@ -4,7 +4,7 @@ lubuntu-artwork (0.12) UNRELEASED; urgency=low
    - New text theme, based on kubuntu one.
   * debian/control
    - New lubuntu-text binary.
-   - Depends on elementary-icon-theme >= 2.6.0 to use the new name of the
+   - Depends on elementary-icon-theme >= 2.6 to use the new name of the
      theme.
   * debian/plymouth-theme-lubuntu-text.*
    - Install and configure the new text theme.
