@@ -6,6 +6,8 @@ lubuntu-artwork (0.12) UNRELEASED; urgency=low
    - New lubuntu-text binary.
   * debian/plymouth-theme-lubuntu-text.*
    - Install and configure the new text theme.
+  * usr/share/icons:
+   - Inherits from elementary-mono-dark, to match new name of the theme.
 
  -- Julien Lavergne <gilir@ubuntu.com>  Fri, 01 Oct 2010 02:50:18 +0200
 
