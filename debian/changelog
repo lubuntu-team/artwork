@@ -7,6 +7,7 @@ lubuntu-artwork (0.13) UNRELEASED; urgency=low
   * Update with Ozone theme, by Rafael Laguna:
    - usr/share/lubuntu/images/lubuntu-logo.png
    - usr/share/lxpanel/images/lubuntu-background.png
+   - usr/share/themes/Lubuntu-default/
 
  -- Julien Lavergne <gilir@ubuntu.com>  Fri, 14 Jan 2011 01:30:47 +0100
 
