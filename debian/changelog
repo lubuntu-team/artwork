@@ -6,6 +6,7 @@ lubuntu-artwork (0.13) UNRELEASED; urgency=low
    - Added to fix rendering on lxpanel, by using width:22 (LP: #688790).
   * Update with Ozone theme, by Rafael Laguna:
    - usr/share/lubuntu/images/lubuntu-logo.png
+   - usr/share/lxpanel/images/lubuntu-background.png
 
  -- Julien Lavergne <gilir@ubuntu.com>  Fri, 14 Jan 2011 01:30:47 +0100
 
