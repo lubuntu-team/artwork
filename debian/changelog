@@ -2,7 +2,7 @@ lubuntu-artwork (0.13) UNRELEASED; urgency=low
 
   * usr/share/lxdm/themes/Lubuntu/greeter.ui:
    - Update with changes in lxdm.
-  * usr/share/icons/lubuntu/panel/system-shutdown-panel.svg
+  * usr/share/icons/lubuntu/panel/22/system-shutdown-panel.svg
    - Added to fix rendering on lxpanel, by using width:22 (LP: #688790).
   * Update with Ozone theme, by Rafael Laguna:
    - usr/share/lubuntu/images/lubuntu-logo.png
