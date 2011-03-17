@@ -10,6 +10,7 @@ lubuntu-artwork (0.13) UNRELEASED; urgency=low
    - usr/share/lxpanel/images/lubuntu-background.png
    - usr/share/themes/Lubuntu-default/
    - usr/share/lubuntu/wallpapers/lubuntu-default-wallpaper.png
+   - usr/share/lxdm/themes/Lubuntu/wall.png
   * Keep the previous gtk theme in LxDesign directory:
    - usr/share/themes/LxDesign
   * debian/source
