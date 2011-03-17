@@ -15,6 +15,8 @@ lubuntu-artwork (0.13) UNRELEASED; urgency=low
    - usr/share/themes/LxDesign
   * debian/source
    - Convert to 3.0 (native) source format.
+  * debian/control:
+   - Depends on gtk2-engines-murrine for the new theme.
 
  -- Julien Lavergne <gilir@ubuntu.com>  Fri, 14 Jan 2011 01:30:47 +0100
 
