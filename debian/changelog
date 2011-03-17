@@ -10,6 +10,8 @@ lubuntu-artwork (0.13) UNRELEASED; urgency=low
    - usr/share/lxpanel/images/lubuntu-background.png
    - usr/share/themes/Lubuntu-default/
    - usr/share/lubuntu/wallpapers/lubuntu-default-wallpaper.png
+  * debian/source
+   - Convert to 3.0 (native) source format.
 
  -- Julien Lavergne <gilir@ubuntu.com>  Fri, 14 Jan 2011 01:30:47 +0100
 
