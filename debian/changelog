@@ -1,4 +1,4 @@
-lubuntu-artwork (0.13) UNRELEASED; urgency=low
+lubuntu-artwork (0.13) natty; urgency=low
 
   * usr/share/lxdm/themes/Lubuntu/greeter.ui:
    - Update with changes in lxdm.
@@ -18,7 +18,7 @@ lubuntu-artwork (0.13) UNRELEASED; urgency=low
   * debian/control:
    - Depends on gtk2-engines-murrine for the new theme.
 
- -- Julien Lavergne <gilir@ubuntu.com>  Fri, 14 Jan 2011 01:30:47 +0100
+ -- Julien Lavergne <gilir@ubuntu.com>  Sun, 20 Mar 2011 02:32:15 +0100
 
 lubuntu-artwork (0.12) natty; urgency=low
 
