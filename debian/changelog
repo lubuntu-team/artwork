@@ -1,13 +1,12 @@
-lubuntu-artwork (0.14) UNRELEASED; urgency=low
+lubuntu-artwork (0.14) natty; urgency=low
 
   * Restore original virtual terminal color palette (from xubuntu-artwork)
    - debian/lubuntu-artwork.postint & debian/lubuntu-artwork.postrm: Use the
-     new default virtual terminal color palette instead of forcing the original
-     one.
+     new default virtual terminal color palette.
    - debian/control: Depend on libnewt0.52 to make sure that the newt-palette
      alternatives are registered.
 
- -- Julien Lavergne <gilir@ubuntu.com>  Mon, 04 Apr 2011 23:19:20 +0200
+ -- Julien Lavergne <gilir@ubuntu.com>  Sun, 10 Apr 2011 00:15:24 +0200
 
 lubuntu-artwork (0.13) natty; urgency=low
 
