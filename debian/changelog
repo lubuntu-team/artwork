@@ -1,3 +1,10 @@
+lubuntu-artwork (0.15) oneiric; urgency=low
+
+  * usr/share/themes/Lubuntu-default/gtk-2.0/gtkrc:
+   - Remove animation due to CPU usage (LP: #776776)
+
+ -- Julien Lavergne <gilir@ubuntu.com>  Sat, 07 May 2011 12:14:50 +0200
+
 lubuntu-artwork (0.14) natty; urgency=low
 
   * Restore original virtual terminal color palette (from xubuntu-artwork)

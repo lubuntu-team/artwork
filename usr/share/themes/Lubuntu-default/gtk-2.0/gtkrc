@@ -128,7 +128,7 @@ style "murrine-default"
 	
 	engine "murrine"
 	{
-		animation           = TRUE
+		#animation           = TRUE             # Removed due to CPU usage (see LP: #776776
 		arrowstyle          = 2                 # 0 = normal arrows, 1 = filled arrows		
 		border_shades       = { 1.2, 1.0 }      # gradient to draw on border
 		cellstyle	    = 0
