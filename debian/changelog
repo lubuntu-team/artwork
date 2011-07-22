@@ -1,3 +1,9 @@
+lubuntu-artwork (0.16~ppa1) UNRELEASED; urgency=low
+
+  * Update to Ozone2 (2011-07-22)
+
+ -- Julien Lavergne <gilir@ubuntu.com>  Fri, 22 Jul 2011 15:44:15 +0200
+
 lubuntu-artwork (0.15) oneiric; urgency=low
 
   * usr/share/themes/Lubuntu-default/gtk-2.0/gtkrc:
