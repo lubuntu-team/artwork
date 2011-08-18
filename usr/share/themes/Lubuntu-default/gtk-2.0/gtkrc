@@ -124,7 +124,7 @@ style "murrine-default" {
 	### Murrine Settings ###
 	
 	engine "murrine" {
-		animation		= TRUE
+		animation		= FALSE
 		arrowstyle		= 1			# 0 = normal arrows, 1 = filled arrows		
 		border_shades		= {1.0, 0.7}		# gradient to draw on border		
 		colorize_scrollbar	= FALSE		
