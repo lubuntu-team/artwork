@@ -1,0 +1,19 @@
+# Theme for Lubuntu Oneiric Ocelot
+# Author: 神癒礁湖 (Rafael Laguna)
+# Released under GPL. See COPYING for license.
+
+[Desktop Entry]
+Type=X-GNOME-Metatheme
+Name=lubuntu
+Comment=Lubuntu desktop default theme
+Encoding=UTF-8
+
+Name[ca_ES]=lubuntu
+
+[X-GNOME-Metatheme]
+CursorSize=24
+GtkTheme=lubuntu
+MetacityTheme=lubuntu
+IconTheme=elementary-dark
+CursorTheme=DMZ-Black
+ButtonLayout=close,minimize,maximize:
