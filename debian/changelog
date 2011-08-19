@@ -10,6 +10,7 @@ lubuntu-artwork (0.16) UNRELEASED; urgency=low
    - Add support for gtk3 (LP: #819529).
   * usr/share/icons/lubuntu/index.theme:
    - Use elementary-mono-dark instead of elementary theme for Inherits.
+   - Remove system-shutdown-panel.svg, it's fixed with the dark theme.
   * debian/control:
    - Depends on gtk3-engines-unico for gtk3 support.
 
