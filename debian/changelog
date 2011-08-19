@@ -1,6 +1,12 @@
 lubuntu-artwork (0.16) UNRELEASED; urgency=low
 
   * Update to Ozone2 (2011-07-22)
+   - usr/share/lubuntu/images/lubuntu-logo.png
+   - usr/share/lubuntu/images/logout-banner.png
+   - usr/share/lxpanel/images/lubuntu-background.png
+   - usr/share/themes/Lubuntu-default/
+   - usr/share/lubuntu/wallpapers/lubuntu-default-wallpaper.png
+   - usr/share/lxdm/themes/Lubuntu/wall.png
    - Add support for gtk3 (LP: #819529).
   * usr/share/icons/lubuntu/index.theme:
    - Use elementary-mono-dark instead of elementary theme for Inherits.
