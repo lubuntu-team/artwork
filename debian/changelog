@@ -1,4 +1,4 @@
-lubuntu-artwork (0.16) UNRELEASED; urgency=low
+lubuntu-artwork (0.16) oneiric; urgency=low
 
   * Update to Ozone2 (2011-07-22)
    - usr/share/lubuntu/images/lubuntu-logo.png
@@ -16,7 +16,7 @@ lubuntu-artwork (0.16) UNRELEASED; urgency=low
   * lib/plymouth/themes/lubuntu-text/lubuntu-text.plymouth:
    - Update to Oneiric.
 
- -- Julien Lavergne <gilir@ubuntu.com>  Fri, 22 Jul 2011 15:44:15 +0200
+ -- Julien Lavergne <gilir@ubuntu.com>  Sun, 21 Aug 2011 00:20:13 +0200
 
 lubuntu-artwork (0.15) oneiric; urgency=low
 
