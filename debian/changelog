@@ -13,6 +13,8 @@ lubuntu-artwork (0.16) UNRELEASED; urgency=low
    - Remove system-shutdown-panel.svg, it's fixed with the dark theme.
   * debian/control:
    - Depends on gtk3-engines-unico for gtk3 support.
+  * lib/plymouth/themes/lubuntu-text/lubuntu-text.plymouth:
+   - Update to Oneiric.
 
  -- Julien Lavergne <gilir@ubuntu.com>  Fri, 22 Jul 2011 15:44:15 +0200
 
