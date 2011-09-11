@@ -1,3 +1,10 @@
+lubuntu-artwork (0.17) UNRELEASED; urgency=low
+
+  * usr/share/lxdm/themes/Lubuntu
+   - Update with Ozone2 theme.
+
+ -- Julien Lavergne <gilir@ubuntu.com>  Sun, 11 Sep 2011 13:27:16 +0200
+
 lubuntu-artwork (0.16) oneiric; urgency=low
 
   * Update to Ozone2 (2011-07-22)

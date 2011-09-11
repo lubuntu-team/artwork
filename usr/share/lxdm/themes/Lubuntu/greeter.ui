@@ -91,11 +91,11 @@
             <child>
               <object class="GtkHBox" id="bottom_hbox">
                 <property name="visible">True</property>
+                <property name="border_width">6</property>
                 <property name="spacing">12</property>
                 <child>
                   <object class="GtkHBox" id="sessions_box">
                     <property name="visible">True</property>
-                    <property name="border_width">15</property>
                     <property name="spacing">6</property>
                     <child>
                       <object class="GtkImage" id="image2">
@@ -118,10 +118,9 @@
                       </packing>
                     </child>
                     <child>
-                      <object class="GtkComboBox" id="sessions">
+                      <object class="GtkComboBoxEntry" id="sessions">
                         <property name="visible">True</property>
-                        <property name="entry-text-column">0</property>
-                        <property name="has-entry">True</property>
+                        <property name="text_column">0</property>
                       </object>
                       <packing>
                         <property name="expand">False</property>
@@ -137,7 +136,6 @@
                 <child>
                   <object class="GtkHBox" id="lang_box">
                     <property name="visible">True</property>
-                    <property name="border_width">15</property>
                     <property name="spacing">6</property>
                     <child>
                       <object class="GtkImage" id="image3">
@@ -160,10 +158,9 @@
                       </packing>
                     </child>
                     <child>
-                      <object class="GtkComboBox" id="lang">
+                      <object class="GtkComboBoxEntry" id="lang">
                         <property name="visible">True</property>
-                        <property name="entry-text-column">0</property>
-                        <property name="has-entry">True</property>
+                        <property name="text_column">0</property>
                       </object>
                       <packing>
                         <property name="expand">False</property>
@@ -177,29 +174,19 @@
                   </packing>
                 </child>
                 <child>
-                  <object class="GtkHBox" id="hbox1">
-                    <property name="visible">True</property>
-                    <property name="border_width">15</property>
-                    <child>
-                      <object class="GtkLabel" id="label3">
-                        <property name="label" translatable="yes">Keyboard Layout:</property>
-                      </object>
-                      <packing>
-                        <property name="expand">False</property>
-                        <property name="position">0</property>
-                      </packing>
-                    </child>
-                    <child>
-                      <object class="GtkComboBox" id="keyboard"/>
-                      <packing>
-                        <property name="expand">False</property>
-                        <property name="position">1</property>
-                      </packing>
-                    </child>
+                  <object class="GtkLabel" id="label3">
+                    <property name="label" translatable="yes">Keyboard Layout:</property>
                   </object>
                   <packing>
                     <property name="expand">False</property>
                     <property name="position">2</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkComboBox" id="keyboard"/>
+                  <packing>
+                    <property name="expand">False</property>
+                    <property name="position">3</property>
                   </packing>
                 </child>
                 <child>
@@ -214,7 +201,7 @@
                   <packing>
                     <property name="expand">False</property>
                     <property name="pack_type">end</property>
-                    <property name="position">3</property>
+                    <property name="position">4</property>
                   </packing>
                 </child>
               </object>
