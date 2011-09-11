@@ -17,19 +17,19 @@ style "back"
 style "time"
 {
 	fg[NORMAL] = "#ffffff"
-	font_name = "Ubuntu 10"
+	font_name = "Sans 10"
 }
 
 style "prompt"
 {
 	fg[NORMAL] = "#ffffff"
-	font_name = "Ubuntu Bold 10"
+	font_name = "Sans Bold 10"
 }
 
 # Normally this won't paint an invisible event box, but we did some hacks in greeter.c.
 style "bottom"
 {
-	font_name = "Ubuntu 10"
+	font_name = "Sans 10"
 	fg[NORMAL] = "#9E9D9B"
 	engine "pixmap"
 	{
