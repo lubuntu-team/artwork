@@ -1,5 +1,7 @@
 lubuntu-artwork (0.17) UNRELEASED; urgency=low
 
+  * usr/share/lxdm/themes/Lubuntu
+   - Update with Ozone2 theme.
   * usr/share/lubuntu/wallpapers/1110-*
    - Add community wallpapers.
   * debian/copyright:
