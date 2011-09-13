@@ -1,4 +1,4 @@
-lubuntu-artwork (0.17) UNRELEASED; urgency=low
+lubuntu-artwork (0.17) oneiric; urgency=low
 
   * usr/share/lxdm/themes/Lubuntu
    - Update with Ozone2 theme.
@@ -7,7 +7,7 @@ lubuntu-artwork (0.17) UNRELEASED; urgency=low
   * debian/copyright:
    - Update copyright of the new wallpapers.
 
- -- Julien Lavergne <gilir@ubuntu.com>  Sun, 11 Sep 2011 16:43:33 +0200
+ -- Julien Lavergne <gilir@ubuntu.com>  Tue, 13 Sep 2011 02:00:21 +0200
 
 lubuntu-artwork (0.16) oneiric; urgency=low
 
