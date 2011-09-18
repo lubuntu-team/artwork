@@ -12,7 +12,7 @@
 /* menuitem */
 .menuitem {
 	padding: 2;
-	border-width: 1;
+	border-width: 0;
 	border-radius: 0;
 	text-shadow: 0 1 alpha (shade (@button_bg_color, 1.25), 0.4);
 	border-style: solid;
@@ -28,10 +28,14 @@
 	-unico-inner-stroke-style: none;
 }
 
-.menuitem:prelight,
-.menuitem *:prelight {
-	color: @selected_fg_color;
-	text-shadow: none;
+.menubar.menuitem:prelight {
+    background-image: none;
+    background-color: @menu_bg_color;
+    color: @menu_fg_color;
+    border-style: solid;
+    border-radius: 0;
+    border-width: 0;
+    border-color: @inactive_frame_color;
 }
 
 .menuitem:insensitive,
