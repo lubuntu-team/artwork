@@ -1,10 +1,10 @@
-lubuntu-artwork (0.18) UNRELEASED; urgency=low
+lubuntu-artwork (0.18) oneiric; urgency=low
 
   * usr/share/themes/Lubuntu-default/
    - Fix bug for the white menu items on gtk3 theme. (LP: #853172)
    - Adjust menuitems border for panel buttons.
 
- -- Julien Lavergne <gilir@ubuntu.com>  Sun, 18 Sep 2011 13:38:07 +0200
+ -- Julien Lavergne <gilir@ubuntu.com>  Sun, 25 Sep 2011 01:13:54 +0200
 
 lubuntu-artwork (0.17) oneiric; urgency=low
 
