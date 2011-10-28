@@ -1,9 +1,9 @@
-lubuntu-artwork (0.19) UNRELEASED; urgency=low
+lubuntu-artwork (0.19) precise; urgency=low
 
   * usr/share/themes/Lubuntu-default/
    - Disable inset text style, to reduce CPU usage (LP: #878958)
 
- -- Julien Lavergne <gilir@ubuntu.com>  Mon, 24 Oct 2011 00:38:49 +0200
+ -- Julien Lavergne <gilir@ubuntu.com>  Fri, 28 Oct 2011 13:39:35 +0200
 
 lubuntu-artwork (0.18) oneiric; urgency=low
 
