@@ -1,9 +1,9 @@
-lubuntu-artwork (0.20) UNRELEASED; urgency=low
+lubuntu-artwork (0.20) precise; urgency=low
 
   * lib/plymouth/themes/lubuntu-text/lubuntu-text.plymouth:
    - Update version number to 12.04.
 
- -- Julien Lavergne <gilir@ubuntu.com>  Thu, 24 Nov 2011 21:02:31 +0100
+ -- Julien Lavergne <gilir@ubuntu.com>  Mon, 28 Nov 2011 20:30:25 +0100
 
 lubuntu-artwork (0.19) precise; urgency=low
 
