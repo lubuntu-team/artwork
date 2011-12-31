@@ -1,9 +1,9 @@
-lubuntu-artwork (0.21) UNRELEASED; urgency=low
+lubuntu-artwork (0.21) precise; urgency=low
 
   * usr/share/lubuntu/wallpapers/lubuntu-default-wallpaper.png
    - Change the default wallpaper for the new year.
 
- -- Julien Lavergne <gilir@ubuntu.com>  Sat, 31 Dec 2011 18:32:28 +0100
+ -- Julien Lavergne <gilir@ubuntu.com>  Sat, 31 Dec 2011 18:58:40 +0100
 
 lubuntu-artwork (0.20) precise; urgency=low
 
