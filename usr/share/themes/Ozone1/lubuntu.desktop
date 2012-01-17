@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=X-GNOME-Metatheme
+Name=Ozone1 (11.04)
+Comment=Lubuntu desktop default theme (11.04)
+Encoding=UTF-8
+
+[X-GNOME-Metatheme]
+CursorSize=24
+GtkTheme=lubuntu
+MetacityTheme=lubuntu
+IconTheme=lubuntu
+CursorTheme=DMZ-Black
