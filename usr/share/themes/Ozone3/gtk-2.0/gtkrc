@@ -1,0 +1,141 @@
+# Ozone3 theme for Lubuntu 12.04 (GPL2) by 神癒礁湖 (Rafael Laguna)
+# Inspired on Prudence/Sammy, by Андрей Твердов (Andrey Tverdov)
+
+gtk_color_scheme = "fg_color:#333333"
+gtk_color_scheme = "bg_color:#e0e0e0"
+gtk_color_scheme = "base_color:#ffffff"
+gtk_color_scheme = "text_color:#333333"
+gtk_color_scheme = "selected_bg_color:#8FB2CF"
+gtk_color_scheme = "selected_fg_color:#ffffff"
+gtk_color_scheme = "tooltip_bg_color:#343330"
+gtk_color_scheme = "tooltip_fg_color:#E6E6E6"
+
+include "scrollbar.rc"
+include "panel.rc"
+include "button.rc"
+include "arrow.rc"
+include "scale.rc"
+include "checkbox.rc"
+include "radio.rc" 
+include "notebook.rc"
+include "progressbar.rc"
+include "entry.rc"
+include "statusbar.rc"
+include "toolbar.rc"
+include "menubar.rc"
+include "pcmanfm.rc"
+
+gtk-icon-sizes = "gtk-button=16,16"
+gtk-auto-mnemonics = 1
+gtk-font-name = "Ubuntu 9"
+gtk-icon-theme-name = "lubuntu"
+
+style "default" {
+	xthickness = 1
+	ythickness = 1
+	GtkMenu::horizontal-padding = 0
+	GtkMenu::vertical-padding = 0
+	GtkMenuBar::window-dragging = 1
+	GtkMenuBar::internal-padding = 0
+	GtkMenuBar::window-dragging = 1
+	GtkMenuBar::shadow-type = GTK_SHADOW_NONE
+	GtkButton::child-displacement-x = 1
+	GtkButton::child-displacement-y = 1
+	GtkButton::default-border = { 0, 0, 0, 0 }
+	GtkButton::image-spacing = 4
+	GtkToolButton::icon-spacing = 4
+	GtkCheckButton::indicator-size = 14
+	GtkPaned::handle-size = 3
+	GtkRange::trough-border = 1
+	GtkRange::slider-width = 14
+	GtkRange::stepper-size = 14
+	GtkExpander::expander-size = 16
+	GtkTreeView::expander-size = 14
+	GtkTreeView::vertical-separator = 2
+	WnckTasklist::fade-overlay-rect = 0
+	GtkEntry::honors-transparent-bg-hint = 1
+	GtkEntry::progress-border = { 2, 2, 2, 2 }
+	GtkNotebook::tab-overlap = -1
+	GtkFrame::shadow-type = GTK_SHADOW_NONE
+
+	bg[NORMAL]        = @bg_color
+	bg[PRELIGHT]      = shade (1.02, @bg_color)
+	bg[SELECTED]      = @selected_bg_color
+	bg[INSENSITIVE]   = @bg_color
+	bg[ACTIVE]        = shade (0.9, @bg_color)
+
+	fg[NORMAL]        = @fg_color
+	fg[PRELIGHT]      = @fg_color
+	fg[SELECTED]      = @selected_fg_color
+	fg[INSENSITIVE]   = darker (@bg_color)
+	fg[ACTIVE]        = @fg_color
+
+	text[NORMAL]      = @text_color
+	text[PRELIGHT]    = @text_color
+	text[SELECTED]    = @selected_fg_color
+	text[INSENSITIVE] = darker (@bg_color)
+	text[ACTIVE]      = @selected_fg_color
+
+	base[NORMAL]      = @base_color
+	base[PRELIGHT]    = shade (0.95, @bg_color)
+	base[SELECTED]    = @selected_bg_color
+	base[INSENSITIVE] = @bg_color
+	base[ACTIVE]      = shade (0.9, @selected_bg_color)
+
+	engine "clearlooks" {
+		reliefstyle = 1
+		menubarstyle = 0
+		toolbarstyle = 1
+		animation = FALSE
+		radius = 3.0
+		style = GUMMY
+		hint = "use-hints"
+	}
+}
+
+class "GtkWidget" style "default"
+
+style "scrolledwindow"	{
+    xthickness = 0
+    ythickness = 0
+    GtkScrolledWindow ::scrollbars-within-bevel = 0
+    GtkScrolledWindow ::scrollbar-spacing = 0
+    engine "clearlooks"
+    {
+    }
+}
+
+style "wide" {
+	xthickness = 2
+	ythickness = 2
+}
+
+style "wider" {
+	xthickness = 3
+	ythickness = 3
+}
+
+
+style "comboboxentry" {
+	engine "clearlooks" {
+		hint = "comboboxentry"
+	}
+}
+
+style "frame_title" {
+	fg[NORMAL]        = lighter (@fg_color)
+}
+
+
+style "tooltips" {
+	xthickness = 4
+	ythickness = 4
+	bg[NORMAL]        = @tooltip_bg_color
+	fg[NORMAL]        = @tooltip_fg_color
+}
+widget "gtk-tooltip*" style "tooltips"
+
+widget_class "*<GtkComboBoxEntry>*" style "comboboxentry"
+widget_class "*<GtkCombo>*" style "comboboxentry"
+
+
