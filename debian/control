@@ -17,12 +17,58 @@ Description: artwork for Lubuntu
 
 Package: lubuntu-artwork-12-04
 Architecture: all
-Depends: ${misc:Depends}, gtk2-engines-murrine, gtk3-engines-unico, libnewt0.52 (>= 0.52.11-2ubuntu7)
+Depends: ${misc:Depends},
+         gtk2-engines-murrine,
+         gtk3-engines-unico,
+         libnewt0.52 (>= 0.52.11-2ubuntu7)
 Description: artwork for Lubuntu - 12.04 version
  Artwork for Lubuntu, contained the wallpaper and others specific images and 
  logos.
  .
  This package contains theme of Lubuntu 12.04
+
+Package: lubuntu-artwork-11-10
+Architecture: all
+Depends: ${misc:Depends},
+         gtk2-engines-murrine,
+         gtk3-engines-unico,
+         libnewt0.52 (>= 0.52.11-2ubuntu7)
+Description: artwork for Lubuntu - 11.10 version
+ Artwork for Lubuntu, contained the wallpaper and others specific images and 
+ logos.
+ .
+ This package contains theme of Lubuntu 11.10
+
+Package: lubuntu-artwork-11-04
+Architecture: all
+Depends: ${misc:Depends},
+         gtk2-engines-murrine,
+         libnewt0.52 (>= 0.52.11-2ubuntu7)
+Description: artwork for Lubuntu - 11.04 version
+ Artwork for Lubuntu, contained the wallpaper and others specific images and 
+ logos.
+ .
+ This package contains theme of Lubuntu 11.04
+
+Package: lubuntu-artwork-10-10
+Architecture: all
+Depends: ${misc:Depends},
+         libnewt0.52 (>= 0.52.11-2ubuntu7)
+Description: artwork for Lubuntu - 10.10 version
+ Artwork for Lubuntu, contained the wallpaper and others specific images and 
+ logos.
+ .
+ This package contains theme of Lubuntu 10.10
+
+Package: lubuntu-artwork-10-04
+Architecture: all
+Depends: ${misc:Depends},
+         libnewt0.52 (>= 0.52.11-2ubuntu7)
+Description: artwork for Lubuntu - 10.04 version
+ Artwork for Lubuntu, contained the wallpaper and others specific images and 
+ logos.
+ .
+ This package contains theme of Lubuntu 10.04
 
 Package: plymouth-theme-lubuntu-logo
 Architecture: all
