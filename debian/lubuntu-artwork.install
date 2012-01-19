@@ -1,4 +1,5 @@
-usr/share/themes
-usr/share/lxpanel
-usr/share/lxdm
-usr/share/lubuntu
+usr/share/lubuntu/images/1204-*
+usr/share/lubuntu/wallpaper/1204-*
+usr/share/lxdm/themes/Lubuntu
+usr/share/lxpanel/images/lubuntu-background.png
+usr/share/themes/Lubuntu-default

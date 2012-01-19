@@ -15,6 +15,15 @@ Description: artwork for Lubuntu
  Artwork for Lubuntu, contained the wallpaper and others specific images and 
  logos.
 
+Package: lubuntu-artwork-12-04
+Architecture: all
+Depends: ${misc:Depends}, gtk2-engines-murrine, gtk3-engines-unico, libnewt0.52 (>= 0.52.11-2ubuntu7)
+Description: artwork for Lubuntu - 12.04 version
+ Artwork for Lubuntu, contained the wallpaper and others specific images and 
+ logos.
+ .
+ This package contains theme of Lubuntu 12.04
+
 Package: plymouth-theme-lubuntu-logo
 Architecture: all
 Depends: ${shlibs:Depends}, ${misc:Depends}, plymouth, plymouth-label
