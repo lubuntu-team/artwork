@@ -10,7 +10,7 @@ Vcs-Browser: http://bazaar.launchpad.net/~lubuntu-desktop/+junk/artwork/files
 
 Package: lubuntu-artwork
 Architecture: all
-Depends: ${misc:Depends}, gtk2-engines-murrine, gtk3-engines-unico, libnewt0.52 (>= 0.52.11-2ubuntu7)
+Depends: ${misc:Depends}, gtk2-engines-murrine, gtk3-engines-unico, libnewt0.52 (>= 0.52.11-2ubuntu7), lubuntu-artwork-12-04
 Description: artwork for Lubuntu
  Artwork for Lubuntu, contained the wallpaper and others specific images and 
  logos.
