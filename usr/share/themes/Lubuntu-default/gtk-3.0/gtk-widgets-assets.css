@@ -155,11 +155,11 @@ GtkScale.progressbar.vertical {
 }
 
 GtkSwitch.slider {
-    border-image: url("assets/switch-slider-border.svg") 2 / 2 stretch;
+    border-image: none;
 }
 
 GtkSwitch.slider:active {
-    border-image: url("assets/switch-slider-active-border.svg") 2 / 2 stretch;
+    border-image: none;
 }
 
 .progressbar,
