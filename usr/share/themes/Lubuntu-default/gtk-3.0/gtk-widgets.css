@@ -2,21 +2,13 @@
     engine: adwaita;
     padding: 1;
 
-    /* Style properties */
     -GtkToolButton-icon-spacing: 4;
-
     -GtkTextView-error-underline-color: @error_color;
 
     -GtkPaned-handle-size: 5;
 
     -GtkCheckButton-indicator-size: 16;
     -GtkCheckMenuItem-indicator-size: 12;
-
-    /* The size for scrollbars. The slider is 2px smaller, but we keep it
-     * up so that the whole area is sensitive to button presses for the
-     * slider. The stepper button is larger in both directions, the slider
-     * only in the width
-     */
 
     -GtkScrolledWindow-scrollbar-spacing: 0;
     -GtkScrolledWindow-scrollbars-within-bevel: 1;
@@ -311,7 +303,7 @@ GtkProgressBar,
  * GtkScale *
  ************/
 GtkScale {
-    -GtkScale-slider-length: 16;
+    -GtkScale-slider-length: 18;
     -GtkRange-slider-width: 20;
     -GtkRange-trough-border: 0;
 }
@@ -342,7 +334,6 @@ GtkScale.trough {
 GtkScale.trough:insensitive {
     background-color: @insensitive_bg_color;
     background-image: none;
-
     border-image: none;
     border-style: solid;
     border-color: @insensitive_border_color;
@@ -350,12 +341,10 @@ GtkScale.trough:insensitive {
 
 GtkScale.progressbar {
     background-color: @scale_progress_fill;
-
     border-width: 1;
     border-radius: 2;
     border-style: none;
     /* border-image defined in the -assets variants */
-
     -adwaita-progressbar-pattern: none;
 }
 
@@ -376,8 +365,7 @@ GtkScrolledWindow.frame {
     border-style: solid;
     border-color: darker (@theme_bg_color);
     border-width: 1;
-    border-radius: 2;
-
+    border-radius: 0;
     padding: 0;
 }
 
@@ -456,13 +444,10 @@ GtkScrolledWindow.frame {
  *****************/
 .notebook {
     padding: 2;
-
     border-color: @notebook_border;
     border-style: solid;
     border-width: 1;
-
     background-color: @theme_base_color;
-
     -GtkNotebook-tab-overlap: 8;
     -GtkNotebook-tab-curvature: 6;
 }
@@ -511,7 +496,6 @@ GtkComboBox {
     padding: 0;
     -GtkWidget-focus-padding: 0;
     -GtkWidget-focus-line-width: 0;
-
     -GtkComboBox-arrow-scaling: 0.5;
     -GtkComboBox-shadow-type: none;
 }
@@ -609,82 +593,119 @@ GtkComboBox.combobox-entry .button:hover:active:nth-child(first) {
  * Scrollbars *
  **************/
 
-.scrollbar {
-    background-image: none;
+GtkScrollbar {
+    -GtkRange-arrow-scaling: 0.6;
+    -GtkRange-slider-width: 14;
+    -GtkRange-stepper-size: 14;
+    -GtkScrollbar-min-slider-length: 16;
+    -GtkRange-stepper-spacing: 0;
+    -GtkRange-trough-under-steppers: 0;
+    -GtkScrollbar-has-backward-stepper: 0;
+    -GtkScrollbar-has-forward-stepper: 0;
+    -GtkScrollbar-has-secondary-backward-stepper: 0;
+    -GtkScrollbar-fill-arrow: 1;
     border-style: solid;
-    -GtkRange-trough-border: 2;
-    -GtkRange-arrow-scaling: 0.444;
-    -GtkRange-slider-width: 18;
-    -GtkRange-stepper-size: 18;
-    -GtkScrollbar-min-slider-length: 30; /* minimum size for the slider. sadly can't be in '.slider' where it belongs */
-
-    -GtkRange-stepper-spacing: 1;
-    -GtkRange-trough-under-steppers: 1;
+    border-radius: 6;
 }
 
-.scrollbar.trough {
+GtkScrollbar.trough {
+    border-color:  @border_trough_color;
+    background-image: -gtk-gradient (linear,
+				     left top, 
+				     left bottom,
+				     from (@trough_gr_color_a),
+				     to (@trough_gr_color_b)); 
+}
+
+GtkScrollbar.slider {
+    border-color: @border_trough_color;
+	border-width: 1;
+	border-style: solid;
+    background-image: -gtk-gradient (linear,
+				     left top, 
+				     left bottom,
+				     from (@slider_gr_color_a),
+				     to (@slider_gr_color_b)); 
+}
+
+GtkScrollbar.slider:hover,
+GtkScrollbar.slider:active {
+    border-color: @border_hover_color;
+    background-image: -gtk-gradient (linear,
+				     left top, 
+				     left bottom,
+				     from (@slider_hover_gr_color_a),
+				     to (@slider_hover_gr_color_b)); 
+}
+
+GtkScrollbar.trough.vertical {
+    border-color:  @border_trough_color;
+    background-image: -gtk-gradient (linear,
+				     left top, 
+				     right top,
+				     from (@trough_gr_color_a),
+				     to (@trough_gr_color_b)); 
+}
+
+GtkScrollbar.slider.vertical {
+    border-color: @border_trough_color;
+    background-image: -gtk-gradient (linear,
+				     left top, 
+				     right top,
+				     from (@slider_gr_color_a),
+				     to (@slider_gr_color_b)); 
+}
+
+GtkScrollbar.slider.vertical:hover,
+GtkScrollbar.slider.vertical:active {
+    border-color: @border_hover_color;
+    background-image: -gtk-gradient (linear,
+				     left top, 
+				     right top,
+				     from (@slider_hover_gr_color_a),
+				     to (@slider_hover_gr_color_b)); 
+}
+
+GtkSscrollbar.button,
+GtkSscrollbar.button:prelight,
+GtkSscrollbar.button:active,
+GtkSscrollbar.button:insensitive {
+    background-color: none;
+    border-style: none;
     background-image: none;
-    background-color: shade (@theme_bg_color, 0.882);
     border-width: 0;
-    border-radius: 0;
-}
-
-.scrollbar.slider,
-.scrollbar.button {
-    background-image: none;
-    background-color: @theme_base_color;
-    border-color: @button_border;
-    border-radius: 3;
-    border-width: 1;
-
-    border-image: none;
-}
-
-.scrollbar.slider:prelight {
-    background-image: none;
-    background-color: @theme_base_color;
-    border-color: shade (@highlighted_border, 0.964);
-}
-
-.scrollbar.slider:prelight:active {
-    background-image: none;
-    background-color: @theme_base_color;
-    border-color: @theme_selected_bg_color;
 }
 
 .scrollbar.button {
-    color: @internal_element_color;
+	border-radius: 0;
+	border-width: 0;
+}
+.scrollbar.button.vertical {
+	background-image: -gtk-gradient (linear, left top, right top,
+		from (shade (@bg_color, 0.95)),
+		to (shade (@bg_color, 0.8)));
+	border-color: none;
+	border-radius: 0;
+	border-width: 0;
 }
 
-.scrollbar.button:prelight {
-    background-image: none;
-    background-color: @theme_base_color;
-    border-color: shade (@highlighted_border, 0.964)
+.scrollbar.slider.vertical:prelight {
+	background-image: -gtk-gradient (linear, left top, right top,
+		from (shade (@bg_color, 0.85)),
+		to (shade (@bg_color, 0.7)));
+	border-color: shade (@bg_color, 0.6);
 }
 
-.scrollbar.button:prelight:active {
-    background-image: none;
-    background-color: @theme_base_color;
-    border-color: shade (@highlighted_border, 0.964)
+.scrollbar.slider.vertical:prelight:active {
+	background-image: -gtk-gradient (linear, left top, right top,
+		from (shade (@bg_color, 0.85)),
+		to (shade (@bg_color, 0.7)));
+	border-color: shade (@bg_color, 0.6);
 }
-
-.scrollbar.button:insensitive {
-    color: @internal_element_insensitive;
-    background-color: @theme_base_color;
-    border-color: @button_border;
-}
-
-.scrollbar.slider:insensitive {
-    background-color: @theme_base_color;
-}
-
-.scrollbar.trough:insensitive {
-    background-color: shade (@theme_bg_color, 0.882);
-}
-
 /*********
  * Menus *
  *********/
+
 /* combobox menus */
 GtkTreeMenu.menu {
     background-color: @theme_base_color;
@@ -692,7 +713,6 @@ GtkTreeMenu.menu {
 
 GtkTreeMenu .menuitem {
     padding: 2;
-
     border-style: solid;
     border-width: 1 0;
     border-color: @menu_combobox_border;
@@ -723,7 +743,6 @@ GtkTreeMenu .menuitem * {
     background-image: none;
     background-color: @theme_base_color;
     color: @theme_text_color;
-
     border-image: none;
     border-style: none;
     border-width: 0;
@@ -732,7 +751,6 @@ GtkTreeMenu .menuitem * {
 .menu.button:insensitive {
     background-color: @theme_base_color;
     color: lighter(@internal_element_color);
-
     border-image: none;
     border-style: none;
     border-width: 0;
@@ -744,7 +762,6 @@ GtkTreeMenu .menuitem * {
     border-width: 0;
     border-style: none;
     padding: 4;
-
     -GtkWidget-window-dragging: true;
     -GtkMenuBar-internal-padding: 0;
 }
@@ -758,13 +775,12 @@ GtkTreeMenu .menuitem * {
 /* remove the image from the prelight areas */
 .menubar .menuitem:prelight {
     background-image: none;
-    background-color: #ffffff;
-
+    background-color: #88ACCA;
     border-radius: 5 5 0 0;
 }
 
 .menubar .menuitem *:prelight {
-    color: @menu_fg_color;
+    color: #ffffff;
 }
 
 .menuitem {
@@ -777,7 +793,7 @@ GtkTreeMenu .menuitem * {
 .menuitem *:active,
 .menuitem:prelight,
 .menuitem *:prelight {
-    background-color: #4A90D9;
+    background-color: #88ACCA;
     color: @theme_selected_fg_color;
 }
 
@@ -1274,7 +1290,7 @@ GtkPathBar .button:active:hover:nth-child(last) {
     background-color: shade (@theme_bg_color, 1.02);
 }
 
-.sidebar .scrollbar.trough {
+.sidebar GtkSscrollbar.trough {
     background-color: shade (@theme_bg_color, 1.02);
 }
 
@@ -1311,64 +1327,27 @@ GtkAssistant .sidebar {
  *************/
 
 GtkSwitch {
-    font: bold condensed 10;
-}
-
-GtkSwitch.trough {
-    color: shade (@internal_element_color, 0.60);
-
-    border-radius: 1;
-    border-width: 1;
-    border-style: none;
-    /* border-image defined in the -assets variant */
-
-    background-image: -gtk-gradient (linear,
-                                     left top, left bottom,
-                                     from (@trough_bg_color_a),
-                                     to (@trough_bg_color_b));
-}
-
-GtkSwitch.trough:active {
-    color: @theme_base_color;
-    background-image: -gtk-gradient (linear,
-                                     left top, left bottom,
-                                     from (@active_switch_bg_color_a),
-                                     to (@active_switch_bg_color_b));
-}
-
-GtkSwitch.trough:insensitive {
-    background-image: none;
-    background-color: shade (@theme_bg_color, 0.9);
-
-    border-image: none;
+    padding: 1;
+    border-radius: 12;
     border-style: solid;
 }
 
 GtkSwitch.slider {
-    border-width: 1;
-    border-radius: 1;
-    border-style: none;
-    /* border-image defined in -assets variant */
-
-    padding: 2;
-
+    border-color: @progressbar_border_active_color;
     background-image: -gtk-gradient (linear,
-                                     left top, left bottom,
-                                     from (@theme_base_color),
-                                     to (@switch_slider_color));
-
-    -adwaita-switch-grip-color: shade (@switch_slider_color, 0.97);
+				     left top, 
+				     left bottom,
+				     from (@progressbar_gr_color_a),
+				     to (@progressbar_gr_color_b)); 
 }
 
-GtkSwitch.slider:active {
-    border-color: @switch_slider_border;
-}
-
-GtkSwitch.slider:insensitive {
-    border-image: none;
-
-    background-image: none;
-    background-color: @insensitive_bg_color;
+GtkSwitch.trough {
+    border-color: @border_trough_color;
+    background-image: -gtk-gradient (linear,
+				     left top, 
+				     left bottom,
+				     from (@trough_gr_color_a),
+				     to (@trough_gr_color_b));
 }
 
 GtkViewport,
@@ -1570,86 +1549,3 @@ GtkCalendar.highlight {
     color: mix (@theme_selected_fg_color, @theme_base_color, 0.50);
 }
 
-/**********************
- * Fallback Mode Panel
- **********************/
-
-.gnome-panel-menu-bar,
-PanelToplevel,
-PanelWidget,
-PanelAppletFrame,
-PanelApplet {
-    background-color: @os_chrome_bg_color;
-    background-image: none;
-    color: @os_chrome_fg_color;
-}
-
-ClockBox,
-.gnome-panel-menu-bar {
-    font: bold;
-}
-
-.gnome-panel-menu-bar .menuitem:prelight {
-    background-color: @os_chrome_selected_bg_color;
-    color: @os_chrome_selected_fg_color;
-}
-
-.gnome-panel-menu-bar .menuitem *:prelight {
-    color: @os_chrome_selected_fg_color;
-    text-shadow: @os_chrome_bg_color 0 1;
-}
-
-PanelApplet .button,
-PanelApplet .button:prelight {
-    padding: 4;
-
-    border-image: none;
-    border-width: 0;
-    border-radius: 0;
-
-    background-image: none;
-    background-color: alpha(@theme_base_color, 0.0);
-
-    color: @os_chrome_fg_color;
-}
-
-PanelApplet .button:active:prelight,
-PanelApplet .button:active {
-    border-image: none;
-    background-image: none;
-    background-color: @os_chrome_selected_bg_color;
-    border-width: 0;
-    border-radius: 0;
-}
-
-PanelApplet *:prelight {
-    color: @os_chrome_selected_fg_color;
-}
-
-PanelApplet *:active,
-PanelApplet *:prelight:active {
-    color: @os_chrome_selected_fg_color;
-    text-shadow: @os_chrome_bg_color 0 1;
-}
-
-NaTrayApplet {
-    -NaTrayApplet-icon-padding: 12;
-    -NaTrayApplet-icon-size: 16;
-}
-
-WnckPager, WnckTasklist {
-    background-color: @os_chrome_selected_bg_color;
-    background-image: none;
-    color: @os_chrome_fg_color;
-}
-
-GsmFailWhaleDialog {
-    background-color: @os_chrome_bg_color;
-    background-image: none;
-    color: @os_chrome_fg_color;
-}
-
-GsmFailWhaleDialog * {
-    background-color: @os_chrome_bg_color;
-    background-image: none;
-}
