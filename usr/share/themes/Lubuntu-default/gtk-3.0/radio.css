@@ -1,0 +1,36 @@
+/*********
+ * Radio *
+ *********/
+
+GtkRadioButton {
+    -GtkCheckButton-indicator-size: 17;
+    -GtkCheckMenuItem-indicator-size: 17;
+}
+
+GtkRadioButton:selected {
+    background-color: shade (@bg_color, 0.95);
+}
+
+.radio,
+.radio row:selected,
+.radio row:selected:focused {
+    background-image: url("data/radio.png");
+}
+
+.radio:insensitive,
+.radio row:selected:insensitive,
+.radio row:selected:focused:insensitive {
+    background-image: url("data/radio-inconsistent.png");
+}
+
+.radio:active,
+.radio row:selected:active,
+.radio row:selected:focused:active {
+    background-image: url("data/radio-active.png");
+}
+
+.radio:active:insensitive,
+.radio row:selected:active:insensitive,
+.radio row:selected:focused:active:insensitive {
+    background-image: url("data/radio-active-inconsistent.png");
+}

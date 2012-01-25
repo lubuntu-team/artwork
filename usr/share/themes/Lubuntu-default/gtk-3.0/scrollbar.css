@@ -1,0 +1,81 @@
+/*************
+ * Scrollbar * 
+ *************/
+
+GtkScrollbar {
+    -GtkRange-arrow-scaling: 0.8;
+    -GtkRange-slider-width: 12;
+    -GtkRange-stepper-size: 12;
+    -GtkScrollbar-min-slider-length: 30;
+
+    -GtkRange-stepper-spacing: 1;
+    -GtkRange-trough-under-steppers: 0;
+
+    border-style: solid;
+    border-radius: 6;
+}
+
+GtkScrollbar.trough {
+    border-color:  @border_trough_color;
+    background-image: -gtk-gradient (linear,
+				     left top, 
+				     left bottom,
+				     from (@trough_gr_color_a),
+				     to (@trough_gr_color_b)); 
+}
+
+GtkScrollbar.slider {
+    border-color: @border_trough_color;
+    background-image: -gtk-gradient (linear,
+				     left top, 
+				     left bottom,
+				     from (@slider_gr_color_a),
+				     to (@slider_gr_color_b)); 
+}
+
+GtkScrollbar.slider:hover,
+GtkScrollbar.slider:active {
+    border-color: @border_hover_color;
+    background-image: -gtk-gradient (linear,
+				     left top, 
+				     left bottom,
+				     from (@slider_hover_gr_color_a),
+				     to (@slider_hover_gr_color_b)); 
+}
+
+GtkScrollbar.trough.vertical {
+    border-color:  @border_trough_color;
+    background-image: -gtk-gradient (linear,
+				     left top, 
+				     right top,
+				     from (@trough_gr_color_a),
+				     to (@trough_gr_color_b)); 
+}
+
+GtkScrollbar.slider.vertical {
+    border-color: @border_trough_color;
+    background-image: -gtk-gradient (linear,
+				     left top, 
+				     right top,
+				     from (@slider_gr_color_a),
+				     to (@slider_gr_color_b)); 
+}
+
+GtkScrollbar.slider.vertical:hover,
+GtkScrollbar.slider.vertical:active {
+    border-color: @border_hover_color;
+    background-image: -gtk-gradient (linear,
+				     left top, 
+				     right top,
+				     from (@slider_hover_gr_color_a),
+				     to (@slider_hover_gr_color_b)); 
+}
+
+.scrollbar.button,
+.scrollbar.button:prelight,
+.scrollbar.button:active,
+.scrollbar.button:insensitive {
+    background-color: @bg_color;
+    border-style: none;
+    background-image: none;
+}

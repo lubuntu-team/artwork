@@ -1,0 +1,58 @@
+/**************
+ * Workaround *
+ **************/
+
+.separator {
+    -GtkWidget-wide-separators: 1;
+    -GtkWidget-separator-width: 1;
+    border-style: solid;
+    border-color: #BFBFBF;
+}
+
+.background {
+    border-width: 0;
+    border-radius: 0;
+}
+
+.tooltip {
+ 		border-radius: 2 2 0 0;
+    border-style: solid;
+    border-width: 1;
+    border-color: #9DC1E6;
+
+    background-color: @tooltip_bg_color;
+    
+    -unico-border-gradient: none;
+}
+
+.grip {
+    background-color: @border_color;
+}
+
+.pane-separator {
+    color: @fg_color;
+}
+
+GtkFrame,
+GtkCalendar {
+    padding: 2;
+}
+
+.frame {
+    color: lighter (@fg_color);
+    border-style: solid;
+    border-width: 1;
+    border-color: alpha (@border_color, 0.5);
+}
+
+GtkTreeView {
+    -GtkTreeView-vertical-separator: 0;
+    -GtkTreeView-expander-size: 8;
+
+    -GtkWidget-focus-line-width: 1;
+    border-radius: 0;
+}
+
+row {
+    border-width: 0;
+}

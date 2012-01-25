@@ -1,0 +1,27 @@
+/************
+ * Notebook *
+ ************/
+
+.notebook {
+    border-color: @border_color;
+    border-style: solid;
+    
+    -GtkNotebook-tab-overlap: 4;
+    -GtkNotebook-tab-curvature: 1;
+}
+
+.notebook tab {
+    background-image: -gtk-gradient (linear,
+				     left top, 
+				     left bottom,
+				     from (#CACACA),
+				     to (#B6B6B6));
+}
+
+.notebook tab:active {
+    background-image: -gtk-gradient (linear,
+				     left top, 
+				     left bottom,
+				     from (#E0E0E0),
+				     to (#D6D6D6));
+}
