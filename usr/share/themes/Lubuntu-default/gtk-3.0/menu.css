@@ -1,7 +1,10 @@
 /********
  * Menu *
  ********/
+
+.menubar {
     -GtkWidget-window-dragging: true;
+}
 
 .menuitem {
     -unico-bullet-color: @fg_color;

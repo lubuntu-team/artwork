@@ -9,3 +9,9 @@ left bottom,
 from (#E0E0E0),
 to (#A3A3A3));
 }
+
+.primary-toolbar .toolbar,
+.primary-toolbar.toolbar {
+    -GtkWidget-window-dragging: true;
+}
+
