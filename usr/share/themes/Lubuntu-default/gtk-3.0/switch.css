@@ -1,0 +1,27 @@
+/********* 
+ * Switch *
+ **********/
+
+GtkSwitch {
+    padding: 1;
+    border-radius: 12;
+    border-style: solid;
+}
+
+GtkSwitch.slider {
+    border-color: @progressbar_border_active_color;
+    background-image: -gtk-gradient (linear,
+				     left top, 
+				     left bottom,
+				     from (@progressbar_gr_color_a),
+				     to (@progressbar_gr_color_b)); 
+}
+
+GtkSwitch.trough {
+    border-color: @border_trough_color;
+    background-image: -gtk-gradient (linear,
+				     left top, 
+				     left bottom,
+				     from (@trough_gr_color_a),
+				     to (@trough_gr_color_b));
+}

@@ -1,0 +1,12 @@
+/***********
+ * toolbar *
+ ***********/
+
+.toolbar {
+background-image: -gtk-gradient (linear,
+left top,
+left bottom,
+from (#E0E0E0),
+to (#C0C0C0));
+-GtkWidget-window-dragging: true;
+}

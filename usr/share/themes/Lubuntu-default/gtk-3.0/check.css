@@ -1,0 +1,38 @@
+/*********
+ * Check *
+ *********/
+
+GtkCheckButton {
+    -GtkCheckButton-indicator-size: 17;
+    -GtkCheckMenuItem-indicator-size: 17;
+}
+
+GtkCheckButton:selected {
+    background-color: shade (@bg_color, 0.95);
+}
+
+.check,
+.check row:selected,
+.check row:selected:focused {
+    background-image: url("data/check.png");
+}
+
+.check:insensitive,
+.check row:selected:insensitive,
+.check row:selected:focused:insensitive {
+    background-image: url("data/check-inconsistent.png");
+}
+
+.check:active,
+.check row:selected:active,
+.check row:selected:focused:active {
+    background-image: url("data/check-active.png");
+}
+
+.check:active:insensitive,
+.check row:selected:active:insensitive,
+.check row:selected:focused:active:insensitive
+{
+    background-image: url("data/check-active-inconsistent.png");
+}
+

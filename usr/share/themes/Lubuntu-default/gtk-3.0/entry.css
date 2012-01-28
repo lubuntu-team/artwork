@@ -1,0 +1,12 @@
+/*********
+ * Entry *
+ *********/
+
+GtkEntry {
+    border-color: @border_color;
+    border-style: solid;
+}
+
+GtkEntry:focused {
+    border-color: @selected_bg_color;
+}
