@@ -1,11 +1,11 @@
-lubuntu-artwork (0.22) UNRELEASED; urgency=low
+lubuntu-artwork (0.22) precise; urgency=low
 
   * Split packages to add 1 binary for each artwork.
-  * Add first version of theme for 12.04 (LP: #904939)
+  * Add first version of the theme for 12.04 (LP: #904939)
   * usr/share/themes/Ozone2:
    - Correct gtk-button border properties syntax (LP: #877293)
 
- -- Julien Lavergne <gilir@ubuntu.com>  Mon, 23 Jan 2012 00:26:07 +0100
+ -- Julien Lavergne <gilir@ubuntu.com>  Wed, 15 Feb 2012 23:34:53 +0100
 
 lubuntu-artwork (0.21) precise; urgency=low
 
