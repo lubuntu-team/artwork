@@ -7,6 +7,7 @@ lubuntu-artwork (0.23) UNRELEASED; urgency=low
    - Update backgrounds
   * usr/share/icons/lubuntu:
    - Add a specific icon for lxkeymap.
+   - Add specific panel icons for gnome-mpalyer, audacious and pidgin.
   * usr/share/lubuntu/wallpapers:
    - Update current wallpaper.
 
