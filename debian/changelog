@@ -7,6 +7,8 @@ lubuntu-artwork (0.23) UNRELEASED; urgency=low
    - Update backgrounds
   * usr/share/icons/lubuntu:
    - Add a specific icon for lxkeymap.
+  * usr/share/lubuntu/wallpapers:
+   - Update current wallpaper.
 
  -- Julien Lavergne <gilir@ubuntu.com>  Sat, 18 Feb 2012 12:41:31 +0100
 
