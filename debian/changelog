@@ -2,6 +2,7 @@ lubuntu-artwork (0.23) UNRELEASED; urgency=low
 
   * usr/share/icons/lubuntu/index.theme:
    - Use elementary instead of elementary-mono-dark theme for Inherits.
+   - Add back system-shutdown-panel.svg to use with elementary icon them.
 
  -- Julien Lavergne <gilir@ubuntu.com>  Sat, 18 Feb 2012 12:41:31 +0100
 
