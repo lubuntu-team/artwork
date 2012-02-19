@@ -2,12 +2,12 @@ lubuntu-artwork (0.23) UNRELEASED; urgency=low
 
   * usr/share/icons/lubuntu/index.theme:
    - Use elementary instead of elementary-mono-dark theme for Inherits.
-   - Add back system-shutdown-panel.svg to use with elementary icon them.
+   - Add back system-shutdown-panel.svg to use with elementary icon theme.
   * usr/share/lxdm/themes:
-   - Update backgrounds
+   - Update backgrounds.
   * usr/share/icons/lubuntu:
    - Add a specific icon for lxkeymap.
-   - Add specific panel icons for gnome-mpalyer, audacious and pidgin.
+   - Add specific panel icons for gnome-mplayer, audacious and pidgin.
   * usr/share/lubuntu/wallpapers:
    - Update current wallpaper.
 
