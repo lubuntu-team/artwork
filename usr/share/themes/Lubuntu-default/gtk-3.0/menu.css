@@ -37,9 +37,8 @@
 .menu {
     background-color: #ffffff;
     color: @fg_color;
-    padding: 1;
+    padding: 1px;
     border-style: solid;
     border-color: #666666;
     border-radius: 0;
-c
 }

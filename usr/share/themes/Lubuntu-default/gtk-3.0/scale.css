@@ -8,7 +8,7 @@ GtkScale {
     -GtkRange-trough-border: 0;
     
     border-style: solid;
-    border-radius: 12;
+    border-radius: 12px;
 }
 
 GtkScale.slider {

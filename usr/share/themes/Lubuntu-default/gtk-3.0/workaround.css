@@ -15,9 +15,9 @@
 }
 
 .tooltip {
- 		border-radius: 2 2 0 0;
+    border-radius: 2px 2px 0px 0px;
     border-style: solid;
-    border-width: 1;
+    border-width: 1px;
     border-color: #9DC1E6;
 
     background-color: @tooltip_bg_color;
@@ -35,13 +35,13 @@
 
 GtkFrame,
 GtkCalendar {
-    padding: 2;
+    padding: 2px;
 }
 
 .frame {
     color: lighter (@fg_color);
     border-style: solid;
-    border-width: 1;
+    border-width: 1px;
     border-color: alpha (@border_color, 0.5);
 }
 

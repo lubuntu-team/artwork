@@ -1,3 +1,10 @@
+lubuntu-artwork (0.24) UNRELEASED; urgency=low
+
+  * usr/share/themes/Lubuntu-default:
+   - Fix some warnings in gtk3 theme. 
+
+ -- Julien Lavergne <gilir@ubuntu.com>  Mon, 20 Feb 2012 00:49:06 +0100
+
 lubuntu-artwork (0.23) precise; urgency=low
 
   * usr/share/icons/lubuntu/index.theme:

@@ -12,7 +12,7 @@ GtkScrollbar {
     -GtkRange-trough-under-steppers: 0;
 
     border-style: solid;
-    border-radius: 6;
+    border-radius: 6px;
 }
 
 GtkScrollbar.trough {

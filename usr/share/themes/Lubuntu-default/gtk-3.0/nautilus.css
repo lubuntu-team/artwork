@@ -7,7 +7,7 @@
 .nautilus-desktop.nautilus-canvas-item:active {
     background-image: none;
     background-color: alpha (@selected_bg_color, 0.84);
-    border-radius: 2;
+    border-radius: 2px;
 
     color: @selected_fg_color;
 }
@@ -15,7 +15,7 @@
 .nautilus-desktop.nautilus-canvas-item:selected {
     background-image: none;
     background-color: alpha (@selected_bg_color, 0.84);
-    border-radius: 2;
+    border-radius: 2px;
 
     color: @selected_fg_color;
 }
@@ -35,7 +35,7 @@ NautilusQueryEditor.info {
     background-color: @selected_bg_color;
     border-radius: 0;
     border-style: solid;
-    border-width: 0 1 1 1;
+    border-width: 0px 1px 1px 1px;
 }
 
 NautilusSearchBar .entry {}
@@ -51,9 +51,9 @@ NautilusSearchBar .entry {}
 }
 
 NautilusFloatingBar {
-    border-radius: 2 2 0 0;
+    border-radius: 2px 2px 0px 0px;
     border-style: solid;
-    border-width: 1;
+    border-width: 1px;
     border-color: #9DC1E6;
 
     background-color: @tooltip_bg_color;

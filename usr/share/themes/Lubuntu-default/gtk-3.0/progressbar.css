@@ -3,13 +3,13 @@
  ***************/
 
 GtkProgressBar {
-    padding: 1;
-    border-radius: 12;
+    padding: 1px;
+    border-radius: 12px;
     border-style: solid;
 }
 
 GtkProgressBar.progressbar {
-    border-color: none;
+    /*border-color: none;*/
     background-image: -gtk-gradient (linear,
 				     left top, 
 				     left bottom,

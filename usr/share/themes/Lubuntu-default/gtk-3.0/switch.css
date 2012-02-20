@@ -3,8 +3,8 @@
  **********/
 
 GtkSwitch {
-    padding: 1;
-    border-radius: 12;
+    padding: 1px;
+    border-radius: 12px;
     border-style: solid;
 }
 

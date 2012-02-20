@@ -1,5 +1,7 @@
+/*
 # Ozone3 theme for Lubuntu 12.04 (GPL2) by 神癒礁湖 (Rafael Laguna)
 # Inspired on Prudence/Sammy, by Андрей Твердов (Andrey Tverdov)
+*/
 
 /* Default color scheme */
 @define-color fg_color #333333;
@@ -57,9 +59,9 @@
 
 /* For all widgets */
 * { 
-    engine:unico;
-    border-width: 1;
-    border-radius: 2;
+    engine: unico;
+    border-width: 1px;
+    border-radius: 2px;
     border-style: none;
 
     -unico-focus-fill-color: @null;
