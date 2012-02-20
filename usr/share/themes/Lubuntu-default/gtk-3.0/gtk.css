@@ -63,6 +63,7 @@
     border-width: 1px;
     border-radius: 2px;
     border-style: none;
+    background-color: @bg_color;
 
     -unico-focus-fill-color: @null;
     -unico-focus-border-color: alpha (@border_color, 0.5);
