@@ -1,0 +1,15 @@
+@import url("resource:///org/gnome/adwaita/gtk-main.css");
+
+#@import url("progressbar.css");
+@import url("scale.css");
+@import url("entry.css");
+#@import url("radio.css");
+#@import url("check.css");
+#@import url("scrollbar.css");
+@import url("menu.css");
+#@import url("spinbutton.css");
+#@import url("notebook.css");
+#@import url("switch.css");
+#@import url("workaround.css");
+#@import url("nautilus.css");
+@import url("toolbar.css");

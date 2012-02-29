@@ -1,7 +1,7 @@
 lubuntu-artwork (0.25) UNRELEASED; urgency=low
 
   * usr/share/themes/Lubuntu-default:
-   - Fix black background for some widgets (LP: #933682)
+   - Update with teh current unico on precise (LP: #933682)
 
  -- Julien Lavergne <gilir@ubuntu.com>  Mon, 20 Feb 2012 02:01:41 +0100
 

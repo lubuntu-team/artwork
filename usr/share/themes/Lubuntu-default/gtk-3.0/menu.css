@@ -4,6 +4,7 @@
 
 .menubar {
     -GtkWidget-window-dragging: true;
+    -window-dragging: true;
 }
 
 .menuitem {
