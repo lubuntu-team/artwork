@@ -1,9 +1,9 @@
-lubuntu-artwork (0.25) UNRELEASED; urgency=low
+lubuntu-artwork (0.25) precise; urgency=low
 
   * usr/share/themes/Lubuntu-default:
-   - Update with teh current unico on precise (LP: #933682)
+   - Update with the current unico on precise (LP: #933682)
 
- -- Julien Lavergne <gilir@ubuntu.com>  Mon, 20 Feb 2012 02:01:41 +0100
+ -- Julien Lavergne <gilir@ubuntu.com>  Wed, 29 Feb 2012 23:22:15 +0100
 
 lubuntu-artwork (0.24) precise; urgency=low
 
