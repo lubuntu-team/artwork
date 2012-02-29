@@ -1,3 +1,34 @@
+lubuntu-artwork (0.24) precise; urgency=low
+
+  * usr/share/themes/Lubuntu-default:
+   - Fix some warnings in gtk3 theme. 
+
+ -- Julien Lavergne <gilir@ubuntu.com>  Mon, 20 Feb 2012 01:43:52 +0100
+
+lubuntu-artwork (0.23) precise; urgency=low
+
+  * usr/share/icons/lubuntu/index.theme:
+   - Use elementary instead of elementary-mono-dark theme for Inherits.
+   - Add back system-shutdown-panel.svg to use with elementary icon theme.
+  * usr/share/lxdm/themes:
+   - Update backgrounds.
+  * usr/share/icons/lubuntu:
+   - Add a specific icon for lxkeymap.
+   - Add specific panel icons for gnome-mplayer, audacious and pidgin.
+  * usr/share/lubuntu/wallpapers:
+   - Update current wallpaper.
+
+ -- Julien Lavergne <gilir@ubuntu.com>  Sun, 19 Feb 2012 14:58:49 +0100
+
+lubuntu-artwork (0.22) precise; urgency=low
+
+  * Split packages to add 1 binary for each artwork.
+  * Add first version of the theme for 12.04 (LP: #904939)
+  * usr/share/themes/Ozone2:
+   - Correct gtk-button border properties syntax (LP: #877293)
+
+ -- Julien Lavergne <gilir@ubuntu.com>  Wed, 15 Feb 2012 23:34:53 +0100
+
 lubuntu-artwork (0.21) precise; urgency=low
 
   * usr/share/lubuntu/wallpapers/lubuntu-default-wallpaper.png

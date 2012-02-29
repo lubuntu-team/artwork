@@ -156,7 +156,7 @@ GtkScale.slider {
  ************/
 column-header .button {
 	border-radius: 0;
-	padding: -1 2;
+	padding: 1 2;
 	background-image: -gtk-gradient (linear,
 		left top, left bottom,
 		from (shade (@listview_header_gradient_a,1.00)),
