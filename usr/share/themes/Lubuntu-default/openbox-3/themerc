@@ -48,8 +48,8 @@ window.active.grip.bg: Solid Raised
 window.active.grip.bg.color: #DCDCDC
 window.active.grip.bg.border.color: #DCDCDC
 window.active.handle.bg: Gradient Vertical Raised
-window.active.handle.bg.color: #DCDCDC
-window.active.handle.bg.colorTo: #AAAAAA
+window.active.handle.bg.color: #E0E0E0
+window.active.handle.bg.colorTo: #D8D8D8
 window.active.handle.bg.border.color: #DCDCDC
 window.active.label.bg: ParentRelative Flat
 window.active.label.text.color: #606060
@@ -59,7 +59,7 @@ window.active.title.bg.color: #FFFFFF
 window.active.title.bg.colorTo: #E0E0E0
 window.active.title.separator.color: #E0E0E0
 window.client.padding.width: 0
-window.handle.width: 1
+window.handle.width: 2
 window.inactive.border.color: #808080
 window.inactive.button.disabled.bg: parentrelative
 window.inactive.button.disabled.image.color: #BDBDBD
@@ -71,8 +71,9 @@ window.inactive.button.toggled.image.color: #BDBDBD
 window.inactive.button.unpressed.bg: parentrelative
 window.inactive.button.unpressed.image.color: #BDBDBD
 window.inactive.client.color: #D9D9D9
-window.inactive.grip.bg: Solid Raised
-window.inactive.grip.bg.color: #DCDCDC
+window.inactive.grip.bg: Gradient Vertical Raised
+window.inactive.grip.bg.color: #E0E0E0
+window.inactive.grip.bg.colorTo: #D8D8D8
 window.inactive.grip.bg.border.color: #DCDCDC
 window.inactive.handle.bg: Gradient Vertical Raised
 window.inactive.handle.bg.color: #E0E0E0
