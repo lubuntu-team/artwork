@@ -1,9 +1,9 @@
-lubuntu-artwork (0.26) UNRELEASED; urgency=low
+lubuntu-artwork (0.26) precise; urgency=low
 
   * usr/share/themes/Lubuntu-default:
    - Another update to match new gtk3.
 
- -- Julien Lavergne <gilir@ubuntu.com>  Sun, 04 Mar 2012 23:32:51 +0100
+ -- Julien Lavergne <gilir@ubuntu.com>  Tue, 13 Mar 2012 00:30:19 +0100
 
 lubuntu-artwork (0.25) precise; urgency=low
 
