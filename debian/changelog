@@ -1,6 +1,9 @@
-lubuntu-artwork (0.26ubuntu1) UNRELEASED; urgency=low
+lubuntu-artwork (0.27) UNRELEASED; urgency=low
 
-  * 
+  * usr/share/icons/lubuntu/status/*
+   - Add 3G icons from ubuntu-mono theme (lp: #909156)
+  * debian/copyright:
+   - Update copyright from icons folder.
 
  -- Julien Lavergne <gilir@ubuntu.com>  Thu, 22 Mar 2012 23:16:22 +0100
 
