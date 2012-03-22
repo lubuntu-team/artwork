@@ -18,6 +18,12 @@ License: GPL-2+
  On Debian systems the full text of the GNU General Public License can be found
  in the `/usr/share/common-licenses/GPL-2' file.
 
+Files: usr/share/themes/Lubuntu-Default:
+Copyright: Copyright (C) 2012-2011 Rafael Laguna <rafaellaguna@gmail.com>
+           Copyright (C) Canonical Ltd 2004- 2010
+License: CC BY-SA 3.0
+ Complete licence is copied below.
+
 Files: usr/share/lubuntu/wallpapers/1110-natty-bug.png
        usr/share/lubuntu/wallpapers/1110-lubuntu-moth.png
 Copyright: Copyright (C) 2011 John Baer
@@ -39,18 +45,31 @@ Copyright: Copyright (C) 2011 llelectronics2k
 License: CC BY-SA 3.0
  Complete licence is copied below.
 
-Files: *
-Copyright: Copyright (C) 2008 Hong Jen Yee (PCMan)
+Files: usr/share/icons/*
+Copyright: Copyright 2009-2012, Julien Lavergne <gilir@ubuntu.com>
+           Copyright 2012, Alexander Andjelkovic
+           Copyright 2012, Rafael Laguna
 License: GPL-2+
  On Debian systems the full text of the GNU General Public License can be found
  in the `/usr/share/common-licenses/GPL-2' file.
-Comment: Artwork is LXDE artwork for now
+
+Files: usr/share/icons/lubuntu/status/*
+Copyright: (c) Canonical Ltd 2004-2011
+License: CC BY-SA 3.0
+ Complete licence is copied below.
 
 Files: debian/*
 Copyright: Copyright 2009, Julien Lavergne <gilir@ubuntu.com>
 License: GPL-2+
  On Debian systems the full text of the GNU General Public License can be found
  in the `/usr/share/common-licenses/GPL-2' file.
+
+Files: *
+Copyright: Copyright (C) 2008 Hong Jen Yee (PCMan)
+License: GPL-2+
+ On Debian systems the full text of the GNU General Public License can be found
+ in the `/usr/share/common-licenses/GPL-2' file.
+Comment: Artwork is LXDE artwork for now
 
 ============================ COMPLETE LICENCES ============================
 Creative Commons Attribution-Share Alike 3.0 License (Complete Licence): 

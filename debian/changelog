@@ -1,3 +1,9 @@
+lubuntu-artwork (0.26ubuntu1) UNRELEASED; urgency=low
+
+  * 
+
+ -- Julien Lavergne <gilir@ubuntu.com>  Thu, 22 Mar 2012 23:16:22 +0100
+
 lubuntu-artwork (0.26) precise; urgency=low
 
   * usr/share/themes/Lubuntu-default:
