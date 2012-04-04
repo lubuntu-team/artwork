@@ -1,4 +1,4 @@
-lubuntu-artwork (0.27) UNRELEASED; urgency=low
+lubuntu-artwork (0.27) precise; urgency=low
 
   * usr/share/icons/lubuntu/status/*
    - Add 3G icons from ubuntu-mono theme
@@ -7,7 +7,7 @@ lubuntu-artwork (0.27) UNRELEASED; urgency=low
   * usr/share/themes/Lubuntu-default/
    - Fix mouseover effect. (LP: #970380).
 
- -- Julien Lavergne <gilir@ubuntu.com>  Thu, 05 Apr 2012 00:56:39 +0200
+ -- Julien Lavergne <gilir@ubuntu.com>  Thu, 05 Apr 2012 01:01:27 +0200
 
 lubuntu-artwork (0.26) precise; urgency=low
 
