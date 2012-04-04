@@ -4,8 +4,10 @@ lubuntu-artwork (0.27) UNRELEASED; urgency=low
    - Add 3G icons from ubuntu-mono theme (lp: #909156)
   * debian/copyright:
    - Update copyright from icons folder.
+  * usr/share/themes/Lubuntu-default/
+   - Fix mouseover effect. (LP: #970380).
 
- -- Julien Lavergne <gilir@ubuntu.com>  Thu, 22 Mar 2012 23:16:22 +0100
+ -- Julien Lavergne <gilir@ubuntu.com>  Thu, 05 Apr 2012 00:56:39 +0200
 
 lubuntu-artwork (0.26) precise; urgency=low
 
