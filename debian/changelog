@@ -1,7 +1,7 @@
 lubuntu-artwork (0.27) UNRELEASED; urgency=low
 
   * usr/share/icons/lubuntu/status/*
-   - Add 3G icons from ubuntu-mono theme (lp: #909156)
+   - Add 3G icons from ubuntu-mono theme
   * debian/copyright:
    - Update copyright from icons folder.
   * usr/share/themes/Lubuntu-default/
