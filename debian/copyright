@@ -49,6 +49,7 @@ Files: usr/share/icons/*
 Copyright: Copyright 2009-2012, Julien Lavergne <gilir@ubuntu.com>
            Copyright 2012, Alexander Andjelkovic
            Copyright 2012, Rafael Laguna
+           Copyright 2010, Guido Tabbernuk <boamaod@gmail.com>
 License: GPL-2+
  On Debian systems the full text of the GNU General Public License can be found
  in the `/usr/share/common-licenses/GPL-2' file.
