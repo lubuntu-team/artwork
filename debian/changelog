@@ -3,6 +3,8 @@ lubuntu-artwork (0.28) UNRELEASED; urgency=low
   * usr/share/icons/lubuntu:
    - Add panel/22/nm-device-wired.svg to fix the status icon of nm-applet
      on wired and connected (LP: #976805)
+  * usr/share/themes/Lubuntu-default:
+   - Add a specific gtk theme for chromium.
 
  -- Julien Lavergne <gilir@ubuntu.com>  Wed, 02 May 2012 11:35:12 +0200
 
