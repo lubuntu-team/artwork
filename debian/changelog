@@ -7,6 +7,9 @@ lubuntu-artwork (0.28) UNRELEASED; urgency=low
    - Add a dark icon for screenlets tray icon, from upstream.
   * usr/share/themes/Lubuntu-default:
    - Add a specific gtk theme for chromium.
+  * debian/control:
+   - Add a depend on gnome-icon-theme-symbolic to fix missing applets on some
+     GNOME applications.
 
  -- Julien Lavergne <gilir@ubuntu.com>  Wed, 02 May 2012 11:35:12 +0200
 
