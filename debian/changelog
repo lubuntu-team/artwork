@@ -1,4 +1,4 @@
-lubuntu-artwork (0.28) UNRELEASED; urgency=low
+lubuntu-artwork (0.28) quantal; urgency=low
 
   * usr/share/icons/lubuntu:
    - Add panel/22/nm-device-wired.svg to fix the status icon of nm-applet
@@ -8,12 +8,12 @@ lubuntu-artwork (0.28) UNRELEASED; urgency=low
   * usr/share/themes/Lubuntu-default:
    - Add a specific gtk theme for chromium.
   * debian/control:
-   - Add a depend on gnome-icon-theme-symbolic to fix missing applets on some
-     GNOME applications.
+   - Add a depend on gnome-icon-theme-symbolic to the fix missing icons on
+     some GNOME applications.
   * lib/plymouth/themes/lubuntu-text:
    - Update the text to 12.10.
 
- -- Julien Lavergne <gilir@ubuntu.com>  Wed, 02 May 2012 11:35:12 +0200
+ -- Julien Lavergne <gilir@ubuntu.com>  Wed, 30 May 2012 22:49:19 +0200
 
 lubuntu-artwork (0.27) precise; urgency=low
 
