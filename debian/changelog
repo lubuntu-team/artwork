@@ -1,5 +1,6 @@
 lubuntu-artwork (0.28) quantal; urgency=low
 
+  * Use wrap-and-sort.
   * usr/share/icons/lubuntu:
    - Add panel/22/nm-device-wired.svg to fix the status icon of nm-applet
      on wired and connected (LP: #976805)
@@ -14,6 +15,8 @@ lubuntu-artwork (0.28) quantal; urgency=low
    - Update the text to 12.10.
   * debian/rules:
    - Rewrite using dh sequence.
+  * debian/control:
+   - Add build-depends on debhelper >= 7.0.50~ for overrides.
 
  -- Julien Lavergne <gilir@ubuntu.com>  Wed, 30 May 2012 22:50:54 +0200
 
