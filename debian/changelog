@@ -18,7 +18,7 @@ lubuntu-artwork (0.28) quantal; urgency=low
   * debian/control:
    - Add build-depends on debhelper >= 7.0.50~ for overrides.
 
- -- Julien Lavergne <gilir@ubuntu.com>  Wed, 30 May 2012 22:50:54 +0200
+ -- Julien Lavergne <gilir@ubuntu.com>  Wed, 30 May 2012 23:03:08 +0200
 
 lubuntu-artwork (0.27) precise; urgency=low
 
