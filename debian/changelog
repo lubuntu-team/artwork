@@ -10,6 +10,8 @@ lubuntu-artwork (0.28) UNRELEASED; urgency=low
   * debian/control:
    - Add a depend on gnome-icon-theme-symbolic to fix missing applets on some
      GNOME applications.
+  * lib/plymouth/themes/lubuntu-text:
+   - Update the text to 12.10.
 
  -- Julien Lavergne <gilir@ubuntu.com>  Wed, 02 May 2012 11:35:12 +0200
 
