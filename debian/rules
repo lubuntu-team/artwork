@@ -1,43 +1,18 @@
 #!/usr/bin/make -f
+%:
+	dh $@
 
-build: build-stamp
-build-stamp:
-	dh_testdir
-	touch build-stamp
-
-clean:
-	dh_testdir
-	dh_testroot
+override_dh_clean:
 	rm -f build-stamp
 	dh_clean
 
-install: build
-	dh_testdir
-	dh_testroot
-	dh_prep
-	dh_installdirs
+override_dh_auto_build:
 	$(MAKE) DESTDIR=$(CURDIR)/debian/tmp
+
+override_dh_install:
 	dh_install
 	for d in $$(find $(CURDIR)/debian/lubuntu-icon-theme/usr/share/icons -mindepth 2 -maxdepth 2 -type d) ; do \
 		(cd $$d; for c in *; do /usr/lib/icon-naming-utils/icon-name-mapping -c $$c; done); \
 	done
 	# Make lintian happy by not installing extra copyright files.
 	find . -name "COPYING" -delete
-	touch $@
-
-binary-indep: build install
-	dh_testdir
-	dh_testroot
-	dh_installchangelogs
-	dh_installdocs
-	dh_compress
-	dh_fixperms
-	dh_installdeb
-	dh_gencontrol
-	dh_md5sums
-	dh_builddeb
-
-binary-arch: build install
-
-binary: binary-indep binary-arch
-.PHONY: build clean binary-indep binary-arch binary install

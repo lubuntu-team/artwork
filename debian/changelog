@@ -12,8 +12,10 @@ lubuntu-artwork (0.28) quantal; urgency=low
      some GNOME applications.
   * lib/plymouth/themes/lubuntu-text:
    - Update the text to 12.10.
+  * debian/rules:
+   - Rewrite using dh sequence.
 
- -- Julien Lavergne <gilir@ubuntu.com>  Wed, 30 May 2012 22:49:19 +0200
+ -- Julien Lavergne <gilir@ubuntu.com>  Wed, 30 May 2012 22:50:54 +0200
 
 lubuntu-artwork (0.27) precise; urgency=low
 
