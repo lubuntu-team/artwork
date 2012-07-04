@@ -1,0 +1,272 @@
+########################################################################
+# Scrollbar
+########################################################################
+
+style "scrollbar" 
+{
+	GtkRange::slider-width = 8
+	GtkRange::stepper-size = 0
+	GtkCheckButtonClass::indicator-size = 14
+	GtkRadioButtonClass::indicator-size = 14
+		
+	engine "pixmap" 
+	{
+### Trough ###
+		image 
+		{
+            function = BOX
+            detail = "trough"
+            file = "images/null.png"
+            border = {6, 6, 18, 18}
+            stretch = TRUE
+            orientation = VERTICAL
+        }
+        
+        image 
+		{
+            function = BOX
+            detail = "trough"
+            file = "images/null.png"
+            border = {18, 18, 6, 6}
+            stretch = TRUE
+            orientation = HORIZONTAL
+        }
+
+### Scrollbar ###
+        ## Normal
+        image 
+		{
+			function = SLIDER
+			state = NORMAL
+			file = "images/scrollbar_horizontal.png"
+			border = {6, 6, 6, 6}
+			stretch = TRUE
+			orientation = HORIZONTAL
+		}
+		
+		image 
+		{
+            function = SLIDER
+            state = NORMAL
+            file = "images/scrollbar_vertical.png"
+            border = {6, 6, 6, 6}
+            stretch = TRUE
+            orientation = VERTICAL
+        }
+        
+        ## Prelight
+		image 
+		{
+			function = SLIDER
+			state = PRELIGHT
+			file = "images/scrollbar_horizontal-sel.png"
+			border = {6, 6, 6, 6}
+			stretch = TRUE
+			orientation = HORIZONTAL
+		}
+	
+        image 
+		{
+            function = SLIDER
+            state = PRELIGHT
+            file = "images/scrollbar_vertical-sel.png"
+            border = {6, 6, 6, 6}
+            stretch = TRUE
+            orientation = VERTICAL
+        }
+        
+        ## Insensitive
+		image 
+		{
+			function = SLIDER
+			state = INSENSITIVE
+			file = "images/scrollbar_horizontal.png"
+			border = {6, 6, 6, 6}
+			stretch = TRUE
+			orientation = HORIZONTAL
+		}
+	
+        image 
+		{
+            function = SLIDER
+            state = INSENSITIVE
+            file = "images/scrollbar_vertical.png"
+            border = {6, 6, 6, 6}
+            stretch = TRUE
+            orientation = VERTICAL
+        }
+        
+        
+### Arrow UP ###
+
+## Normal
+		image 
+		{
+            function = ARROW
+            state = NORMAL
+            overlay_file = "images/null.png"
+            overlay_stretch = FALSE
+            arrow_direction = UP
+        }
+        
+## Prelight
+		image 
+		{
+            function = ARROW
+            state = PRELIGHT
+            overlay_file = "images/null.png"
+            overlay_stretch = FALSE
+            arrow_direction = UP
+        }
+        
+## Insensitive
+		image 
+		{
+            function = ARROW
+            state = INSENSITIVE
+            overlay_file = "images/null.png"
+            overlay_stretch = FALSE
+            arrow_direction = UP
+        }
+
+## Active
+        image 
+		{
+            function = ARROW
+            state = ACTIVE
+            overlay_file = "images/null.png"
+            overlay_stretch = FALSE
+            arrow_direction = UP
+        }
+        
+### Arrow DOWN ###       
+        
+## Normal
+		image 
+		{
+            function = ARROW
+            state = NORMAL
+            overlay_file = "images/null.png"
+            overlay_stretch = FALSE
+            arrow_direction = DOWN
+        }
+        
+## Prelight
+		image 
+		{
+            function = ARROW
+            state = PRELIGHT
+            overlay_file = "images/null.png"
+            overlay_stretch = FALSE
+            arrow_direction = DOWN
+        }
+        
+## Insensitive
+		image 
+		{
+            function = ARROW
+            state = INSENSITIVE
+            overlay_file = "images/null.png"
+            overlay_stretch = FALSE
+            arrow_direction = DOWN
+        }
+
+## Active
+        image 
+		{
+            function = ARROW
+            state = ACTIVE
+            overlay_file = "images/null.png"
+            overlay_stretch = FALSE
+            arrow_direction = DOWN
+        }
+
+### Arrow LEFT ###     
+
+## Normal
+		image 
+		{
+            function = ARROW
+            state = NORMAL
+            overlay_file = "images/null.png"
+            overlay_stretch = FALSE
+            arrow_direction = LEFT
+        }
+        
+## Prelight
+		image 
+		{
+            function = ARROW
+            state = PRELIGHT
+            overlay_file = "images/null.png"
+            overlay_stretch = FALSE
+            arrow_direction = LEFT
+        }
+        
+## Insensitive
+		image 
+		{
+            function = ARROW
+            state = INSENSITIVE
+            overlay_file = "images/null.png"
+            overlay_stretch = FALSE
+            arrow_direction = LEFT
+        }
+
+## Active
+        image 
+		{
+            function = ARROW
+            state = ACTIVE
+            overlay_file = "images/null.png"
+            overlay_stretch = FALSE
+            arrow_direction = LEFT
+        }
+
+### Arrow RIGHT ###       
+
+## Normal
+		image 
+		{
+            function = ARROW
+            state = NORMAL
+            overlay_file = "images/null.png"
+            overlay_stretch = FALSE
+            arrow_direction = RIGHT
+        }
+        
+## Prelight
+		image 
+		{
+            function = ARROW
+            state = PRELIGHT
+            overlay_file = "images/null.png"
+            overlay_stretch = FALSE
+            arrow_direction = RIGHT
+        }
+        
+## Insensitive
+		image 
+		{
+            function = ARROW
+            state = INSENSITIVE
+            overlay_file = "images/null.png"
+            overlay_stretch = FALSE
+            arrow_direction = RIGHT
+        }
+
+## Active
+        image 
+		{
+            function = ARROW
+            state = ACTIVE
+            overlay_file = "images/null.png"
+            overlay_stretch = FALSE
+            arrow_direction = RIGHT
+        }    
+    }
+}
+
+
+class "GtkScrollbar*" style "scrollbar"
+
