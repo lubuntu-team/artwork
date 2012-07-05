@@ -1,8 +1,11 @@
 lubuntu-artwork (0.29) UNRELEASED; urgency=low
 
+  * Backup current artwork items to 1204 items.
   * usr/share/themes/Lubuntu-default:
    - Update to Box new theme.
    - Some fixes for gtk 3.5 (LP: #1018533).
+  * debian/control & debian/lubuntu-artwork-12.10.install
+   - Add new binary for 12.10 artwork.
 
  -- Julien Lavergne <gilir@ubuntu.com>  Thu, 28 Jun 2012 21:44:52 +0200
 
