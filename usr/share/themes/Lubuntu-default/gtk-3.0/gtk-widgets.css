@@ -84,7 +84,7 @@ GtkWindow {
  **********/
 *:insensitive {
     color: shade (@bg_color, 0.6);
-    text-shadow: 0 1 alpha (shade (@bg_color, 1.25), 0.5);
+    text-shadow: 0 1px alpha (shade (@bg_color, 1.25), 0.5);
 }
 
 *:active {
@@ -188,7 +188,7 @@ GtkAssistant .sidebar {
     border-width: 0 1px 0 0;
     padding: 12px;
     color: mix (@fg_color, @bg_color, 0.40);
-    text-shadow: 0 1 shade (@bg_color, 1.04);
+    text-shadow: 0 1px shade (@bg_color, 1.04);
     -unico-border-gradient: none;
     -unico-inner-stroke-right-color: shade (@bg_color, 0.94);
     -unico-inner-stroke-width: 0 1px 0 0;
@@ -222,7 +222,7 @@ GtkComboBox,
     border-style: solid;
 
     color: @fg_color;
-    text-shadow: 0 1 alpha (shade (@button_bg_color, 1.25), 0.4);
+    text-shadow: 0 1px alpha (shade (@button_bg_color, 1.25), 0.4);
 
     transition: 100ms ease-in-out;
 
@@ -285,7 +285,7 @@ GtkComboBox,
                                      from (shade (@button_insensitive_bg_color, 1.04)),
                                      to (shade (@button_insensitive_bg_color, 0.96)));
 
-    text-shadow: 0 1 alpha (shade (@button_bg_color, 1.25), 0.4);
+    text-shadow: 0 1px alpha (shade (@button_bg_color, 1.25), 0.4);
 
     -unico-border-gradient: -gtk-gradient (linear, left top, left bottom,
                                            from (shade (@button_insensitive_bg_color, 0.8)),
@@ -319,7 +319,7 @@ GtkScale.slider.vertical,
     border-left-color: shade (@bg_color, 0.78);
     padding: 3px;
 
-    text-shadow: 0 1 alpha (shade (@bg_color, 1.26), 0.5);
+    text-shadow: 0 1px alpha (shade (@bg_color, 1.26), 0.5);
 
     -unico-border-gradient: none;
     -unico-glow-color: shade (@bg_color, 1.02);
@@ -406,7 +406,7 @@ GtkComboBox.combobox-entry .button:insensitive,
                                      from (mix (shade (@selected_bg_color, 1.16), @bg_color, 0.3)),
                                      to (mix (shade (@selected_bg_color, 0.84), @bg_color, 0.3)));
 
-    text-shadow: 0 1 alpha (shade (@selected_bg_color, 1.26), 0.4);
+    text-shadow: 0 1px alpha (shade (@selected_bg_color, 1.26), 0.4);
 
     -unico-focus-border-color: @transparent;
     -unico-focus-outer-stroke-color: alpha (@selected_bg_color, 0.2);
@@ -662,7 +662,7 @@ column-header .button,
                                      from (shade (@bg_color, 1.08)),
                                      to (shade (@bg_color, 0.92)));
 
-    text-shadow: 0 1 alpha (shade (@bg_color, 1.25), 0.4);
+    text-shadow: 0 1px alpha (shade (@bg_color, 1.25), 0.4);
 
     -unico-border-gradient: -gtk-gradient (linear, left top, left bottom,
                                            from (shade (@bg_color, 0.8)),
@@ -1005,7 +1005,7 @@ DbusmenuGtkMenu .menu,
     border-width: 0;
 
     color: @dark_fg_color;
-    text-shadow: 0 1 shade (@bg_color, 1.1);
+    text-shadow: 0 1px shade (@bg_color, 1.1);
 
     -unico-border-gradient: none;
 }
@@ -1091,7 +1091,7 @@ DbusmenuGtkMenu .menuitem,
 .menuitem:insensitive,
 .menuitem *:insensitive {
     color: mix (@fg_color, @bg_color, 0.5);
-    text-shadow: 0 1 shade (@bg_color, 1.14);
+    text-shadow: 0 1px shade (@bg_color, 1.14);
 }
 
 Genericmenuitem .menuitem:insensitive,
@@ -1103,7 +1103,7 @@ DbusmenuGtkMenu .menuitem *:insensitive,
 .primary-toolbar .menuitem:insensitive,
 .primary-toolbar .menuitem *:insensitive {
     color: mix (@fg_color, @bg_color, 0.5);
-    text-shadow: 0 1 shade (@bg_color, 1.1);
+    text-shadow: 0 1px shade (@bg_color, 1.1);
 }
 
 Genericmenuitem .menuitem.check:active,
@@ -1597,7 +1597,7 @@ DbusmenuGtkMenu .menuitem.separator,
 }
 
 .sidebar row:selected {
-    text-shadow: 0 1 shade (@selected_bg_color, 0.7);
+    text-shadow: 0 1px shade (@selected_bg_color, 0.7);
 }
 
 .sidebar .frame {
@@ -1673,7 +1673,7 @@ GtkSwitch.trough {
                                      to (shade (@bg_color, 0.89)));
 
     color: @fg_color;
-    text-shadow: 0 1 alpha (shade (@bg_color, 1.25), 0.5);
+    text-shadow: 0 1px alpha (shade (@bg_color, 1.25), 0.5);
 
     -unico-border-gradient: -gtk-gradient (linear, left top, left bottom,
                                            from (shade (@bg_color, 0.6)),
@@ -1690,7 +1690,7 @@ GtkSwitch.trough:active {
                                      to (shade (@selected_bg_color, 0.99)));
 
     color: @selected_fg_color;
-    text-shadow: 0 -1 shade (@selected_bg_color, 0.7);
+    text-shadow: 0 -1px shade (@selected_bg_color, 0.7);
 
     -unico-border-gradient: -gtk-gradient (linear, left top, left bottom,
                                            from (shade (@selected_bg_color, 0.7)),
@@ -1706,7 +1706,7 @@ GtkSwitch.trough:insensitive {
                                      to (shade (@bg_color, 0.99)));
 
     color: shade (@bg_color, 0.6);
-    text-shadow: 0 1 alpha (shade (@bg_color, 1.25), 0.5);
+    text-shadow: 0 1px alpha (shade (@bg_color, 1.25), 0.5);
 
     -unico-border-gradient: -gtk-gradient (linear, left top, left bottom,
                                            from (shade (@bg_color, 0.7)),
@@ -1768,7 +1768,7 @@ GtkTextView {
     padding: 2px;
 
     color: @fg_color;
-    text-shadow: 0 1 shade (@bg_color, 1.1);
+    text-shadow: 0 1px shade (@bg_color, 1.1);
 
     -unico-border-gradient: none;
     -unico-inner-stroke-gradient: none;
@@ -1777,7 +1777,7 @@ GtkTextView {
 }
 
 .primary-toolbar :insensitive {
-    text-shadow: 0 1 shade (@dark_bg_color, 1.1);
+    text-shadow: 0 1px shade (@dark_bg_color, 1.1);
 }
 
 .primary-toolbar GtkComboBox,
@@ -1791,7 +1791,7 @@ GtkTextView {
     padding: 2px;
 
     color: @dark_fg_color;
-    text-shadow: 0 1 alpha (shade (@dark_bg_color, 1.25), 0.32);
+    text-shadow: 0 1px alpha (shade (@dark_bg_color, 1.25), 0.32);
 
     transition: 0ms ease-in-out;
 
@@ -1851,7 +1851,7 @@ GtkTextView {
                                      from (shade (@dark_bg_color, 0.9)),
                                      to (shade (@dark_bg_color, 0.95)));
 
-    text-shadow: 0 1 shade (@dark_bg_color, 0.99);
+    text-shadow: 0 1px shade (@dark_bg_color, 0.99);
 
     -unico-border-gradient: -gtk-gradient (linear, left top, left bottom,
                                            from (shade (@dark_bg_color, 0.76)),
@@ -1983,7 +1983,7 @@ GtkTextView {
     border-width: 1px 0 1px 1px;
     padding: 1px;
 
-    icon-shadow: 0 1 shade (@bg_color, 1.16);
+    icon-shadow: 0 1px shade (@bg_color, 1.16);
 
     -unico-inner-stroke-gradient: -gtk-gradient (linear, left top, left bottom,
                                                  from (shade (@bg_color, 1.16)),
