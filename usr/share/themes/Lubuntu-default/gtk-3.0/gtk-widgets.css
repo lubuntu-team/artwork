@@ -861,8 +861,9 @@ GtkIconView.view.cell:selected:focused {
 /*********
  * image *
  *********/
-GtkImage {
-    background-color: @transparent;
+GtkImage,
+GtkImage:insensitive {
+     background-color: @transparent;
 }
 
 /***********
@@ -938,6 +939,14 @@ GtkImage {
                                                  from (shade (@error_bg_color, 1.1)),
                                                  to (shade (@error_bg_color, 1.04)));
     -unico-inner-stroke-width: 1px;
+}
+
+/*********
+ * label *
+ *********/
+GtkLabel,
+GtkLabel:insensitive {
+    background-color: transparent;
 }
 
 /********
