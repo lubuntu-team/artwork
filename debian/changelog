@@ -1,6 +1,7 @@
 lubuntu-artwork (0.29) UNRELEASED; urgency=low
 
   * usr/share/themes/Lubuntu-default:
+   - Update to Box new theme.
    - Some fixes for gtk 3.5 (LP: #1018533).
 
  -- Julien Lavergne <gilir@ubuntu.com>  Thu, 28 Jun 2012 21:44:52 +0200
