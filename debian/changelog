@@ -1,6 +1,7 @@
 lubuntu-artwork (0.29) UNRELEASED; urgency=low
 
   * Backup current artwork items to 1204 items.
+  * First update for the 12.10 theme.
   * usr/share/themes/Lubuntu-default:
    - Update to Box new theme.
    - Some fixes for gtk 3.5 (LP: #1018533).
