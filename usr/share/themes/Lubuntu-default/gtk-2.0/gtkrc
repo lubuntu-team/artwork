@@ -25,6 +25,7 @@ include "statusbar.rc"
 include "toolbar.rc"
 include "menubar.rc"
 include "pcmanfm.rc"
+include "chromium.rc"
 
 gtk-icon-sizes = "gtk-button=16,16"
 gtk-auto-mnemonics = 1
