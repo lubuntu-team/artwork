@@ -1,17 +1,15 @@
 style "chrome-gtk-frame"
 {
-    ChromeGtkFrame::frame-color = "#e0e0e0"
-    ChromeGtkFrame::inactive-frame-color = "#e0e0e0"
+    ChromeGtkFrame::frame-color = "#dcdcdc"
+    ChromeGtkFrame::inactive-frame-color = "#dcdcdc"
 
-    ChromeGtkFrame::frame-gradient-size = 16
-    ChromeGtkFrame::frame-gradient-color = "#bebebe"
-
-    ChromeGtkFrame::incognito-frame-color = "#e0e0e0"
-    ChromeGtkFrame::incognito-inactive-frame-color = "#e0e0e0"
+    ChromeGtkFrame::incognito-frame-color = "#dcdcdc"
+    ChromeGtkFrame::incognito-inactive-frame-color = "#dcdcdc"
     
-    ChromeGtkFrame::scrollbar-trough-color = "#bdbdbd"
-    ChromeGtkFrame::scrollbar-slider-prelight-color = "#d8e5e0"
-    ChromeGtkFrame::scrollbar-slider-normal-color = "#e0e0e0"
+    ChromeGtkFrame::scrollbar-trough-color = "#dcdcdc"
+    ChromeGtkFrame::scrollbar-slider-normal-color = "#b0b0b0"
+    ChromeGtkFrame::scrollbar-slider-prelight-color = "#777777"
+    
 }
 
 class "ChromeGtkFrame" style "chrome-gtk-frame"
