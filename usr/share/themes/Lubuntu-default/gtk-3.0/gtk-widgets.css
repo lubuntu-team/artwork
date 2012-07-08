@@ -1468,7 +1468,9 @@ GtkScale.mark {
 .scrollbar.trough.vertical {
     border-radius:      0;
 	border-width:      0;
-    background-image: alpha (#000, 0.42);
+    background-image: -gtk-gradient (linear, left top, left bottom,
+                                     from (shade (@bg_color, 1.00)),
+                                     to (shade (@bg_color, 1.10)));
 
 	-unico-outer-stroke-width: 			0;
 	-unico-inner-stroke-width:          0 0 0 1;
