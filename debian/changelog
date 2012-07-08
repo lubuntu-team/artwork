@@ -1,4 +1,4 @@
-lubuntu-artwork (0.29) UNRELEASED; urgency=low
+lubuntu-artwork (0.29) quantal; urgency=low
 
   * Backup current artwork items to 1204 items.
   * First update for the 12.10 theme.
@@ -10,7 +10,7 @@ lubuntu-artwork (0.29) UNRELEASED; urgency=low
   * usr/share/icons:
    - Add icons for the panel with the 24 size.
 
- -- Julien Lavergne <gilir@ubuntu.com>  Sun, 08 Jul 2012 15:51:57 +0200
+ -- Julien Lavergne <gilir@ubuntu.com>  Sun, 08 Jul 2012 23:13:05 +0200
 
 lubuntu-artwork (0.28) quantal; urgency=low
 
