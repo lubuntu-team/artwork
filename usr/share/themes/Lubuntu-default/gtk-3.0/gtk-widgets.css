@@ -1494,7 +1494,7 @@ GtkScale.mark {
 .scrollbar.slider,
 .scrollbar.button {
     border-width:              	0;
-    border-radius:              10;
+    border-radius:              10px;
 	background-color:         alpha (#000, 0.25);
 }
 
