@@ -7,8 +7,10 @@ lubuntu-artwork (0.29) UNRELEASED; urgency=low
    - Some fixes for gtk 3.5 (LP: #1018533).
   * debian/control & debian/lubuntu-artwork-12.10.install
    - Add new binary for 12.10 artwork.
+  * usr/share/icons:
+   - Add icons for the panel with the 24 size.
 
- -- Julien Lavergne <gilir@ubuntu.com>  Thu, 28 Jun 2012 21:44:52 +0200
+ -- Julien Lavergne <gilir@ubuntu.com>  Sun, 08 Jul 2012 15:51:57 +0200
 
 lubuntu-artwork (0.28) quantal; urgency=low
 
