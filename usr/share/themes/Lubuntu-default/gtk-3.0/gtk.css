@@ -32,7 +32,7 @@ Created by 神癒礁湖 (Rafael Laguna)
 @define-color dark_bg_color @bg_color;
 @define-color dark_fg_color @fg_color;
 @define-color transparent rgba (0, 0, 0, 0);
-@define-color transparent (0, 0, 0, 0);
+
 @define-color backdrop_selected_bg_color shade (@bg_color, 0.92);
 @define-color backdrop_selected_fg_color @fg_color;
 
@@ -47,4 +47,3 @@ Created by 神癒礁湖 (Rafael Laguna)
 @import url("apps/nautilus.css");
 @import url("apps/unity.css");
 
-@import url("scrollbar.css");
