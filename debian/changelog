@@ -1,3 +1,10 @@
+lubuntu-artwork (0.30) UNRELEASED; urgency=low
+
+  * usr/share/themes/Lubuntu-default:
+   - Fix the focus on the buttons on gtk2. 
+
+ -- Julien Lavergne <gilir@ubuntu.com>  Wed, 18 Jul 2012 22:59:36 +0200
+
 lubuntu-artwork (0.29) quantal; urgency=low
 
   * Backup current artwork items to 1204 items.
