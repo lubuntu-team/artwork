@@ -37,7 +37,10 @@ style "button"
 
 ### Focus ###
 		image {	function = FOCUS
-			file = "images/null.png"	}
+			state = NORMAL
+			file = "images/button.png"
+			border = {4, 4, 4, 4}
+			stretch = TRUE	}
     }
 }
 
