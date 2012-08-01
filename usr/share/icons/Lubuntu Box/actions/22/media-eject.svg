@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   viewBox="0 0 22 22"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.3.1 r9886"
+   width="100%"
+   height="100%"
+   sodipodi:docname="media-eject.svg">
+  <metadata
+     id="metadata21">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="640"
+     inkscape:window-height="480"
+     id="namedview19"
+     showgrid="false"
+     inkscape:zoom="10.727273"
+     inkscape:cx="11"
+     inkscape:cy="11"
+     inkscape:window-x="0"
+     inkscape:window-y="24"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg2" />
+  <defs
+     id="defs4">
+    <linearGradient
+       gradientUnits="userSpaceOnUse"
+       id="linearGradient1022-2"
+       x2="0"
+       y1="3.00694"
+       y2="11.02436">
+      <stop
+         offset="0"
+         id="stop7" />
+      <stop
+         offset="1"
+         stop-color="#363636"
+         id="stop9" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient1022-2"
+       id="linearGradient2999"
+       gradientUnits="userSpaceOnUse"
+       y1="3.00694"
+       x2="0"
+       y2="11.02436"
+       gradientTransform="matrix(1.294925,0,0,1.294925,-2.958847,-4.111111)" />
+  </defs>
+  <title
+     id="title11">Gnome Symbolic Icon Theme</title>
+  <path
+     id="path15"
+     style="opacity:0.59999999999999998;fill:#ffffff;color:#000000;fill-opacity:1;fill-rule:nonzero;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+     d="m 11.000004,4.7558361 c -0.344424,0 -0.690415,0.1153779 -0.930727,0.3641977 L 3.5946519,11.594659 c -0.2022673,0.206009 -0.3331195,0.481582 -0.3641977,0.768862 v 0.161865 1.294925 H 18.769554 v -1.294925 -0.161865 c -0.03108,-0.28728 -0.16193,-0.562853 -0.364197,-0.768862 L 11.930732,5.1200338 C 11.684696,4.8714082 11.349634,4.7558361 11.000004,4.7558361 z M 3.2304542,16.410161 v 2.58985 H 18.769554 v -2.58985 H 3.2304542 z" />
+  <path
+     id="path17"
+     style="opacity:0.7;fill:url(#linearGradient2999)"
+     d="m 3.2304542,14.654333 v 2.58985 H 18.769554 v -2.58985 H 3.2304542 z M 11.000004,3.0000085 c -0.344424,0 -0.690415,0.1153778 -0.930727,0.3641976 L 3.5946519,9.8388311 C 3.3923846,10.044841 3.2615324,10.320414 3.2304542,10.607693 v 0.161865 1.294925 H 18.769554 v -1.294925 -0.161865 c -0.03108,-0.287279 -0.16193,-0.562852 -0.364197,-0.7688619 L 11.930732,3.3642061 C 11.684696,3.1155805 11.349634,3.0000085 11.000004,3.0000085 z" />
+</svg>

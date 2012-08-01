@@ -1,0 +1,25 @@
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<linearGradient gradientUnits="userSpaceOnUse" id="linearGradient1060-0-5" spreadMethod="reflect" x1="-.6909" x2="7.7996">
+<stop offset="0" stop-color="#ababab"/>
+<stop offset="1" stop-color="#f1f1f1"/>
+</linearGradient>
+</defs>
+<path d="m2.5,1.5h10.9999a1,1 0 0,1 1,1v12a1,1 0 0,1 -1,1h-10.9999a1,1 0 0,1 -1-1v-12a1,1 0 0,1 1-1" fill="url(#linearGradient1060-0-5)" stroke="#636363" stroke-dashoffset=".7" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="m2.5,1.5h11a1,1 0 0,1 1,1v3a1,1 0 0,1 -1,1h-11a1,1 0 0,1 -1-1v-3a1,1 0 0,1 1-1" fill="#707070" stroke="#636363" stroke-dashoffset=".7" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="m4,13h1v1h-1z" fill="#565656"/>
+<path d="m4,11h1v1h-1z" fill="#565656"/>
+<path d="m4,9h1v1h-1z" fill="#565656"/>
+<path d="m6,13h1v1h-1z" fill="#565656"/>
+<path d="m6,11h1v1h-1z" fill="#565656"/>
+<path d="m6,9h1v1h-1z" fill="#565656"/>
+<path d="m8,13h1v1h-1z" fill="#565656"/>
+<path d="m8,11h1v1h-1z" fill="#565656"/>
+<path d="m8,9h1v1h-1z" fill="#565656"/>
+<path d="m10,13h1v1h-1z" fill="#565656"/>
+<path d="m10,11h1v1h-1z" fill="#565656"/>
+<path d="m10,9h1v1h-1z" fill="#565656"/>
+<path d="m12,13h1v1h-1z" fill="#565656"/>
+<path d="m12,11h1v1h-1z" fill="#565656"/>
+<path d="m12,9h1v1h-1z" fill="#565656"/>
+</svg>
