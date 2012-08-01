@@ -61,7 +61,7 @@ style "theme-panel-light"
 
 	fg[NORMAL] = @fg_color
 
-	engine "murrine" {
+	engine "clearlooks" {
 		textstyle = 0
 		roundness = 0
 	}
