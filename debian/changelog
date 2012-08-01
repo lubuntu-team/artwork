@@ -1,7 +1,13 @@
 lubuntu-artwork (0.30) UNRELEASED; urgency=low
 
   * usr/share/themes/Lubuntu-default:
-   - Fix the focus on the buttons on gtk2. 
+   - Fix the focus on the buttons on gtk2.
+  * usr/share/icons:
+   - Update to new Lubuntu Box icons theme.
+  * debian/control:
+   - Replace gtk2-engines-murrine depends by gtk2-engines since the gtk2 theme
+     use clearlooks only.
+   - Remove direct depends of lubuntu-artwork package for gtk engines.
 
  -- Julien Lavergne <gilir@ubuntu.com>  Wed, 18 Jul 2012 22:59:36 +0200
 
