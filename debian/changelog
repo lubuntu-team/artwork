@@ -10,6 +10,8 @@ lubuntu-artwork (0.30) UNRELEASED; urgency=low
    - Remove direct depends of lubuntu-artwork package for gtk engines.
   * debian/lubuntu-icon-theme.install:
    - Install only default lubuntu icon theme.
+  * debian/rules:
+   - Remove COPYING files in debian/tmp.
 
  -- Julien Lavergne <gilir@ubuntu.com>  Wed, 18 Jul 2012 22:59:36 +0200
 

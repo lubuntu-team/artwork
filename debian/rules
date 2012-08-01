@@ -10,9 +10,10 @@ override_dh_auto_build:
 	$(MAKE) DESTDIR=$(CURDIR)/debian/tmp
 
 override_dh_install:
+	# Make lintian happy by not installing extra copyright files.
+	find $(CURDIR)/debian/tmp -name "COPYING" -delete
 	dh_install
 	for d in $$(find $(CURDIR)/debian/lubuntu-icon-theme/usr/share/icons -mindepth 2 -maxdepth 2 -type d) ; do \
 		(cd $$d; for c in *; do /usr/lib/icon-naming-utils/icon-name-mapping -c $$c; done); \
 	done
-	# Make lintian happy by not installing extra copyright files.
-	find . -name "COPYING" -delete
+
