@@ -1,4 +1,4 @@
-lubuntu-artwork (0.30) UNRELEASED; urgency=low
+lubuntu-artwork (0.30) quantal; urgency=low
 
   * usr/share/themes/Lubuntu-default:
    - Fix the focus on the buttons on gtk2.
@@ -13,7 +13,7 @@ lubuntu-artwork (0.30) UNRELEASED; urgency=low
   * debian/rules:
    - Remove COPYING files in debian/tmp.
 
- -- Julien Lavergne <gilir@ubuntu.com>  Wed, 18 Jul 2012 22:59:36 +0200
+ -- Julien Lavergne <gilir@ubuntu.com>  Thu, 02 Aug 2012 20:42:07 +0200
 
 lubuntu-artwork (0.29) quantal; urgency=low
 
