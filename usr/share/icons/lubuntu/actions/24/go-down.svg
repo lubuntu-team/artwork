@@ -35,17 +35,21 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="640"
-     inkscape:window-height="480"
+     inkscape:window-width="780"
+     inkscape:window-height="712"
      id="namedview3017"
-     showgrid="false"
-     inkscape:zoom="9.8333333"
+     showgrid="true"
+     inkscape:zoom="19.666667"
      inkscape:cx="12"
-     inkscape:cy="12"
-     inkscape:window-x="0"
-     inkscape:window-y="24"
+     inkscape:cy="12.152542"
+     inkscape:window-x="273"
+     inkscape:window-y="199"
      inkscape:window-maximized="0"
-     inkscape:current-layer="svg2996" />
+     inkscape:current-layer="svg2996">
+    <inkscape:grid
+       type="xygrid"
+       id="grid2991" />
+  </sodipodi:namedview>
   <defs
      id="defs2998">
     <linearGradient
@@ -90,7 +94,7 @@
   <g
      style="opacity:0.6;fill:#ffffff"
      id="g3007"
-     transform="matrix(0,-1.333302,1.333302,0,-688.64963,156.72339)">
+     transform="matrix(0,-1.285146,1.2727215,0,-656.81517,150.65518)">
     <path
        style="fill:#ffffff"
        inkscape:connector-curvature="0"
@@ -100,7 +104,7 @@
   <g
      style="opacity:0.7;fill:url(#linearGradient3723)"
      id="g3013"
-     transform="matrix(0,-1.333302,1.333302,0,-688.6496,155.39005)">
+     transform="matrix(0,-1.285146,1.2727215,0,-656.81516,149.65518)">
     <path
        inkscape:connector-curvature="0"
        style="fill:url(#linearGradient3721)"

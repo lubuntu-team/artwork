@@ -14,7 +14,7 @@
    inkscape:version="0.48.3.1 r9886"
    width="100%"
    height="100%"
-   sodipodi:docname="gtk-find.svg">
+   sodipodi:docname="edit-find-replace.svg">
   <metadata
      id="metadata3227">
     <rdf:RDF>
@@ -23,6 +23,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -35,17 +36,21 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="640"
-     inkscape:window-height="480"
+     inkscape:window-width="858"
+     inkscape:window-height="763"
      id="namedview3225"
-     showgrid="false"
-     inkscape:zoom="9.8333333"
+     showgrid="true"
+     inkscape:zoom="19.666667"
      inkscape:cx="12"
-     inkscape:cy="12"
-     inkscape:window-x="26"
-     inkscape:window-y="435"
+     inkscape:cy="12.152542"
+     inkscape:window-x="216"
+     inkscape:window-y="90"
      inkscape:window-maximized="0"
-     inkscape:current-layer="svg3214" />
+     inkscape:current-layer="svg3214">
+    <inkscape:grid
+       type="xygrid"
+       id="grid3000" />
+  </sodipodi:namedview>
   <defs
      id="defs3216">
     <linearGradient

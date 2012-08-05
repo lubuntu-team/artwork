@@ -35,17 +35,21 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="640"
-     inkscape:window-height="480"
+     inkscape:window-width="940"
+     inkscape:window-height="809"
      id="namedview3053"
-     showgrid="false"
-     inkscape:zoom="9.8333333"
-     inkscape:cx="12"
-     inkscape:cy="10.466712"
-     inkscape:window-x="0"
-     inkscape:window-y="24"
+     showgrid="true"
+     inkscape:zoom="19.666667"
+     inkscape:cx="16.067797"
+     inkscape:cy="13.31417"
+     inkscape:window-x="184"
+     inkscape:window-y="91"
      inkscape:window-maximized="0"
-     inkscape:current-layer="svg3038" />
+     inkscape:current-layer="svg3038">
+    <inkscape:grid
+       type="xygrid"
+       id="grid2987" />
+  </sodipodi:namedview>
   <defs
      id="defs3040">
     <linearGradient
@@ -70,16 +74,18 @@
        y1="3.00694"
        x2="0"
        y2="11.02436"
-       gradientTransform="matrix(1.047469,0,0,1.047469,0.4779,0.085124)" />
+       gradientTransform="matrix(1.0666603,0,0,1.0714286,0.26673167,-0.28571429)" />
   </defs>
   <path
      style="opacity:0.6;fill:#ffffff"
      inkscape:connector-curvature="0"
      id="path3049"
-     d="M 12.000059,5.6104392 4.1439996,13.203186 h 2.1240681 l -7e-7,7.071819 H 17.73206 l 1e-6,-7.071819 h 2.124068 z" />
+     d="M 11.999994,5 4,13 l 2.0000003,0 -7e-7,7 L 18,20 l 1e-6,-7 L 20,13 z"
+     sodipodi:nodetypes="cccccccc" />
   <path
      inkscape:connector-curvature="0"
      style="opacity:0.7;fill:url(#linearGradient3631)"
      id="path3051"
-     d="m 12.000059,4.275 -7.8560594,7.592747 h 2.1240681 l -7e-7,7.071819 H 17.73206 l 1e-6,-7.071819 h 2.124068 z" />
+     d="M 11.999994,4 4,12 l 2.0000003,0 -7e-7,7 L 18,19 l 1e-6,-7 L 20,12 z"
+     sodipodi:nodetypes="cccccccc" />
 </svg>

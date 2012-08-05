@@ -9,14 +9,14 @@
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    viewBox="0 0 22 22"
-   id="svg3036"
+   id="svg3038"
    version="1.1"
    inkscape:version="0.48.3.1 r9886"
    width="100%"
    height="100%"
    sodipodi:docname="gohome.svg">
   <metadata
-     id="metadata3053">
+     id="metadata3055">
     <rdf:RDF>
       <cc:Work
          rdf:about="">
@@ -35,51 +35,61 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="640"
-     inkscape:window-height="480"
-     id="namedview3051"
-     showgrid="false"
-     inkscape:zoom="10.727273"
-     inkscape:cx="11"
-     inkscape:cy="11"
-     inkscape:window-x="0"
-     inkscape:window-y="24"
+     inkscape:window-width="940"
+     inkscape:window-height="809"
+     id="namedview3053"
+     showgrid="true"
+     inkscape:zoom="19.666667"
+     inkscape:cx="16.067797"
+     inkscape:cy="13.466712"
+     inkscape:window-x="184"
+     inkscape:window-y="91"
      inkscape:window-maximized="0"
-     inkscape:current-layer="svg3036" />
+     inkscape:current-layer="svg3038">
+    <inkscape:grid
+       type="xygrid"
+       id="grid2987"
+       empspacing="5"
+       visible="true"
+       enabled="true"
+       snapvisiblegridlinesonly="true" />
+  </sodipodi:namedview>
   <defs
-     id="defs3038">
+     id="defs3040">
     <linearGradient
        gradientUnits="userSpaceOnUse"
        id="linearGradient1022-8"
        x2="0"
-       y1="3.00694"
+       y1="3.0069399"
        y2="11.02436">
       <stop
          offset="0"
-         id="stop3041" />
+         id="stop3043" />
       <stop
          offset="1"
          stop-color="#363636"
-         id="stop3043" />
+         id="stop3045" />
     </linearGradient>
     <linearGradient
        inkscape:collect="always"
        xlink:href="#linearGradient1022-8"
-       id="linearGradient3688"
+       id="linearGradient3631"
        gradientUnits="userSpaceOnUse"
-       y1="3.00694"
+       y1="3.0069399"
        x2="0"
        y2="11.02436"
-       gradientTransform="matrix(1.047469,0,0,1.047469,-0.52216,-0.914964)" />
+       gradientTransform="matrix(1.0666603,0,0,1.0714286,-0.73326833,-1.2857143)" />
   </defs>
   <path
      style="opacity:0.6;fill:#ffffff"
      inkscape:connector-curvature="0"
-     id="path3047"
-     d="M 10.999999,4.6103512 3.1439396,12.203098 h 2.1240681 l -7e-7,7.071819 H 16.732 l 1e-6,-7.071819 h 2.124068 z" />
+     id="path3049"
+     d="M 10.999994,4 3,12 l 2.0000003,0 -7e-7,7 L 17,19 l 1e-6,-7 L 19,12 z"
+     sodipodi:nodetypes="cccccccc" />
   <path
      inkscape:connector-curvature="0"
-     style="opacity:0.7;fill:url(#linearGradient3688)"
-     id="path3049"
-     d="m 10.999999,3.274912 -7.8560594,7.592747 h 2.1240681 l -7e-7,7.071819 H 16.732 l 1e-6,-7.071819 h 2.124068 z" />
+     style="opacity:0.7;fill:url(#linearGradient3631)"
+     id="path3051"
+     d="M 10.999994,3 3,11 l 2.0000003,0 -7e-7,7 L 17,18 l 1e-6,-7 L 19,11 z"
+     sodipodi:nodetypes="cccccccc" />
 </svg>

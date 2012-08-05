@@ -35,24 +35,32 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="640"
-     inkscape:window-height="480"
+     inkscape:window-width="804"
+     inkscape:window-height="661"
      id="namedview19"
-     showgrid="false"
-     inkscape:zoom="10.727273"
-     inkscape:cx="11"
-     inkscape:cy="11"
-     inkscape:window-x="0"
-     inkscape:window-y="24"
+     showgrid="true"
+     inkscape:zoom="19.666667"
+     inkscape:cx="12"
+     inkscape:cy="12"
+     inkscape:window-x="171"
+     inkscape:window-y="152"
      inkscape:window-maximized="0"
-     inkscape:current-layer="svg2" />
+     inkscape:current-layer="svg2">
+    <inkscape:grid
+       type="xygrid"
+       id="grid2989"
+       empspacing="5"
+       visible="true"
+       enabled="true"
+       snapvisiblegridlinesonly="true" />
+  </sodipodi:namedview>
   <defs
      id="defs4">
     <linearGradient
        gradientUnits="userSpaceOnUse"
        id="linearGradient1022-2"
        x2="0"
-       y1="3.00694"
+       y1="3.0069399"
        y2="11.02436">
       <stop
          offset="0"
@@ -67,19 +75,30 @@
        xlink:href="#linearGradient1022-2"
        id="linearGradient2999"
        gradientUnits="userSpaceOnUse"
-       y1="3.00694"
+       y1="3.0069399"
        x2="0"
        y2="11.02436"
-       gradientTransform="matrix(1.294925,0,0,1.294925,-2.958847,-4.111111)" />
+       gradientTransform="matrix(1.25,0,0,1.2637052,-2.974575,-3.840432)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient1022-2"
+       id="linearGradient3055"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.294925,0,0,1.3113859,-1.9593,-3.3032015)"
+       y1="3.0069399"
+       x2="0"
+       y2="11.02436" />
   </defs>
   <title
      id="title11">Gnome Symbolic Icon Theme</title>
   <path
      id="path15"
-     style="opacity:0.59999999999999998;fill:#ffffff;color:#000000;fill-opacity:1;fill-rule:nonzero;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-     d="m 11.000004,4.7558361 c -0.344424,0 -0.690415,0.1153779 -0.930727,0.3641977 L 3.5946519,11.594659 c -0.2022673,0.206009 -0.3331195,0.481582 -0.3641977,0.768862 v 0.161865 1.294925 H 18.769554 v -1.294925 -0.161865 c -0.03108,-0.28728 -0.16193,-0.562853 -0.364197,-0.768862 L 11.930732,5.1200338 C 11.684696,4.8714082 11.349634,4.7558361 11.000004,4.7558361 z M 3.2304542,16.410161 v 2.58985 H 18.769554 v -2.58985 H 3.2304542 z" />
+     style="opacity:0.6;fill:#ffffff"
+     d="M 3,15.454545 V 18 H 18 V 15.454545 H 3 z M 10.5,4 C 10.167525,4 9.833538,4.1134001 9.601563,4.3579547 L 3.3515625,10.721591 C 3.1563125,10.924069 3.03,11.194918 3,11.477273 v 0.15909 1.272728 h 15 v -1.272728 -0.15909 c -0.03,-0.282355 -0.156312,-0.553204 -0.351562,-0.755682 l -6.25,-6.3636363 C 11.160938,4.113591 10.8375,4 10.5,4 z"
+     inkscape:connector-curvature="0" />
   <path
      id="path17"
      style="opacity:0.7;fill:url(#linearGradient2999)"
-     d="m 3.2304542,14.654333 v 2.58985 H 18.769554 v -2.58985 H 3.2304542 z M 11.000004,3.0000085 c -0.344424,0 -0.690415,0.1153778 -0.930727,0.3641976 L 3.5946519,9.8388311 C 3.3923846,10.044841 3.2615324,10.320414 3.2304542,10.607693 v 0.161865 1.294925 H 18.769554 v -1.294925 -0.161865 c -0.03108,-0.287279 -0.16193,-0.562852 -0.364197,-0.7688619 L 11.930732,3.3642061 C 11.684696,3.1155805 11.349634,3.0000085 11.000004,3.0000085 z" />
+     d="M 3,14.47259 V 17 H 18 V 14.47259 H 3 z M 10.5,3 C 10.167525,3 9.833538,3.1140275 9.601563,3.359935 L 3.3515625,9.758781 C 3.1563125,9.96238 3.03,10.234728 3,10.518645 v 0.159971 1.279768 H 18 V 10.678616 10.518645 C 17.97,10.234728 17.843688,9.96238 17.648438,9.758781 l -6.25,-6.398846 C 11.160938,3.1142193 10.8375,3 10.5,3 z"
+     inkscape:connector-curvature="0" />
 </svg>
