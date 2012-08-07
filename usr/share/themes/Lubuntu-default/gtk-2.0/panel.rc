@@ -60,11 +60,6 @@ style "theme-panel-light"
 	ythickness = 0
 
 	fg[NORMAL] = @fg_color
-
-	engine "clearlooks" {
-		textstyle = 0
-		roundness = 0
-	}
 }
 
 style "theme-panel-text"
