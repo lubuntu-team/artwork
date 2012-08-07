@@ -14,6 +14,7 @@ Package: lubuntu-artwork
 Architecture: all
 Depends: libnewt0.52 (>= 0.52.11-2ubuntu7),
          lubuntu-artwork-12-10,
+         lubuntu-lxpanel-icons,
          ${misc:Depends}
 Description: artwork for Lubuntu
  Artwork for Lubuntu, contained the wallpaper and others specific images and
@@ -118,3 +119,9 @@ Depends: elementary-icon-theme (>= 2.6),
 Description: icon theme for Lubuntu
  This package contain a specific Lubuntu icon theme. It provides specific icons
  for main menu and distributor icons.
+
+Package: lubuntu-lxpanel-icons
+Architecture: all
+Depends: ${misc:Depends}
+Description: panel specific icons for Lubuntu artwork
+ This package contain specific lxpanel icons for Lubuntu theme.
