@@ -15,7 +15,7 @@
    id="svg6662"
    version="1.1"
    inkscape:version="0.48.3.1 r9886"
-   sodipodi:docname="dialog-yes.svg">
+   sodipodi:docname="process-stop.svg">
   <defs
      id="defs6664">
     <linearGradient
@@ -910,9 +910,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="3.959798"
+     inkscape:zoom="7.919596"
      inkscape:cx="31.628015"
-     inkscape:cy="12.379252"
+     inkscape:cy="12.758059"
      inkscape:document-units="px"
      inkscape:current-layer="capa1"
      showgrid="false"
@@ -930,7 +930,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -951,7 +951,7 @@
          y="308.36072" />
       <path
          id="path6267"
-         style="opacity:0.6;color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         style="opacity:0.59999999999999998;color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
          d="m 333,320.36218 8,0 0,2 -8,0 z m 10.99999,4 -3.99999,4 -6,0 -4.00001,-4 10e-6,-6 4,-4 6,0 4,4 z m 2,1 -4.99998,5 -8,0 -5,-5 0,-8 5,-5 8,0 5,5 z"
          inkscape:connector-curvature="0" />
       <path
