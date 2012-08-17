@@ -1,4 +1,4 @@
-lubuntu-artwork (0.31~ppa1) quantal; urgency=low
+lubuntu-artwork (0.31) UNRELEASED; urgency=low
 
   * usr/share/icons:
    - Update default icon theme.
