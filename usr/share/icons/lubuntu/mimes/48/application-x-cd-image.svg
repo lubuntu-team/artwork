@@ -154,22 +154,6 @@
        x1="6.40561"
        x2="41.36901"
        xlink:href="#linearGradient1000" />
-    <linearGradient
-       gradientUnits="userSpaceOnUse"
-       id="linearGradient4574"
-       x1="15.99033"
-       x2="38.61455"
-       xlink:href="#linearGradient1000"
-       y1="12.26081"
-       y2="42.44154" />
-    <linearGradient
-       gradientUnits="userSpaceOnUse"
-       id="linearGradient4576"
-       x1="20.22193"
-       x2="31.1412"
-       xlink:href="#linearGradient1000"
-       y1="18.79833"
-       y2="33.36464" />
     <radialGradient
        cx="605.71429"
        cy="486.64789"

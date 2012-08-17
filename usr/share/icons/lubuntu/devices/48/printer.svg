@@ -49,12 +49,6 @@
   <defs
      id="defs3483">
     <filter
-       id="filter3174">
-      <feGaussianBlur
-         stdDeviation="1.71"
-         id="feGaussianBlur3486" />
-    </filter>
-    <filter
        height="2.2798"
        id="filter3914"
        width="1.2364"
@@ -63,16 +57,6 @@
       <feGaussianBlur
          stdDeviation="1.872"
          id="feGaussianBlur3489" />
-    </filter>
-    <filter
-       height="1.2874"
-       id="filter5517"
-       width="1.227"
-       x="-.1135"
-       y="-.1437">
-      <feGaussianBlur
-         stdDeviation="1.407"
-         id="feGaussianBlur3492" />
     </filter>
     <linearGradient
        id="linearGradient4050">
@@ -86,20 +70,6 @@
          stop-color="#fff"
          stop-opacity="0"
          id="stop3497" />
-    </linearGradient>
-    <linearGradient
-       gradientUnits="userSpaceOnUse"
-       id="ButtonShadow"
-       x2="0"
-       y1="92"
-       y2="6.9756">
-      <stop
-         offset="0"
-         id="stop3500" />
-      <stop
-         offset="1"
-         stop-opacity=".588"
-         id="stop3502" />
     </linearGradient>
     <linearGradient
        gradientUnits="userSpaceOnUse"
@@ -220,38 +190,6 @@
     </linearGradient>
     <linearGradient
        gradientUnits="userSpaceOnUse"
-       id="linearGradient5621"
-       x1="17.3917"
-       x2="29.636"
-       y1="43.8284"
-       y2="37.2877">
-      <stop
-         offset="0"
-         stop-opacity=".706"
-         id="stop3545" />
-      <stop
-         offset="1"
-         stop-opacity=".353"
-         id="stop3547" />
-    </linearGradient>
-    <linearGradient
-       gradientUnits="userSpaceOnUse"
-       id="linearGradient5621-9"
-       x1="17.922"
-       x2="29.1057"
-       y1="26.7695"
-       y2="35.3431">
-      <stop
-         offset="0"
-         stop-opacity=".731"
-         id="stop3550" />
-      <stop
-         offset="1"
-         stop-opacity=".415"
-         id="stop3552" />
-    </linearGradient>
-    <linearGradient
-       gradientUnits="userSpaceOnUse"
        id="linearGradient6103"
        x1="19.0944"
        x2="31.227"
@@ -274,13 +212,6 @@
        xlink:href="#linearGradient4050"
        y1="11.2534"
        y2="33.3442" />
-    <linearGradient
-       gradientUnits="userSpaceOnUse"
-       id="linearGradient4511"
-       x2="0"
-       xlink:href="#ButtonShadow"
-       y1="92"
-       y2="6.9756" />
     <linearGradient
        gradientTransform="matrix(1,0,0,1.48081,.6353,-22.73585)"
        gradientUnits="userSpaceOnUse"
@@ -332,16 +263,6 @@
          id="stop3547-1" />
     </linearGradient>
     <linearGradient
-       gradientTransform="translate(-12,-37)"
-       y2="37.287701"
-       x2="29.636"
-       y1="43.8284"
-       x1="17.391701"
-       gradientUnits="userSpaceOnUse"
-       id="linearGradient3964"
-       xlink:href="#linearGradient5621-7"
-       inkscape:collect="always" />
-    <linearGradient
        gradientUnits="userSpaceOnUse"
        id="linearGradient5621-9-6"
        x1="17.922001"
@@ -357,16 +278,6 @@
          stop-opacity=".415"
          id="stop3552-7" />
     </linearGradient>
-    <linearGradient
-       gradientTransform="translate(-12,-26)"
-       y2="35.343102"
-       x2="29.1057"
-       y1="26.769501"
-       x1="17.922001"
-       gradientUnits="userSpaceOnUse"
-       id="linearGradient3996"
-       xlink:href="#linearGradient5621-9-6"
-       inkscape:collect="always" />
     <filter
        color-interpolation-filters="sRGB"
        height="1.2874"

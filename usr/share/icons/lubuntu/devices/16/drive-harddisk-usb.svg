@@ -47,26 +47,6 @@
      inkscape:current-layer="svg3031" />
   <defs
      id="defs3033">
-    <filter
-       id="filter3174">
-      <feGaussianBlur
-         stdDeviation="1.71"
-         id="feGaussianBlur3036" />
-    </filter>
-    <linearGradient
-       gradientUnits="userSpaceOnUse"
-       id="ButtonShadow"
-       x2="0"
-       y1="92"
-       y2="6.97563">
-      <stop
-         offset="0"
-         id="stop3039" />
-      <stop
-         offset="1"
-         stop-opacity=".588"
-         id="stop3041" />
-    </linearGradient>
     <linearGradient
        gradientUnits="userSpaceOnUse"
        id="linearGradient3179-11-8"

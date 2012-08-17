@@ -14,7 +14,7 @@
    inkscape:version="0.48.3.1 r9886"
    width="100%"
    height="100%"
-   sodipodi:docname="application-x-desktop.svg">
+   sodipodi:docname="exec.svg">
   <metadata
      id="metadata61">
     <rdf:RDF>
@@ -120,20 +120,6 @@
          stop-color="#bebebe"
          id="stop31" />
     </linearGradient>
-    <linearGradient
-       gradientUnits="userSpaceOnUse"
-       id="linearGradient3126"
-       x2="0"
-       xlink:href="#linearGradient5060"
-       y1="14.21689"
-       y2="38.18826" />
-    <linearGradient
-       gradientUnits="userSpaceOnUse"
-       id="linearGradient3128"
-       x2="0"
-       xlink:href="#linearGradient5060"
-       y1="38.03721"
-       y2="21.17285" />
     <radialGradient
        cx="605.71429"
        cy="486.64789"

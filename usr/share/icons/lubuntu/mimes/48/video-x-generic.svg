@@ -110,15 +110,6 @@
        x1="6.40561"
        x2="41.36901"
        xlink:href="#linearGradient1000" />
-    <linearGradient
-       gradientTransform="matrix(0.69472,0,0,0.975925,-30.943073,20.747343)"
-       gradientUnits="userSpaceOnUse"
-       id="linearGradient4019"
-       x1="23.46345"
-       x2="20.59433"
-       xlink:href="#linearGradient1000"
-       y1="21.83044"
-       y2="9.64183" />
     <radialGradient
        cx="7.49568"
        cy="8.44977"

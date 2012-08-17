@@ -120,26 +120,6 @@
        y2="46.050289"
        gradientTransform="translate(-1,-25)" />
     <linearGradient
-       id="linearGradient3797">
-      <stop
-         id="stop3799"
-         offset="0"
-         style="stop-color:#999999;stop-opacity:1;" />
-      <stop
-         style="stop-color:#acac60;stop-opacity:1;"
-         offset="1"
-         id="stop3805" />
-    </linearGradient>
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient3797"
-       id="linearGradient3121"
-       gradientUnits="userSpaceOnUse"
-       x1="17.365717"
-       y1="13.705164"
-       x2="17.365717"
-       y2="27.410328" />
-    <linearGradient
        inkscape:collect="always"
        xlink:href="#linearGradient4171"
        id="linearGradient4177"

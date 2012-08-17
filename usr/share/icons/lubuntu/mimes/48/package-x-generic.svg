@@ -14,7 +14,7 @@
    inkscape:version="0.48.3.1 r9886"
    width="100%"
    height="100%"
-   sodipodi:docname="package-x-generic.svg">
+   sodipodi:docname="zip.svg">
   <metadata
      id="metadata61">
     <rdf:RDF>
@@ -94,21 +94,6 @@
     </linearGradient>
     <linearGradient
        gradientUnits="userSpaceOnUse"
-       id="linearGradient4071"
-       x2="0"
-       y1="6.10169"
-       y2="24.20339">
-      <stop
-         offset="0"
-         stop-color="#bf914e"
-         id="stop24" />
-      <stop
-         offset="1"
-         stop-color="#8b5810"
-         id="stop26" />
-    </linearGradient>
-    <linearGradient
-       gradientUnits="userSpaceOnUse"
        id="linearGradient3157-5-2"
        x1="-42.69615"
        x2="-5.84311">
@@ -152,15 +137,6 @@
          stop-color="#8b5810"
          id="stop26-0" />
     </linearGradient>
-    <linearGradient
-       gradientTransform="translate(-20,-6)"
-       y2="24.20339"
-       x2="0"
-       y1="6.1016898"
-       gradientUnits="userSpaceOnUse"
-       id="linearGradient3052"
-       xlink:href="#linearGradient4071-6"
-       inkscape:collect="always" />
   </defs>
   <g
      transform="matrix(.833389,0,0,1,3.928449,0)"
