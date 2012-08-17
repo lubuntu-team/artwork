@@ -15,53 +15,9 @@
    id="svg6662"
    version="1.1"
    inkscape:version="0.48.3.1 r9886"
-   sodipodi:docname="document-open.svg">
+   sodipodi:docname="document-save.svg">
   <defs
      id="defs6664">
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient1022-8-8-3-0-3"
-       id="linearGradient3322"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(1.679991,0,0,1.5097216,41.524957,310.4648)"
-       x1="49.68779"
-       y1="11.19287"
-       x2="49.68779"
-       y2="21.128477" />
-    <linearGradient
-       y2="11.02436"
-       y1="3.0069399"
-       x2="0"
-       id="linearGradient1022-8-8-3-0-3"
-       gradientUnits="userSpaceOnUse">
-      <stop
-         id="stop3001-0-9-4-4"
-         offset="0" />
-      <stop
-         id="stop3003-5-6-6-9"
-         stop-color="#363636"
-         offset="1" />
-    </linearGradient>
-    <linearGradient
-       y2="21.128477"
-       x2="49.68779"
-       y1="11.19287"
-       x1="49.68779"
-       gradientTransform="matrix(1.679991,0,0,1.5097216,41.524957,310.4648)"
-       gradientUnits="userSpaceOnUse"
-       id="linearGradient6660"
-       xlink:href="#linearGradient1022-8-8-3-0-3"
-       inkscape:collect="always" />
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient1022-8-8-3-0-3-6"
-       id="linearGradient3347"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(1.679991,0,0,1.5097216,41.524957,310.4648)"
-       x1="49.68779"
-       y1="11.192868"
-       x2="49.68779"
-       y2="21.128475" />
     <linearGradient
        y2="11.02436"
        y1="3.0069399"
@@ -114,7 +70,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
