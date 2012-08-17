@@ -7,6 +7,8 @@ lubuntu-artwork (0.31~ppa1) quantal; urgency=low
      (LP: #1016014)
   * usr/share/themes/Lubuntu-default:
    - Removing old reference to murrine (LP: #1037950)
+  * debian/lubuntu-artwork.install
+   - Add badges for unity-greeter (LP: #1035607)
 
  -- Julien Lavergne <gilir@ubuntu.com>  Fri, 17 Aug 2012 00:34:59 +0200
 
