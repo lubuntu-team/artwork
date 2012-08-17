@@ -1,13 +1,14 @@
-lubuntu-artwork (0.31) UNRELEASED; urgency=low
+lubuntu-artwork (0.31~ppa1) quantal; urgency=low
 
   * usr/share/icons:
    - Update default icon theme.
   * debian/control & lubuntu-panel-icons.install
-   - Add a new binary for specific icons for the panel (only flags for now).
+   - Add a new binary for specific icons for the panel (only flags for now)
+     (LP: #1016014)
   * usr/share/themes/Lubuntu-default:
-   - Removing old reference to murrine. 
+   - Removing old reference to murrine (LP: #1037950)
 
- -- Julien Lavergne <gilir@ubuntu.com>  Sun, 05 Aug 2012 23:22:52 +0200
+ -- Julien Lavergne <gilir@ubuntu.com>  Fri, 17 Aug 2012 00:34:59 +0200
 
 lubuntu-artwork (0.30) quantal; urgency=low
 
