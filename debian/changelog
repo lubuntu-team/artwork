@@ -16,6 +16,8 @@ lubuntu-artwork (0.31) UNRELEASED; urgency=low
    - Update the decriptions of the icon themes.
   * debian/rules:
    - Update rules for the second icon theme.
+  * usr/share/lxdm/themes/*/
+   - Remove useless links.
 
  -- Julien Lavergne <gilir@ubuntu.com>  Fri, 17 Aug 2012 00:34:59 +0200
 
