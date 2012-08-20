@@ -2,6 +2,7 @@ lubuntu-artwork (0.31) UNRELEASED; urgency=low
 
   * usr/share/icons:
    - Update default icon theme.
+   - Update network-manager icon when using VPN (LP: #772709)
   * debian/control & lubuntu-panel-icons.install
    - Add a new binary for specific icons for the panel (only flags for now)
      (LP: #1016014)
