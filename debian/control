@@ -117,8 +117,7 @@ Depends: elementary-icon-theme (>= 2.6),
          gnome-icon-theme-symbolic,
          ${misc:Depends}
 Description: icon theme for Lubuntu
- This package contain a specific Lubuntu icon theme. It provides specific icons
- for main menu and distributor icons.
+ This package contains a specific icon theme for Lubuntu.
 
 Package: lubuntu-elementary-icon-theme
 Architecture: all
@@ -126,8 +125,8 @@ Depends: elementary-icon-theme (>= 2.6),
          gnome-icon-theme-symbolic,
          ${misc:Depends}
 Description: icon theme for Lubuntu derivated from elementary icon theme
- This package contain a specific Lubuntu icon theme, derivated from Elementary
- icon theme. It provides specific icons for main menu and distributor icons.
+ This package contains a specific Lubuntu icon theme, derivated from Elementary
+ icon theme.
 
 Package: lubuntu-lxpanel-icons
 Architecture: all

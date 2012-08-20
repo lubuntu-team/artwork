@@ -12,6 +12,8 @@ lubuntu-artwork (0.31) UNRELEASED; urgency=low
    - Add badges for unity-greeter (LP: #1035607)
   * debian/control & lubuntu-elementary-icon-theme.install:
    - Move the old icon theme into a new binary.
+  * debian/control:
+   - Update the decriptions of the icon themes.
 
  -- Julien Lavergne <gilir@ubuntu.com>  Fri, 17 Aug 2012 00:34:59 +0200
 
