@@ -1,4 +1,4 @@
-lubuntu-artwork (0.31) UNRELEASED; urgency=low
+lubuntu-artwork (0.31) quantal; urgency=low
 
   * usr/share/icons:
    - Update default icon theme.
@@ -19,7 +19,7 @@ lubuntu-artwork (0.31) UNRELEASED; urgency=low
   * usr/share/lxdm/themes/*/
    - Remove useless links.
 
- -- Julien Lavergne <gilir@ubuntu.com>  Fri, 17 Aug 2012 00:34:59 +0200
+ -- Julien Lavergne <gilir@ubuntu.com>  Mon, 20 Aug 2012 22:18:26 +0200
 
 lubuntu-artwork (0.30) quantal; urgency=low
 
