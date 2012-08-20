@@ -9,6 +9,8 @@ lubuntu-artwork (0.31) UNRELEASED; urgency=low
    - Removing old reference to murrine (LP: #1037950)
   * debian/lubuntu-artwork.install
    - Add badges for unity-greeter (LP: #1035607)
+  * debian/control & lubuntu-elementary-icon-theme.install:
+   - Move the old icon theme into a new binary.
 
  -- Julien Lavergne <gilir@ubuntu.com>  Fri, 17 Aug 2012 00:34:59 +0200
 
