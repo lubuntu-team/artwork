@@ -14,8 +14,8 @@
    width="24"
    height="24"
    id="svg3184"
-   inkscape:version="0.48.1 r9760"
-   sodipodi:docname="user-available-panel.svg">
+   inkscape:version="0.48.3.1 r9886"
+   sodipodi:docname="pidgin-tray-pending.svg">
   <metadata
      id="metadata12">
     <rdf:RDF>
@@ -24,7 +24,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -37,16 +37,16 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="1153"
-     inkscape:window-height="722"
+     inkscape:window-width="1680"
+     inkscape:window-height="1026"
      id="namedview10"
      showgrid="true"
      inkscape:zoom="13.227273"
      inkscape:cx="11.697376"
      inkscape:cy="12.587628"
-     inkscape:window-x="7"
+     inkscape:window-x="0"
      inkscape:window-y="24"
-     inkscape:window-maximized="0"
+     inkscape:window-maximized="1"
      inkscape:current-layer="svg3184" />
   <defs
      id="defs3186">
@@ -54,17 +54,21 @@
        id="linearGradient3587-6-5-3">
       <stop
          id="stop3589-9-2-2"
-         style="stop-color:#49a3d2;stop-opacity:1;"
+         style="stop-color:#1b5699;stop-opacity:1;"
          offset="0" />
       <stop
+         offset="0.30000001"
+         style="stop-color:#3470b4;stop-opacity:1;"
+         id="stop2987" />
+      <stop
          id="stop3591-7-4-73"
-         style="stop-color:#1b5699;stop-opacity:1;"
+         style="stop-color:#49a3d2;stop-opacity:1;"
          offset="1" />
     </linearGradient>
     <linearGradient
-       x1="159.68553"
+       x1="164.47949"
        y1="14.403693"
-       x2="159.68553"
+       x2="164.47949"
        y2="38.279892"
        id="linearGradient2388"
        xlink:href="#linearGradient3587-6-5-3"
