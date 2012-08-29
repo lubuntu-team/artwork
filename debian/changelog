@@ -1,4 +1,4 @@
-lubuntu-artwork (0.32) UNRELEASED; urgency=low
+lubuntu-artwork (0.32) quantal; urgency=low
 
   * usr/share/icons:
    - Update icon theme.
@@ -7,7 +7,7 @@ lubuntu-artwork (0.32) UNRELEASED; urgency=low
   * usr/share/lubuntu/images/1210-logout-banner.png
    - Minor logout tweak.
 
- -- Julien Lavergne <gilir@ubuntu.com>  Thu, 30 Aug 2012 00:51:36 +0200
+ -- Julien Lavergne <gilir@ubuntu.com>  Thu, 30 Aug 2012 00:53:47 +0200
 
 lubuntu-artwork (0.31) quantal; urgency=low
 
