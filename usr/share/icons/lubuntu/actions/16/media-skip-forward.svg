@@ -22,26 +22,26 @@
        y2="11.02436"
        y1="3.0069399"
        x2="0"
-       id="linearGradient1022-8-8-3-0-1-1"
+       id="linearGradient1022-8-8-3-0-05-8"
        gradientUnits="userSpaceOnUse">
       <stop
-         id="stop3001-0-9-4-2-16"
+         id="stop3001-0-9-4-49-69"
          offset="0" />
       <stop
-         id="stop3003-5-6-6-2-3"
+         id="stop3003-5-6-6-8-6"
          stop-color="#363636"
          offset="1" />
     </linearGradient>
     <linearGradient
-       y2="-286.81012"
-       x2="165.1646"
-       y1="-296.74573"
-       x1="165.1646"
-       gradientTransform="matrix(1.119994,0,0,1.0064811,85.016638,427.76344)"
+       inkscape:collect="always"
+       xlink:href="#linearGradient1022-8-8-3-0-05-8"
+       id="linearGradient3017"
        gradientUnits="userSpaceOnUse"
-       id="linearGradient5919"
-       xlink:href="#linearGradient1022-8-8-3-0-1-1"
-       inkscape:collect="always" />
+       gradientTransform="matrix(1.119994,0,0,1.0064811,-168.98336,301.669)"
+       x1="156.52214"
+       y1="-295.7522"
+       x2="156.52214"
+       y2="-287.80371" />
   </defs>
   <sodipodi:namedview
      id="base"
@@ -50,18 +50,22 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="3.959798"
+     inkscape:zoom="22.4"
      inkscape:cx="12.253093"
-     inkscape:cy="5.8232452"
+     inkscape:cy="5.9571738"
      inkscape:document-units="px"
      inkscape:current-layer="capa1"
-     showgrid="false"
+     showgrid="true"
      inkscape:showpageshadow="false"
-     inkscape:window-width="673"
-     inkscape:window-height="598"
-     inkscape:window-x="534"
-     inkscape:window-y="285"
-     inkscape:window-maximized="0" />
+     inkscape:window-width="1280"
+     inkscape:window-height="976"
+     inkscape:window-x="0"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1">
+    <inkscape:grid
+       type="xygrid"
+       id="grid2990" />
+  </sodipodi:namedview>
   <metadata
      id="metadata3335">
     <rdf:RDF>
@@ -79,27 +83,22 @@
      inkscape:groupmode="layer"
      id="capa1"
      transform="translate(0,-1036.3622)">
-    <g
-       transform="translate(-255,600.00002)"
-       id="media-skip-forward">
-      <rect
-         style="opacity:0.6;color:#000000;fill:none;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-         id="rect3049"
-         width="16"
-         height="16"
-         x="255"
-         y="436.36218" />
-      <path
-         style="opacity:0.6;color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-         d="m 258,441.36218 0,8 4,-4 -4,-4 z m 2,0 4,4 -4,4 3,0 4,-4 -4,-4 -3,0 z m 7,4 0,4 2,0 0,-8 -2,0 0,4 z"
-         id="path4221"
-         inkscape:connector-curvature="0" />
-      <path
-         inkscape:connector-curvature="0"
-         id="path5774"
-         transform="translate(0,308.2677)"
-         d="m 258,132.09375 0,8 4,-4 -4,-4 z m 2,0 4,4 -4,4 3,0 4,-4 -4,-4 -3,0 z m 7,4 0,4 2,0 0,-8 -2,0 0,4 z"
-         style="opacity:0.7;color:#000000;fill:url(#linearGradient5919);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
-    </g>
+    <path
+       id="path3030"
+       d="m 4,1041.3622 0,8 2,0 0,-8 -2,0 z m 3,0 0,8 2,0 4,-4 -4,-4 -2,0 z"
+       style="opacity:0.6;color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       inkscape:connector-curvature="0" />
+    <rect
+       style="opacity:0.6;color:#000000;fill:none;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="rect3045"
+       width="16"
+       height="16"
+       x="0"
+       y="1036.3622" />
+    <path
+       style="opacity:0.69999999999999996;color:#000000;fill:url(#linearGradient3017);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       d="M 4 4 L 4 12 L 6 12 L 6 4 L 4 4 z M 7 4 L 7 12 L 9 12 L 13 8 L 9 4 L 7 4 z "
+       transform="translate(0,1036.3622)"
+       id="path2999" />
   </g>
 </svg>

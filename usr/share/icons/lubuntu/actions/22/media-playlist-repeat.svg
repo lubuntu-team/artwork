@@ -10,38 +10,38 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="16"
-   height="16"
+   width="22"
+   height="22"
    id="svg3330"
    version="1.1"
    inkscape:version="0.48.3.1 r9886"
-   sodipodi:docname="media-skip-backward.svg">
+   sodipodi:docname="media-playlist-repeat.svg">
   <defs
      id="defs3332">
     <linearGradient
-       y2="11.02436"
-       y1="3.0069399"
+       gradientUnits="userSpaceOnUse"
+       id="linearGradient1022-8-8-3-0-1"
        x2="0"
-       id="linearGradient1022-8-8-3-0-05-8"
-       gradientUnits="userSpaceOnUse">
+       y1="3.0069399"
+       y2="11.02436">
       <stop
-         id="stop3001-0-9-4-49-69"
-         offset="0" />
+         offset="0"
+         id="stop3001-0-9-4-2" />
       <stop
-         id="stop3003-5-6-6-8-6"
+         offset="1"
          stop-color="#363636"
-         offset="1" />
+         id="stop3003-5-6-6-2" />
     </linearGradient>
     <linearGradient
        inkscape:collect="always"
-       xlink:href="#linearGradient1022-8-8-3-0-05-8"
-       id="linearGradient3017"
+       xlink:href="#linearGradient1022-8-8-3-0-1"
+       id="linearGradient3057"
        gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(-1.119994,0,0,1.0064811,184.98336,1338.0312)"
-       x1="156.52214"
-       y1="-295.7522"
-       x2="156.52214"
-       y2="-287.80371" />
+       gradientTransform="matrix(1.679991,0,0,1.5097216,-373.47504,-10.897715)"
+       x1="229.45065"
+       y1="692.35229"
+       x2="229.45065"
+       y2="701.62549" />
   </defs>
   <sodipodi:namedview
      id="base"
@@ -50,9 +50,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="22.4"
-     inkscape:cx="12.253093"
-     inkscape:cy="5.8232452"
+     inkscape:zoom="15.839192"
+     inkscape:cx="16.954158"
+     inkscape:cy="13.227841"
      inkscape:document-units="px"
      inkscape:current-layer="capa1"
      showgrid="true"
@@ -64,7 +64,11 @@
      inkscape:window-maximized="1">
     <inkscape:grid
        type="xygrid"
-       id="grid2990" />
+       id="grid2990"
+       empspacing="5"
+       visible="true"
+       enabled="true"
+       snapvisiblegridlinesonly="true" />
   </sodipodi:namedview>
   <metadata
      id="metadata3335">
@@ -82,23 +86,23 @@
      inkscape:label="Capa 1"
      inkscape:groupmode="layer"
      id="capa1"
-     transform="translate(0,-1036.3622)">
+     transform="translate(0,-1030.3622)">
     <path
-       id="path3030"
-       d="m 12,1041.3622 0,8 -2,0 0,-8 2,0 z m -3,0 0,8 -2,0 -4,-4 4,-4 2,0 z"
+       id="path3049"
+       d="m 15,1035.3615 3,3 -3,3 2,0 3,-3 -3,-3 -2,0 z m -10,2 -3,3 0,4 2,-2 0,-1 2,-2 10,0 1,-1 -1,-1 -11,0 z m 15,3 -2,2 0,1 -2,2 -10,0 -1,1 1,1 11,0 3,-3 0,-4 z m -15,3 -3,3 3,3 2,0 -3,-3 3,-3 -2,0 z"
        style="opacity:0.6;color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
        inkscape:connector-curvature="0" />
     <rect
-       style="opacity:0.6;color:#000000;fill:none;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-       id="rect3045"
-       width="16"
-       height="16"
-       x="0"
-       y="1036.3622" />
+       y="1029.3622"
+       x="-1"
+       height="24"
+       width="24"
+       id="rect3043"
+       style="opacity:0.6;color:#000000;fill:none;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
     <path
-       style="opacity:0.7;color:#000000;fill:url(#linearGradient3017);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-       d="m 12,1040.3622 0,8 -2,0 0,-8 2,0 z m -3,0 0,8 -2,0 -4,-4 4,-4 2,0 z"
-       id="path2999"
+       style="opacity:0.7;color:#000000;fill:url(#linearGradient3057);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       d="m 15,1034.3615 3,3 -3,3 2,0 3,-3 -3,-3 -2,0 z m -10,2 -3,3 0,4 2,-2 0,-1 2,-2 10,0 1,-1 -1,-1 -11,0 z m 15,3 -2,2 0,1 -2,2 -10,0 -1,1 1,1 11,0 3,-3 0,-4 z m -15,3 -3,3 3,3 2,0 -3,-3 3,-3 -2,0 z"
+       id="path3031"
        inkscape:connector-curvature="0" />
   </g>
 </svg>
