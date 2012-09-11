@@ -15,7 +15,7 @@
    id="svg7669"
    version="1.1"
    inkscape:version="0.48.3.1 r9886"
-   sodipodi:docname="xpad-panel_24px.svg">
+   sodipodi:docname="xpad-panel.svg">
   <defs
      id="defs7671">
     <linearGradient
@@ -65,7 +65,7 @@
        xlink:href="#linearGradient6443"
        id="linearGradient3775"
        gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(0.94736842,0,0,0.94736842,49.468201,1097.6489)"
+       gradientTransform="matrix(0.84210526,0,0,0.84210526,45.305068,1091.2837)"
        x1="-38.396969"
        y1="-69.691612"
        x2="-38.396969"
@@ -78,16 +78,16 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="22.4"
-     inkscape:cx="6.06523"
-     inkscape:cy="8.7814579"
+     inkscape:zoom="11.998804"
+     inkscape:cx="0.70796146"
+     inkscape:cy="8.7798992"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
-     inkscape:window-width="1680"
-     inkscape:window-height="1026"
+     inkscape:window-width="1024"
+     inkscape:window-height="550"
      inkscape:window-x="0"
-     inkscape:window-y="24"
+     inkscape:window-y="0"
      inkscape:window-maximized="1" />
   <metadata
      id="metadata7674">
@@ -109,12 +109,12 @@
     <path
        inkscape:connector-curvature="0"
        style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;opacity:0.6;color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Sans;-inkscape-font-specification:Sans"
-       d="M 5.0312496,1032.3622 C 3.9051399,1032.3622 3,1033.2674 3,1034.3935 l 0,13.9374 c 0,1.1262 0.9051399,2.0313 2.0312496,2.0313 l 10.5937504,0 5.375,-5.3126 0,-10.6561 c 0,-1.1261 -0.90515,-2.0313 -2.03125,-2.0313 l -13.9375004,0 z m 1.7812503,3.8439 10.0000001,0 0,1.9998 -10.0000001,0 0,-1.9998 z m 0,3.8436 10.0000001,0 0,2 -10.0000001,0 0,-2 z m 0,3.8439 7.0937501,0 0,2 -7.0937501,0 0,-2 z"
+       d="M 5.8055552,1033.3622 C 4.8045688,1033.3622 4,1034.1668 4,1035.1678 l 0,12.3888 c 0,1.0011 0.8045688,1.8056 1.8055552,1.8056 l 9.4166668,0 4.777778,-4.7223 0,-9.4721 c 0,-1.001 -0.804578,-1.8056 -1.805556,-1.8056 l -12.3888888,0 z m 1.5833336,3.4168 8.8888892,0 0,1.7776 -8.8888892,0 0,-1.7776 z m 0,3.4165 8.8888892,0 0,1.7778 -8.8888892,0 0,-1.7778 z m 0,3.4168 6.3055552,0 0,1.7778 -6.3055552,0 0,-1.7778 z"
        id="path4235-3" />
     <path
        inkscape:connector-curvature="0"
        style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;opacity:0.7;color:#000000;fill:url(#linearGradient3775);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Sans;-inkscape-font-specification:Sans"
-       d="M 5.03125,1031.3622 C 3.9051399,1031.3622 3,1032.2674 3,1033.3935 l 0,13.9374 c 0,1.1262 0.9051399,2.0313 2.03125,2.0313 l 10.59375,0 5.375,-5.3126 0,-10.6561 c 0,-1.1261 -0.90515,-2.0313 -2.03125,-2.0313 l -13.9374999,0 z m 1.7812499,3.8439 10.0000001,0 0,1.9998 -10,0 0,-1.9998 z m 0,3.8436 10.0000001,0 0,2 -10,0 0,-2 z m 0,3.8439 7.0937501,0 0,2 -7.0937501,0 0,-2 z"
+       d="M 5.8055556,1032.3622 C 4.8045688,1032.3622 4,1033.1668 4,1034.1678 l 0,12.3888 c 0,1.0011 0.8045688,1.8056 1.8055556,1.8056 l 9.4166664,0 4.777778,-4.7223 0,-9.4721 c 0,-1.001 -0.804578,-1.8056 -1.805556,-1.8056 l -12.3888884,0 z m 1.5833332,3.4168 8.8888892,0 0,1.7776 -8.8888891,0 0,-1.7776 z m 0,3.4165 8.8888892,0 0,1.7778 -8.8888891,0 0,-1.7778 z m 0,3.4168 6.3055552,0 0,1.7778 -6.3055552,0 0,-1.7778 z"
        id="path4235" />
   </g>
 </svg>
