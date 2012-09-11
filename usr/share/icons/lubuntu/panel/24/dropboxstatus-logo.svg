@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   width="24"
+   height="24"
+   id="svg3833"
+   inkscape:version="0.48.3.1 r9886"
+   sodipodi:docname="dropboxstatus-logo.svg">
+  <metadata
+     id="metadata14">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="962"
+     inkscape:window-height="678"
+     id="namedview12"
+     showgrid="false"
+     inkscape:zoom="13.227273"
+     inkscape:cx="2.0034366"
+     inkscape:cy="11.891453"
+     inkscape:window-x="0"
+     inkscape:window-y="24"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg3833" />
+  <defs
+     id="defs3835">
+    <linearGradient
+       id="linearGradient3587-6-5-8">
+      <stop
+         id="stop3589-9-2-4"
+         style="stop-color:#000000;stop-opacity:1"
+         offset="0" />
+      <stop
+         id="stop3591-7-4-3"
+         style="stop-color:#363636;stop-opacity:1"
+         offset="1" />
+    </linearGradient>
+    <linearGradient
+       x1="11.191199"
+       y1="3.561305"
+       x2="11.191199"
+       y2="17.561304"
+       id="linearGradient3913"
+       xlink:href="#linearGradient3587-6-5-8"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-0.191199,0.438695)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3587-6-5-8"
+       id="linearGradient2992"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-0.191199,0.438695)"
+       x1="11.191199"
+       y1="3.561305"
+       x2="11.191199"
+       y2="17.561304" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3587-6-5-8"
+       id="linearGradient2995"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.1111111,0,0,1.1212121,-0.43466556,6.0449005)"
+       x1="11.191199"
+       y1="3.561305"
+       x2="11.191199"
+       y2="17.561304" />
+  </defs>
+  <path
+     d="M 7,3.75 2,7.6742424 7,11.037879 2,15.522727 12,22.25 22,15.522727 17,11.037879 22,7.6742424 17,3.75 12,7.6742424 7,3.75 z"
+     id="path3973"
+     style="opacity:0.23999999;color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+     inkscape:connector-curvature="0" />
+  <path
+     d="M 7,2.75 2,6.6742424 7,10.037879 2,14.522727 12,21.25 22,14.522727 17,10.037879 22,6.6742424 17,2.75 12,6.6742424 7,2.75 z"
+     id="path3967"
+     style="opacity:0.27999998;color:#000000;fill:url(#linearGradient2995);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+     inkscape:connector-curvature="0" />
+</svg>
