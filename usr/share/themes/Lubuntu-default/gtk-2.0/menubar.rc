@@ -7,7 +7,7 @@ style "menubar" {
 style "menu" {
 	xthickness = 2
 	ythickness = 3
-	bg[NORMAL] = shade (1.08, @bg_color)
+	bg[NORMAL] = @bg_color
 	engine "clearlooks" {
 		radius = 0.0
 	}

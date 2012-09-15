@@ -37,7 +37,6 @@ GtkWindow:backdrop {
 *:selected:backdrop,
 *:selected:focused:backdrop {
     background-color: @backdrop_selected_bg_color;
-
     color: @backdrop_selected_fg_color;
 }
 
@@ -238,6 +237,84 @@ GtkComboBox.combobox-entry .button:insensitive:backdrop,
 
 .button.default:insensitive:backdrop {
     -unico-glow-radius: 0;
+}
+
+/* Middle button */
+.linked .entry:backdrop,
+.linked .button:backdrop,
+.linked .button:active:backdrop,
+.linked .button:active:hover:backdrop,
+.linked .button:insensitive:backdrop,
+.primary-toolbar .linked .entry:backdrop,
+.primary-toolbar .linked .button:backdrop,
+.primary-toolbar .linked .button:active:backdrop,
+.primary-toolbar .linked .button:active:hover:backdrop,
+.primary-toolbar .linked .button:insensitive:backdrop {
+    border-width: 1px;
+    border-right-width: 0;
+
+    border-radius: 0;
+
+    -unico-outer-stroke-width: 1px 0 1px 0;
+}
+
+/* Leftmost button */
+.linked .entry:first-child:backdrop,
+.linked .button:first-child:backdrop,
+.linked .button:active:first-child:backdrop,
+.linked .button:active:hover:first-child:backdrop,
+.linked .button:insensitive:first-child:backdrop,
+.primary-toolbar .linked .entry:first-child:backdrop,
+.primary-toolbar .linked .button:first-child:backdrop,
+.primary-toolbar .linked .button:active:first-child:backdrop,
+.primary-toolbar .linked .button:active:hover:first-child:backdrop,
+.primary-toolbar .linked .button:insensitive:first-child:backdrop {
+    border-width: 1px;
+    border-right-width: 0;
+
+    border-radius: 3px;
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+
+    -unico-outer-stroke-width: 1px 0 1px 1px;
+}
+
+/* Rightmost button */
+.linked .entry:last-child:backdrop,
+.linked .button:last-child:backdrop,
+.linked .button:active:last-child:backdrop,
+.linked .button:active:hover:last-child:backdrop,
+.linked .button:insensitive:last-child:backdrop,
+.primary-toolbar .linked .entry:last-child:backdrop,
+.primary-toolbar .linked .button:last-child:backdrop,
+.primary-toolbar .linked .button:active:last-child:backdrop,
+.primary-toolbar .linked .button:active:hover:last-child:backdrop,
+.primary-toolbar .linked .button:insensitive:last-child:backdrop {
+    border-width: 1px;
+
+    border-radius: 3px;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+
+    -unico-outer-stroke-width: 1px 1px 1px 0;
+}
+
+/* Linked single button */
+.linked .entry:only-child:backdrop,
+.linked .button:only-child:backdrop,
+.linked .button:active:only-child:backdrop,
+.linked .button:active:hover:only-child:backdrop,
+.linked .button:insensitive:only-child:backdrop,
+.primary-toolbar .linked .entry:only-child:backdrop,
+.primary-toolbar .linked .button:only-child:backdrop,
+.primary-toolbar .linked .button:active:only-child:backdrop,
+.primary-toolbar .linked .button:active:hover:only-child:backdrop,
+.primary-toolbar .linked .button:insensitive:only-child:backdrop {
+    border-width: 1px;
+
+    border-radius: 3px;
+
+    -unico-outer-stroke-width: 1px;
 }
 
 /****************
@@ -582,7 +659,7 @@ GtkIconView.view.cell:selected:focused:backdrop {
  ***********/
 .menubar:backdrop,
 .menubar .menuitem:backdrop {
-    color: shade (#a39e9a, 0.86); /* metacity unfocused color */
+    color: shade (@bg_color, 0.86); /* metacity unfocused color */
 }
 
 /************
@@ -933,7 +1010,7 @@ GtkTextView:backdrop {
     border-width: 0 0 1px 0;
     padding: 2px;
 
-    color: shade (#a39e9a, 0.86); /* metacity unfocused color */
+    color: shade (@bg_color, 0.86); /* metacity unfocused color */
     text-shadow: 0 1px shade (@dark_bg_color, 1.06);
 
     -unico-border-gradient: none;
@@ -955,7 +1032,7 @@ GtkTextView:backdrop {
     border-width: 1px;
     padding: 2px;
 
-    color: shade (#a39e9a, 0.86); /* metacity unfocused color */
+    color: shade (@bg_color, 0.86); /* metacity unfocused color */
     text-shadow: 0 1px shade (@dark_bg_color, 1.06);
 
     /* This breaks Gtk+ 3.5.x, lp #1015497. */
@@ -973,7 +1050,7 @@ GtkTextView:backdrop {
 }
 
 .primary-toolbar .button *:hover:backdrop {
-    color: shade (shade (#a39e9a, 0.86), 1.1);
+    color: shade (shade (@bg_color, 0.86), 1.1);
 }
 
 .primary-toolbar .raised .button:backdrop,

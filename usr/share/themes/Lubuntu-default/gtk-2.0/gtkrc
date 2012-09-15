@@ -141,5 +141,3 @@ widget "gtk-tooltip*" style "tooltips"
 
 widget_class "*<GtkComboBoxEntry>*" style "comboboxentry"
 widget_class "*<GtkCombo>*" style "comboboxentry"
-
-
