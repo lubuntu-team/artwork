@@ -89,6 +89,7 @@ GtkScale.slider.vertical:backdrop,
     border-top-color: shade (@bg_color, 0.86);
     border-right-color: shade (@bg_color, 0.82);
     border-bottom-color: shade (@bg_color, 0.76);
+    border-bottom-color: #ff0000;
     border-left-color: shade (@bg_color, 0.82);
 
     color: mix (@fg_color, @bg_color, 0.2);
