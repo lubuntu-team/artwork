@@ -14,7 +14,7 @@
    inkscape:version="0.48.3.1 r9886"
    width="100%"
    height="100%"
-   sodipodi:docname="pidgin.svg">
+   sodipodi:docname="pidgin16.svg">
   <metadata
      id="metadata32">
     <rdf:RDF>
@@ -42,7 +42,7 @@
      showgrid="true"
      inkscape:zoom="22.627417"
      inkscape:cx="13.168475"
-     inkscape:cy="7.3323907"
+     inkscape:cy="7.1998082"
      inkscape:window-x="0"
      inkscape:window-y="24"
      inkscape:window-maximized="1"
@@ -221,7 +221,7 @@
        inkscape:connector-curvature="0" />
     <path
        transform="matrix(0.83211039,0,0,0.79768196,-18.814419,16.278338)"
-       d="m 11.410714,24.3125 c 0,0.715011 -0.555647,1.294643 -1.241072,1.294643 -0.6854244,0 -1.241071,-0.579632 -1.241071,-1.294643 0,-0.715011 0.5556466,-1.294643 1.241071,-1.294643 0.685425,0 1.241072,0.579632 1.241072,1.294643 z"
+       d="m 11.410714,24.3125 a 1.2410715,1.2946428 0 1 1 -2.482143,0 1.2410715,1.2946428 0 1 1 2.482143,0 z"
        sodipodi:ry="1.2946428"
        sodipodi:rx="1.2410715"
        sodipodi:cy="24.3125"
