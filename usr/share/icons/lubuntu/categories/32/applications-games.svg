@@ -15,7 +15,7 @@
    id="svg3330"
    version="1.1"
    inkscape:version="0.48.3.1 r9886"
-   sodipodi:docname="applications-utilities.svg">
+   sodipodi:docname="applications-games.svg">
   <defs
      id="defs3332">
     <linearGradient
@@ -35,13 +35,13 @@
     <linearGradient
        inkscape:collect="always"
        xlink:href="#linearGradient1022-8-8-3-0-06-59-7-8-0-2"
-       id="linearGradient3365"
+       id="linearGradient3110"
        gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(2.3556973,0,0,2.3198273,-518.39273,-2250.1692)"
+       gradientTransform="matrix(2.3556973,0,0,2.3198273,-518.39273,-3270.5314)"
        x1="226.85118"
-       y1="970.40381"
+       y1="1410.2478"
        x2="226.85118"
-       y2="983.33582" />
+       y2="1423.1798" />
   </defs>
   <sodipodi:namedview
      id="base"
@@ -50,15 +50,15 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="8"
-     inkscape:cx="21.705296"
-     inkscape:cy="14.990694"
+     inkscape:zoom="11.313709"
+     inkscape:cx="23.960946"
+     inkscape:cy="19.329844"
      inkscape:document-units="px"
      inkscape:current-layer="capa1"
      showgrid="true"
      inkscape:showpageshadow="false"
      inkscape:window-width="1280"
-     inkscape:window-height="974"
+     inkscape:window-height="976"
      inkscape:window-x="0"
      inkscape:window-y="24"
      inkscape:window-maximized="1"
@@ -92,15 +92,15 @@
      id="capa1"
      transform="translate(0,-1020.3622)">
     <path
-       id="path3357"
-       d="m 5,1022.3622 c -2.216,0 -4,1.784 -4,4 l 0,22 c 0,2.216 1.784,4 4,4 l 22,0 c 2.216,0 4,-1.784 4,-4 l 0,-22 c 0,-2.216 -1.784,-4 -4,-4 l -22,0 z m 7,6 2,4 -4,0 2,-4 z m 7,0 2,2 2,0 0,6 -1,0 0,-5 -1,0 0,2 -4,0 0,-3 2,-2 z m -9,5 4,0 0,13 -4,0 0,-13 z m 7,1 4,0 0,12 -4,0 0,-12 z"
+       id="path3112"
+       d="m 5,1022.3622 c -2.216,0 -4,1.784 -4,4 l 0,22 c 0,2.216 1.784,4 4,4 l 22,0 c 2.216,0 4,-1.784 4,-4 l 0,-22 c 0,-2.216 -1.784,-4 -4,-4 l -22,0 z m 4,4 4,0 0,3 2,0 0,3 2,0 0,-3 2,0 0,-3 4,0 0,3 -3,0 0,2 3,0 0,2 4,0 0,4 1,0 0,6 -2,0 0,-3 -3,0 0,5 -2,0 0,2 -4,0 0,-3 3,0 0,-3 -8,0 0,3 3,0 0,3 -4,0 0,-2 -2,0 0,-5 -3,0 0,3 -2,0 0,-6 2,0 0,-4 3,0 0,-2 3,0 0,-2 -3,0 0,-3 z m 2,8 0,3 3,0 0,-3 -3,0 z m 7,0 0,3 3,0 0,-3 -3,0 z"
        style="opacity:0.6;color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
        inkscape:connector-curvature="0" />
     <path
-       style="opacity:0.69999999999999996;color:#000000;fill:url(#linearGradient3365);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.00139092999999990;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-       d="M 5 1 C 2.784 1 1 2.784 1 5 L 1 27 C 1 29.216 2.784 31 5 31 L 27 31 C 29.216 31 31 29.216 31 27 L 31 5 C 31 2.784 29.216 1 27 1 L 5 1 z M 12 7 L 14 11 L 10 11 L 12 7 z M 19 7 L 21 9 L 23 9 L 23 15 L 22 15 L 22 10 L 21 10 L 21 12 L 17 12 L 17 9 L 19 7 z M 10 12 L 14 12 L 14 25 L 10 25 L 10 12 z M 17 13 L 21 13 L 21 25 L 17 25 L 17 13 z "
+       style="opacity:0.69999999999999996;color:#000000;fill:url(#linearGradient3110);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.00139092999999990;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       d="M 5 1 C 2.784 1 1 2.784 1 5 L 1 27 C 1 29.216 2.784 31 5 31 L 27 31 C 29.216 31 31 29.216 31 27 L 31 5 C 31 2.784 29.216 1 27 1 L 5 1 z M 9 5 L 13 5 L 13 8 L 15 8 L 15 11 L 17 11 L 17 8 L 19 8 L 19 5 L 23 5 L 23 8 L 20 8 L 20 10 L 23 10 L 23 12 L 27 12 L 27 16 L 28 16 L 28 22 L 26 22 L 26 19 L 23 19 L 23 24 L 21 24 L 21 26 L 17 26 L 17 23 L 20 23 L 20 20 L 12 20 L 12 23 L 15 23 L 15 26 L 11 26 L 11 24 L 9 24 L 9 19 L 6 19 L 6 22 L 4 22 L 4 16 L 6 16 L 6 12 L 9 12 L 9 10 L 12 10 L 12 8 L 9 8 L 9 5 z M 11 13 L 11 16 L 14 16 L 14 13 L 11 13 z M 18 13 L 18 16 L 21 16 L 21 13 L 18 13 z "
        transform="translate(0,1020.3622)"
-       id="path3099" />
+       id="path3104" />
     <rect
        y="1020.3622"
        x="-2.9999999e-06"

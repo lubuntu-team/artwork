@@ -15,7 +15,7 @@
    id="svg3330"
    version="1.1"
    inkscape:version="0.48.3.1 r9886"
-   sodipodi:docname="applications-office.svg">
+   sodipodi:docname="applications-science.svg">
   <defs
      id="defs3332">
     <linearGradient
@@ -32,16 +32,6 @@
          stop-color="#363636"
          offset="1" />
     </linearGradient>
-    <linearGradient
-       y2="-281.84232"
-       x2="235.7007"
-       y1="-296.74573"
-       x1="235.7007"
-       gradientTransform="matrix(1.119994,0,0,1.0064811,81.016638,387.76344)"
-       gradientUnits="userSpaceOnUse"
-       id="linearGradient4164"
-       xlink:href="#linearGradient1022-8-8-3-0-27"
-       inkscape:collect="always" />
     <linearGradient
        inkscape:collect="always"
        xlink:href="#linearGradient1022-8-8-3-0-27"
@@ -76,16 +66,6 @@
          stop-color="#363636"
          offset="1" />
     </linearGradient>
-    <linearGradient
-       y2="-281.84232"
-       x2="235.7007"
-       y1="-296.74573"
-       x1="235.7007"
-       gradientTransform="matrix(1.119994,0,0,1.0064811,-255.98336,298.669)"
-       gradientUnits="userSpaceOnUse"
-       id="linearGradient3037"
-       xlink:href="#linearGradient1022-8-8-3-0-27-8"
-       inkscape:collect="always" />
   </defs>
   <sodipodi:namedview
      id="base"
@@ -118,7 +98,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
