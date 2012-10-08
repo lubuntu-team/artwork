@@ -876,7 +876,7 @@ GtkComboBox .menu {
  ***********/
 .menubar {
     -GtkWidget-window-dragging: true;
-    background-color: @dark_bg_color;
+    background-color: @bg_color;
     background-image: none;
     border-width: 0;
     color: @dark_fg_color;
