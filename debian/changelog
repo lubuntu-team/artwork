@@ -1,3 +1,10 @@
+lubuntu-artwork (0.33) UNRELEASED; urgency=low
+
+  * usr/share/lubuntu/wallpapers:
+   - Rename correctly the 12.04 default wallpaper.
+
+ -- Julien Lavergne <gilir@ubuntu.com>  Mon, 08 Oct 2012 23:15:36 +0200
+
 lubuntu-artwork (0.32) quantal; urgency=low
 
   * usr/share/icons:
