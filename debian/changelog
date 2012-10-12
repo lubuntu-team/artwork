@@ -1,3 +1,25 @@
+lubuntu-artwork (0.34) quantal; urgency=low
+
+  * usr/share/themes/Lubuntu-default:
+   - Update the gtk3 theme to the new version of gtk3 and unico
+     (UIFe, LP: #1043129).
+   - Fix checkboxes not properly displayed in gtk3 applications (LP: #1060396).
+   - Fix menubar on gtk2.
+
+ -- Julien Lavergne <gilir@ubuntu.com>  Tue, 09 Oct 2012 19:55:25 +0200
+
+lubuntu-artwork (0.33) quantal; urgency=low
+
+  * usr/share/lubuntu/wallpapers:
+   - Rename correctly the 12.04 default wallpaper.
+  * usr/share/icons
+   - Add missing "yes" icons. 
+   - Add missing power manager and battery icons (LP: #1051298)
+   - Add missing volume icons (LP: #1051307)
+   - Adjust panel icons.  
+
+ -- Julien Lavergne <gilir@ubuntu.com>  Tue, 09 Oct 2012 02:33:45 +0200
+
 lubuntu-artwork (0.32) quantal; urgency=low
 
   * usr/share/icons:
