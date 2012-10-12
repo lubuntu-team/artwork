@@ -52,13 +52,13 @@
      inkscape:pageshadow="2"
      inkscape:zoom="11.313709"
      inkscape:cx="18.63683"
-     inkscape:cy="16.885078"
+     inkscape:cy="17.150243"
      inkscape:document-units="px"
      inkscape:current-layer="capa1"
      showgrid="true"
      inkscape:showpageshadow="false"
      inkscape:window-width="1280"
-     inkscape:window-height="974"
+     inkscape:window-height="976"
      inkscape:window-x="0"
      inkscape:window-y="24"
      inkscape:window-maximized="1"
@@ -91,6 +91,12 @@
      inkscape:groupmode="layer"
      id="capa1"
      transform="translate(0,-1020.3622)">
+    <path
+       sodipodi:nodetypes="sssssssssccccccccccccccccccccccccccccccccc"
+       inkscape:connector-curvature="0"
+       id="path2991"
+       d="m 5,1022.3622 c -2.216,0 -4,1.784 -4,4 l 0,22 c 0,2.216 1.784,4 4,4 l 22,0 c 2.216,0 4,-1.784 4,-4 l 0,-22 c 0,-2.216 -1.784,-4 -4,-4 z m 7,4 8,0 c 0,0 1,-0.062 1,1 0,1.0658 -1,1 -1,1 l 0,6 c 0,2 5,2 5,6 l 0,3 c 0,5.0465 -6,5 -6,5 l -6,0 c 0,0 -6,-0.05 -6,-5 l 0,-3 c 0,-3.9339 5,-4.1417 5,-6 l 0,-6 c 0,0 -1,-0.115 -1,-1 0,-1.0165 1,-1 1,-1 z m 2,2 0,6 c 0,3.1398 -5,3 -5,6 l 0,3 c 0,3.0052 4,3 4,3 l 6,0 c 0,0 4,-0.023 4,-3 l 0,-3 c 0,-3 -5,-3 -5,-6 l 0,-6 z m 8,13 0,2 c 0,1.8668 -2,2 -2,2 l -8,0 c 0,0 -2,0.033 -2,-2 l 0,-2 z"
+       style="opacity:0.6;color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
     <rect
        y="1020.3622"
        x="-2.9999999e-06"
@@ -99,14 +105,11 @@
        id="rect3123"
        style="opacity:0.6;color:#000000;fill:none;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
     <path
-       id="path3135"
-       d="m 5,1022.3622 c -2.216,0 -4,1.784 -4,4 l 0,22 c 0,2.216 1.784,4 4,4 l 22,0 c 2.216,0 4,-1.784 4,-4 l 0,-22 c 0,-2.216 -1.784,-4 -4,-4 l -22,0 z m 7,4 8,0 1,1 -1,1 0,6 5,5 0,6 -3,3 -12,0 -3,-3 0,-6 5,-5 0,-6 -1,-1 1,-1 z m 2,2 0,7 -5,5 0,4 2,2 10,0 2,-2 0,-4 -5,-5 0,-7 -4,0 z m -3,12 10,0 1,1 0,2 -2,2 -8,0 -2,-2 0,-2 1,-1 z"
-       style="opacity:0.6;color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-       inkscape:connector-curvature="0" />
-    <path
-       style="opacity:0.69999999999999996;color:#000000;fill:url(#linearGradient3130);fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.00139092999999990;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-       d="M 5 1 C 2.784 1 1 2.784 1 5 L 1 27 C 1 29.216 2.784 31 5 31 L 27 31 C 29.216 31 31 29.216 31 27 L 31 5 C 31 2.784 29.216 1 27 1 L 5 1 z M 12 5 L 20 5 L 21 6 L 20 7 L 20 13 L 25 18 L 25 24 L 22 27 L 10 27 L 7 24 L 7 18 L 12 13 L 12 7 L 11 6 L 12 5 z M 14 7 L 14 14 L 9 19 L 9 23 L 11 25 L 21 25 L 23 23 L 23 19 L 18 14 L 18 7 L 14 7 z M 11 19 L 21 19 L 22 20 L 22 22 L 20 24 L 12 24 L 10 22 L 10 20 L 11 19 z "
+       style="opacity:0.7;color:#000000;fill:url(#linearGradient3130);fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.00139093;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       d="M 5,1 C 2.784,1 1,2.784 1,5 l 0,22 c 0,2.216 1.784,4 4,4 l 22,0 c 2.216,0 4,-1.784 4,-4 L 31,5 C 31,2.784 29.216,1 27,1 z m 7,4 8,0 c 0,0 1,-0.06158 1,1 0,1.0658416 -1,1 -1,1 l 0,6 c 0,2 5,2 5,6 l 0,3 c 0,5.046493 -6,5 -6,5 l -6,0 c 0,0 -6,-0.05003 -6,-5 l 0,-3 c 0,-3.933863 5,-4.141741 5,-6 L 12,7 C 12,7 11,6.8849876 11,6 11,4.983534 12,5 12,5 z m 2,2 0,6 c 0,3.139794 -5,3 -5,6 l 0,3 c 0,3.005204 4,3 4,3 l 6,0 c 0,0 4,-0.02314 4,-3 l 0,-3 c 0,-3 -5,-3 -5,-6 l 0,-6 z m 8,13 0,2 c 0,1.866821 -2,2 -2,2 l -8,0 c 0,0 -2,0.03343 -2,-2 l 0,-2 z"
        id="path3074"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="sssssssssccccccccccccccccccccccccccccccccc"
        transform="translate(0,1020.3622)" />
     <rect
        y="1005.3622"

@@ -93,21 +93,6 @@
          id="stop3870" />
     </linearGradient>
     <linearGradient
-       id="linearGradient3916">
-      <stop
-         style="stop-color:#505050;stop-opacity:1;"
-         offset="0"
-         id="stop3918" />
-      <stop
-         id="stop3924"
-         offset="0.5"
-         style="stop-color:#ffffff;stop-opacity:1;" />
-      <stop
-         style="stop-color:#505050;stop-opacity:1;"
-         offset="1"
-         id="stop3920" />
-    </linearGradient>
-    <linearGradient
        id="linearGradient3853">
       <stop
          id="stop3855"
@@ -194,56 +179,6 @@
        id="radialGradient3131"
        r="117.14286"
        xlink:href="#linearGradient5060" />
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient3916"
-       id="linearGradient4056"
-       gradientUnits="userSpaceOnUse"
-       x1="4"
-       y1="9.5"
-       x2="10"
-       y2="9.5"
-       gradientTransform="matrix(1.3333335,0,0,2,-1.3333337,-7)" />
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient3916"
-       id="linearGradient3846"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(1.3333335,0,0,2,-1.3333335,-0.9999996)"
-       x1="4"
-       y1="9.5"
-       x2="10"
-       y2="9.5" />
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient3916"
-       id="linearGradient3856"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(1.3333335,0,0,2,-1.3333337,5)"
-       x1="4"
-       y1="9.5"
-       x2="10"
-       y2="9.5" />
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient3916"
-       id="linearGradient3858"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(1.3333335,0,0,2,-1.3333335,11)"
-       x1="4"
-       y1="9.5"
-       x2="10"
-       y2="9.5" />
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient3916"
-       id="linearGradient3864"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(1.3333335,0,0,2,-1.3333335,17)"
-       x1="4"
-       y1="9.5"
-       x2="10"
-       y2="9.5" />
     <linearGradient
        inkscape:collect="always"
        xlink:href="#linearGradient3866"

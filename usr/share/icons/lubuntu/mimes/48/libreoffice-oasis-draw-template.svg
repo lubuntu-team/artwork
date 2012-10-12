@@ -23,7 +23,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -189,19 +189,6 @@
        y1="7"
        x2="13"
        y2="42" />
-    <filter
-       height="1"
-       width="1"
-       y="0"
-       x="0"
-       filterUnits="objectBoundingBox"
-       id="alpha">
-      <feColorMatrix
-         id="feColorMatrix339"
-         values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0"
-         in="SourceGraphic"
-         type="matrix" />
-    </filter>
     <linearGradient
        inkscape:collect="always"
        xlink:href="#linearGradient3916"

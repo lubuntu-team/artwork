@@ -15,7 +15,7 @@
    id="svg6662"
    version="1.1"
    inkscape:version="0.48.3.1 r9886"
-   sodipodi:docname="media-skip-forward.svg">
+   sodipodi:docname="media-skip-backward.svg">
   <defs
      id="defs6664">
     <linearGradient
@@ -32,46 +32,6 @@
          stop-color="#363636"
          offset="1" />
     </linearGradient>
-    <linearGradient
-       y2="-287.1413"
-       x2="152.96217"
-       y1="-297.0769"
-       x1="152.96217"
-       gradientTransform="matrix(1.119994,0,0,1.0064811,87.016638,409.76344)"
-       gradientUnits="userSpaceOnUse"
-       id="linearGradient9224"
-       xlink:href="#linearGradient1022-8-8-3-0-05-2"
-       inkscape:collect="always" />
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient1022-8-8-3-0-05-2"
-       id="linearGradient2993"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(1.6799908,0,0,1.5097214,-251.97501,1480.8656)"
-       x1="152.96217"
-       y1="-297.0769"
-       x2="152.96217"
-       y2="-287.1413" />
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient1022-8-8-3-0-05-2"
-       id="linearGradient3001"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(1.6799908,0,0,1.5097214,-255.97501,1480.8656)"
-       x1="152.96217"
-       y1="-297.0769"
-       x2="152.96217"
-       y2="-287.1413" />
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient1022-8-8-3-0-05-2"
-       id="linearGradient3003"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(1.6799908,0,0,1.5097214,-244.97504,1480.8656)"
-       x1="152.96217"
-       y1="-297.0769"
-       x2="152.96217"
-       y2="-287.1413" />
     <linearGradient
        inkscape:collect="always"
        xlink:href="#linearGradient1022-8-8-3-0-05-2"
@@ -114,7 +74,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
