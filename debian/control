@@ -23,6 +23,7 @@ Description: artwork for Lubuntu
 Package: lubuntu-artwork-12-10
 Architecture: all
 Depends: gtk2-engines,
+         gtk2-engines-pixbuf,
          gtk3-engines-unico,
          libnewt0.52 (>= 0.52.11-2ubuntu7),
          ${misc:Depends}
