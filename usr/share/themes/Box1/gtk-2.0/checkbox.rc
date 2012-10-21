@@ -1,0 +1,163 @@
+########################################################################
+# Check boxes
+########################################################################
+
+style "check_box"
+{
+### Check box ###
+	engine "pixmap" 
+	{
+		## Normal
+		image 	{
+			function = CHECK
+			state = NORMAL
+			shadow = OUT
+			overlay_file = "images/c_box.png"
+			overlay_stretch = FALSE	}
+
+		image 	{
+			function = CHECK
+			state = NORMAL
+			shadow = IN
+			overlay_file = "images/c_box-pressed.png"
+			overlay_stretch = FALSE	}
+		
+		image 	{
+			function = OPTION
+			state = NORMAL
+			shadow = OUT
+			overlay_file = "images/c_box.png"
+			overlay_stretch = FALSE	}
+
+		image 	{
+			function = OPTION
+			state = NORMAL
+			shadow = IN
+			overlay_file = "images/c_box-pressed.png"
+			overlay_stretch = FALSE	}
+		
+		## Prelight
+		image 	{
+			function = CHECK
+			state = PRELIGHT
+			shadow = OUT
+			overlay_file = "images/c_box-sel.png"
+			overlay_stretch = FALSE	}
+
+		image 	{
+			function = CHECK
+			state = PRELIGHT
+			shadow = IN
+			overlay_file = "images/c_box-pressed-sel.png"
+			overlay_stretch = FALSE	}
+		
+		image 	{
+			function = OPTION
+			state = PRELIGHT
+			shadow = OUT
+			overlay_file = "images/c_box-sel.png"
+			overlay_stretch = FALSE	}
+
+		image 	{
+			function = OPTION
+			state = PRELIGHT
+			shadow = IN
+			overlay_file = "images/c_box-pressed-sel.png"
+			overlay_stretch = FALSE	}
+		
+		## Insensitive
+		image 	{
+			function = CHECK
+			state = INSENSITIVE
+			shadow = OUT
+			overlay_file = "images/c_box-ins.png"
+			overlay_stretch = FALSE	}
+
+		image 	{
+			function = CHECK
+			state = INSENSITIVE
+			shadow = IN
+			overlay_file = "images/c_box-pressed-ins.png"
+			overlay_stretch = FALSE	}
+		
+		image 	{
+			function = OPTION
+			state = INSENSITIVE
+			shadow = OUT
+			overlay_file = "images/c_box-ins.png"
+			overlay_stretch = FALSE	}
+
+		image 	{
+			function = OPTION
+			state = INSENSITIVE
+			shadow = IN
+			overlay_file = "images/c_box-pressed-ins.png"
+			overlay_stretch = FALSE	}
+		
+		## Active
+		image 	{
+			function = CHECK
+			state = ACTIVE
+			shadow = OUT
+			overlay_file = "images/c_box-active.png"
+			overlay_stretch = FALSE	}
+
+		image 	{
+			function = CHECK
+			state = ACTIVE
+			shadow = IN
+			overlay_file = "images/c_box-pressed-active.png"
+			overlay_stretch = FALSE	}
+		
+		image 	{
+			function = OPTION
+			state = ACTIVE
+			shadow = OUT
+			overlay_file = "images/c_box-active.png"
+			overlay_stretch = FALSE
+		}
+
+		image 	{
+			function = OPTION
+			state = ACTIVE
+			shadow = IN
+			overlay_file = "images/c_box-pressed-active.png"
+			overlay_stretch = FALSE	}
+	}
+}
+
+class "GtkCheckButton*" style "check_box"
+class "GtkCheckMenuItem*" style "check_box"
+
+style "check_box_tree"
+{
+### Check box ###
+	engine "pixmap" 
+	{
+		image 	{
+			function = CHECK
+			shadow = OUT
+			overlay_file = "images/c_box.png"
+			overlay_stretch = FALSE	}
+
+		image 	{
+			function = CHECK
+			shadow = IN
+			overlay_file = "images/c_box-pressed.png"
+			overlay_stretch = FALSE	}
+		
+		image 	{
+			function = OPTION
+			shadow = OUT
+			overlay_file = "images/c_box.png"
+			overlay_stretch = FALSE	}
+
+		image 	{
+			function = OPTION
+			shadow = IN
+			overlay_file = "images/c_box-pressed.png"
+			overlay_stretch = FALSE	}
+	}
+}
+
+class "GtkTreeView*" style "check_box_tree"

@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=Lubuntu Box 12.10
+Type=X-GNOME-Metatheme
+Comment=Box theme for Lubuntu 12.10 Quantal Quetzal
+
+[X-GNOME-Metatheme]
+GtkTheme=Lubuntu Box
+IconTheme=Lubuntu Box
+CursorTheme=DMZ-Black
+CursorSize=24
+NotificationTheme=ubuntu

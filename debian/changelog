@@ -1,5 +1,6 @@
 lubuntu-artwork (0.35) UNRELEASED; urgency=low
 
+  * Backup current artwork items to 1210 items, and prepare 1304.
   * debian/control:
    - Depends also on gtk2-engines-pixbuf along with gtk2-engines.
 
