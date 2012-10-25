@@ -15,7 +15,7 @@
    id="svg4700"
    version="1.1"
    inkscape:version="0.48.3.1 r9886"
-   sodipodi:docname="leafpad.svg">
+   sodipodi:docname="accessories-text-editor.svg">
   <defs
      id="defs4702">
     <linearGradient
@@ -95,18 +95,18 @@
      inkscape:pageshadow="2"
      inkscape:zoom="15.208334"
      inkscape:cx="18.026205"
-     inkscape:cy="15.508862"
+     inkscape:cy="15.706122"
      inkscape:current-layer="layer1"
      showgrid="true"
      inkscape:grid-bbox="true"
      inkscape:document-units="px"
-     inkscape:window-width="661"
-     inkscape:window-height="648"
+     inkscape:window-width="1280"
+     inkscape:window-height="976"
      inkscape:window-x="0"
-     inkscape:window-y="0"
+     inkscape:window-y="24"
      inkscape:window-maximized="1"
      inkscape:snap-to-guides="false"
-     inkscape:snap-grids="false">
+     inkscape:snap-grids="true">
     <inkscape:grid
        type="xygrid"
        id="grid1021"
@@ -198,7 +198,7 @@
     <rect
        style="color:#000000;fill:#999999;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
        id="rect4170"
-       width="12"
+       width="11"
        height="1"
        x="6"
        y="38" />
@@ -206,15 +206,64 @@
        y="40"
        x="6"
        height="1"
-       width="12"
+       width="9"
        id="rect4172"
        style="color:#000000;fill:#999999;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
     <rect
        style="color:#000000;fill:#999999;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
        id="rect4174"
-       width="9"
+       width="7"
        height="1"
        x="6"
        y="42" />
+    <g
+       id="g4116"
+       transform="matrix(0.37734075,0.37734075,-0.37734075,0.37734075,46.710629,-374.10756)">
+      <rect
+         style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         id="rect4086"
+         width="4"
+         height="16"
+         x="510"
+         y="576.36218" />
+      <path
+         sodipodi:nodetypes="ccccc"
+         inkscape:transform-center-y="-5.8662831"
+         inkscape:transform-center-x="-9.3983079"
+         id="rect2383"
+         d="m 514,591.86218 0,-13 -4,0 0,13 z"
+         style="color:#000000;fill:#5a5a5a;fill-opacity:1;fill-rule:evenodd;stroke:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         inkscape:connector-curvature="0" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path3270"
+         d="m 510,592.36218 1,2.5 1,2.5 1,-2.5 1,-2.5 -4,0 z"
+         style="fill:#5a5a5a;fill-opacity:1;fill-rule:evenodd;stroke:none" />
+      <path
+         sodipodi:nodetypes="ssccccs"
+         inkscape:connector-curvature="0"
+         id="rect3819"
+         d="m 511.5,573.36218 1,0 c 0.831,0 1.5,0.5305 1.5,1.5 l 0,2 -4,0 0,-2 c 0,-0.9695 0.669,-1.5 1.5,-1.5 z"
+         style="color:#000000;fill:#5a5a5a;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+      <rect
+         rx="0.93696052"
+         ry="0.93696052"
+         y="580.36218"
+         x="511"
+         height="10"
+         width="1"
+         id="rect4061"
+         style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+      <rect
+         transform="matrix(0,-1,1,0,0,0)"
+         style="color:#000000;fill:#5a5a5a;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         id="rect4063"
+         width="1"
+         height="4"
+         x="-578.36218"
+         y="510"
+         ry="0.93696052"
+         rx="0.93696052" />
+    </g>
   </g>
 </svg>
