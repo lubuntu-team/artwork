@@ -35,9 +35,21 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="640"
-     inkscape:window-height="480"
-     id="namedview54" />
+     inkscape:window-width="1280"
+     inkscape:window-height="976"
+     id="namedview54"
+     showgrid="true"
+     inkscape:zoom="9.8333333"
+     inkscape:cx="48.118009"
+     inkscape:cy="22.311194"
+     inkscape:window-x="0"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg2">
+    <inkscape:grid
+       type="xygrid"
+       id="grid3047" />
+  </sodipodi:namedview>
   <defs
      id="defs4">
     <linearGradient
@@ -142,29 +154,35 @@
      transform="matrix(0,-1,-1,0,0,0)"
      id="path38" />
   <path
-     d="m12,12.99999h24v2h-24z"
-     fill="#999"
-     id="path40" />
+     d="m 13,12.99999 h 22 v 2 H 13 z"
+     id="path40"
+     inkscape:connector-curvature="0"
+     style="fill:#999999" />
   <path
-     d="m12,16.99998h24v2h-24z"
-     fill="#999"
-     id="path42" />
+     d="m 13,16.99998 h 22 v 2 H 13 z"
+     id="path42"
+     inkscape:connector-curvature="0"
+     style="fill:#999999" />
   <path
-     d="m12,20.99998h24v2h-24z"
-     fill="#999"
-     id="path44" />
+     d="m 13,20.99998 h 22 v 2 H 13 z"
+     id="path44"
+     inkscape:connector-curvature="0"
+     style="fill:#999999" />
   <path
-     d="m12,24.99998h24v2h-24z"
-     fill="#999"
-     id="path46" />
+     d="m 13,24.99998 h 22 v 2 H 13 z"
+     id="path46"
+     inkscape:connector-curvature="0"
+     style="fill:#999999" />
   <path
-     d="m12,28.99998h24v2h-24z"
-     fill="#999"
-     id="path48" />
+     d="m 13,28.99998 h 20 v 2 H 13 z"
+     id="path48"
+     inkscape:connector-curvature="0"
+     style="fill:#999999" />
   <path
-     d="m12,33h17v2h-17z"
-     fill="#999"
-     id="path50" />
+     d="m 13,33 h 12 v 2 H 13 z"
+     id="path50"
+     inkscape:connector-curvature="0"
+     style="fill:#999999" />
   <path
      d="m7.5-40.5h33a1,1 0 0,1 1,1v31a1,1 0 0,1 -1,1h-33a1,1 0 0,1 -1-1v-31a1,1 0 0,1 1-1"
      fill="none"
@@ -173,4 +191,53 @@
      stroke-linejoin="round"
      transform="matrix(0,1,-1,0,0,0)"
      id="path52" />
+  <g
+     id="g4116"
+     transform="matrix(0.70710678,0.70710678,-0.70710678,0.70710678,88.874895,-744.43752)">
+    <rect
+       style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="rect4086"
+       width="4"
+       height="16"
+       x="510"
+       y="576.36218" />
+    <path
+       sodipodi:nodetypes="ccccc"
+       inkscape:transform-center-y="-5.8662831"
+       inkscape:transform-center-x="-9.3983079"
+       id="rect2383"
+       d="m 514,591.86218 0,-13 -4,0 0,13 z"
+       style="color:#000000;fill:#5a5a5a;fill-opacity:1;fill-rule:evenodd;stroke:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       inkscape:connector-curvature="0" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path3270"
+       d="m 510,592.36218 1,2.5 1,2.5 1,-2.5 1,-2.5 -4,0 z"
+       style="fill:#5a5a5a;fill-opacity:1;fill-rule:evenodd;stroke:none" />
+    <path
+       sodipodi:nodetypes="ssccccs"
+       inkscape:connector-curvature="0"
+       id="rect3819"
+       d="m 511.5,573.36218 1,0 c 0.831,0 1.5,0.5305 1.5,1.5 l 0,2 -4,0 0,-2 c 0,-0.9695 0.669,-1.5 1.5,-1.5 z"
+       style="color:#000000;fill:#5a5a5a;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+    <rect
+       rx="0.5"
+       ry="0.5"
+       y="580.36218"
+       x="511"
+       height="10"
+       width="1"
+       id="rect4061"
+       style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+    <rect
+       transform="matrix(0,-1,1,0,0,0)"
+       style="color:#000000;fill:#5a5a5a;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="rect4063"
+       width="1"
+       height="4"
+       x="-578.36218"
+       y="510"
+       ry="0.5"
+       rx="0.5" />
+  </g>
 </svg>
