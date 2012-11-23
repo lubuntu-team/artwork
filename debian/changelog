@@ -1,10 +1,14 @@
-lubuntu-artwork (0.35) UNRELEASED; urgency=low
+lubuntu-artwork (0.35) raring; urgency=low
 
   * Backup current artwork items to 1210 items, and prepare 1304.
+  * Update icon theme:
+   - Fix dropbox icon (LP: #878121).
+  * Update gtk3 theme:
+   - Fix black tooltips (LP: #1065941).
   * debian/control:
    - Depends also on gtk2-engines-pixbuf along with gtk2-engines.
 
- -- Julien Lavergne <gilir@ubuntu.com>  Sun, 21 Oct 2012 11:49:15 +0200
+ -- Julien Lavergne <gilir@ubuntu.com>  Fri, 23 Nov 2012 18:26:06 +0100
 
 lubuntu-artwork (0.34) quantal; urgency=low
 
