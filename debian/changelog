@@ -1,3 +1,10 @@
+lubuntu-artwork (0.36) UNRELEASED; urgency=low
+
+  * /lib/plymouth/theme:
+   - Update to 13.04.
+
+ -- Julien Lavergne <gilir@ubuntu.com>  Fri, 23 Nov 2012 18:53:07 +0100
+
 lubuntu-artwork (0.35) raring; urgency=low
 
   * Backup current artwork items to 1210 items, and prepare 1304.
