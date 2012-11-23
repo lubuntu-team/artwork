@@ -8,7 +8,7 @@ lubuntu-artwork (0.35) raring; urgency=low
   * debian/control:
    - Depends also on gtk2-engines-pixbuf along with gtk2-engines.
 
- -- Julien Lavergne <gilir@ubuntu.com>  Fri, 23 Nov 2012 18:26:06 +0100
+ -- Julien Lavergne <gilir@ubuntu.com>  Fri, 23 Nov 2012 18:47:42 +0100
 
 lubuntu-artwork (0.34) quantal; urgency=low
 
