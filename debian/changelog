@@ -2,8 +2,10 @@ lubuntu-artwork (0.36) UNRELEASED; urgency=low
 
   * /lib/plymouth/theme:
    - Update to 13.04.
+  * usr/share/lubuntu/wallpapers
+   - Update for the new year.
 
- -- Julien Lavergne <gilir@ubuntu.com>  Fri, 23 Nov 2012 18:53:07 +0100
+ -- Julien Lavergne <gilir@ubuntu.com>  Tue, 01 Jan 2013 13:27:08 +0100
 
 lubuntu-artwork (0.35) raring; urgency=low
 
