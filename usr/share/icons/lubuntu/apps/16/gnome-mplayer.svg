@@ -84,7 +84,7 @@
        xlink:href="#linearGradient3522-4"
        id="linearGradient3220"
        gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(1.05,0,0,1.1249999,-1.1999911,1000.3627)"
+       gradientTransform="matrix(1.0500014,0,0,1.1484388,-1.2000258,999.80013)"
        x1="23.5"
        y1="8.125"
        x2="23.625"
@@ -147,11 +147,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.98994949"
-     inkscape:cx="-24.832161"
-     inkscape:cy="12.900503"
+     inkscape:zoom="1"
+     inkscape:cx="10.515125"
+     inkscape:cy="7.9609873"
      inkscape:document-units="px"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="g3259"
      showgrid="false"
      inkscape:window-width="1920"
      inkscape:window-height="1056"
@@ -210,109 +210,41 @@
         <rect
            style="fill:#d3d7cf;fill-opacity:1;fill-rule:nonzero;stroke:none"
            id="rect5263"
-           width="4.5"
-           height="3.375"
-           x="6.0003672"
-           y="5.0004539" />
-        <rect
-           style="fill:#d3d7cf;fill-opacity:1;fill-rule:nonzero;stroke:none"
-           id="rect5263-1"
-           width="4.5"
-           height="3.375"
-           x="6.0003672"
-           y="11.525452" />
+           width="5.2500067"
+           height="5.2500062"
+           x="4.6257095"
+           y="4.6254172" />
         <rect
            style="fill:#d3d7cf;fill-opacity:1;fill-rule:nonzero;stroke:none"
            id="rect5263-0"
-           width="4.5"
-           height="3.375"
-           x="6.0003672"
-           y="18.050455" />
-        <rect
-           style="fill:#d3d7cf;fill-opacity:1;fill-rule:nonzero;stroke:none"
-           id="rect5263-9"
-           width="4.5"
-           height="3.375"
-           x="6.0003672"
-           y="24.575455" />
+           width="5.2500067"
+           height="5.2500062"
+           x="4.6257095"
+           y="15.12543" />
         <rect
            style="fill:#d3d7cf;fill-opacity:1;fill-rule:nonzero;stroke:none"
            id="rect5263-4"
-           width="4.5"
-           height="3.375"
-           x="6.0003672"
-           y="31.100456" />
+           width="5.2500067"
+           height="5.2500057"
+           x="4.6257095"
+           y="25.625443" />
         <rect
            style="fill:#d3d7cf;fill-opacity:1;fill-rule:nonzero;stroke:none"
            id="rect5263-5"
-           width="4.5"
-           height="3.375"
-           x="6.0003672"
-           y="37.625454" />
-      </g>
-      <g
-         transform="matrix(1,0,0,1.0285714,45.07241,1003.8216)"
-         style="fill:#d3d7cf"
-         id="g5844-1">
-        <rect
-           style="fill:#d3d7cf;fill-opacity:1;fill-rule:nonzero;stroke:none"
-           id="rect5263-01-7"
-           width="4.5"
-           height="3.2812498"
-           x="-8.5727768"
-           y="5.3871193" />
-        <rect
-           style="fill:#d3d7cf;fill-opacity:1;fill-rule:nonzero;stroke:none"
-           id="rect5263-8"
-           width="4.5"
-           height="3.2812498"
-           x="-8.5727768"
-           y="5.3871193" />
-        <rect
-           style="fill:#d3d7cf;fill-opacity:1;fill-rule:nonzero;stroke:none"
-           id="rect5263-1-4"
-           width="4.5"
-           height="3.2812498"
-           x="-8.5727768"
-           y="11.730866" />
-        <rect
-           style="fill:#d3d7cf;fill-opacity:1;fill-rule:nonzero;stroke:none"
-           id="rect5263-0-8"
-           width="4.5"
-           height="3.2812498"
-           x="-8.5727768"
-           y="18.074619" />
-        <rect
-           style="fill:#d3d7cf;fill-opacity:1;fill-rule:nonzero;stroke:none"
-           id="rect5263-9-4"
-           width="4.5"
-           height="3.2812498"
-           x="-8.5727768"
-           y="24.418369" />
-        <rect
-           style="fill:#d3d7cf;fill-opacity:1;fill-rule:nonzero;stroke:none"
-           id="rect5263-4-7"
-           width="4.5"
-           height="3.2812498"
-           x="-8.5727768"
-           y="30.762121" />
-        <rect
-           style="fill:#d3d7cf;fill-opacity:1;fill-rule:nonzero;stroke:none"
-           id="rect5263-5-1"
-           width="4.5"
-           height="3.2812498"
-           x="-8.5727768"
-           y="37.105869" />
+           width="5.2500067"
+           height="5.2500067"
+           x="4.6257095"
+           y="36.125458" />
       </g>
       <rect
-         y="1009.3627"
-         x="13.500001"
-         height="36"
-         width="21"
+         y="1008.9876"
+         x="13.499985"
+         height="36.750046"
+         width="21.000027"
          id="rect3936-4"
          style="fill:url(#linearGradient3220);fill-opacity:1;fill-rule:nonzero;stroke:none" />
       <g
-         transform="matrix(0.35011815,0,0,0.34134555,33.803309,1020.8344)"
+         transform="matrix(0.40392951,0,0,0.39381886,35.310024,1019.8309)"
          id="g11350">
         <path
            inkscape:connector-curvature="0"
@@ -324,6 +256,38 @@
            id="path2294"
            style="opacity:0.41000001;fill:none;stroke:url(#linearGradient3257);stroke-width:1.0072;stroke-linecap:round"
            d="m -46.5628,37.3175 0.0632,-36.5230001 35.824,18.3310001 -35.887,18.192 z" />
+      </g>
+      <g
+         transform="translate(32.499305,1004.3622)"
+         id="g9365-6">
+        <rect
+           style="fill:#d3d7cf;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           id="rect5263-44"
+           width="5.2500067"
+           height="5.2500062"
+           x="4.6257095"
+           y="4.6254172" />
+        <rect
+           style="fill:#d3d7cf;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           id="rect5263-0-2"
+           width="5.2500067"
+           height="5.2500062"
+           x="4.6257095"
+           y="15.12543" />
+        <rect
+           style="fill:#d3d7cf;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           id="rect5263-4-3"
+           width="5.2500067"
+           height="5.2500057"
+           x="4.6257095"
+           y="25.625443" />
+        <rect
+           style="fill:#d3d7cf;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           id="rect5263-5-0"
+           width="5.2500067"
+           height="5.2500067"
+           x="4.6257095"
+           y="36.125458" />
       </g>
     </g>
   </g>
