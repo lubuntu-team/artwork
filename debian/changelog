@@ -1,3 +1,12 @@
+lubuntu-artwork (0.37) UNRELEASED; urgency=low
+
+  * usr/share/lubuntu/images
+   - Update logo icon for 13.10
+  * usr/share/lxpanel/images
+   - Update panel background for 13.10.
+
+ -- Julien Lavergne <gilir@ubuntu.com>  Sun, 10 Feb 2013 13:59:30 +0100
+
 lubuntu-artwork (0.36) raring; urgency=low
 
   * lib/plymouth/theme:
