@@ -1,12 +1,12 @@
 lubuntu-artwork (0.37) UNRELEASED; urgency=low
 
   * usr/share/lubuntu/images
-   - Update logo icon for 13.04
-   - Update th ebanner for 13.04
+   - Update the logo icon for 13.04
+   - Update the banner for 13.04
   * usr/share/lxpanel/images
-   - Update panel background for 13.04.
+   - Update the panel background for 13.04.
   * usr/share/lubuntu/wallpapers
-   - Add 2 new wallpapers for 13.04. 
+   - Add 2 new wallpapers for 13.04.
 
  -- Julien Lavergne <gilir@ubuntu.com>  Sun, 17 Feb 2013 15:27:23 +0100
 
