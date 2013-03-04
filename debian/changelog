@@ -1,4 +1,4 @@
-lubuntu-artwork (0.37) UNRELEASED; urgency=low
+lubuntu-artwork (0.37) raring; urgency=low
 
   * usr/share/lubuntu/images
    - Update the logo icon for 13.04
@@ -7,8 +7,9 @@ lubuntu-artwork (0.37) UNRELEASED; urgency=low
    - Update the panel background for 13.04.
   * usr/share/lubuntu/wallpapers
    - Add 2 new wallpapers for 13.04.
+  * Update icon theme. 
 
- -- Julien Lavergne <gilir@ubuntu.com>  Sun, 17 Feb 2013 15:27:23 +0100
+ -- Julien Lavergne <gilir@freedom>  Mon, 04 Mar 2013 21:44:16 +0100
 
 lubuntu-artwork (0.36) raring; urgency=low
 
