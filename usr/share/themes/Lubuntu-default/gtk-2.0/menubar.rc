@@ -17,30 +17,8 @@ style "menu_item" {
 	xthickness = 2
 	ythickness = 3
 	fg[PRELIGHT]      = @selected_fg_color
-	engine "pixmap"
-	{
-		image
-		{
-			function = BOX
-			file = "images/menuitem.png"
-			border = {3, 3, 3, 3}
-			stretch	= TRUE
-		}
-		
-		image 
-		{
-			function = HLINE
-	 		file = "images/line-h.png"
-			border = {0, 0, 0, 0}
-			stretch = TRUE
-		}
-		image 
-		{
-			function = VLINE
-	 		file = "images/line-v.png"
-			border = {0, 0, 0, 0}
-			stretch = TRUE
-		}
+	engine "clearlooks" {
+		hint = "menubar"
 	}
 }
 
