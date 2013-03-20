@@ -1,4 +1,4 @@
-lubuntu-artwork (0.38) UNRELEASED; urgency=low
+lubuntu-artwork (0.38) raring; urgency=low
 
   * usr/share/lubuntu/wallpapers
    - Add community wallpapers.
@@ -8,7 +8,7 @@ lubuntu-artwork (0.38) UNRELEASED; urgency=low
    - Menubar & GtkCombo use now vectors (Clearlooks engine)
    - Removed unnecessary bitmaps
 
- -- Julien Lavergne <gilir@ubuntu.com>  Sat, 16 Mar 2013 10:49:59 +0100
+ -- Julien Lavergne <gilir@ubuntu.com>  Wed, 20 Mar 2013 23:06:05 +0100
 
 lubuntu-artwork (0.37) raring; urgency=low
 
