@@ -9,7 +9,7 @@
       </cc:Work>
     </rdf:RDF>
   </metadata>
-  <sodipodi:namedview pagecolor="#ffffff" bordercolor="#666666" borderopacity="1" objecttolerance="10" gridtolerance="10" guidetolerance="10" inkscape:pageopacity="0" inkscape:pageshadow="2" inkscape:window-width="1280" inkscape:window-height="976" id="namedview3220" showgrid="true" inkscape:zoom="28.284271" inkscape:cx="16.096373" inkscape:cy="9.7876894" inkscape:window-x="0" inkscape:window-y="24" inkscape:window-maximized="1" inkscape:current-layer="svg3162">
+  <sodipodi:namedview pagecolor="#ffffff" bordercolor="#666666" borderopacity="1" objecttolerance="10" gridtolerance="10" guidetolerance="10" inkscape:pageopacity="0" inkscape:pageshadow="2" inkscape:window-width="1280" inkscape:window-height="976" id="namedview3220" showgrid="true" inkscape:zoom="28.284271" inkscape:cx="16.096373" inkscape:cy="9.8937554" inkscape:window-x="0" inkscape:window-y="24" inkscape:window-maximized="1" inkscape:current-layer="svg3162" inkscape:snap-center="true" inkscape:snap-object-midpoints="true">
     <inkscape:grid type="xygrid" id="grid3640" />
   </sodipodi:namedview>
   <defs id="defs3164">
@@ -242,21 +242,11 @@
     <filter color-interpolation-filters="sRGB" id="filter3174">
       <feGaussianBlur id="feGaussianBlur3176" stdDeviation="1.71" />
     </filter>
-    <linearGradient inkscape:collect="always" xlink:href="#linearGradient1022-8-8-3-0-06-59-9" id="linearGradient3271-3" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0.86287979,0,0,0.55055481,-176.86889,-379.58121)" x1="213.08154" y1="7.8809905" x2="213.08154" y2="21.128468" />
-    <linearGradient y2="11.02436" y1="3.0069399" x2="0" id="linearGradient1022-8-8-3-0-06-59-9" gradientUnits="userSpaceOnUse">
-      <stop id="stop3001-0-9-4-9-02-1" offset="0" />
-      <stop id="stop3003-5-6-6-5-70-6" stop-color="#363636" offset="1" />
-    </linearGradient>
-    <linearGradient inkscape:collect="always" xlink:href="#linearGradient1022-8-8-3-0-06-59-4" id="linearGradient3271-2" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0.86287979,0,0,0.82583224,-176.86889,-570.37183)" x1="213.08154" y1="7.8809905" x2="213.08154" y2="21.128468" />
     <linearGradient y2="11.02436" y1="3.0069399" x2="0" id="linearGradient1022-8-8-3-0-06-59-4" gradientUnits="userSpaceOnUse">
       <stop id="stop3001-0-9-4-9-02-18" offset="0" />
       <stop id="stop3003-5-6-6-5-70-9" stop-color="#363636" offset="1" />
     </linearGradient>
-    <linearGradient inkscape:collect="always" xlink:href="#linearGradient1022-8-8-3-0-06-59-43" id="linearGradient3271" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0.86287979,0,0,0.82583224,-176.86889,-570.37183)" x1="213.08154" y1="7.8809905" x2="213.08154" y2="21.128468" />
-    <linearGradient y2="11.02436" y1="3.0069399" x2="0" id="linearGradient1022-8-8-3-0-06-59-43" gradientUnits="userSpaceOnUse">
-      <stop id="stop3001-0-9-4-9-02-6" offset="0" />
-      <stop id="stop3003-5-6-6-5-70-3" stop-color="#363636" offset="1" />
-    </linearGradient>
+    <linearGradient inkscape:collect="always" xlink:href="#linearGradient1022-8-8-3-0-06-59-4" id="linearGradient3243" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0.86287979,0,0,0.82583224,-176.86889,-570.37183)" x1="214.2464" y1="690.66309" x2="214.2464" y2="710.03748" />
   </defs>
   <g id="layer2" style="display:none" transform="translate(21.569502,-197.53297)">
     <rect width="86" height="85" rx="6" ry="6" x="5" y="7" id="rect3745" style="opacity:0.9;fill:url(#ButtonShadow);fill-opacity:1;fill-rule:nonzero;stroke:none;filter:url(#filter3174)" />
@@ -347,5 +337,5 @@
     <rect width="86" height="85" rx="6" ry="6" x="5" y="7" id="rect3745-18" style="opacity:0.9;fill:url(#linearGradient11010);fill-opacity:1;fill-rule:nonzero;stroke:none;filter:url(#filter3174-14)" />
   </g>
   <g id="layer6-08" transform="matrix(0.12117717,0,0,0.12117717,61.144676,41.709496)" />
-  <path style="opacity:0.69999999999999996;color:black;fill:url(#linearGradient3271-2);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" d="M 4 0 L 4 5 L 3 6 L 3 15 L 4 16 L 12 16 L 13 15 L 13 6 L 12 5 L 12 0 L 4 0 z M 5 1 L 11 1 L 11 5 L 5 5 L 5 1 z M 6 2 L 6 4 L 7 4 L 7 2 L 6 2 z M 9 2 L 9 4 L 10 4 L 10 2 L 9 2 z " id="path3258" />
+  <path style="opacity:0.7;color:black;fill:url(#linearGradient3243);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" d="m 4,0 0,6 -1,1 0,8 1,1 8,0 1,-1 L 13,7 12,6 12,0 4,0 z M 5,1 11,1 11,6 5,6 5,1 z M 6,2 6,5 7,5 7,2 6,2 z m 3,0 0,3 1,0 0,-3 -1,0 z" id="path3237" inkscape:connector-curvature="0" />
 </svg>
