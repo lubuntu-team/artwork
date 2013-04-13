@@ -1,3 +1,10 @@
+lubuntu-artwork (0.38.1) raring; urgency=low
+
+  * usr/share/icons/lubuntu/
+   - Remove Skype content (LP: #1163504)
+
+ -- Julien Lavergne <gilir@ubuntu.com>  Sat, 13 Apr 2013 07:54:59 +0200
+
 lubuntu-artwork (0.38) raring; urgency=low
 
   * usr/share/lubuntu/wallpapers
