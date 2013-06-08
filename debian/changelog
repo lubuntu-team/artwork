@@ -1,3 +1,11 @@
+lubuntu-artwork (0.39) UNRELEASED; urgency=low
+
+  * Backup current artwork items to 1304 items, and prepare 1310 ones.
+  * lib/plymouth/themes/lubuntu-text:
+   - Update to 13.10.
+
+ -- Julien Lavergne <gilir@ubuntu.com>  Sat, 08 Jun 2013 17:01:56 +0200
+
 lubuntu-artwork (0.38.1) raring; urgency=low
 
   * usr/share/icons/lubuntu/
