@@ -1,6 +1,5 @@
-# Box theme for Lubuntu 12.10 Quantal Quetzal
-# Licensed as GPL2 / Open Source
-# Created by 神癒礁湖 (Rafael Laguna)
+# Default theme for Lubuntu, based on Radiance.
+# Adapted by 神癒礁湖 (Rafael Laguna). GPL2 / Open Source licensed.
 
 gtk_color_scheme = "fg_color:#333333"
 gtk_color_scheme = "bg_color:#e0e0e0"
@@ -87,14 +86,28 @@ style "default" {
 	base[INSENSITIVE] = @selected_bg_color
 	base[ACTIVE]      = shade (0.9, @selected_bg_color)
 
-	engine "clearlooks" {
-		reliefstyle = 1
-		menubarstyle = 0
-		toolbarstyle = 1
-		animation = FALSE
-		radius = 3.0
-		style = GUMMY
-		hint = "use-hints"
+	engine "murrine" {
+		contrast = 0.6
+		arrowstyle = 2
+		reliefstyle = 3
+		highlight_shade = 1.0
+		glazestyle = 0
+		default_button_color = shade (1.1, @selected_bg_color)
+		gradient_shades = {1.1, 1.0, 1.0, 0.9}
+		roundness = 4
+		lightborder_shade = 1.26
+		lightborderstyle = 1
+		listviewstyle = 2
+		progressbarstyle = 0
+		menubaritemstyle = 1
+		menubarstyle = 1
+		menustyle = 0
+		focusstyle = 3
+		handlestyle = 1
+		sliderstyle = 3
+		scrollbarstyle = 0
+		stepperstyle = 1
+#		rgba = TRUE
 	}
 }
 
@@ -138,7 +151,7 @@ style "tooltips" {
 	bg[NORMAL]        = @tooltip_bg_color
 	fg[NORMAL]        = @tooltip_fg_color
 }
-widget "gtk-tooltip*" style "tooltips"
 
+widget "gtk-tooltip*" style "tooltips"
 widget_class "*<GtkComboBoxEntry>*" style "comboboxentry"
 widget_class "*<GtkCombo>*" style "comboboxentry"
