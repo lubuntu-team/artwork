@@ -13,7 +13,7 @@ Vcs-Browser: http://bazaar.launchpad.net/~lubuntu-desktop/+junk/artwork/files
 Package: lubuntu-artwork
 Architecture: all
 Depends: libnewt0.52 (>= 0.52.11-2ubuntu7),
-         lubuntu-artwork-13-04,
+         lubuntu-artwork-13-10,
          lubuntu-lxpanel-icons,
          ${misc:Depends}
 Description: artwork for Lubuntu
