@@ -1,6 +1,3 @@
-# Default theme for Lubuntu, based on Radiance.
-# Adapted by 神癒礁湖 (Rafael Laguna). GPL2 / Open Source licensed.
-
 gtk_color_scheme = "fg_color:#333333"
 gtk_color_scheme = "bg_color:#e0e0e0"
 gtk_color_scheme = "base_color:#ffffff"

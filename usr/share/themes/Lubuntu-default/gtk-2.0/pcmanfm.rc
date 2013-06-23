@@ -42,7 +42,6 @@ widget_class	"*FmMainWin*GtkToolbar*"	style "pcman-padding"
 widget_class	"*FmPlacesView*"		style "pcmanfm-sidebar"
 widget		"*FmMainWin*GtkHPaned"		style "pcmanfm-handle"
 widget		"*FmMainWin*GtkNotebook"	style "pcmanfm-notebook"
-widget_class "*FmPlacesView*" style "pcmanfm-sidebar"
 
 widget_class "*.<GtkTreeView>*" style "treeview"
 widget_class "*.<GtkTreeView>.<GtkButton>" style "treeview_header"

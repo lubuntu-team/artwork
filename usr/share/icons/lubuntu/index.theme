@@ -1,15 +1,11 @@
+# Default theme for Lubuntu by The Lubuntu Artwork Team
+# (Rafael Laguna and and Alexander Andjelkovic)
 #
-# BOX, default theme for Lubuntu, created
-# by Rafael Laguna & Alexander Andjelkovic
-# official members of Lubuntu Artwork Team.
-#
-# For updates, please visit:
-# https://launchpad.net/~lubuntu-art
-#
+# More info at: https://launchpad.net/~lubuntu-art
 
 [Icon Theme]
-Name=Box
-Comment=Lubuntu default theme
+Name=Lubuntu
+Comment=Lubuntu default icon theme
 Inherits=elementary
 Example=folder
 

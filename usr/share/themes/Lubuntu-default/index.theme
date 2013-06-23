@@ -1,11 +1,17 @@
+# Default theme for Lubuntu by The Lubuntu Artwork Team
+# (Rafael Laguna and and Alexander Andjelkovic)
+# Based on Radiance. GPL2 / Open Source licensed
+#
+# More info at: https://launchpad.net/~lubuntu-art
+
 [Desktop Entry]
-Name=Lubuntu Box
+Name=Lubuntu
 Type=X-GNOME-Metatheme
-Comment=Box theme for Lubuntu 12.10 Quantal Quetzal
+Comment=FIXED theme for Lubuntu
 
 [X-GNOME-Metatheme]
-GtkTheme=Lubuntu Box
-IconTheme=Lubuntu Box
+GtkTheme=Lubuntu
+IconTheme=Lubuntu
 CursorTheme=DMZ-Black
 CursorSize=24
 NotificationTheme=ubuntu
