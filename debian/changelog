@@ -1,12 +1,19 @@
-lubuntu-artwork (0.39) UNRELEASED; urgency=low
+lubuntu-artwork (0.39) saucy; urgency=low
 
   * Backup current artwork items to 1304 items, and prepare 1310 ones.
   * lib/plymouth/themes/lubuntu-text:
    - Update to 13.10.
   * Update gtk2 theme:
    - Fix blank windows on hardinfo and errors on terminal (LP: #1029212).
+   - Improve overall control bitmaps
+  * Update gtk3 theme :
+   - Fix black border (LP: #1186631)
+   - Improve overall control bitmaps
+  * Update icon theme.
+   - Fix glyphs gradients
+   - Add more apps and devices
 
- -- Julien Lavergne <gilir@ubuntu.com>  Sat, 08 Jun 2013 17:01:56 +0200
+ -- Julien Lavergne <gilir@ubuntu.com>  Mon, 24 Jun 2013 20:15:03 +0200
 
 lubuntu-artwork (0.38.1) raring; urgency=low
 
