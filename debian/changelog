@@ -13,7 +13,7 @@ lubuntu-artwork (0.39) saucy; urgency=low
    - Fix glyphs gradients
    - Add more apps and devices
 
- -- Julien Lavergne <gilir@ubuntu.com>  Mon, 24 Jun 2013 20:15:03 +0200
+ -- Julien Lavergne <gilir@ubuntu.com>  Thu, 27 Jun 2013 23:34:59 +0200
 
 lubuntu-artwork (0.38.1) raring; urgency=low
 
