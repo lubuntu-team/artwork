@@ -36,7 +36,7 @@ style "default" {
 	GtkScale::trough-border = 0
 	GtkScale::slider-width = 23
 	GtkScale::slider-length = 14
-	GtkScale::trough-side-details = 1
+	GtkScale::trough-side-details = 0
 
 	GtkScrollbar    		::has-backward-stepper		= 0  
 	GtkScrollbar			::has-forward-stepper		= 1
@@ -44,7 +44,7 @@ style "default" {
 	GtkScrollbar			::slider-width				= 9
 	GtkScrollbar			::trough-border				= 3
 	GtkScrollbar			::activate-slider 			= FALSE
-	GtkScrollbar			::trough-side-details		= FALSE
+	GtkScrollbar			::trough-side-details		= 0
 	GtkScrollbar			::stepper-size              = 1
 	
 	GtkScrolledWindow		::scrollbar-spacing			= 0
@@ -685,15 +685,13 @@ widget "*IdoEntryMenuItem*" style "wide"
 widget_class "EShellWindow.GtkVBox.BonoboDock.BonoboDockBand.BonoboDockItem*" style "evo_new_button_workaround"
 
 # Includes
-include "apps/ff.rc"
-include "apps/chromium.rc"
-include "apps/gnome-terminal.rc"
-include "apps/nautilus.rc"
-include "lxpanel.rc"
-include "arrow.rc"
-#include "notebook.rc" ' This needs revision
-include "entry.rc"
-include "statusbar.rc"
-include "toolbar.rc"
-include "pcmanfm.rc"
-include "xfce4-notifyd.rc"
+include "assets/ff.rc"
+include "assets/chromium.rc"
+include "assets/gnome-terminal.rc"
+include "assets/nautilus.rc"
+include "assets/lxpanel.rc"
+include "assets/entry.rc"
+include "assets/statusbar.rc"
+include "assets/toolbar.rc"
+include "assets/pcmanfm.rc"
+include "assets/xfce4-notifyd.rc"
