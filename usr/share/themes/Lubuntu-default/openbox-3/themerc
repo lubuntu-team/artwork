@@ -1,6 +1,5 @@
-# Box theme for Lubuntu 12.10 Quantal Quetzal
-# Licensed as GPL2 / Open Source
-# Created by 神癒礁湖 (Rafael Laguna)
+# Default Lubuntu theme for Openbox, GPL2 / Open Source
+# By 神癒礁湖 (Rafael Laguna), Lubuntu Artwork Team
 
 border.color: #808080
 border.width: 1
