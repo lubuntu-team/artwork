@@ -1,3 +1,11 @@
+lubuntu-artwork (0.40) UNRELEASED; urgency=low
+
+  * debian/control:
+   - Add depends on gtk2-engines-murrine for the updated gtk2 theme
+     (LP: #1205377).
+
+ -- Julien Lavergne <gilir@ubuntu.com>  Sun, 28 Jul 2013 12:59:15 +0200
+
 lubuntu-artwork (0.39) saucy; urgency=low
 
   * Backup current artwork items to 1304 items, and prepare 1310 ones.
