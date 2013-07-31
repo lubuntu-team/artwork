@@ -3,6 +3,9 @@ lubuntu-artwork (0.40) UNRELEASED; urgency=low
   * debian/control:
    - Add depends on gtk2-engines-murrine for the updated gtk2 theme
      (LP: #1205377).
+  * usr/share/lubuntu/images/1310-lubuntu-logo.png
+  * usr/share/lxpanel/images/1310-lubuntu-background.png
+   - Update for the new theme.
 
  -- Julien Lavergne <gilir@ubuntu.com>  Sun, 28 Jul 2013 12:59:15 +0200
 
