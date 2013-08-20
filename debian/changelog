@@ -7,7 +7,7 @@ lubuntu-artwork (0.40) UNRELEASED; urgency=low
   * usr/share/lxpanel/images/1310-lubuntu-background.png
    - Update for the new theme.
 
- -- Julien Lavergne <gilir@ubuntu.com>  Sun, 28 Jul 2013 12:59:15 +0200
+ -- Julien Lavergne <gilir@ubuntu.com>  Tue, 20 Aug 2013 22:41:02 +0200
 
 lubuntu-artwork (0.39) saucy; urgency=low
 
