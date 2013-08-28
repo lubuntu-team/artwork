@@ -1,4 +1,4 @@
-lubuntu-artwork (0.40) UNRELEASED; urgency=low
+lubuntu-artwork (0.40) saucy; urgency=low
 
   * debian/control:
    - Add depends on gtk2-engines-murrine for the updated gtk2 theme
@@ -6,8 +6,11 @@ lubuntu-artwork (0.40) UNRELEASED; urgency=low
   * usr/share/lubuntu/images/1310-lubuntu-logo.png
   * usr/share/lxpanel/images/1310-lubuntu-background.png
    - Update for the new theme.
+  * usr/share/themes/Lubuntu-default
+   - Use bigger windows buttons (LP: #1194261)
+  * Update icon theme.
 
- -- Julien Lavergne <gilir@ubuntu.com>  Tue, 20 Aug 2013 22:41:02 +0200
+ -- Julien Lavergne <gilir@ubuntu.com>  Wed, 28 Aug 2013 22:44:31 +0200
 
 lubuntu-artwork (0.39) saucy; urgency=low
 
