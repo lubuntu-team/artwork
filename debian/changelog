@@ -10,7 +10,7 @@ lubuntu-artwork (0.40) saucy; urgency=low
    - Use bigger windows buttons (LP: #1194261)
   * Update icon theme.
 
- -- Julien Lavergne <gilir@ubuntu.com>  Wed, 28 Aug 2013 22:49:41 +0200
+ -- Julien Lavergne <gilir@ubuntu.com>  Wed, 28 Aug 2013 23:57:53 +0200
 
 lubuntu-artwork (0.39) saucy; urgency=low
 
