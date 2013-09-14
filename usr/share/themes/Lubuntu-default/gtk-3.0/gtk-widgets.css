@@ -836,6 +836,7 @@ GtkMenuToolButton.menu,
     border-left-color:@combobox_color;
     border-right-color: @combobox_color;
     border-top-color: @combobox_color;
+    border-color: shade (@bg_color, 0.66);
     padding: 0;
     border-width: 1px;
     border-style: solid;
@@ -850,6 +851,7 @@ GtkComboBox .menu {
     border-left-color:@combobox_color;
     border-right-color: @combobox_color;
     border-top-color: @combobox_color;
+    border-color: shade (@bg_color, 0.66);
     border-width: 1px;
     border-style: solid;
     padding: 0;
@@ -902,7 +904,7 @@ GtkComboBox .menu {
 .menubar .menuitem:hover {
     border-style: solid;
     border-radius: 4px 4px 0 0;
-    border-width: 1px;
+    border-width: 0px;
     background-image: none;
     border-image: -gtk-gradient (linear, left top, left bottom,
                                  from (shade (@selected_bg_color, 0.7)),
