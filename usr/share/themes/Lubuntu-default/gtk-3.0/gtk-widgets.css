@@ -852,7 +852,7 @@ GtkComboBox .menu {
     border-right-color: @combobox_color;
     border-top-color: @combobox_color;
     border-color: shade (@bg_color, 0.66);
-    border-width: 1px;
+    border-width: 0px;
     border-style: solid;
     padding: 0;
     color: @dark_fg_color;
