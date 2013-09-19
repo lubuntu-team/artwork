@@ -1,4 +1,4 @@
-lubuntu-artwork (0.41) UNRELEASED; urgency=low
+lubuntu-artwork (0.41) saucy; urgency=low
 
   * usr/share/lubuntu/wallpapers
    - Add community wallpapers.
@@ -9,7 +9,7 @@ lubuntu-artwork (0.41) UNRELEASED; urgency=low
    - Changed desktop folder (without release background)
    - Add UbuntuOne, Brightside, Compton and OGG mime
 
- -- Julien Lavergne <gilir@ubuntu.com>  Thu, 19 Sep 2013 18:02:26 +0200
+ -- Julien Lavergne <gilir@ubuntu.com>  Thu, 19 Sep 2013 20:21:30 +0200
 
 lubuntu-artwork (0.40) saucy; urgency=low
 
