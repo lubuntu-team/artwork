@@ -1,3 +1,16 @@
+lubuntu-artwork (0.41) UNRELEASED; urgency=low
+
+  * usr/share/lubuntu/wallpapers
+   - Add community wallpapers.
+  * Update gtk3 theme :
+   - Fix menubar weird blue border and menuitem black frame (gtk3)
+  * Update icon theme.
+   - General SVG compression
+   - Changed desktop folder (without release background)
+   - Add UbuntuOne, Brightside, Compton and OGG mime
+
+ -- Julien Lavergne <gilir@ubuntu.com>  Thu, 19 Sep 2013 18:02:26 +0200
+
 lubuntu-artwork (0.40) saucy; urgency=low
 
   * debian/control:
