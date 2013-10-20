@@ -1,3 +1,10 @@
+lubuntu-artwork (0.41.1) saucy; urgency=low
+
+  * usr/share/lubuntu/wallpapers
+   - Update the 13.10 wallpapers.
+
+ -- Julien Lavergne <gilir@ubuntu.com>  Sun, 20 Oct 2013 23:02:33 +0200
+
 lubuntu-artwork (0.41) saucy; urgency=low
 
   * usr/share/lubuntu/wallpapers
