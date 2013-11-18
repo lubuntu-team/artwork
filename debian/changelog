@@ -1,9 +1,12 @@
-lubuntu-artwork (0.41.1) saucy; urgency=low
+lubuntu-artwork (0.42) trusty; urgency=low
 
+  * Backup current artwork items to 1310 items, and prepare 1404 ones.
+  * lib/plymouth/themes/lubuntu-text:
+   - Update to 14.04.
   * usr/share/lubuntu/wallpapers
    - Update the 13.10 wallpapers.
 
- -- Julien Lavergne <gilir@ubuntu.com>  Sun, 20 Oct 2013 23:02:33 +0200
+ -- Julien Lavergne <gilir@ubuntu.com>  Mon, 18 Nov 2013 13:38:50 +0100
 
 lubuntu-artwork (0.41) saucy; urgency=low
 
