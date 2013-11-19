@@ -1,5 +1,6 @@
 lubuntu-artwork (0.42) trusty; urgency=low
 
+  * Update icon theme.
   * Backup current artwork items to 1310 items, and prepare 1404 ones.
   * lib/plymouth/themes/lubuntu-text:
    - Update to 14.04.
