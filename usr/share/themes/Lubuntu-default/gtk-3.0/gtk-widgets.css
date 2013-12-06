@@ -827,35 +827,47 @@ GtkLabel:insensitive {
  ********/
 GtkTreeMenu.menu,
 .toolbar .primary-toolbar .menu,
+.toolbar .menubar.toolbar .menu,
+.toolbar .header-bar .menu,
 GtkMenuToolButton.menu,
 .primary-toolbar .button .menu,
+.menubar.toolbar .button .menu,
+.header-bar .button .menu,
 .menu {
     background-image: none;
-    background-color: @bg_color;
-    border-bottom-color: @combobox_color;
-    border-left-color:@combobox_color;
-    border-right-color: @combobox_color;
-    border-top-color: @combobox_color;
-    border-color: shade (@bg_color, 0.66);
+    background-color: @base_color;
+    border-bottom-color: shade (@dark_bg_color, 0.96);
+    border-left-color: shade (@dark_bg_color, 0.8);
+    border-right-color: shade (@dark_bg_color, 0.8);
+    border-top-color: shade (@dark_bg_color, 0.96);
     padding: 0;
     border-width: 1px;
     border-style: solid;
+
     color: @dark_fg_color;
+
+    box-shadow: inset 0 1px shade (@dark_bg_color, 1.18),
+                inset 0 -1px shade (@dark_bg_color, 1.18),
+                inset -1px 0 shade (@dark_bg_color, 1.16),
+                inset 1px 0 shade (@dark_bg_color, 1.18);
 }
 
 .toolbar .menu,
 GtkComboBox .menu {
     background-image: none;
     background-color: @bg_color;
-    border-bottom-color: @combobox_color;
-    border-left-color:@combobox_color;
-    border-right-color: @combobox_color;
-    border-top-color: @combobox_color;
-    border-color: shade (@bg_color, 0.66);
-    border-width: 0px;
+    border-bottom-color: shade (@bg_color, 0.66);
+    border-left-color: shade (@bg_color, 0.7);
+    border-right-color: shade (@bg_color, 0.7);
+    border-top-color: shade (@bg_color, 0.8);
     border-style: solid;
     padding: 0;
-    color: @dark_fg_color;
+
+    color: @fg_color;
+
+    box-shadow: inset -1px 0 shade (@bg_color, 1.18),
+                inset 1px 0 shade (@bg_color, 1.18),
+                inset 0 1px shade (@bg_color, 1.18);
 }
 
 .menu:selected {
@@ -866,12 +878,28 @@ GtkComboBox .menu {
 .menu.button:active,
 .menu.button:active:insensitive,
 .menu.button:insensitive,
-.menu.button {
+.menu.button
+/*.primary-toolbar .menu.button:hover,
+.primary-toolbar .menu.button:active,
+.primary-toolbar .menu.button:active:insensitive,
+.primary-toolbar .menu.button:insensitive,
+.primary-toolbar .menu.button,
+.menubar.toolbar .menu.button:hover,
+.menubar.toolbar .menu.button:active,
+.menubar.toolbar .menu.button:active:insensitive,
+.menubar.toolbar .menu.button:insensitive,
+.menubar.toolbar .menu.button,
+.header-bar .menu.button:hover,
+.header-bar .menu.button:active,
+.header-bar .menu.button:active:insensitive,
+.header-bar .menu.button:insensitive,
+.header-bar .menu.button */
+{
     background-color: shade (@dark_bg_color, 1.08);
     background-image: none;
     border-radius: 0;
     border-style: none;
-    border-width: 0px;
+    border-width: 1px;
 }
 
 /***********
@@ -879,9 +907,11 @@ GtkComboBox .menu {
  ***********/
 .menubar {
     -GtkWidget-window-dragging: true;
-    background-color: @bg_color;
+
+    background-color: @toolbar_base;
     background-image: none;
     border-width: 0;
+
     color: @dark_fg_color;
     text-shadow: 0 -1px shade (@dark_bg_color, 0.6);
 }
@@ -894,45 +924,32 @@ GtkComboBox .menu {
 /***************
  * menubaritem *
  ***************/
-.menubar.menuitem,
-.menubar .menuitem {
-	border-width: 1px;
-	padding: 3px 5px 3px 5px;
-}
-
 .menubar.menuitem:hover,
 .menubar .menuitem:hover {
-    border-style: solid;
     border-radius: 4px 4px 0 0;
-    border-width: 0px;
-    background-image: none;
-    border-image: -gtk-gradient (linear, left top, left bottom,
-                                 from (shade (@selected_bg_color, 0.7)),
-                                 to (shade (@selected_bg_color, 0.7))) 1;
-    background-color: @selected_bg_color;
+    border-width: 1px 1px 0 1px;
+    background-color: @selected_bg;
+    /*box-shadow: inset 0 -1px shade (@dark_bg_color, 0.95);*/
     box-shadow: none;
-    color: @selected_fg_color;
+
+    color: shade (@dark_fg_color, 1.1);
     text-shadow: 0 -1px shade (@dark_bg_color, 0.7);
 }
 
 /************
  * menuitem *
  ************/
-.menuitem {
-    border-radius: 0;
-    border-style: none;
-    border-width: 1px;
-    padding: 3px 6px 3px 6px;
-    text-shadow: none;
-}
+/*.menuitem {
+    color: @fg_color;
+}*/
 
-/* Workaround for lp:1186631 */
-.menuitem:active {
-	color: @selected_fg_color2;
-	padding: 3px 6px 3px 6px;
-	border-width:  0px 1px 1px 0px;
-	border-radius: 0px;
-	border-style: none;   
+.menuitem {
+    -GtkMenuItem-horizontal-padding: 0;
+    background: transparent;
+    border-radius: 0;
+    padding: 3px 5px 3px 5px;
+
+    text-shadow: none;
 }
 
 .menuitem {
@@ -941,6 +958,7 @@ GtkComboBox .menu {
 
 /* Workaround for lp:949368 */
 GtkComboBox .menuitem * {
+    background-image: #ff0000;
     color: @fg_color;
 }
 
@@ -950,7 +968,7 @@ GtkComboBox .menuitem *:hover {
 
 .menuitem:hover,
 .menu .menuitem:hover {
-    border-radius: 0px;
+    border-radius: 0;
     background-image: -gtk-gradient (linear, left top, left bottom,
                                      from (shade (@selected_bg_color, 1.1)),
                                      to (shade (@selected_bg_color, 0.9)));
@@ -977,14 +995,28 @@ GtkComboBox .menuitem *:hover {
     box-shadow: none;
 }
 
+/*.menuitem:insensitive,
+.menuitem *:insensitive {
+    color: mix (@fg_color, @bg_color, 0.5);
+    text-shadow: 0 1px shade (@bg_color, 1.14);
+}
+*/
 GtkTreeMenu.menu .menuitem:insensitive,
 GtkTreeMenu.menu .menuitem *:insensitive,
 .toolbar .primary-toolbar .menu .menuitem:insensitive,
 .toolbar .primary-toolbar .menu .menuitem *:insensitive,
+.toolbar .menubar.toolbar .menu .menuitem:insensitive,
+.toolbar .menubar.toolbar .menu .menuitem *:insensitive,
+.toolbar .header-bar .menu .menuitem:insensitive,
+.toolbar .header-bar .menu .menuitem *:insensitive,
 GtkMenuToolButton.menu .menuitem:insensitive,
 GtkMenuToolButton.menu .menuitem *:insensitive,
 .primary-toolbar .button .menu .menuitem:insensitive,
 .primary-toolbar .button .menu .menuitem *:insensitive,
+.menubar.toolbar .button .menu .menuitem:insensitive,
+.menubar.toolbar .button .menu .menuitem *:insensitive,
+.header-bar .button .menu .menuitem:insensitive,
+.header-bar .button .menu .menuitem *:insensitive,
 .menuitem:insensitive,
 .menuitem *:insensitive {
     color: mix (@dark_fg_color, @dark_bg_color, 0.5);
@@ -1009,6 +1041,7 @@ GtkComboBox .menu .menuitem *:insensitive {
     border-style: solid;
     border-width: 0;
     padding: 0;
+
     color: @dark_fg_color;
 }
 
@@ -1017,10 +1050,16 @@ GtkComboBox .menu .menuitem *:insensitive {
     background-image: none;
 }
 
+.menuitem GtkCalendar:inconsistent {
+    color: shade (@bg_color, 0.6);
+}
+
 .menuitem .entry {
     background-color: shade (@dark_bg_color, 1.3);
     background-image: none;
+
     color: @dark_fg_color;
+
     border-image: -gtk-gradient (linear, left top, left bottom,
                                  from (shade (@dark_bg_color, 0.75)),
                                  to (shade (@dark_bg_color, 0.9))) 1;
@@ -1028,6 +1067,11 @@ GtkComboBox .menu .menuitem *:insensitive {
 }
 
 .primary-toolbar GtkScale.trough,
+.primary-toolbar GtkScale.trough:backdrop,
+.menubar.toolbar GtkScale.trough,
+.menubar.toolbar GtkScale.trough:backdrop,
+.header-bar GtkScale.trough,
+.header-bar GtkScale.trough:backdrop,
 .menuitem GtkScale.trough {
     background-color: @dark_bg_color;
     background-image: none;
@@ -1048,6 +1092,10 @@ GtkComboBox .menu .menuitem *:insensitive {
 .menuitem .accelerator:insensitive {
     color: alpha (mix (@dark_fg_color, @dark_bg_color, 0.5), 0.5);
     text-shadow: 0 -1px shade (@dark_bg_color, 0.7);
+}
+
+.menuitem > GtkBox > GtkImage + GtkLabel {
+    padding-left: 6px;
 }
 
 /************
@@ -1160,7 +1208,7 @@ GtkComboBox .menu .menuitem *:insensitive {
  *************************/
 GtkScale,
 GtkProgressBar {
-    border-radius: 10px;
+    border-radius: 8px;
     border-width: 0px;
     padding: 1px;
 }
@@ -1181,9 +1229,9 @@ GtkProgressBar {
 .progressbar row:selected,
 .progressbar row:selected:focused {
     border-radius: 8px;
-    border-width: 0px;
+    border-width: 1px;
     background-image: none;
-    background-color: @link_color;
+    background-color: @progress_color;
     border-style: solid;
 }
 
@@ -1197,7 +1245,7 @@ GtkProgressBar {
     border-radius: 8px;
     border-width: 0px;
     background-image: none;
-    background-color: @toolbar_final;
+    background-color: #b0b0b0;
 }
 
 .scale.highlight.left:insensitive {
@@ -1222,6 +1270,7 @@ GtkProgressBar {
                                      to (#e8e8e8));
     border-style: solid;
     border-width: 1px;
+
     color: @text_color;
 }
 
@@ -1250,8 +1299,9 @@ GtkLevelBar.vertical {
 .level-bar.fill-block {
     border-width: 1px;
     border-style: solid;
+
     border-color: @selected_bg_color;
-    background-color: @link_color;
+    background-color: @selected_bg_color;
 }
 
 .level-bar.indicator-continuous.fill-block {
@@ -1275,6 +1325,28 @@ GtkLevelBar.vertical {
 .level-bar.indicator-discrete.fill-block.vertical {
     margin: 1px 0;
 }
+
+/* discrete indicator border rounding,
+   uncomment when :nth-child will be working
+   on the widget
+
+.level-bar.indicator-discrete.fill-block.horizontal:first-child {
+    border-radius: 2px 0 0 2px;
+}
+
+.level-bar.indicator-discrete.fill-block.horizontal:last-child {
+    border-radius: 0 2px 2px 0;
+}
+
+.level-bar.indicator-discrete.fill-block.vertical:first-child {
+    border-radius: 2px 2px 0 0;
+}
+
+.level-bar.indicator-discrete.fill-block.vertical:last-child {
+    border-radius: 0 0 2px 2px;
+}
+
+*/
 
 .level-bar.fill-block.level-high {
     border-color: shade(@success_color, 0.85);
@@ -1321,8 +1393,9 @@ GtkScale.vertical {
 }
 
 .scale.trough.highlight {
-    background-color: @link_color;
+    background-color: @progress_color;
     background-image: none;
+    background-clip: content-box;
 }
 
 .scale.trough.highlight:insensitive {
@@ -1337,6 +1410,7 @@ GtkScale.vertical {
 .scale.trough.highlight:backdrop {
     background-color: #dcdcdc;
     background-image: none;
+    /*background-clip: padding-box;*/
 }
 
 
