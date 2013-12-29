@@ -79,7 +79,7 @@
 	<!-- Background gradient -->
 	<gradient type="vertical" x="0" y="0" width="width" height="top_height">
 		<color value="#e8e8e8" />
-		<color value="#d2d2d2" />
+		<color value="#e0e0e0" />
 	</gradient>
 	
 	<!-- Titlebar outline -->
@@ -99,7 +99,7 @@
 	<!-- Background gradient -->
 	<gradient type="vertical" x="0" y="0" width="width+9" height="height">
 		<color value="#e8e8e8" />
-		<color value="#d2d2d2" />
+		<color value="#e0e0e0" />
 	</gradient>
 
 	<!-- Titlebar outline -->
