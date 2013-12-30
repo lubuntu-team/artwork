@@ -194,7 +194,7 @@ GtkMenuToolButton.menu .menuitem *:insensitive,
 		to (@scrollslider_gradient_b));
 	background-color: @theme_base_color;
 	border-color: transparent;
-	border-radius: 10;
+	border-radius: 10px;
 	border-width: 1px;
 }
 
@@ -206,7 +206,7 @@ GtkMenuToolButton.menu .menuitem *:insensitive,
 		to (shade (@scrollslider_gradient_b, 0.90)));
 	background-color: @theme_base_color;
 	border-color: transparent;
-	border-radius: 10;
+	border-radius: 10px;
 	border-width: 1px;
 }
 
@@ -218,7 +218,7 @@ GtkMenuToolButton.menu .menuitem *:insensitive,
 		to (shade (@scrollslider_gradient_b, 0.80)));
 	background-color: @theme_base_color;
 	border-color: transparent;
-	border-radius: 10;
+	border-radius: 10px;
 	border-width: 1px;
 }
 

@@ -7,7 +7,8 @@
 [Desktop Entry]
 Name=Lubuntu
 Type=X-GNOME-Metatheme
-Comment=FIXED theme for Lubuntu
+Comment=Default theme for Lubuntu
+Encoding=UTF-8
 
 [X-GNOME-Metatheme]
 GtkTheme=Lubuntu
@@ -15,3 +16,5 @@ IconTheme=Lubuntu
 CursorTheme=DMZ-Black
 CursorSize=24
 NotificationTheme=ubuntu
+MetacityTheme=Box-default
+ButtonLayout=close,minimize,maximize:

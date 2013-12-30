@@ -329,7 +329,7 @@ style "toolbar-button" = "notebook_button" {
 style "menu" {
 	xthickness = 0
 	ythickness = 0
-
+	bg[NORMAL] = @base_color
 	engine "murrine"
 	{
 		reliefstyle = 0
@@ -695,3 +695,4 @@ include "assets/statusbar.rc"
 include "assets/toolbar.rc"
 include "assets/pcmanfm.rc"
 include "assets/xfce4-notifyd.rc"
+include "assets/thunar.rc"
