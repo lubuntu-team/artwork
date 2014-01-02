@@ -1,6 +1,6 @@
 
 style "pcmanfm-sidebar" {
-	GtkTreeView::even_row_color   = "#e0e0e0"
+	GtkTreeView::even_row_color   = @sidepane_color
 }
 
 style "pcmanfm-handle" {

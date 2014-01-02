@@ -7,6 +7,7 @@ gtk_color_scheme = "selected_fg_color:#ffffff"
 gtk_color_scheme = "tooltip_bg_color:#303334"
 gtk_color_scheme = "tooltip_fg_color:#E6E6E6"
 gtk_color_scheme = "link_color:#148add"
+gtk_color_scheme = "sidepane_color:#dae0e6"
 
 gtk-icon-sizes = "panel-menu=22,22:gtk-button=16,16"
 gtk-auto-mnemonics = 1
