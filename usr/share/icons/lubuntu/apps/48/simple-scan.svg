@@ -100,12 +100,6 @@
         <linearGradient inkscape:collect="always" xlink:href="#linearGradient998" id="linearGradient4101" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0,0.68571429,-0.81818182,0,4.363636,6.0428572)" x1="6" y1="-23" x2="42" y2="-23" />
         <linearGradient inkscape:collect="always" xlink:href="#linearGradient3888" id="linearGradient3982" gradientUnits="userSpaceOnUse" gradientTransform="translate(-4,1)" x1="23" y1="13" x2="23" y2="23" />
         <linearGradient inkscape:collect="always" xlink:href="#linearGradient3934" id="linearGradient3984" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1,0,0,0.89504694,-4,3.4139203)" x1="25" y1="16.29644" x2="25" y2="23" />
-        <linearGradient id="linearGradient4193-4">
-            <stop style="stop-color:aqua;stop-opacity:0;" offset="0" id="stop4195-3" />
-            <stop id="stop4201-0" offset="0.5" style="stop-color:aqua;stop-opacity:1;" />
-            <stop style="stop-color:aqua;stop-opacity:0;" offset="1" id="stop4197-9" />
-        </linearGradient>
-        <linearGradient y2="28" x2="25" y1="21" x1="25" gradientTransform="matrix(0.99999999,0,0,1.4285713,-10e-7,-30.000002)" gradientUnits="userSpaceOnUse" id="linearGradient3117" xlink:href="#linearGradient4193-4" inkscape:collect="always" />
     </defs>
     <sodipodi:namedview id="base" pagecolor="#ffffff" bordercolor="#666666" borderopacity="1.0" inkscape:pageopacity="0.0" inkscape:pageshadow="2" inkscape:zoom="15.999999" inkscape:cx="28.733331" inkscape:cy="21.148672" inkscape:current-layer="layer1" showgrid="true" inkscape:grid-bbox="true" inkscape:document-units="px" inkscape:window-width="1280" inkscape:window-height="976" inkscape:window-x="0" inkscape:window-y="21" inkscape:window-maximized="1" inkscape:snap-to-guides="true" inkscape:snap-grids="true" inkscape:snap-center="true" inkscape:snap-object-midpoints="true" inkscape:snap-bbox="true">
         <inkscape:grid type="xygrid" id="grid1021" />

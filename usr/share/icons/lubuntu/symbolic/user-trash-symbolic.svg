@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" viewBox="0 0 16 16" id="svg2" version="1.1" inkscape:version="0.48.4 r9939" width="100%" height="100%" sodipodi:docname="user-trash-symbolic.svg">
+    <metadata id="metadata51">
+        <rdf:RDF>
+            <cc:Work rdf:about="">
+                <dc:format>image/svg+xml</dc:format>
+                <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+                <dc:title />
+            </cc:Work>
+        </rdf:RDF>
+    </metadata>
+    <sodipodi:namedview pagecolor="#ffffff" bordercolor="#666666" borderopacity="1" objecttolerance="10" gridtolerance="10" guidetolerance="10" inkscape:pageopacity="0" inkscape:pageshadow="2" inkscape:window-width="1280" inkscape:window-height="998" id="namedview49" showgrid="true" inkscape:zoom="29.5" inkscape:cx="9.476144" inkscape:cy="8.3467948" inkscape:window-x="0" inkscape:window-y="0" inkscape:window-maximized="1" inkscape:current-layer="svg2" inkscape:snap-bbox="true">
+        <inkscape:grid type="xygrid" id="grid3028" />
+    </sodipodi:namedview>
+    <defs id="defs4" />
+    <path id="path3057" style="opacity:1;color:black;fill:#bebebe;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" d="m 12,13 1,0 0,1 -1,0 z m -3,0 1,0 0,1 -1,0 z m -3,0 1,0 0,1 -1,0 z m -3,0 1,0 0,1 -1,0 z m 9,-2 1,0 0,1 -1,0 z m -3,0 1,0 0,1 -1,0 z m -3,0 1,0 0,1 -1,0 z m -3,0 1,0 0,1 -1,0 z m 9,-2 1,0 0,1 -1,0 z m -3,0 1,0 0,1 -1,0 z M 6,9 7,9 7,10 6,10 z M 3,9 4,9 4,10 3,10 z M 2,1 1,2 1,15 2,16 14,16 15,15 15,2 14,1 z M 2,2 14,2 14,7 2,7 z" inkscape:connector-curvature="0" sodipodi:nodetypes="cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc" />
+</svg>

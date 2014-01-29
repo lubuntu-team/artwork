@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
-<svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" width="22" height="22" id="svg4700" version="1.1" inkscape:version="0.48.4 r9939" sodipodi:docname="samba24.svg">
+<svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" width="22" height="22" id="svg4700" version="1.1" inkscape:version="0.48.4 r9939" sodipodi:docname="system-config-samba.svg">
     <defs id="defs4702">
         <linearGradient id="linearGradient3958">
             <stop style="stop-color:gray;stop-opacity:1;" offset="0" id="stop3960" />
@@ -52,20 +52,12 @@
             <stop id="stop3840" offset="0" style="stop-color:white;stop-opacity:1;" />
             <stop style="stop-color:#464646;stop-opacity:1;" offset="1" id="stop3826" />
         </linearGradient>
-        <linearGradient gradientTransform="matrix(0.52380952,0,0,0.5,-1.1428571,23)" inkscape:collect="always" xlink:href="#linearGradient3943" id="linearGradient3957" gradientUnits="userSpaceOnUse" x1="42" y1="45" x2="48" y2="45" />
-        <linearGradient inkscape:collect="always" id="linearGradient3943">
-            <stop style="stop-color:#d2d2d2;stop-opacity:1;" offset="0" id="stop3945" />
-            <stop style="stop-color:#d2d2d2;stop-opacity:0;" offset="1" id="stop3947" />
-        </linearGradient>
         <linearGradient inkscape:collect="always" xlink:href="#linearGradient3935" id="linearGradient3955" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0.5238095,0,0,0.25,-3.1428567,36.25)" x1="42" y1="43" x2="47" y2="43" />
         <linearGradient id="linearGradient3935">
             <stop style="stop-color:#646464;stop-opacity:1;" offset="0" id="stop3937" />
             <stop style="stop-color:#464646;stop-opacity:0;" offset="1" id="stop3939" />
         </linearGradient>
-        <linearGradient inkscape:collect="always" xlink:href="#linearGradient3935" id="linearGradient3941" x1="42" y1="43" x2="47" y2="43" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0.5238095,0,0,0.25,-1.1428567,33.25)" />
-        <linearGradient inkscape:collect="always" xlink:href="#linearGradient3935" id="linearGradient3123" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0.5238095,0,0,0.25,-25.142857,33.25)" x1="42" y1="43" x2="47" y2="43" />
         <linearGradient inkscape:collect="always" xlink:href="#linearGradient3935" id="linearGradient3125" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0.5238095,0,0,0.25,-25.142857,36.25)" x1="42" y1="43" x2="47" y2="43" />
-        <linearGradient inkscape:collect="always" xlink:href="#linearGradient3943" id="linearGradient3127" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0.52380952,0,0,0.5,-25.142857,23)" x1="42" y1="45" x2="48" y2="45" />
     </defs>
     <sodipodi:namedview id="base" pagecolor="#ffffff" bordercolor="#666666" borderopacity="1.0" inkscape:pageopacity="0.0" inkscape:pageshadow="2" inkscape:zoom="16" inkscape:cx="19.450643" inkscape:cy="6.5796625" inkscape:current-layer="layer1" showgrid="true" inkscape:grid-bbox="true" inkscape:document-units="px" inkscape:window-width="1215" inkscape:window-height="1000" inkscape:window-x="65" inkscape:window-y="24" inkscape:window-maximized="1" inkscape:snap-to-guides="false" inkscape:snap-grids="true" inkscape:snap-page="true" inkscape:snap-object-midpoints="true" inkscape:snap-midpoints="true" inkscape:snap-bbox="true" inkscape:snap-nodes="false" inkscape:snap-global="true">
         <inkscape:grid type="xygrid" id="grid1021" empspacing="5" visible="true" enabled="true" snapvisiblegridlinesonly="true" />
@@ -75,7 +67,7 @@
             <cc:Work rdf:about="">
                 <dc:format>image/svg+xml</dc:format>
                 <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-                <dc:title></dc:title>
+                <dc:title />
             </cc:Work>
         </rdf:RDF>
     </metadata>

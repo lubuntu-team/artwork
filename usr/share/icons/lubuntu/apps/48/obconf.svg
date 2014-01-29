@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" viewBox="0 0 48 48" id="svg2" version="1.1" inkscape:version="0.48.4 r9939" width="100%" height="100%" sodipodi:docname="window-manager.svg">
+<svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" viewBox="0 0 48 48" id="svg2" version="1.1" inkscape:version="0.48.4 r9939" width="100%" height="100%" sodipodi:docname="wmtweaks.svg">
     <metadata id="metadata51">
         <rdf:RDF>
             <cc:Work rdf:about="">
                 <dc:format>image/svg+xml</dc:format>
                 <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-                <dc:title></dc:title>
+                <dc:title />
             </cc:Work>
         </rdf:RDF>
     </metadata>
@@ -13,11 +13,6 @@
         <inkscape:grid type="xygrid" id="grid3259" />
     </sodipodi:namedview>
     <defs id="defs4">
-        <linearGradient id="linearGradient3036">
-            <stop style="stop-color:black;stop-opacity:1;" offset="0" id="stop3038" />
-            <stop id="stop3812" offset="0.5" style="stop-color:#9b9b9b;stop-opacity:1;" />
-            <stop style="stop-color:black;stop-opacity:1;" offset="1" id="stop3040" />
-        </linearGradient>
         <linearGradient id="linearGradient3806">
             <stop style="stop-color:#132f4c;stop-opacity:1;" offset="0" id="stop3808" />
             <stop style="stop-color:white;stop-opacity:1;" offset="1" id="stop3810" />

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" viewBox="0 0 48 48" id="svg2" version="1.1" inkscape:version="0.48.4 r9939" width="100%" height="100%" sodipodi:docname="clock.svg">
+<svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" viewBox="0 0 48 48" id="svg2" version="1.1" inkscape:version="0.48.4 r9939" width="100%" height="100%" sodipodi:docname="preferences-system-time.svg">
     <metadata id="metadata51">
         <rdf:RDF>
             <cc:Work rdf:about="">
@@ -17,9 +17,6 @@
             <stop id="stop39-0" stop-opacity="0" stop-color="#fff" offset="1" />
         </linearGradient>
         <linearGradient inkscape:collect="always" xlink:href="#linearGradient4594-3" id="linearGradient3952" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0.9882196,0,0,0.93150688,2.4829995,4.4109667)" x1="8.2114201" y1="-5.7136502" x2="31.74275" y2="25.48744" />
-        <filter inkscape:collect="always" id="filter3974">
-            <feGaussianBlur inkscape:collect="always" stdDeviation="0.12499999" id="feGaussianBlur3976" />
-        </filter>
         <linearGradient id="linearGradient5060-9">
             <stop offset="0" style="stop-color:#000000;stop-opacity:1" id="stop5062-2" />
             <stop offset="1" style="stop-color:#000000;stop-opacity:0" id="stop5064-0" />
