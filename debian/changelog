@@ -1,3 +1,12 @@
+lubuntu-artwork (0.43) UNRELEASED; urgency=low
+
+  * Update icon theme.
+  * Remove elementaryLubuntu icon set.
+  * Fix menu background (LP: #1256560).
+  * Add Unity and Xfce support.
+
+ -- Julien Lavergne <gilir@ubuntu.com>  Sun, 09 Feb 2014 20:41:52 +0100
+
 lubuntu-artwork (0.42) trusty; urgency=low
 
   * Update icon theme.
