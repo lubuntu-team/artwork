@@ -8,6 +8,7 @@ gtk_color_scheme = "tooltip_bg_color:#303334"
 gtk_color_scheme = "tooltip_fg_color:#E6E6E6"
 gtk_color_scheme = "link_color:#148add"
 gtk_color_scheme = "sidepane_color:#dae0e6"
+gtk_color_scheme = "sidebar_color:#dae0e6"
 
 gtk-icon-sizes = "panel-menu=22,22:gtk-button=16,16"
 gtk-auto-mnemonics = 1
@@ -24,16 +25,13 @@ style "default" {
 	GtkButton::child-displacement-x = 1
 	GtkButton::child-displacement-y = 1
 	GtkButton::default-border = { 0, 0, 0, 0 }
-
 	GtkCheckButton::indicator-size = 16
-
 	GtkPaned::handle-size = 6
-
 	GtkRange::trough-border = 0
 	GtkRange::slider-width = 14
 	GtkRange::stepper-size = 13
+	GtkRange::resize-grip = 13
 	GtkRange::trough-under-steppers = 1
-
 	GtkScale::trough-border = 0
 	GtkScale::slider-width = 23
 	GtkScale::slider-length = 14
