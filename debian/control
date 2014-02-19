@@ -155,7 +155,8 @@ Description: plymouth text theme for Lubuntu
 
 Package: lubuntu-icon-theme
 Architecture: all
-Depends: elementary-icon-theme (>= 2.6),
+Depends: gnome-icon-theme-full,
+         hicolor-icon-theme,
          gnome-icon-theme-symbolic,
          ${misc:Depends}
 Description: icon theme for Lubuntu
