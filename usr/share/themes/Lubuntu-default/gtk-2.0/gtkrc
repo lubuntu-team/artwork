@@ -687,7 +687,7 @@ widget_class "EShellWindow.GtkVBox.BonoboDock.BonoboDockBand.BonoboDockItem*" st
 include "assets/ff.rc"
 include "assets/chromium.rc"
 include "assets/gnome-terminal.rc"
-include "assets/nautilus.rc"
+#include "assets/nautilus.rc"
 include "assets/lxpanel.rc"
 include "assets/entry.rc"
 include "assets/statusbar.rc"

@@ -1,5 +1,5 @@
 /*default color scheme */
-@define-color bg_color #e0e0e0;
+@define-color bg_color #f2f1f0;
 @define-color fg_color #4c4c4c;
 @define-color base_color #ffffff;
 @define-color text_color #333333;
@@ -22,6 +22,7 @@
 @define-color combobox_color #888888;
 @define-color progress_color #5591c3;
 @define-color scroll_color #B3B3B3;
+@define-color sidepane_color #dae0e6;
 
 /* theme common colors */
 @define-color button_bg_color shade (@bg_color, 1.02); /*shade (#cdcdcd, 1.08);*/
@@ -67,5 +68,6 @@
 @import url("apps/nautilus.css");
 @import url("apps/gnome-panel.css");
 @import url("apps/gnome-terminal.css");
+@import url("apps/gnome-system-log.css");
 
 @import url("gtk-lubuntu.css");

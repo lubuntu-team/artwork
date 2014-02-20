@@ -230,3 +230,11 @@ GtkMenuToolButton.menu .menuitem *:insensitive,
 	background-color: shade (@theme_bg_color, 0.882);
 }
 
+
+/* Nautilus mods */
+
+/* sidebar */
+NautilusWindow .sidebar,
+NautilusWindow .sidebar .view {
+    background-color: @sidepane_color;
+}
