@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="22"
+   height="22"
+   id="svg6662"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="object-flip-horizontal.svg">
+  <defs
+     id="defs6664">
+    <linearGradient
+       y2="11.02436"
+       y1="3.0069399"
+       x2="0"
+       id="linearGradient1022-8-8-3-0-1-6"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         id="stop3001-0-9-4-2-6"
+         offset="0" />
+      <stop
+         id="stop3003-5-6-6-2-7"
+         stop-color="#363636"
+         offset="1" />
+    </linearGradient>
+    <linearGradient
+       y2="21.129047"
+       x2="107.13226"
+       y1="11.192986"
+       x1="107.13226"
+       gradientTransform="matrix(1.119994,0,0,1.0064811,85.016638,119.49574)"
+       gradientUnits="userSpaceOnUse"
+       id="linearGradient8612"
+       xlink:href="#linearGradient1022-8-8-3-0-1-6"
+       inkscape:collect="always" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="3.959798"
+     inkscape:cx="31.628015"
+     inkscape:cy="13.89448"
+     inkscape:document-units="px"
+     inkscape:current-layer="capa1"
+     showgrid="false"
+     inkscape:showpageshadow="false"
+     inkscape:window-width="730"
+     inkscape:window-height="702"
+     inkscape:window-x="484"
+     inkscape:window-y="100"
+     inkscape:window-maximized="0" />
+  <metadata
+     id="metadata6667">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Capa 1"
+     inkscape:groupmode="layer"
+     id="capa1"
+     transform="translate(0,-1030.3622)">
+    <g
+       id="object-flip-horizontal"
+       transform="matrix(1.4999313,0,0,1.4999313,-293.4866,374.8489)">
+      <rect
+         style="opacity:0.6;color:#000000;fill:none;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         id="rect3039"
+         width="16"
+         height="16"
+         x="195"
+         y="436.36292" />
+      <path
+         sodipodi:nodetypes="ccccccccccccccccccccc"
+         inkscape:connector-curvature="0"
+         id="path6484"
+         d="m 199.00384,441.69575 -3.33349,3.33349 3.33349,3.33348 2.00009,0 -3.33349,-3.33348 3.33349,-3.33349 z m 6.00027,0 3.33349,3.33349 -3.33349,3.33348 2.00009,0 3.33349,-3.33348 -3.33349,-3.33349 z m -5.33358,2.66679 -0.66669,0.6667 0.66669,0.66669 6.66698,0 0.66669,-0.66669 -0.66669,-0.6667 z"
+         style="opacity:0.6;color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.6666972;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+      <path
+         style="opacity:0.7;color:#000000;fill:url(#linearGradient8612);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         d="m 199.00385,132.76136 -3.33349,3.33349 3.33349,3.33348 2.00009,0 -3.33349,-3.33348 3.33349,-3.33349 z m 6.00027,0 3.33349,3.33349 -3.33349,3.33348 2.00009,0 3.33349,-3.33348 -3.33349,-3.33349 z m -5.33358,2.66679 -0.66669,0.6667 0.66669,0.66669 6.66698,0 0.66669,-0.66669 -0.66669,-0.6667 z"
+         transform="translate(0,308.2677)"
+         id="path6797"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="ccccccccccccccccccccc" />
+    </g>
+  </g>
+</svg>

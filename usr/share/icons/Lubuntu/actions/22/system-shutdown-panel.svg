@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.0"
+   width="24"
+   height="24"
+   id="svg2403"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="system-shutdown-panel.svg">
+  <metadata
+     id="metadata15">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1024"
+     inkscape:window-height="550"
+     id="namedview13"
+     showgrid="false"
+     inkscape:zoom="8"
+     inkscape:cx="9.1250001"
+     inkscape:cy="17.569763"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg2403" />
+  <defs
+     id="defs2405">
+    <linearGradient
+       id="linearGradient3587-8-5">
+      <stop
+         id="stop3589-2-7"
+         style="stop-color:#000000;stop-opacity:1"
+         offset="0" />
+      <stop
+         id="stop3591-3-5"
+         style="stop-color:#363636;stop-opacity:1"
+         offset="1" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3587-8-5"
+       id="linearGradient3149"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.0526316,0,0,0.9843625,2.5789474,5.0602428)"
+       x1="8.4964771"
+       y1="-0.061573759"
+       x2="8.4964771"
+       y2="8.083209" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3587-8-5"
+       id="linearGradient3151"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(3.0000002,5)"
+       x1="11.644068"
+       y1="2.4988678"
+       x2="11.644068"
+       y2="15.00281" />
+  </defs>
+  <g
+     id="g3143"
+     transform="matrix(1.1536121,0,0,1.1149513,-0.68973283,-2.4936825)">
+    <path
+       inkscape:connector-curvature="0"
+       style="opacity:0.6;fill:none;stroke:#ffffff;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible"
+       id="path3169"
+       d="M 11,13 11,6.9996319" />
+    <path
+       inkscape:connector-curvature="0"
+       style="opacity:0.6;fill:none;stroke:#ffffff;stroke-width:1.89999998;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible"
+       id="path3341-5"
+       d="m 7.8427514,9.45 c -5.2338614,2.742151 -2.8671232,10.6 3.1164406,10.6 5.921233,0 8.575036,-7.449605 3.11644,-10.6" />
+    <path
+       inkscape:connector-curvature="0"
+       style="opacity:0.7;fill:none;stroke:url(#linearGradient3149);stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible"
+       id="path3716"
+       d="M 11,12 11,5.9996319" />
+    <path
+       inkscape:connector-curvature="0"
+       style="opacity:0.7;fill:none;stroke:url(#linearGradient3151);stroke-width:1.89999998;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible"
+       id="path3341"
+       d="m 7.8427514,8.45 c -5.2338614,2.742151 -2.8671232,10.6 3.1164406,10.6 5.921233,0 8.575036,-7.449605 3.11644,-10.6" />
+  </g>
+</svg>
