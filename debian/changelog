@@ -1,4 +1,4 @@
-lubuntu-artwork (0.45) UNRELEASED; urgency=medium
+lubuntu-artwork (0.45) trusty; urgency=medium
 
   * usr/share/themes/Lubuntu-default:
    - Final update for 14.04.
@@ -10,7 +10,7 @@ lubuntu-artwork (0.45) UNRELEASED; urgency=medium
   * usr/share/lubuntu/wallpapers/
    - Update with final wallpaper and community wallpapers.
 
- -- Julien Lavergne <gilir@ubuntu.com>  Wed, 12 Mar 2014 22:34:43 +0100
+ -- Julien Lavergne <gilir@ubuntu.com>  Wed, 12 Mar 2014 22:51:54 +0100
 
 lubuntu-artwork (0.44) trusty; urgency=low
 
