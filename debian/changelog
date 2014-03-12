@@ -1,3 +1,17 @@
+lubuntu-artwork (0.45) UNRELEASED; urgency=medium
+
+  * usr/share/themes/Lubuntu-default:
+   - Final update for 14.04.
+  * Update icon theme.
+  * usr/share/themes/Lubuntu-dark-panel
+   - New theme with a dark panel.
+  * usr/share/icons/Lubuntu-dark-panel
+   - New icon theme to use with dark theme.
+  * usr/share/lubuntu/wallpapers/
+   - Update with final wallpaper and community wallpapers.
+
+ -- Julien Lavergne <gilir@ubuntu.com>  Wed, 12 Mar 2014 22:34:43 +0100
+
 lubuntu-artwork (0.44) trusty; urgency=low
 
   * Update icon theme.
