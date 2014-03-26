@@ -1,3 +1,10 @@
+lubuntu-artwork (0.46) UNRELEASED; urgency=medium
+
+  * usr/share/themes/Lubuntu-default
+   - Move metacity theme to the main theme.
+
+ -- Julien Lavergne <gilir@ubuntu.com>  Wed, 26 Mar 2014 19:28:48 +0100
+
 lubuntu-artwork (0.45) trusty; urgency=medium
 
   * usr/share/themes/Lubuntu-default:
