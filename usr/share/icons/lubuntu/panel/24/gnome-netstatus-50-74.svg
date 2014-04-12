@@ -15,8 +15,8 @@
    height="24"
    id="svg3167"
    sodipodi:version="0.32"
-   inkscape:version="0.48.0 r9654"
-   sodipodi:docname="nm-signal-75.svg"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="gnome-netstatus-50-74.svg"
    inkscape:output_extension="org.inkscape.output.svg.inkscape">
   <metadata
      id="metadata20">
@@ -26,7 +26,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>

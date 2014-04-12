@@ -14,7 +14,7 @@
    width="24"
    height="24"
    id="svg2403"
-   inkscape:version="0.48.3.1 r9886"
+   inkscape:version="0.48.4 r9939"
    sodipodi:docname="system-shutdown-panel.svg">
   <metadata
      id="metadata15">
@@ -60,24 +60,6 @@
          style="stop-color:#363636;stop-opacity:1"
          offset="1" />
     </linearGradient>
-    <linearGradient
-       x1="11.644068"
-       y1="2.4988678"
-       x2="11.644068"
-       y2="15.00281"
-       id="linearGradient2392"
-       xlink:href="#linearGradient3587-8-5"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="translate(3.0000002,5)" />
-    <linearGradient
-       x1="8.4964771"
-       y1="-0.061573759"
-       x2="8.4964771"
-       y2="8.083209"
-       id="linearGradient2395"
-       xlink:href="#linearGradient3587-8-5"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(1.0526316,0,0,0.9843625,2.5789474,5.0602428)" />
     <linearGradient
        inkscape:collect="always"
        xlink:href="#linearGradient3587-8-5"

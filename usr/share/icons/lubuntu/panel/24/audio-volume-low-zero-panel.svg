@@ -14,7 +14,7 @@
    width="24"
    height="24"
    id="svg4431"
-   inkscape:version="0.48.3.1 r9886"
+   inkscape:version="0.48.4 r9939"
    sodipodi:docname="audio-volume-low-zero-panel.svg">
   <metadata
      id="metadata13">
@@ -60,15 +60,6 @@
          style="stop-color:#363636;stop-opacity:1"
          offset="1" />
     </linearGradient>
-    <linearGradient
-       x1="9"
-       y1="3"
-       x2="9"
-       y2="21"
-       id="linearGradient3595"
-       xlink:href="#linearGradient3587-6-5"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(1.1111111,0,0,1.1111111,-2.4444451,-1.888889)" />
     <linearGradient
        inkscape:collect="always"
        xlink:href="#linearGradient3587-6-5"

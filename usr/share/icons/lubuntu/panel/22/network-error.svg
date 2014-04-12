@@ -14,7 +14,7 @@
    height="22"
    id="svg3923"
    version="1.1"
-   inkscape:version="0.48.0 r9654"
+   inkscape:version="0.48.4 r9939"
    sodipodi:docname="network-offline.svg">
   <defs
      id="defs3925">
@@ -88,7 +88,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>

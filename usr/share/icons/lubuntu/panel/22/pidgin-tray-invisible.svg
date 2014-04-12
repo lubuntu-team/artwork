@@ -14,8 +14,8 @@
    width="22"
    height="22"
    id="svg3184"
-   inkscape:version="0.48.0 r9654"
-   sodipodi:docname="user-invisible-panel.svg">
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="pidgin-tray-invisible.svg">
   <metadata
      id="metadata12">
     <rdf:RDF>
@@ -24,7 +24,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>

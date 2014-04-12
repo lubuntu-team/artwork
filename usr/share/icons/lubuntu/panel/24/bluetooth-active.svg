@@ -10,11 +10,11 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="18"
+   width="24"
    height="24"
    id="svg3038"
    version="1.1"
-   inkscape:version="0.48.3.1 r9886"
+   inkscape:version="0.48.4 r9939"
    sodipodi:docname="bluetooth-active.svg">
   <defs
      id="defs3040">
@@ -38,7 +38,7 @@
        y1="28"
        x2="6"
        y2="44"
-       gradientTransform="translate(-2,1)" />
+       gradientTransform="translate(1,1)" />
   </defs>
   <sodipodi:namedview
      id="base"
@@ -48,18 +48,19 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="22.627417"
-     inkscape:cx="1.981533"
-     inkscape:cy="5.9720073"
+     inkscape:cx="11.881028"
+     inkscape:cy="10.65659"
      inkscape:current-layer="layer1"
-     showgrid="false"
+     showgrid="true"
      inkscape:grid-bbox="true"
      inkscape:document-units="px"
-     inkscape:window-width="1920"
-     inkscape:window-height="1036"
+     inkscape:window-width="1280"
+     inkscape:window-height="974"
      inkscape:window-x="0"
-     inkscape:window-y="22"
+     inkscape:window-y="26"
      inkscape:window-maximized="1"
-     inkscape:snap-global="true">
+     inkscape:snap-global="true"
+     inkscape:snap-bbox="true">
     <inkscape:grid
        type="xygrid"
        id="grid3053"
@@ -87,13 +88,13 @@
      transform="translate(0,-24)">
     <path
        style="opacity:0.6;fill:#ffffff;fill-opacity:1"
-       d="m 8,29 0,6 -1,-1 -2,-2 0,2 2,2 1,1 -1,1 -2,2 0,2 2,-2 1,-1 0,6 2,0 1,-1 1,-1 1,-1 0,-1 0,-1 -1,-1 -1,-1 -1,-1 1,-1 1,-1 1,-1 0,-1 0,-1 -1,-1 -1,-1 -1,-1 z m 1,1 1,1 1,1 1,1 -1,1 -1,1 -1,1 z m 0,8 1,1 1,1 1,1 -1,1 -1,1 -1,1 z"
+       d="m 11,29 0,6 -1,-1 -2,-2 0,2 2,2 1,1 -1,1 -2,2 0,2 2,-2 1,-1 0,6 2,0 1,-1 1,-1 1,-1 0,-1 0,-1 -1,-1 -1,-1 -1,-1 1,-1 1,-1 1,-1 0,-1 0,-1 -1,-1 -1,-1 -1,-1 z m 1,1 1,1 1,1 1,1 -1,1 -1,1 -1,1 z m 0,8 1,1 1,1 1,1 -1,1 -1,1 -1,1 z"
        id="rect2996-3"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccccccccccccccccccccccccccccccccccccccccccccccc" />
     <path
        style="opacity:0.7;fill:url(#linearGradient3123);fill-opacity:1"
-       d="m 8,28 0,6 -1,-1 -2,-2 0,2 2,2 1,1 -1,1 -2,2 0,2 2,-2 1,-1 0,6 2,0 1,-1 1,-1 1,-1 0,-1 0,-1 -1,-1 -1,-1 -1,-1 1,-1 1,-1 1,-1 0,-1 0,-1 -1,-1 -1,-1 -1,-1 z m 1,1 1,1 1,1 1,1 -1,1 -1,1 -1,1 z m 0,8 1,1 1,1 1,1 -1,1 -1,1 -1,1 z"
+       d="m 11,28 0,6 -1,-1 -2,-2 0,2 2,2 1,1 -1,1 -2,2 0,2 2,-2 1,-1 0,6 2,0 1,-1 1,-1 1,-1 0,-1 0,-1 -1,-1 -1,-1 -1,-1 1,-1 1,-1 1,-1 0,-1 0,-1 -1,-1 -1,-1 -1,-1 z m 1,1 1,1 1,1 1,1 -1,1 -1,1 -1,1 z m 0,8 1,1 1,1 1,1 -1,1 -1,1 -1,1 z"
        id="rect2996"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccccccccccccccccccccccccccccccccccccccccccccccc" />

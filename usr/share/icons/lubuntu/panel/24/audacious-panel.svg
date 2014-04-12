@@ -14,19 +14,10 @@
    height="24"
    id="svg3173"
    version="1.1"
-   inkscape:version="0.48.3.1 r9886"
+   inkscape:version="0.48.4 r9939"
    sodipodi:docname="audacious-panel.svg">
   <defs
      id="defs3175">
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient5014"
-       id="linearGradient5020"
-       x1="11.152778"
-       y1="1.9097221"
-       x2="11"
-       y2="19.9375"
-       gradientUnits="userSpaceOnUse" />
     <linearGradient
        inkscape:collect="always"
        id="linearGradient5014">
@@ -39,25 +30,6 @@
          offset="1"
          id="stop5018" />
     </linearGradient>
-    <linearGradient
-       y2="19.9375"
-       x2="11"
-       y1="1.9097221"
-       x1="11.152778"
-       gradientUnits="userSpaceOnUse"
-       id="linearGradient3171"
-       xlink:href="#linearGradient5014"
-       inkscape:collect="always" />
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient5014"
-       id="linearGradient3203"
-       gradientUnits="userSpaceOnUse"
-       x1="11.152778"
-       y1="1.9097221"
-       x2="11"
-       y2="19.9375"
-       gradientTransform="translate(5.000004e-8,1029.8622)" />
     <linearGradient
        inkscape:collect="always"
        xlink:href="#linearGradient5014"
