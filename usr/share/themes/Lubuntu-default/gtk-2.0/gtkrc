@@ -677,6 +677,7 @@ include "apps/lubuntu_lxpanel.rc"
 include "apps/lubuntu_toolbar.rc"
 include "apps/lubuntu_entry.rc"
 include "apps/lubuntu_menu.rc"
+include "apps/lubuntu_scrollbar.rc"
 include "apps/pcmanfm.rc"
 
 # XFCE specific
