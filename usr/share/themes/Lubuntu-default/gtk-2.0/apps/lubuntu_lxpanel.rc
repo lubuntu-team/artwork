@@ -2,7 +2,7 @@ style "theme-panel"
 {
 	xthickness = 4
 	ythickness = 0
-	#bg_pixmap[NORMAL] = "images/panel-bg.png"
+	bg_pixmap[NORMAL] = "images/panel-bg.png"
 
 	fg[NORMAL]	= "#000000"
 	fg[PRELIGHT]	= "#ffffff"
