@@ -26,12 +26,12 @@
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
      inkscape:window-width="1280"
-     inkscape:window-height="975"
+     inkscape:window-height="971"
      id="namedview11"
      showgrid="true"
-     inkscape:zoom="16.000001"
-     inkscape:cx="19.811785"
-     inkscape:cy="8.3539993"
+     inkscape:zoom="22.627418"
+     inkscape:cx="24.124285"
+     inkscape:cy="8.8539993"
      inkscape:window-x="0"
      inkscape:window-y="24"
      inkscape:window-maximized="1"
@@ -178,14 +178,5 @@
        x="7"
        y="14"
        ry="1.5" />
-    <rect
-       rx="0.5"
-       ry="0.5"
-       y="14"
-       x="8"
-       height="1"
-       width="1"
-       id="rect3258"
-       style="opacity:0.7;color:#000000;fill:url(#linearGradient3230-3-4);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
   </g>
 </svg>
