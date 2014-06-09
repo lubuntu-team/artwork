@@ -5,6 +5,11 @@ lubuntu-artwork (0.46) utopic; urgency=medium
   * debian/control:
    - Add plymouth-theme-ubuntu-text depends to plymouth-theme-lubuntu-text
      (LP: #1314996)
+  * usr/share/icons:
+   - Make lubuntu theme transitional, and use Lubuntu instead.
+   - Update icons theme.
+   - Make battery icons monochrome (LP: #1306914)
+   - Fix inherit for Lubuntu-dark-panel (LP: #1314288)
 
  -- Julien Lavergne <gilir@ubuntu.com>  Thu, 10 Apr 2014 21:47:59 +0200
 
