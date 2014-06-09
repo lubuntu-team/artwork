@@ -11,6 +11,8 @@ lubuntu-artwork (0.46) utopic; urgency=medium
    - Update icons theme.
    - Make battery icons monochrome (LP: #1306914)
    - Fix inherit for Lubuntu-dark-panel (LP: #1314288)
+  * debian/plymouth-theme-lubuntu-*.{postrm|prerm}
+   - Move scripts to .prerm according to lintian. 
 
  -- Julien Lavergne <gilir@ubuntu.com>  Thu, 10 Apr 2014 21:47:59 +0200
 
