@@ -1,5 +1,6 @@
 lubuntu-artwork (0.46) utopic; urgency=medium
 
+  * Backup current artwork items to 1404 items, and prepare 1410 ones.
   * usr/share/themes/Lubuntu-default
    - Move metacity theme to the main theme.
   * debian/control:
