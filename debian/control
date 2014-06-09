@@ -145,6 +145,7 @@ Package: plymouth-theme-lubuntu-text
 Architecture: all
 Depends: plymouth,
          plymouth-label,
+         plymouth-theme-ubuntu-text,
          ${misc:Depends},
          ${shlibs:Depends}
 Provides: plymouth-theme

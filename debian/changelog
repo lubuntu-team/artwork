@@ -1,7 +1,10 @@
-lubuntu-artwork (0.46) trusty; urgency=medium
+lubuntu-artwork (0.46) utopic; urgency=medium
 
   * usr/share/themes/Lubuntu-default
    - Move metacity theme to the main theme.
+  * debian/control:
+   - Add plymouth-theme-ubuntu-text depends to plymouth-theme-lubuntu-text
+     (LP: #1314996)
 
  -- Julien Lavergne <gilir@ubuntu.com>  Thu, 10 Apr 2014 21:47:59 +0200
 
