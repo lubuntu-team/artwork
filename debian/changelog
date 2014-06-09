@@ -1,4 +1,4 @@
-lubuntu-artwork (0.46) utopic; urgency=medium
+lubuntu-artwork (0.47) utopic; urgency=medium
 
   * Backup current artwork items to 1404 items, and prepare 1410 ones.
   * usr/share/themes/Lubuntu-default
@@ -14,7 +14,7 @@ lubuntu-artwork (0.46) utopic; urgency=medium
   * debian/plymouth-theme-lubuntu-*.{postrm|prerm}
    - Move scripts to .prerm according to lintian. 
 
- -- Julien Lavergne <gilir@ubuntu.com>  Thu, 10 Apr 2014 21:47:59 +0200
+ -- Julien Lavergne <gilir@ubuntu.com>  Mon, 09 Jun 2014 16:42:40 +0200
 
 lubuntu-artwork (0.45) trusty; urgency=medium
 
