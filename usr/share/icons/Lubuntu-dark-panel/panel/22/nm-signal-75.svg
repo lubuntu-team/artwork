@@ -29,9 +29,9 @@
      inkscape:window-height="975"
      id="namedview11"
      showgrid="true"
-     inkscape:zoom="16.000001"
-     inkscape:cx="28.811784"
-     inkscape:cy="7.6664993"
+     inkscape:zoom="22.627418"
+     inkscape:cx="24.124285"
+     inkscape:cy="8.8539993"
      inkscape:window-x="0"
      inkscape:window-y="24"
      inkscape:window-maximized="1"
@@ -60,26 +60,140 @@
   <defs
      id="defs3196">
     <linearGradient
+       id="linearGradient3815">
+      <stop
+         id="stop3817"
+         offset="0"
+         style="stop-color:#828282;stop-opacity:1;" />
+      <stop
+         id="stop3819"
+         offset="1"
+         style="stop-color:#363636;stop-opacity:1;" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient3004-8-6">
+      <stop
+         id="stop3006-3-6"
+         offset="0"
+         style="stop-color:#000000;stop-opacity:1;" />
+      <stop
+         id="stop3008-7-8"
+         offset="1"
+         style="stop-color:#363636;stop-opacity:1;" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient3004-8">
+      <stop
+         id="stop3006-3"
+         offset="0"
+         style="stop-color:#dcdcdc;stop-opacity:1;" />
+      <stop
+         id="stop3008-7"
+         offset="1"
+         style="stop-color:#ffffff;stop-opacity:1;" />
+    </linearGradient>
+    <linearGradient
        inkscape:collect="always"
-       xlink:href="#linearGradient3004-6"
-       id="linearGradient3024-0"
+       xlink:href="#linearGradient3004-8"
+       id="linearGradient3429"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,0.8125,-6.000309,3.75)"
+       x1="11"
+       y1="4"
+       x2="11"
+       y2="20" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3004-8-6"
+       id="linearGradient3431"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.2430679,0,0,0.39374996,-21.834015,12.125)"
+       x1="11"
+       y1="4"
+       x2="11"
+       y2="20" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3004-8"
+       id="linearGradient3433"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.0000002,0,0,0.375,-14.000316,12.5)"
+       x1="11"
+       y1="4"
+       x2="11"
+       y2="20" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3004-89"
+       id="linearGradient3230-5"
        gradientUnits="userSpaceOnUse"
        x1="11"
        y1="4"
        x2="11"
        y2="20"
-       gradientTransform="translate(28,-4)" />
+       gradientTransform="translate(-3.0899048e-4,0)" />
     <linearGradient
-       id="linearGradient3004-6">
+       id="linearGradient3004-89">
       <stop
-         id="stop3006-5"
+         style="stop-color:#000000;stop-opacity:1;"
          offset="0"
-         style="stop-color:#bebebe;stop-opacity:1;" />
+         id="stop3006-8" />
       <stop
-         id="stop3008-3"
+         style="stop-color:#363636;stop-opacity:1;"
+         offset="1"
+         id="stop3008-73" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3004-8"
+       id="linearGradient3002"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.0000002,0,0,0.375,-15.000316,11.5)"
+       x1="11"
+       y1="4"
+       x2="11"
+       y2="20" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3004-8"
+       id="linearGradient3008"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,0.8125,-7.000309,2.75)"
+       x1="11"
+       y1="4"
+       x2="11"
+       y2="20" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3004-8-62"
+       id="linearGradient3008-5"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,0.8125,-7.000309,2.75)"
+       x1="11"
+       y1="4"
+       x2="11"
+       y2="20" />
+    <linearGradient
+       id="linearGradient3004-8-62">
+      <stop
+         id="stop3006-3-3"
+         offset="0"
+         style="stop-color:#dcdcdc;stop-opacity:1;" />
+      <stop
+         id="stop3008-7-1"
          offset="1"
          style="stop-color:#ffffff;stop-opacity:1;" />
     </linearGradient>
+    <linearGradient
+       y2="20"
+       x2="11"
+       y1="4"
+       x1="11"
+       gradientTransform="matrix(1,0,0,0.8125,-21.000309,-3.25)"
+       gradientUnits="userSpaceOnUse"
+       id="linearGradient3797"
+       xlink:href="#linearGradient3004-8-62"
+       inkscape:collect="always" />
   </defs>
   <path
      sodipodi:nodetypes="sssssssssssssssssssssssssssscs"
@@ -103,10 +217,10 @@
      height="13"
      width="3"
      id="rect3117"
-     style="opacity:1;color:#000000;fill:url(#linearGradient3024-0);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+     style="opacity:1;color:#000000;fill:url(#linearGradient3008);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
      rx="1.5" />
   <rect
-     style="opacity:1;color:#000000;fill:url(#linearGradient3024-0);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+     style="color:#000000;fill:url(#linearGradient3008-5);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
      id="rect3122"
      width="3"
      height="9"
@@ -121,15 +235,6 @@
      height="6"
      width="3.0000007"
      id="rect3126"
-     style="opacity:1;color:#000000;fill:url(#linearGradient3024-0);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+     style="opacity:1;color:#000000;fill:url(#linearGradient3002);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
      rx="1.5" />
-  <rect
-     style="opacity:1;color:#000000;fill:url(#linearGradient3024-0);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-     id="rect3258"
-     width="1"
-     height="1"
-     x="7"
-     y="13"
-     ry="0.5"
-     rx="0.5" />
 </svg>

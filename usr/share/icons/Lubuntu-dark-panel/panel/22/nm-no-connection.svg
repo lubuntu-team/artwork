@@ -15,7 +15,7 @@
    height="22"
    id="svg4073"
    inkscape:version="0.48.4 r9939"
-   sodipodi:docname="nm-device-wired.svg">
+   sodipodi:docname="nm-no-connection.svg">
   <metadata
      id="metadata18">
     <rdf:RDF>
@@ -38,7 +38,7 @@
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
      inkscape:window-width="1280"
-     inkscape:window-height="975"
+     inkscape:window-height="971"
      id="namedview16"
      showgrid="true"
      inkscape:zoom="14.688536"
@@ -71,23 +71,23 @@
       <stop
          id="stop3006-3-0"
          offset="0"
-         style="stop-color:#dcdcdc;stop-opacity:1;" />
+         style="stop-color:#000000;stop-opacity:1;" />
       <stop
          id="stop3008-7-3"
          offset="1"
-         style="stop-color:#ffffff;stop-opacity:1;" />
+         style="stop-color:#363636;stop-opacity:1;" />
     </linearGradient>
   </defs>
   <path
-     id="path3020"
-     d="m 12,2 -1,1 0,7 1,1 5,0 0,1 0,2.15625 L 16,15 l -1,0 -1,0 0,-2 -1,-1 -9,0 -1,1 0,7 1,1 9,0 1,-1 0,-3 1,0 2,0 2,-2 0,-3 0,-1 2,0 1,-1 0,-7 -1,-1 z m 1,2 7,0 0,5 -7,0 z m -8,10 7,0 0,5 -7,0 z"
-     style="opacity:1;color:#000000;fill:#0c0c0c;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+     sodipodi:nodetypes="ccccccccccccccccccccccccccccccccccccccccccccccccccccccc"
      inkscape:connector-curvature="0"
-     sodipodi:nodetypes="ccccccccccccccccccccccccccccccccccccccc" />
+     id="path3052"
+     d="m 12,2 -1,1 0,7 1,1 6,0 0,1 1,1 1,-1 0,-1 1,0 1,-1 0,-7 -1,-1 z m 1,2 7,0 0,5 -7,0 z m -9,8 -1,1 0,7 1,1 9,0 1,-1 0,-3 1,0 1,-1 -1,-1 -1,0 0,-2 -1,-1 z m 13,1 -1,0 0,1 2,2 -2,2 0,1 1,0 2,-2 2,2 1,0 0,-1 -2,-2 2,-2 0,-1 -1,0 -2,2 z m -12,1 7,0 0,5 -7,0 z"
+     style="opacity:0.6;color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
   <path
-     style="opacity:1;color:#000000;fill:url(#linearGradient3120-0);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-     d="m 12,1 -1,1 0,7 1,1 5,0 0,1 0,2.15625 L 16,14 l -1,0 -1,0 0,-2 -1,-1 -9,0 -1,1 0,7 1,1 9,0 1,-1 0,-3 1,0 2,0 2,-2 0,-3 0,-1 2,0 1,-1 0,-7 -1,-1 z m 1,2 7,0 0,5 -7,0 z m -8,10 7,0 0,5 -7,0 z"
+     style="opacity:0.7;color:#000000;fill:url(#linearGradient3120-0);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+     d="m 12,1 -1,1 0,7 1,1 6,0 0,1 1,1 1,-1 0,-1 1,0 1,-1 0,-7 -1,-1 z m 1,2 7,0 0,5 -7,0 z m -9,8 -1,1 0,7 1,1 9,0 1,-1 0,-3 1,0 1,-1 -1,-1 -1,0 0,-2 -1,-1 z m 13,1 -1,0 0,1 2,2 -2,2 0,1 1,0 2,-2 2,2 1,0 0,-1 -2,-2 2,-2 0,-1 -1,0 -2,2 z m -12,1 7,0 0,5 -7,0 z"
      id="path2996"
      inkscape:connector-curvature="0"
-     sodipodi:nodetypes="ccccccccccccccccccccccccccccccccccccccc" />
+     sodipodi:nodetypes="ccccccccccccccccccccccccccccccccccccccccccccccccccccccc" />
 </svg>
