@@ -10,7 +10,7 @@ Inherits=GNOME
 Example=folder
 
 # Directory list
-Directories=actions/16,actions/22,actions/24,apps/16,apps/24,apps/48,apps/64,apps/128,categories/16,categories/32,categories/48,devices/16,devices/22,devices/24,devices/48,devices/64,devices/128,emblems/24,mimes/16,mimes/22,mimes/24,mimes/48,panel/16,panel/22,panel/24,places/16,places/22,places/24,places/32,places/48,places/64,places/128,status/16,status/22,status/24,symbolic
+Directories=actions/16,actions/22,actions/24,apps/16,apps/24,apps/48,apps/64,apps/128,categories/16,categories/32,categories/48,devices/16,devices/22,devices/24,devices/48,devices/64,devices/128,emblems/24,mimes/16,mimes/22,mimes/24,mimes/48,panel/16,panel/22,panel/24,places/16,places/22,places/24,places/32,places/48,places/64,places/128,status/16,status/22,status/24,status/48,symbolic
 
 [actions/16]
 Size=16
@@ -189,6 +189,11 @@ Type=Scalable
 
 [status/24]
 Size=24
+Context=Status
+Type=Scalable
+
+[status/48]
+Size=48
 Context=Status
 Type=Scalable
 
