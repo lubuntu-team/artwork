@@ -682,3 +682,6 @@ include "apps/pcmanfm.rc"
 include "apps/xfce4-notifyd.rc"
 include "apps/thunar.rc"
 
+# MATE specific
+include "apps/mate-caja.rc"
+include "apps/mate-panel.rc"

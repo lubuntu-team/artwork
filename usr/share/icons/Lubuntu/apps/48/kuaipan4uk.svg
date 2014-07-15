@@ -15,7 +15,10 @@
    id="svg4700"
    version="1.1"
    inkscape:version="0.48.4 r9939"
-   sodipodi:docname="kuaipan48.svg">
+   sodipodi:docname="kuaipan4uk.svg"
+   inkscape:export-filename="/home/rafa/.icons/Box/apps/48/kuaipan4uk.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90">
   <defs
      id="defs4702">
     <linearGradient
@@ -374,9 +377,9 @@
      inkscape:grid-bbox="true"
      inkscape:document-units="px"
      inkscape:window-width="1280"
-     inkscape:window-height="951"
+     inkscape:window-height="975"
      inkscape:window-x="0"
-     inkscape:window-y="0"
+     inkscape:window-y="24"
      inkscape:window-maximized="1"
      inkscape:snap-to-guides="false"
      inkscape:snap-grids="true"
@@ -398,7 +401,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>

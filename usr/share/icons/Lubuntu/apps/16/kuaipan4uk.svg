@@ -14,7 +14,10 @@
    inkscape:version="0.48.4 r9939"
    width="100%"
    height="100%"
-   sodipodi:docname="kuaipan16.svg">
+   sodipodi:docname="kuaipan4uk.svg"
+   inkscape:export-filename="/home/rafa/.icons/Box/apps/16/kuaipan4uk.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90">
   <metadata
      id="metadata32">
     <rdf:RDF>
@@ -23,7 +26,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -37,14 +40,14 @@
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
      inkscape:window-width="1280"
-     inkscape:window-height="951"
+     inkscape:window-height="975"
      id="namedview30"
      showgrid="true"
      inkscape:zoom="20.85965"
      inkscape:cx="14.237288"
      inkscape:cy="9.4997504"
      inkscape:window-x="0"
-     inkscape:window-y="0"
+     inkscape:window-y="24"
      inkscape:window-maximized="1"
      inkscape:current-layer="svg2"
      inkscape:snap-bbox="true">
