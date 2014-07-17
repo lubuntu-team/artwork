@@ -53,7 +53,7 @@ style "caja-location"
 		{
 		function        = FLAT_BOX
 		recolorable     = TRUE
-		file            = "Caja/extra-widget.png"
+		file            = "../images/extra-widget.png"
 		state           = NORMAL
 		stretch         = TRUE
 		border          = { 0, 0, 1, 0 }
@@ -78,18 +78,18 @@ widget_class "*Caja*Side*Title*"               style "caja-sidebar"
 
 #widget "*CajaNavigationWindow"                 style "caja-window-base"
 
-widget_class "*Caja*Scrollbar"                 style "murrine-scrollbar"
-widget_class "*CajaSidePane.*Scrollbar"        style:highest "murrine-scrollbar"	
+#widget_class "*Caja*Scrollbar"                 style "murrine-scrollbar"
+#widget_class "*CajaSidePane.*Scrollbar"        style:highest "murrine-scrollbar"	
 widget_class "*Caja*Statusbar*"                style "caja-statusbar"
 
 widget "*Caja*Splitter"                        style "caja-handle"
 widget_class "*Caja*View*"                     style "caja-view"
-widget_class "*Caja*Notebook"                  style "murrine-notebook"
+#widget_class "*Caja*Notebook"                  style "murrine-notebook"
 
-widget_class "*Caja*<GtkTreeView>.<GtkButton>" style "murrine-treeview-header"
-widget_class "*Caja*<GtkCTree>.<GtkButton>"    style "murrine-treeview-header"
-widget_class "*Caja*<GtkList>.<GtkButton>"     style "murrine-treeview-header"
-widget_class "*Caja*<GtkCList>.<GtkButton>"    style "murrine-treeview-header"
+#widget_class "*Caja*<GtkTreeView>.<GtkButton>" style "murrine-treeview-header"
+#widget_class "*Caja*<GtkCTree>.<GtkButton>"    style "murrine-treeview-header"
+#widget_class "*Caja*<GtkList>.<GtkButton>"     style "murrine-treeview-header"
+#widget_class "*Caja*<GtkCList>.<GtkButton>"    style "murrine-treeview-header"
 
 widget_class "*CajaPathBar*"                   style "caja-pathbar" 
 widget "*.caja-extra-view-widget"              style "caja-location"

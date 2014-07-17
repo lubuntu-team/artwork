@@ -8,7 +8,7 @@ style "pcmanfm-handle" {
 	engine "pixmap" {
 		image {	function	= HANDLE
 			recolorable	= FALSE
-			file		= "images/handle-vert.png"
+			file		= "../images/handle-vert.png"
 			stretch		= TRUE
 			border 		= { 0, 0, 0, 0 }	}
 	}
