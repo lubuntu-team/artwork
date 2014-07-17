@@ -2,7 +2,7 @@ style "theme-panel"
 {
 	xthickness = 4
 	ythickness = 0
-	bg_pixmap[NORMAL] = "images/panel-bg.png"
+	bg_pixmap[NORMAL] = "../images/panel-bg.png"
 
 	fg[NORMAL]	= "#000000"
 	fg[PRELIGHT]	= "#ffffff"
@@ -64,8 +64,8 @@ style "theme-panel-light"
 
 style "theme-panel-text"
 {
-	fg[NORMAL]	= "#f5f5f5"
-	fg[PRELIGHT]	= "#ffffff"
+	fg[NORMAL]	= "#000000"
+	fg[PRELIGHT]	= "#333333"
 	fg[ACTIVE]	= "#f5f5f5"
 	text[NORMAL]	= "#f5f5f5"
 	text[PRELIGHT]	= "#ffffff"
