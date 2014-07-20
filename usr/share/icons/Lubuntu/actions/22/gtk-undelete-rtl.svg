@@ -35,13 +35,13 @@
     <linearGradient
        inkscape:collect="always"
        xlink:href="#linearGradient1022-8-8-3-0-2-12-9"
-       id="linearGradient3018"
+       id="linearGradient3058"
        gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(-1.6290822,0,0,1.476171,362.24854,-15.0785)"
-       x1="215.61131"
-       y1="10.214602"
-       x2="215.61131"
-       y2="24.440598" />
+       gradientTransform="matrix(-1.6290822,0,0,1.476171,363.24854,1017.2837)"
+       x1="214.99747"
+       y1="9.5371742"
+       x2="214.99747"
+       y2="22.408312" />
   </defs>
   <sodipodi:namedview
      id="base"
@@ -52,21 +52,22 @@
      inkscape:pageshadow="2"
      inkscape:zoom="22.627417"
      inkscape:cx="16.940172"
-     inkscape:cy="10.990195"
+     inkscape:cy="10.725029"
      inkscape:document-units="px"
      inkscape:current-layer="capa1"
      showgrid="true"
      inkscape:showpageshadow="false"
      inkscape:window-width="1280"
-     inkscape:window-height="976"
+     inkscape:window-height="975"
      inkscape:window-x="0"
      inkscape:window-y="24"
      inkscape:window-maximized="1"
-     inkscape:snap-page="true"
-     inkscape:snap-center="true"
-     inkscape:snap-object-midpoints="true"
+     inkscape:snap-page="false"
+     inkscape:snap-center="false"
+     inkscape:snap-object-midpoints="false"
      inkscape:snap-to-guides="false"
-     inkscape:snap-midpoints="false">
+     inkscape:snap-midpoints="false"
+     inkscape:snap-bbox="true">
     <inkscape:grid
        type="xygrid"
        id="grid2990"
@@ -93,14 +94,15 @@
      id="capa1"
      transform="translate(0,-1030.3622)">
     <path
-       id="path3020"
-       d="m 13,1031.3622 0,2 -4,0 -2,2 0,2 2,-2 4,0 0,2 3,-3 -3,-3 z m 0,6 -6,0 -1,0 -2,-2 0,15 2,2 10,0 2,-2 0,-15 -2,2 -3,0 z m -7,1 1,0 0,11 -1,-1 0,-10 z m 3,0 1,0 0,11 -1,0 0,-11 z m 3,0 1,0 0,11 -1,0 0,-11 z m 3,0 1,0 0,10 -1,1 0,-11 z"
-       style="opacity:0.59999999999999998;color:black;fill:white;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="path3060"
+       d="m 14,1032.3622 3,3 -3,3 -2,0 2,-2 -5,0 -2,2 0,-2 2,-2 5,0 -2,-2 2,0 z m 5,4 0,13 -2,2 -12,0 -2,-2 0,-13 2,2 0,3 12,0 0,-3 2,-2 z m -3,7 -1,0 0,1 1,0 0,-1 z m -3,0 -1,0 0,1 1,0 0,-1 z m -3,0 -1,0 0,1 1,0 0,-1 z m -3,0 -1,0 0,1 1,0 0,-1 z m 9,2 -1,0 0,1 1,0 0,-1 z m -3,0 -1,0 0,1 1,0 0,-1 z m -3,0 -1,0 0,1 1,0 0,-1 z m -3,0 -1,0 0,1 1,0 0,-1 z m 9,2 -1,0 0,1 1,0 0,-1 z m -3,0 -1,0 0,1 1,0 0,-1 z m -3,0 -1,0 0,1 1,0 0,-1 z m -3,0 -1,0 0,1 1,0 0,-1 z"
+       style="opacity:0.6;color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
        inkscape:connector-curvature="0" />
     <path
-       style="opacity:0.69999999999999996;color:black;fill:url(#linearGradient3018);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-       d="M 13 0 L 13 2 L 9 2 L 7 4 L 7 6 L 9 4 L 13 4 L 13 6 L 16 3 L 13 0 z M 13 6 L 7 6 L 6 6 L 4 4 L 4 19 L 6 21 L 16 21 L 18 19 L 18 4 L 16 6 L 13 6 z M 6 7 L 7 7 L 7 18 L 6 17 L 6 7 z M 9 7 L 10 7 L 10 18 L 9 18 L 9 7 z M 12 7 L 13 7 L 13 18 L 12 18 L 12 7 z M 15 7 L 16 7 L 16 17 L 15 18 L 15 7 z "
-       transform="translate(0,1030.3622)"
-       id="path3007" />
+       style="opacity:0.7;color:#000000;fill:url(#linearGradient3058);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       d="m 14,1031.3622 3,3 -3,3 -2,0 2,-2 -5,0 -2,2 0,-2 2,-2 5,0 -2,-2 z m 5,5 0,12 -2,2 -12,0 -2,-2 0,-12 2,2 0,2 12,0 0,-2 z m -3,6 -1,0 0,1 1,0 z m -3,0 -1,0 0,1 1,0 z m -3,0 -1,0 0,1 1,0 z m -3,0 -1,0 0,1 1,0 z m 9,2 -1,0 0,1 1,0 z m -3,0 -1,0 0,1 1,0 z m -3,0 -1,0 0,1 1,0 z m -3,0 -1,0 0,1 1,0 z m 9,2 -1,0 0,1 1,0 z m -3,0 -1,0 0,1 1,0 z m -3,0 -1,0 0,1 1,0 z m -3,0 -1,0 0,1 1,0 z"
+       id="path2998"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc" />
   </g>
 </svg>

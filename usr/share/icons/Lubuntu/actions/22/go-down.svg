@@ -22,26 +22,26 @@
        y2="11.02436"
        y1="3.0069399"
        x2="0"
-       id="linearGradient1022-8-8-3-0-05-4"
+       id="linearGradient1022-8-8-3-0-1-2"
        gradientUnits="userSpaceOnUse">
       <stop
-         id="stop3001-0-9-4-49-2"
+         id="stop3001-0-9-4-2-8"
          offset="0" />
       <stop
-         id="stop3003-5-6-6-8-5"
+         id="stop3003-5-6-6-2-2"
          stop-color="#363636"
          offset="1" />
     </linearGradient>
     <linearGradient
-       y2="19.141361"
-       x2="84.509415"
-       y1="9.2057543"
-       x1="84.509415"
-       gradientTransform="matrix(1.119994,0,0,1.0064811,87.016638,409.76344)"
+       inkscape:collect="always"
+       xlink:href="#linearGradient1022-8-8-3-0-1-2"
+       id="linearGradient3062"
        gradientUnits="userSpaceOnUse"
-       id="linearGradient8372"
-       xlink:href="#linearGradient1022-8-8-3-0-05-4"
-       inkscape:collect="always" />
+       gradientTransform="matrix(0,1.6799141,-1.5096525,0,35.8975,954.3892)"
+       x1="48.795948"
+       y1="15.829802"
+       x2="54.748634"
+       y2="15.829802" />
   </defs>
   <sodipodi:namedview
      id="base"
@@ -50,18 +50,28 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="3.959798"
-     inkscape:cx="31.628015"
-     inkscape:cy="13.136866"
+     inkscape:zoom="15.999999"
+     inkscape:cx="22.687498"
+     inkscape:cy="16.1875"
      inkscape:document-units="px"
      inkscape:current-layer="capa1"
-     showgrid="false"
+     showgrid="true"
      inkscape:showpageshadow="false"
-     inkscape:window-width="730"
-     inkscape:window-height="702"
-     inkscape:window-x="484"
-     inkscape:window-y="100"
-     inkscape:window-maximized="0" />
+     inkscape:window-width="1280"
+     inkscape:window-height="975"
+     inkscape:window-x="0"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1"
+     inkscape:snap-bbox="true"
+     width="22px">
+    <inkscape:grid
+       type="xygrid"
+       id="grid3001"
+       empspacing="5"
+       visible="true"
+       enabled="true"
+       snapvisiblegridlinesonly="true" />
+  </sodipodi:namedview>
   <metadata
      id="metadata6667">
     <rdf:RDF>
@@ -79,28 +89,17 @@
      inkscape:groupmode="layer"
      id="capa1"
      transform="translate(0,-1030.3622)">
-    <g
-       id="go-down"
-       transform="matrix(1.4999998,0,0,1.4999998,-263.49997,404.81901)">
-      <rect
-         style="opacity:0.6;color:#000000;fill:none;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-         id="rect3029"
-         width="16"
-         height="16"
-         x="175"
-         y="416.36218" />
-      <path
-         sodipodi:nodetypes="ccccccc"
-         inkscape:connector-curvature="0"
-         id="path6355"
-         d="m 177.66668,423.69552 5.33332,5.33332 5.33334,-5.33332 0,-2.66667 -5.33333,5.33334 -5.33333,-5.33334 z"
-         style="opacity:0.6;color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.66666675;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
-      <path
-         style="opacity:0.7;color:#000000;fill:url(#linearGradient8372);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-         d="m 177.66668,423.02886 5.33332,5.33332 5.33334,-5.33332 0,-2.66667 -5.33333,5.33334 -5.33333,-5.33334 z"
-         id="path5108"
-         inkscape:connector-curvature="0"
-         sodipodi:nodetypes="ccccccc" />
-    </g>
+    <path
+       sodipodi:nodetypes="ccccccc"
+       inkscape:connector-curvature="0"
+       id="path3068"
+       d="m 17,1037.3622 -6,6 -6,-6 -2,2 8,8 8,-8 z"
+       style="opacity:0.6;color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.6666972;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+    <path
+       style="opacity:0.7;color:#000000;fill:url(#linearGradient3062);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       d="m 17,1036.3622 -6,6 -6,-6 -2,2 8,8 8,-8 z"
+       id="path3060"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccccc" />
   </g>
 </svg>

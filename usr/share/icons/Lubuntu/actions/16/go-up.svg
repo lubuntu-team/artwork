@@ -22,26 +22,26 @@
        y2="11.02436"
        y1="3.0069399"
        x2="0"
-       id="linearGradient1022-8-8-3-0-05-0"
+       id="linearGradient1022-8-8-3-0-05-3"
        gradientUnits="userSpaceOnUse">
       <stop
-         id="stop3001-0-9-4-49-1"
+         id="stop3001-0-9-4-49-36"
          offset="0" />
       <stop
-         id="stop3003-5-6-6-8-37"
+         id="stop3003-5-6-6-8-8"
          stop-color="#363636"
          offset="1" />
     </linearGradient>
     <linearGradient
-       y2="19.975889"
-       x2="-2.5488417"
-       y1="8.4068613"
-       x1="-2.5488417"
-       gradientTransform="matrix(1.119994,0,0,1.0064811,87.016638,409.76344)"
+       inkscape:collect="always"
+       xlink:href="#linearGradient1022-8-8-3-0-05-3"
+       id="linearGradient3027"
        gradientUnits="userSpaceOnUse"
-       id="linearGradient5053"
-       xlink:href="#linearGradient1022-8-8-3-0-05-0"
-       inkscape:collect="always" />
+       gradientTransform="matrix(1.119994,0,0,-1.0064811,-87.983362,1059.9609)"
+       x1="86.592751"
+       y1="19.472496"
+       x2="86.592751"
+       y2="11.524012" />
   </defs>
   <sodipodi:namedview
      id="base"
@@ -50,18 +50,23 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="3.959798"
+     inkscape:zoom="31.678384"
      inkscape:cx="12.253093"
      inkscape:cy="5.8232452"
      inkscape:document-units="px"
      inkscape:current-layer="capa1"
-     showgrid="false"
+     showgrid="true"
      inkscape:showpageshadow="false"
-     inkscape:window-width="673"
-     inkscape:window-height="598"
-     inkscape:window-x="534"
-     inkscape:window-y="285"
-     inkscape:window-maximized="0" />
+     inkscape:window-width="1280"
+     inkscape:window-height="975"
+     inkscape:window-x="0"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1"
+     inkscape:snap-bbox="true">
+    <inkscape:grid
+       type="xygrid"
+       id="grid2990" />
+  </sodipodi:namedview>
   <metadata
      id="metadata3335">
     <rdf:RDF>
@@ -79,28 +84,17 @@
      inkscape:groupmode="layer"
      id="capa1"
      transform="translate(0,-1036.3622)">
-    <g
-       transform="translate(-155,620.00002)"
-       id="go-up">
-      <rect
-         y="416.36218"
-         x="155"
-         height="16"
-         width="16"
-         id="rect3027"
-         style="opacity:0.6;color:#000000;fill:none;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
-      <path
-         style="opacity:0.6;color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-         d="m 158,426.36218 5,-5 5,5 0,3 -5,-5 -5,5 z"
-         id="path4044"
-         inkscape:connector-curvature="0"
-         sodipodi:nodetypes="ccccccc" />
-      <path
-         sodipodi:nodetypes="ccccccc"
-         inkscape:connector-curvature="0"
-         id="path5106"
-         d="m 158,425.36218 5,-5 5,5 0,3 -5,-5 -5,5 z"
-         style="opacity:0.7;color:#000000;fill:url(#linearGradient5053);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
-    </g>
+    <path
+       style="opacity:0.6;color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       d="m 2,1047.3622 6,-6 6,6 -2,2 -4,-4 -4,4 z"
+       id="path2991"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccccc" />
+    <path
+       sodipodi:nodetypes="ccccccc"
+       inkscape:connector-curvature="0"
+       id="path5108"
+       d="m 2,1046.3622 6,-6 6,6 -2,2 -4,-4 -4,4 z"
+       style="opacity:0.69999999999999996;color:#000000;fill:url(#linearGradient3027);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
   </g>
 </svg>

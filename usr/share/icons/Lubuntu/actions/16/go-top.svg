@@ -15,33 +15,33 @@
    id="svg3330"
    version="1.1"
    inkscape:version="0.48.4 r9939"
-   sodipodi:docname="top.svg">
+   sodipodi:docname="stock_top.svg">
   <defs
      id="defs3332">
     <linearGradient
        y2="11.02436"
        y1="3.0069399"
        x2="0"
-       id="linearGradient1022-8-8-3-0-1-44"
+       id="linearGradient1022-8-8-3-0-05-3"
        gradientUnits="userSpaceOnUse">
       <stop
-         id="stop3001-0-9-4-2-43"
+         id="stop3001-0-9-4-49-36"
          offset="0" />
       <stop
-         id="stop3003-5-6-6-2-92"
+         id="stop3003-5-6-6-8-8"
          stop-color="#363636"
          offset="1" />
     </linearGradient>
     <linearGradient
-       y2="24.440342"
-       x2="71.414101"
-       y1="9.5369272"
-       x1="71.414101"
-       gradientTransform="matrix(1.119994,0,0,1.0064811,85.016638,119.49574)"
+       inkscape:collect="always"
+       xlink:href="#linearGradient1022-8-8-3-0-05-3"
+       id="linearGradient3027"
        gradientUnits="userSpaceOnUse"
-       id="linearGradient6229"
-       xlink:href="#linearGradient1022-8-8-3-0-1-44"
-       inkscape:collect="always" />
+       gradientTransform="matrix(1.119994,0,0,-1.0064811,-87.983362,1060.9609)"
+       x1="87.485611"
+       y1="22.453178"
+       x2="87.485611"
+       y2="11.524012" />
   </defs>
   <sodipodi:namedview
      id="base"
@@ -50,18 +50,23 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="3.959798"
-     inkscape:cx="12.253093"
-     inkscape:cy="5.8232452"
+     inkscape:zoom="35.954545"
+     inkscape:cx="8"
+     inkscape:cy="8.5"
      inkscape:document-units="px"
      inkscape:current-layer="capa1"
-     showgrid="false"
+     showgrid="true"
      inkscape:showpageshadow="false"
-     inkscape:window-width="673"
-     inkscape:window-height="598"
-     inkscape:window-x="534"
-     inkscape:window-y="285"
-     inkscape:window-maximized="0" />
+     inkscape:window-width="1280"
+     inkscape:window-height="975"
+     inkscape:window-x="0"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1"
+     inkscape:snap-bbox="true">
+    <inkscape:grid
+       type="xygrid"
+       id="grid2990" />
+  </sodipodi:namedview>
   <metadata
      id="metadata3335">
     <rdf:RDF>
@@ -79,27 +84,15 @@
      inkscape:groupmode="layer"
      id="capa1"
      transform="translate(0,-1036.3622)">
-    <g
-       transform="translate(-155,600.00002)"
-       id="go-top">
-      <rect
-         style="opacity:0.6;color:#000000;fill:none;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-         id="rect3031"
-         width="16"
-         height="16"
-         x="155"
-         y="436.36218" />
-      <path
-         id="path4169"
-         d="m 158,439.36218 0,2 10,0 0,-2 -10,0 z m 5,3 -5,5 0,3 5,-5 5,5 0,-3 -5,-5 z"
-         style="opacity:0.6;color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-         inkscape:connector-curvature="0" />
-      <path
-         inkscape:connector-curvature="0"
-         style="opacity:0.7;color:#000000;fill:url(#linearGradient6229);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-         d="m 158,130.09375 0,2 10,0 0,-2 -10,0 z m 5,3 -5,5 0,3 5,-5 5,5 0,-3 -5,-5 z"
-         transform="translate(0,308.2677)"
-         id="path5160" />
-    </g>
+    <path
+       style="opacity:0.6;color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       d="m 4,1051.3622 -2,-2 6,-6 6,6 -2,2 -4,-4 -4,4 z m -1,-9 0,-2 10,0 0,2 -10,0 z"
+       id="path3122"
+       inkscape:connector-curvature="0" />
+    <path
+       style="opacity:0.69999999999999996;color:#000000;fill:url(#linearGradient3027);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       d="m 4,1049.3622 -2,-2 6,-6 6,6 -2,2 -4,-4 -4,4 z m -1,-9 0,-2 10,0 0,2 -10,0 z"
+       id="path5108"
+       inkscape:connector-curvature="0" />
   </g>
 </svg>
