@@ -1,7 +1,7 @@
 lubuntu-artwork (0.48) UNRELEASED; urgency=medium
 
   * lib/plymouth/themes/lubuntu-text:
-   - Update to 14.04.
+   - Update to 14.10.
 
  -- Julien Lavergne <gilir@ubuntu.com>  Wed, 20 Aug 2014 21:53:43 +0200
 
