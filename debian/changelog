@@ -1,4 +1,4 @@
-lubuntu-artwork (0.48) UNRELEASED; urgency=medium
+lubuntu-artwork (0.48) utopic; urgency=medium
 
   * lib/plymouth/themes/lubuntu-text:
    - Update to 14.10.
@@ -7,7 +7,7 @@ lubuntu-artwork (0.48) UNRELEASED; urgency=medium
   * usr/share/themes/Lubuntu-default/
    - Initial support for mate desktop.
 
- -- Julien Lavergne <gilir@ubuntu.com>  Wed, 20 Aug 2014 21:53:43 +0200
+ -- Julien Lavergne <gilir@ubuntu.com>  Wed, 20 Aug 2014 21:57:46 +0200
 
 lubuntu-artwork (0.47) utopic; urgency=medium
 
