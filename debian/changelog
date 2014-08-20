@@ -1,3 +1,10 @@
+lubuntu-artwork (0.48) UNRELEASED; urgency=medium
+
+  * lib/plymouth/themes/lubuntu-text:
+   - Update to 14.04.
+
+ -- Julien Lavergne <gilir@ubuntu.com>  Wed, 20 Aug 2014 21:53:43 +0200
+
 lubuntu-artwork (0.47) utopic; urgency=medium
 
   * Backup current artwork items to 1404 items, and prepare 1410 ones.
