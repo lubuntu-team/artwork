@@ -109,7 +109,9 @@ UnityPanelWidget,
 
 .unity-panel.menubar.menuitem:hover,
 .unity-panel.menubar .menuitem *:hover {
-    background-image: -gtk-gradient (linear, left top, left bottom,
-                                     from (shade (@dark_bg_color, 1.5)),
-                                     to (shade (@dark_bg_color, 1.02)));
+	background-image: linear-gradient(to bottom,
+		shade (@selected_bg_color, 0.96),
+		shade (@selected_bg_color, 1.15));
+	color: @selected_fg_color;
 }
+
