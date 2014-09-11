@@ -1,3 +1,12 @@
+lubuntu-artwork (0.49) utopic; urgency=medium
+
+  * usr/share/lubuntu/wallpapers/1410-*
+   - Add community wallpapers for 14.10.
+  * usr/share/themes/Lubuntu-default
+   - Fix Unity appmenu items.
+
+ -- Julien Lavergne <gilir@ubuntu.com>  Thu, 11 Sep 2014 14:10:15 +0200
+
 lubuntu-artwork (0.48) utopic; urgency=medium
 
   * lib/plymouth/themes/lubuntu-text:
