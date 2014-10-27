@@ -1,6 +1,8 @@
 lubuntu-artwork (0.50) UNRELEASED; urgency=medium
 
   * Backup current artwork items to 1410 items, and prepare 1504 ones.
+  * lib/plymouth/themes/lubuntu-text:
+   - Update to 15.04.
   * usr/share/lxqt:
    - Add an lxqt theme.
   * usr/share/lubuntu/startpage:
