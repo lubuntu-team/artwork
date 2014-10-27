@@ -5,4 +5,5 @@ usr/share/lxdm/themes/Lubuntu
 usr/share/lxpanel/images/lubuntu-background.png
 usr/share/themes/Lubuntu*
 usr/share/unity-greeter/
-usr/share/lxqt/lubuntu/
+usr/share/lxqt/themes/Lubuntu/
+usr/share/lubuntu/startpage/
