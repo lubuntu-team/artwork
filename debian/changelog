@@ -1,5 +1,6 @@
 lubuntu-artwork (0.50) UNRELEASED; urgency=medium
 
+  * Backup current artwork items to 1410 items, and prepare 1504 ones.
   * usr/share/lxqt:
    - Add an lxqt theme.
   * usr/share/lubuntu/startpage:
