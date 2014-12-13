@@ -1,14 +1,21 @@
-lubuntu-artwork (0.50) UNRELEASED; urgency=medium
+lubuntu-artwork (0.50) vivid; urgency=medium
 
   * Backup current artwork items to 1410 items, and prepare 1504 ones.
-  * lib/plymouth/themes/lubuntu-text:
+  * Build in a src/ directory to make dh_install --fail-missing working.
+  * debian/rules:
+   - Enable dh_install --fail-missing.
+  * src/lib/plymouth/themes/lubuntu-text:
    - Update to 15.04.
-  * usr/share/lxqt:
+  * src/usr/share/lxqt:
    - Add an lxqt theme.
-  * usr/share/lubuntu/startpage:
+  * src/usr/share/lubuntu/startpage:
    - Add a startpage.
+  * src/usr/share/unity-greeter
+   - Add LXQt badge.
+  * src/usr/share/icons/Lubuntu/index.theme
+   - Change type to threshold, to make it compatible with LXQt. 
 
- -- Julien Lavergne <gilir@ubuntu.com>  Sat, 27 Sep 2014 18:48:42 +0200
+ -- Julien Lavergne <gilir@ubuntu.com>  Sat, 13 Dec 2014 08:48:01 +0100
 
 lubuntu-artwork (0.49) utopic; urgency=medium
 
