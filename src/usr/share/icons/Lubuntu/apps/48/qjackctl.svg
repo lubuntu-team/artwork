@@ -14,8 +14,8 @@
    height="48px"
    id="svg4700"
    version="1.1"
-   inkscape:version="0.48.4 r9939"
-   sodipodi:docname="qjackctl48.svg">
+   inkscape:version="0.48.5 r10040"
+   sodipodi:docname="qjackctl.svg">
   <defs
      id="defs4702">
     <linearGradient
@@ -290,18 +290,6 @@
        fx="5"
        fy="5.25"
        r="42.46875" />
-    <filter
-       inkscape:collect="always"
-       id="filter4218"
-       x="-0.13212603"
-       width="1.2642521"
-       y="-0.10991263"
-       height="1.2198253">
-      <feGaussianBlur
-         inkscape:collect="always"
-         stdDeviation="1.6028926"
-         id="feGaussianBlur4220" />
-    </filter>
     <linearGradient
        inkscape:collect="always"
        xlink:href="#linearGradient4236"
@@ -326,10 +314,10 @@
      showgrid="true"
      inkscape:grid-bbox="true"
      inkscape:document-units="px"
-     inkscape:window-width="1280"
-     inkscape:window-height="972"
-     inkscape:window-x="0"
-     inkscape:window-y="26"
+     inkscape:window-width="1301"
+     inkscape:window-height="744"
+     inkscape:window-x="65"
+     inkscape:window-y="24"
      inkscape:window-maximized="1"
      inkscape:snap-to-guides="false"
      inkscape:snap-grids="true"
@@ -442,12 +430,6 @@
        id="rect6741-1"
        style="opacity:0.5;fill:none;stroke:url(#linearGradient4000);stroke-width:0.99999994;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
        rx="1.9999999" />
-    <path
-       style="opacity:0.98999999;fill:url(#linearGradient3208)"
-       inkscape:connector-curvature="0"
-       d="m 21.000002,4 20.4529,0 C 42.725732,4 44,5.0127 44,6.5029 L 44,40 31.249361,40 21.000002,4 z"
-       id="path57-5-0"
-       sodipodi:nodetypes="cssccc" />
     <g
        id="layer2-3"
        style="display:none"

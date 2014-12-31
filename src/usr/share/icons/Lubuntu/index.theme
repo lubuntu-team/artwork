@@ -4,8 +4,8 @@
 # More info at: https://launchpad.net/~lubuntu-art
 
 [Icon Theme]
-Name=Lubuntu
-Comment=Default theme for Lubuntu
+Name=Box
+Comment=Default theme for Lubuntu (standalone version)
 Inherits=GNOME
 Example=folder
 
