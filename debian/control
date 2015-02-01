@@ -196,3 +196,11 @@ Architecture: all
 Depends: ${misc:Depends}
 Description: panel specific icons for Lubuntu artwork
  This package contain specific lxpanel icons for Lubuntu theme.
+
+Package: sddm-theme-lubuntu-chooser
+Architecture: all
+Depends: ${misc:Depends}
+Recommends: sddm
+Provides: sddm-theme
+Description: 'Lubuntu chooser' theme for SDDM X11 display manager
+ Lubuntu chooser theme for SDDM
