@@ -1,3 +1,15 @@
+lubuntu-artwork (0.51) UNRELEASED; urgency=medium
+
+  * usr/share/icons:
+   - Update icons theme.
+  * usr/share/themes/Lubuntu-default/
+   - Update current theme.
+   - Fix GTK properties (LP: #1411553).
+  * usr/share/lubuntu/wallpapers/1504-lubuntu-default-wallpaper.png
+   - Update wallpaper for 15.04.
+
+ -- Julien Lavergne <gilir@ubuntu.com>  Sun, 15 Feb 2015 17:46:24 +0100
+
 lubuntu-artwork (0.50) vivid; urgency=medium
 
   * Backup current artwork items to 1410 items, and prepare 1504 ones.
