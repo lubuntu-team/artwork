@@ -1,4 +1,4 @@
-lubuntu-artwork (0.51) UNRELEASED; urgency=medium
+lubuntu-artwork (0.51) utopic; urgency=medium
 
   * usr/share/icons:
    - Update icons theme.
@@ -7,8 +7,10 @@ lubuntu-artwork (0.51) UNRELEASED; urgency=medium
    - Fix GTK properties (LP: #1411553).
   * usr/share/lubuntu/wallpapers/1504-lubuntu-default-wallpaper.png
    - Update wallpaper for 15.04.
+  * debian/control:
+   - Add a sddm theme binary.
 
- -- Julien Lavergne <gilir@ubuntu.com>  Sun, 15 Feb 2015 17:46:24 +0100
+ -- Julien Lavergne <gilir@ubuntu.com>  Sun, 15 Feb 2015 17:51:49 +0100
 
 lubuntu-artwork (0.50) vivid; urgency=medium
 
