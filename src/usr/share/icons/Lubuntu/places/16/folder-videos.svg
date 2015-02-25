@@ -14,7 +14,7 @@
    height="16px"
    id="svg2593"
    sodipodi:version="0.32"
-   inkscape:version="0.48.4 r9939"
+   inkscape:version="0.91 r"
    sodipodi:docname="folder-videos.svg"
    inkscape:output_extension="org.inkscape.output.svg.inkscape"
    version="1.1"
@@ -55,9 +55,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="22.627417"
-     inkscape:cx="14.612519"
-     inkscape:cy="9.9743915"
+     inkscape:zoom="32"
+     inkscape:cx="12.737519"
+     inkscape:cy="7.6867009"
      inkscape:current-layer="layer1"
      showgrid="true"
      inkscape:grid-bbox="true"
@@ -107,7 +107,8 @@
     <path
        inkscape:connector-curvature="0"
        id="path3737"
-       style="color:black;fill:url(#linearGradient3058-3);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;opacity:0.69999999999999996"
-       d="m 2.9999999,2.9999998 1.9999999,0 0,2.0000001 -1.9999999,0 0,-2.0000001 z m 8.0000001,0 2,0 0,2.0000001 -2,0 0,-2.0000001 z m -8.0000001,3.0000001 1.9999999,0 0,2 -1.9999999,0 0,-2 z m 8.0000001,0 2,0 0,2 -2,0 0,-2 z m -8.0000001,3 1.9999999,0 0,2.0000001 -1.9999999,0 0,-2.0000001 z m 8.0000001,0 2,0 L 13,11 11,11 11,8.9999999 z M 2.9999999,12 l 1.9999999,0 0,2 -1.9999999,0 0,-2 z M 11,12 l 2,0 0,2 -2,0 0,-2 z M 2,1.9999998 2,15 2.9133859,15 13.086614,15 14,15 14,1.9999998 l -0.913386,0 -10.1732281,0 -0.9133859,0 z" />
+       style="color:#000000;display:inline;overflow:visible;visibility:visible;opacity:0.7;fill:url(#linearGradient3058-3);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;enable-background:accumulate"
+       d="m 2.9999999,2.9999998 1.9999999,0 0,2.0000001 -1.9999999,0 z m 8.0000001,0 2,0 0,2.0000001 -2,0 z m -8.0000001,3.0000001 1.9999999,0 0,2 -1.9999999,0 z m 8.0000001,0 2,0 0,2 -2,0 z m -8.0000001,3 1.9999999,0 0,2.0000001 -1.9999999,0 z m 8.0000001,0 2,0 L 13,11 11,11 Z M 2.9999999,12 l 1.9999999,0 0,2 -1.9999999,0 z M 11,12 l 2,0 0,2 -2,0 z M 1,2 1,15 2,16 14,16 15,15 15,2 14,1 2,1 Z"
+       sodipodi:nodetypes="ccccccccccccccccccccccccccccccccccccccccccccccccc" />
   </g>
 </svg>
