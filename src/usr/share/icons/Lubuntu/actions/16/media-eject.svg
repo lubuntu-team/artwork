@@ -14,7 +14,7 @@
    height="16"
    id="svg3330"
    version="1.1"
-   inkscape:version="0.48.4 r9939"
+   inkscape:version="0.91 r"
    sodipodi:docname="media-eject.svg">
   <defs
      id="defs3332">
@@ -37,7 +37,7 @@
        x2="162.48601"
        y1="7.5497999"
        x1="162.48601"
-       gradientTransform="matrix(1.119994,0,0,1.0064811,83.016638,141.49574)"
+       gradientTransform="matrix(1.119994,0,0,1.0064811,-191.98336,1029.7642)"
        gradientUnits="userSpaceOnUse"
        id="linearGradient6911"
        xlink:href="#linearGradient1022-8-8-3-0-06-48"
@@ -50,18 +50,25 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="3.959798"
+     inkscape:zoom="22.4"
      inkscape:cx="12.253093"
-     inkscape:cy="5.8232452"
+     inkscape:cy="5.8009238"
      inkscape:document-units="px"
      inkscape:current-layer="capa1"
-     showgrid="false"
+     showgrid="true"
      inkscape:showpageshadow="false"
      inkscape:window-width="673"
      inkscape:window-height="598"
      inkscape:window-x="534"
      inkscape:window-y="285"
-     inkscape:window-maximized="0" />
+     inkscape:window-maximized="0"
+     inkscape:snap-bbox="true"
+     inkscape:bbox-paths="true"
+     inkscape:bbox-nodes="true">
+    <inkscape:grid
+       type="xygrid"
+       id="grid3341" />
+  </sodipodi:namedview>
   <metadata
      id="metadata3335">
     <rdf:RDF>
@@ -79,27 +86,15 @@
      inkscape:groupmode="layer"
      id="capa1"
      transform="translate(0,-1036.3622)">
-    <g
-       id="media-eject"
-       transform="translate(-275,580.00002)">
-      <rect
-         y="456.36218"
-         x="275"
-         height="16"
-         width="16"
-         id="rect3115"
-         style="opacity:0.6;color:#000000;fill:none;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
-      <path
-         id="path4350"
-         d="m 283,460.36218 -5,5 0,1 10,0 0,-1 -5,-5 z m -5,7 0,2 10,0 0,-2 -10,0 z"
-         style="opacity:0.6;color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-         inkscape:connector-curvature="0" />
-      <path
-         inkscape:connector-curvature="0"
-         style="opacity:0.7;color:#000000;fill:url(#linearGradient6911);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-         d="m 283,151.09375 -5,5 0,1 10,0 0,-1 -5,-5 z m -5,7 0,2 10,0 0,-2 -10,0 z"
-         transform="translate(0,308.2677)"
-         id="path7344" />
-    </g>
+    <path
+       inkscape:connector-curvature="0"
+       style="color:#000000;display:inline;overflow:visible;visibility:visible;opacity:0.6;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;enable-background:accumulate"
+       d="m 8,1040.3622 -5,5 0,1 10,0 0,-1 -5,-5 z m -5,7 0,2 10,0 0,-2 -10,0 z"
+       id="path4350" />
+    <path
+       id="path7344"
+       d="m 8,1039.3622 -5,5 0,1 10,0 0,-1 -5,-5 z m -5,7 0,2 10,0 0,-2 -10,0 z"
+       style="color:#000000;display:inline;overflow:visible;visibility:visible;opacity:0.7;fill:url(#linearGradient6911);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;enable-background:accumulate"
+       inkscape:connector-curvature="0" />
   </g>
 </svg>

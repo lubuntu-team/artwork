@@ -1,11 +1,11 @@
-# Default theme for Lubuntu by The Lubuntu Artwork Team
-# (Rafael Laguna and Alexander Andjelkovic)
-#
+# Default theme for Lubuntu by The Lubuntu Artwork Team:
+# Rafael Laguna and Alexander Andjelkovic
+# Thanks to Đurađ Radojičić
 # More info at: https://launchpad.net/~lubuntu-art
 
 [Icon Theme]
 Name=Lubuntu
-Comment=Default theme for Lubuntu (standalone version)
+Comment=Default Lubuntu theme
 Inherits=GNOME
 Example=folder
 

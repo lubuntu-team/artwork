@@ -14,8 +14,8 @@
    width="16"
    height="16"
    id="svg3437"
-   inkscape:version="0.48.4 r9939"
-   sodipodi:docname="user-desktop.svg">
+   inkscape:version="0.91 r"
+   sodipodi:docname="desktop.svg">
   <metadata
      id="metadata101">
     <rdf:RDF>
@@ -24,7 +24,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -52,7 +52,10 @@
      inkscape:snap-grids="true"
      showguides="true"
      inkscape:guide-bbox="true"
-     inkscape:snap-bbox="true">
+     inkscape:snap-bbox="true"
+     inkscape:bbox-nodes="true"
+     inkscape:bbox-paths="true"
+     inkscape:showpageshadow="false">
     <inkscape:grid
        type="xygrid"
        id="grid911"
@@ -499,9 +502,6 @@
        style="opacity:0.9;fill:url(#ButtonShadow);fill-opacity:1;fill-rule:nonzero;stroke:none;filter:url(#filter3174)" />
   </g>
   <g
-     id="layer4"
-     transform="translate(-23.686565,-209.78881)" />
-  <g
      id="layer2-0"
      style="display:none"
      transform="translate(2.877816,-199.33495)">
@@ -516,9 +516,6 @@
        style="opacity:0.9;fill:url(#ButtonShadow-91);fill-opacity:1;fill-rule:nonzero;stroke:none;filter:url(#filter3174-4)" />
   </g>
   <g
-     id="layer4-3"
-     transform="translate(2.877816,-199.33495)" />
-  <g
      id="layer2-1"
      style="display:none"
      transform="translate(59.002817,-196.39972)">
@@ -532,15 +529,12 @@
        id="rect3745-1"
        style="opacity:0.9;fill:url(#ButtonShadow-9);fill-opacity:1;fill-rule:nonzero;stroke:none;filter:url(#filter3174-2)" />
   </g>
-  <g
-     id="layer4-8"
-     transform="translate(59.002817,-196.39972)" />
   <path
-     style="opacity:0.69999999999999996;color:#000000;fill:#363636;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-     d="m 1,1.0000001 -1,1 L 0,14 1,15 15,15 16,14 16,2 15,1 z m 1,2 2,0 0,2 -2,0 z M 2,7 4,7 4,9 2,9 z m 0,5 12,0 0,1 -12,0 z"
      id="path4098"
-     inkscape:connector-curvature="0"
-     sodipodi:nodetypes="cccccccccccccccccccccccc" />
+     style="color:#000000;display:inline;overflow:visible;visibility:visible;opacity:0.7;fill:#363636;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;enable-background:accumulate"
+     d="m 3,11 10,0 0,1 -10,0 z M 3,7 5,7 5,9 3,9 Z m 0,-2.9999999 2,0 0,2 -2,0 z m -1,-2 -1,1 L 1,13 2,14 14,14 15,13 15,3 14,2 Z"
+     clip-path="none"
+     mask="none" />
   <g
      id="layer2-8"
      style="display:none"
@@ -556,9 +550,6 @@
        style="opacity:0.9;fill:url(#ButtonShadow-0);fill-opacity:1;fill-rule:nonzero;stroke:none;filter:url(#filter3174-44)" />
   </g>
   <g
-     id="layer4-39"
-     transform="matrix(0.99945236,0,0,1,121.98325,-199.10942)" />
-  <g
      id="layer2-0-0"
      style="display:none"
      transform="matrix(0.99945236,0,0,1,148.53308,-188.65556)">
@@ -572,9 +563,6 @@
        id="rect3745-7-1"
        style="opacity:0.9;fill:url(#ButtonShadow-91-7);fill-opacity:1;fill-rule:nonzero;stroke:none;filter:url(#filter3174-4-4)" />
   </g>
-  <g
-     id="layer4-3-6"
-     transform="matrix(0.99945236,0,0,1,148.53308,-188.65556)" />
   <g
      id="layer2-1-5"
      style="display:none"
@@ -590,9 +578,6 @@
        style="opacity:0.9;fill:url(#ButtonShadow-9-1);fill-opacity:1;fill-rule:nonzero;stroke:none;filter:url(#filter3174-2-2)" />
   </g>
   <g
-     id="layer4-8-2"
-     transform="matrix(0.99945236,0,0,1,204.62734,-185.72033)" />
-  <g
      id="layer2-03"
      style="display:none"
      transform="translate(98.052554,-205.39082)">
@@ -606,9 +591,6 @@
        id="rect3745-2"
        style="opacity:0.9;fill:url(#linearGradient4045);fill-opacity:1;fill-rule:nonzero;stroke:none;filter:url(#filter3174-34)" />
   </g>
-  <g
-     id="layer4-7"
-     transform="translate(98.052554,-205.39082)" />
   <g
      id="layer2-0-9"
      style="display:none"
@@ -624,9 +606,6 @@
        style="opacity:0.9;fill:url(#linearGradient4047);fill-opacity:1;fill-rule:nonzero;stroke:none;filter:url(#filter3174-4-7)" />
   </g>
   <g
-     id="layer4-3-34"
-     transform="translate(124.61694,-194.93696)" />
-  <g
      id="layer2-1-2"
      style="display:none"
      transform="translate(180.74193,-192.00173)">
@@ -640,9 +619,6 @@
        id="rect3745-1-21"
        style="opacity:0.9;fill:url(#linearGradient4049);fill-opacity:1;fill-rule:nonzero;stroke:none;filter:url(#filter3174-2-0)" />
   </g>
-  <g
-     id="layer4-8-7"
-     transform="translate(180.74193,-192.00173)" />
   <g
      id="layer2-8-6"
      style="display:none"
@@ -658,9 +634,6 @@
        style="opacity:0.9;fill:url(#ButtonShadow-0-3);fill-opacity:1;fill-rule:nonzero;stroke:none;filter:url(#filter3174-44-1)" />
   </g>
   <g
-     id="layer4-39-0"
-     transform="matrix(0.99945236,0,0,1,121.80736,-195.64953)" />
-  <g
      id="layer2-0-0-4"
      style="display:none"
      transform="matrix(0.99945236,0,0,1,148.35719,-185.19567)">
@@ -674,9 +647,6 @@
        id="rect3745-7-1-9"
        style="opacity:0.9;fill:url(#ButtonShadow-91-7-0);fill-opacity:1;fill-rule:nonzero;stroke:none;filter:url(#filter3174-4-4-2)" />
   </g>
-  <g
-     id="layer4-3-6-5"
-     transform="matrix(0.99945236,0,0,1,148.35719,-185.19567)" />
   <g
      id="layer2-1-5-8"
      style="display:none"
@@ -692,9 +662,6 @@
        style="opacity:0.9;fill:url(#ButtonShadow-9-1-0);fill-opacity:1;fill-rule:nonzero;stroke:none;filter:url(#filter3174-2-2-8)" />
   </g>
   <g
-     id="layer4-8-2-3"
-     transform="matrix(0.99945236,0,0,1,204.45146,-182.26044)" />
-  <g
      id="layer2-89"
      style="display:none"
      transform="translate(97.876665,-201.93093)">
@@ -708,9 +675,6 @@
        id="rect3745-16"
        style="opacity:0.9;fill:url(#linearGradient4045-1);fill-opacity:1;fill-rule:nonzero;stroke:none;filter:url(#filter3174-34-6)" />
   </g>
-  <g
-     id="layer4-9"
-     transform="translate(97.876665,-201.93093)" />
   <g
      id="layer2-0-7"
      style="display:none"
@@ -726,9 +690,6 @@
        style="opacity:0.9;fill:url(#linearGradient4047-0);fill-opacity:1;fill-rule:nonzero;stroke:none;filter:url(#filter3174-4-7-2)" />
   </g>
   <g
-     id="layer4-3-8"
-     transform="translate(124.44105,-191.47707)" />
-  <g
      id="layer2-1-6"
      style="display:none"
      transform="translate(180.56605,-188.54184)">
@@ -742,19 +703,4 @@
        id="rect3745-1-2"
        style="opacity:0.9;fill:url(#linearGradient4049-7);fill-opacity:1;fill-rule:nonzero;stroke:none;filter:url(#filter3174-2-0-6)" />
   </g>
-  <g
-     id="layer4-8-4"
-     transform="translate(180.56605,-188.54184)" />
-  <g
-     style="color:black;fill:#002a3c;fill-opacity:0.74509804;fill-rule:evenodd;stroke:none;stroke-width:3pt;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-     id="layer4-88"
-     transform="translate(162.57116,-154.1446)" />
-  <g
-     style="color:black;fill:#002a3c;fill-opacity:0.74509804;fill-rule:evenodd;stroke:none;stroke-width:3pt;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-     id="layer4-3-3"
-     transform="translate(189.13555,-143.69074)" />
-  <g
-     style="color:black;fill:#002a3c;fill-opacity:0.74509804;fill-rule:evenodd;stroke:none;stroke-width:3pt;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-     id="layer4-8-21"
-     transform="translate(245.26055,-140.75551)" />
 </svg>

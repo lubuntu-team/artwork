@@ -1,6 +1,6 @@
-# Default theme for Lubuntu by The Lubuntu Artwork Team
-# (Rafael Laguna and Alexander Andjelkovic)
-#
+# Default theme for Lubuntu by The Lubuntu Artwork Team:
+# Rafael Laguna and Alexander Andjelkovic
+# Thanks to Đurađ Radojičić
 # More info at: https://launchpad.net/~lubuntu-art
 
 [Icon Theme]
@@ -9,35 +9,51 @@ Comment=Default Lubuntu theme for dark panels
 Inherits=Lubuntu
 Example=folder
 
+DisplayDepth=32
+Example=folder
+
+DesktopDefault=48
+DesktopSizes=16,22,24,48,64,128
+ToolbarDefault=22
+ToolbarSizes=16,22,24,48
+MainToolbarDefault=22
+MainToolbarSizes=16,22,24,48
+SmallDefault=16
+SmallSizes=16,22,24,48
+PanelDefault=24
+PanelSizes=16,22,24,48,64,128
+DialogDefault=32
+DialogSizes=16,22,24,48,64,128
+
 # Directory list
 Directories=panel/16,panel/22,panel/24,status/16,status/22,status/24
 
 [panel/16]
 Size=16
 Context=Status
-Type=Scalable
+Type=Threshold
 
 [panel/22]
 Size=22
 Context=Status
-Type=Scalable
+Type=Threshold
 
 [panel/24]
 Size=24
 Context=Status
-Type=Scalable
+Type=Threshold
 
 [status/16]
 Size=16
 Context=Status
-Type=Scalable
+Type=Threshold
 
 [status/22]
 Size=22
 Context=Status
-Type=Scalable
+Type=Threshold
 
 [status/24]
 Size=24
 Context=Status
-Type=Scalable
+Type=Threshold

@@ -13,7 +13,7 @@
    height="16px"
    id="svg2593"
    sodipodi:version="0.32"
-   inkscape:version="0.48.4 r9939"
+   inkscape:version="0.91 r"
    sodipodi:docname="folder-download.svg"
    inkscape:output_extension="org.inkscape.output.svg.inkscape"
    version="1.1"
@@ -29,9 +29,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="22.627417"
-     inkscape:cx="11.607315"
-     inkscape:cy="11.256023"
+     inkscape:zoom="32"
+     inkscape:cx="11.232315"
+     inkscape:cy="7.912273"
      inkscape:current-layer="layer1"
      showgrid="true"
      inkscape:grid-bbox="true"
@@ -69,8 +69,10 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer">
     <path
-       style="opacity:0.69999999999999996;color:#000000;fill:#363636;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-       d="M 7 1 L 7 4 L 10 4 L 10 1 L 7 1 z M 7 5 L 7 8 L 10 8 L 10 5 L 7 5 z M 3 7 L 3 10 L 8.5 15 L 14 10 L 14 7 L 8.5 12 L 3 7 z "
-       id="path3742" />
+       style="color:#000000;display:inline;overflow:visible;visibility:visible;opacity:0.7;fill:#363636;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;enable-background:accumulate"
+       d="M 7,3 7,4 8,5 9,5 10,4 10,3 9,2 8,2 Z M 8,6 7,7 7,8 8,9 9,9 10,8 10,7 9,6 Z M 3,9 3,10 8.5,15 14,10 14,9 13,8 8.5,12 4,8 Z"
+       id="path3742"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccccccccccccccccccccccccc" />
   </g>
 </svg>

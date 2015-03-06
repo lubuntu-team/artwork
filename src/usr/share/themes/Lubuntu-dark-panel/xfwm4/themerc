@@ -1,24 +1,22 @@
-# Author: Simon Steinbeiß <simon.steinbeiss@elfenbeinturm.at>
-# Modified by: Marcelo Aguero <marceloaguero@gmail.com>
-# Modified again by: Simon Steinbeiß <simon.steinbeiss@elfenbeinturm.at>
-# Author of original metacity theme: elementart Art Team
-# Greybird theme for xfwm4 using GTK color pickup.
-# License: GPL
-# Date: January 2011
+# Default theme for Lubuntu by The Lubuntu Artwork Team:
+# Rafael Laguna and Alexander Andjelkovic
+# Based on Evolve by Satyajit Sahoo (GPL licensed)
+# More info at: https://launchpad.net/~lubuntu-art
 
-active_text_color=#686868
-active_text_shadow_color=#ececec
-inactive_text_color=#bbbbbb
-inactive_text_shadow_color=#ececec
-title_shadow_active=true
-title_shadow_inactive=true
-full_width_title=true
-title_vertical_offset_active=2
-title_vertical_offset_inactive=2
-button_offset=4
+active_text_color=#333
+inactive_text_color=#999
+button_offset=5
 button_spacing=2
-shadow_delta_height=2
+show_app_icon=false
+full_width_title=true
+maximized_offset=0
+title_horizontal_offset=0
+title_vertical_offset_active=1
+title_vertical_offset_inactive=1
+title_shadow_active=false
+title_shadow_inactive=false
+shadow_delta_height=0
 shadow_delta_width=0
 shadow_delta_x=0
-shadow_delta_y=-10
-shadow_opacity=50
+shadow_delta_y=0
+shadow_opacity=30
