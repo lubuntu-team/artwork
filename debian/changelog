@@ -1,4 +1,4 @@
-lubuntu-artwork (0.51) utopic; urgency=medium
+lubuntu-artwork (0.51) vivid; urgency=medium
 
   * usr/share/icons:
    - Update icons theme.
@@ -10,7 +10,7 @@ lubuntu-artwork (0.51) utopic; urgency=medium
   * debian/control:
    - Add a sddm theme binary.
 
- -- Julien Lavergne <gilir@ubuntu.com>  Sun, 15 Feb 2015 17:51:49 +0100
+ -- Julien Lavergne <gilir@ubuntu.com>  Sun, 15 Feb 2015 18:04:55 +0100
 
 lubuntu-artwork (0.50) vivid; urgency=medium
 
