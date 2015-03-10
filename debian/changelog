@@ -1,3 +1,14 @@
+lubuntu-artwork (0.53) UNRELEASED; urgency=medium
+
+  * src/usr/share/icons:
+   - Update icons theme.
+  * src/usr/share/themes/Lubuntu-default/
+   - Update current theme.
+  * src/usr/share/lubuntu/wallpapers/
+   - Added community wallpapers for 15.04. 
+
+ -- Julien Lavergne <gilir@ubuntu.com>  Tue, 10 Mar 2015 09:29:36 +0100
+
 lubuntu-artwork (0.52) vivid; urgency=medium
 
   * Add fsck report and cancel support with systemd to the logo theme
