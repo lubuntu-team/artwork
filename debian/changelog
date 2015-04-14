@@ -3,7 +3,7 @@ lubuntu-artwork (0.54) vivid; urgency=medium
   * src/usr/share/themes/Lubuntu-default/
    - Fix client side decoration menus.
 
- -- Julien Lavergne <gilir@ubuntu.com>  Tue, 14 Apr 2015 21:29:15 +0200
+ -- Julien Lavergne <gilir@ubuntu.com>  Tue, 14 Apr 2015 21:31:49 +0200
 
 lubuntu-artwork (0.53) vivid; urgency=medium
 
