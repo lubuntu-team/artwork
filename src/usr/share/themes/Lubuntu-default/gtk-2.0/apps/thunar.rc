@@ -37,6 +37,21 @@ style "thunar-handle" {
 	}
 }
 
+style "thunar-statusbar" {
+	bg[NORMAL] = @base_color
+
+	engine "pixmap"	{
+		image {
+			function	= RESIZE_GRIP
+			recolorable	= FALSE
+			detail		= "statusbar"
+			overlay_file	= "/images/null.png"
+			overlay_border	= {0,0,0,0 }
+			overlay_stretch	= FALSE
+		}
+        }
+}
+
 style "thunar-location" {
 	ThunarLocationButtons::spacing = 0
 }
@@ -46,7 +61,7 @@ style "thunar-frame" {
 	ythickness = 0
 }
 
-widget_class "*ThunarLocationEntry*"		style "entry"
+widget_class "*ThunarLocationEntry*" style "entry"
 widget_class "*ThunarWindow*.<GtkScrolledWindow>" style "thunar-frame"
 widget_class "*ThunarLocationButtons*" style "thunar-location"
 widget_class "*ThunarShortcutsView*" style "thunar-sidepane"
