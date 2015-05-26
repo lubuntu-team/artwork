@@ -283,7 +283,7 @@ style "comboboxentry" = "notebook_button" {
 
 style "menubar" = "dark" {
 	# those two lines were added to fix firefox's menubar item text
-	bg[SELECTED] = "#ece7e2"
+	bg[SELECTED] = @bg_color
 	fg[SELECTED] = @fg_color
 
 	engine "murrine" {
@@ -335,7 +335,7 @@ style "menu_item" = "menu" {
 }
 
 style "menubar_item" = "menu_item" {
-	bg[PRELIGHT] = "#ece7e2"
+	bg[PRELIGHT] = @bg_color
 	fg[PRELIGHT] = @fg_color
 
 	engine "murrine" {
@@ -679,7 +679,7 @@ include "apps/lubuntu_scrollbar.rc"
 include "apps/pcmanfm.rc"
 
 # XFCE specific
-include "apps/xfce4-notifyd.rc"
+#include "apps/xfce4-notifyd.rc"
 include "apps/thunar.rc"
 
 # MATE specific

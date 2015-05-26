@@ -2,7 +2,7 @@ style "theme-panel"
 {
 	xthickness = 4
 	ythickness = 0
-	bg_pixmap[NORMAL] = "../images/panel-bg.png"
+	bg_pixmap[NORMAL] = "images/panel-bg.png"
 
 	fg[NORMAL]	= "#000000"
 	fg[PRELIGHT]	= "#ffffff"
@@ -98,8 +98,8 @@ widget "*indicator-applet*"		style "theme-panel"
 class "PanelApp*"			style "theme-panel"
 class "PanelToplevel*"			style "theme-panel"
 widget_class "*PanelToplevel*"		style "theme-panel"
-widget_class "*notif*"			style "theme-panel"
-widget_class "*Notif*"			style "theme-panel"
+# widget_class "*notif*"			style "theme-panel"
+# widget_class "*Notif*"			style "theme-panel"
 widget_class "*Tray*"			style "theme-panel" 
 widget_class "*tray*"			style "theme-panel"
 widget_class "*computertemp*"		style "theme-panel"
