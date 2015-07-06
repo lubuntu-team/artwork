@@ -14,55 +14,10 @@
    height="16"
    id="svg3330"
    version="1.1"
-   inkscape:version="0.48.4 r9939"
+   inkscape:version="0.91 r"
    sodipodi:docname="system-devices-panel.svg">
   <defs
      id="defs3332">
-    <linearGradient
-       y2="11.02436"
-       y1="3.0069399"
-       x2="0"
-       id="linearGradient1022-8-8-3-0-05-6"
-       gradientUnits="userSpaceOnUse">
-      <stop
-         id="stop3001-0-9-4-49-0"
-         offset="0" />
-      <stop
-         id="stop3003-5-6-6-8-7"
-         stop-color="#363636"
-         offset="1" />
-    </linearGradient>
-    <linearGradient
-       id="linearGradient3587-6-5-3">
-      <stop
-         offset="0"
-         style="stop-color:#bebebe;stop-opacity:1;"
-         id="stop3589-9-2-0" />
-      <stop
-         offset="1"
-         style="stop-color:#ffffff;stop-opacity:1;"
-         id="stop3591-7-4-7" />
-    </linearGradient>
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient3587-6-5-3"
-       id="linearGradient3009"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="translate(17.562376,1030.3622)"
-       x1="14"
-       y1="3"
-       x2="14"
-       y2="21" />
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient3587-6-5-3-8"
-       id="linearGradient3009-3"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(1,0,0,-1,17.562376,1058.3622)"
-       x1="-9.562376"
-       y1="7"
-       x2="-9.562376"
-       y2="21" />
     <linearGradient
        id="linearGradient3587-6-5-3-8">
       <stop
@@ -75,15 +30,15 @@
          id="stop3591-7-4-7-7" />
     </linearGradient>
     <linearGradient
-       y2="21"
-       x2="14"
-       y1="3"
-       x1="14"
-       gradientTransform="translate(-1.562624,-5.125)"
-       gradientUnits="userSpaceOnUse"
-       id="linearGradient3044"
+       inkscape:collect="always"
        xlink:href="#linearGradient3587-6-5-3-8"
-       inkscape:collect="always" />
+       id="linearGradient3406"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,-1,-1.838011,1057.5545)"
+       x1="8.437624"
+       y1="8"
+       x2="8.437624"
+       y2="18" />
   </defs>
   <sodipodi:namedview
      id="base"
@@ -104,7 +59,13 @@
      inkscape:window-x="0"
      inkscape:window-y="24"
      inkscape:window-maximized="1"
-     inkscape:snap-bbox="true">
+     inkscape:snap-bbox="true"
+     inkscape:bbox-paths="true"
+     inkscape:bbox-nodes="true"
+     inkscape:snap-bbox-edge-midpoints="true"
+     inkscape:object-paths="true"
+     inkscape:snap-intersection-paths="true"
+     inkscape:object-nodes="true">
     <inkscape:grid
        type="xygrid"
        id="grid2990" />
@@ -127,16 +88,14 @@
      id="capa1"
      transform="translate(0,-1036.3622)">
     <path
-       sodipodi:nodetypes="cccccccccccccccccccccccccccccccccccccccccc"
-       id="path3771"
-       d="m 7,1038.3622 0,2 -2,1 -1,-1 -1,1 1,1 -1,2 -2,0 0,2 2,0 1,2 -1,1 1,1 1,-1 2,1 0,2 2,0 0,-2 2,-1 1,1 1,-1 -1,-1 1,-2 2,0 0,-2 -2,0 -1,-2 1,-1 -1,-1 -1,1 -2,-1 0,-2 z m 2,4 2,2 0,2 -2,2 -2,0 -2,-2 0,-2 2,-2 z"
-       style="opacity:0.75000000000000000;color:#000000;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="path3380"
+       d="m 2,1040.3622 0,2 12,0 0,-2 -12,0 z m 0,4 0,2 12,0 0,-2 -12,0 z m 0,4 0,2 12,0 0,-2 -12,0 z"
+       style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate;filter-blend-mode:normal;filter-gaussianBlur-deviation:0"
        inkscape:connector-curvature="0" />
     <path
        inkscape:connector-curvature="0"
-       style="color:#000000;fill:url(#linearGradient3009-3);fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-       d="m 7,1051.3622 0,-2 -2,-1 -1,1 -1,-1 1,-1 -1,-2 -2,0 0,-2 2,0 1,-2 -1,-1 1,-1 1,1 2,-1 0,-2 2,0 0,2 2,1 1,-1 1,1 -1,1 1,2 2,0 0,2 -2,0 -1,2 1,1 -1,1 -1,-1 -2,1 0,2 z m 2,-4 2,-2 0,-2 -2,-2 -2,0 -2,2 0,2 2,2 z"
-       id="path5266"
-       sodipodi:nodetypes="cccccccccccccccccccccccccccccccccccccccccc" />
+       style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:url(#linearGradient3406);fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+       d="m 2,1039.3622 0,2 12,0 0,-2 -12,0 z m 0,4 0,2 12,0 0,-2 -12,0 z m 0,4 0,2 12,0 0,-2 -12,0 z"
+       id="path3373" />
   </g>
 </svg>
