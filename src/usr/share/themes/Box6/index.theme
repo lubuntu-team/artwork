@@ -1,0 +1,20 @@
+# Default theme for Lubuntu by The Lubuntu Artwork Team
+# (Rafael Laguna and and Alexander Andjelkovic)
+# Based on Radiance. GPL2 / Open Source licensed
+#
+# More info at: https://launchpad.net/~lubuntu-art
+
+[Desktop Entry]
+Name=Lubuntu
+Type=X-GNOME-Metatheme
+Comment=Default theme for Lubuntu
+Encoding=UTF-8
+
+[X-GNOME-Metatheme]
+GtkTheme=Lubuntu
+IconTheme=Lubuntu
+CursorTheme=DMZ-Black
+CursorSize=24
+NotificationTheme=ubuntu
+MetacityTheme=Box-default
+ButtonLayout=close,minimize,maximize:

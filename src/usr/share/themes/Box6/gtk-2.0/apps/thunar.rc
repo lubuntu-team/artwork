@@ -1,0 +1,39 @@
+style "sidepane"
+{
+	GtkTreeView::vertical-separator = 2
+
+	base[NORMAL]		= @sidepane_color
+	base[INSENSITIVE]	= @bg_color
+
+	text[NORMAL]		= mix (0.7, @text_color, @base_color)
+	text[ACTIVE]		= @selected_fg_color
+	text[SELECTED]		= @selected_fg_color
+
+	engine "pixmap" {
+		
+	image {
+		function	= FLAT_BOX
+		state		= SELECTED
+	        recolorable	= TRUE
+		file		= "images/sidebar_active.png"		
+		border		= { 0, 0, 0, 0 }
+		stretch		= TRUE
+        	}
+	
+	image {
+		function	= FOCUS
+		recolorable	= TRUE
+		file		= "images/sidebar_active.png"
+		border		= { 0, 0, 0, 0 }
+		stretch		= TRUE
+		} 
+	}
+}
+
+widget_class "*ThunarShortcutsView*"		style "sidepane"
+widget_class "*ThunarLocationEntry*"		style "entry"
+
+
+# Gtk2 Open-File Dialog
+widget_class "*GtkFileChooserWidget.GtkFileChooserDefault.GtkVBox.GtkHPaned.GtkVBox.GtkScrolledWindow.GtkTreeView*"	style "sidepane"
+

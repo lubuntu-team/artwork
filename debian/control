@@ -13,12 +13,26 @@ Vcs-Browser: http://bazaar.launchpad.net/~lubuntu-desktop/+junk/artwork/files
 Package: lubuntu-artwork
 Architecture: all
 Depends: libnewt0.52 (>= 0.52.11-2ubuntu7),
-         lubuntu-artwork-15-04,
+         lubuntu-artwork-15-10,
          lubuntu-lxpanel-icons,
          ${misc:Depends}
 Description: artwork for Lubuntu
  Artwork for Lubuntu, contained the wallpaper and others specific images and
  logos.
+
+Package: lubuntu-artwork-15-10
+Architecture: all
+Depends: gtk2-engines,
+         gtk2-engines-pixbuf,
+         gtk2-engines-murrine,
+         gtk3-engines-unico,
+         libnewt0.52 (>= 0.52.11-2ubuntu7),
+         ${misc:Depends}
+Description: artwork for Lubuntu - 15.10 version
+ Artwork for Lubuntu, contained the wallpaper and others specific images and
+ logos.
+ .
+ This package contains theme of Lubuntu 15.10.
 
 Package: lubuntu-artwork-15-04
 Architecture: all
