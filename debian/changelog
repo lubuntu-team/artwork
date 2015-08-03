@@ -3,6 +3,12 @@ lubuntu-artwork (0.55) UNRELEASED; urgency=medium
   * Backup current artwork items to 1504 items, and prepare 1510 ones.
   * src/lib/plymouth/themes/lubuntu-text:
    - Update to 15.10.
+  * src/usr/share/icons:
+   - Update icons theme.
+  * src/usr/share/themes/Lubuntu-default/
+   - Update current theme.
+   - Fix gtk3 bugs (LP: #1464349).
+   - Fix notification dialog (LP: #1362555).
 
  -- Julien Lavergne <gilir@ubuntu.com>  Mon, 03 Aug 2015 21:46:25 +0200
 
