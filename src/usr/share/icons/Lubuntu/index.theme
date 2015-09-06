@@ -6,8 +6,8 @@
 [Icon Theme]
 Name=Lubuntu
 Comment=Default Lubuntu theme
-Inherits=GNOME
-Example=folder
+Inherits=Adwaita,gnome,hicolor
+Example=directory-x-normal
 
 DisplayDepth=32
 Example=folder
