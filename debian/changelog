@@ -1,3 +1,14 @@
+lubuntu-artwork (0.56) UNRELEASED; urgency=medium
+
+  * src/usr/share/icons:
+   - Add vm icons.
+  * usr/share/lubuntu/wallpapers/1510-lubuntu-default-wallpaper.png
+   - Update wallpaper for 15.10.
+  * src/usr/share/icons:
+   - Fix Lubuntu-dark-panel inherit (LP: #1358402).
+
+ -- Julien Lavergne <gilir@ubuntu.com>  Wed, 09 Sep 2015 22:31:12 +0200
+
 lubuntu-artwork (0.55) wily; urgency=medium
 
   * Backup current artwork items to 1504 items, and prepare 1510 ones.
