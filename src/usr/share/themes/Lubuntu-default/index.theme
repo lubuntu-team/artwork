@@ -10,10 +10,10 @@ Comment=Default theme for Lubuntu
 Encoding=UTF-8
 
 [X-GNOME-Metatheme]
-GtkTheme=Lubuntu
+GtkTheme=Lubuntu-default
 IconTheme=Lubuntu
 CursorTheme=DMZ-Black
 CursorSize=24
 NotificationTheme=ubuntu
-MetacityTheme=Box-default
+MetacityTheme=Lubuntu-default
 ButtonLayout=close,minimize,maximize:
