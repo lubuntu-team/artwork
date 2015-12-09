@@ -1,5 +1,6 @@
 lubuntu-artwork (0.58) UNRELEASED; urgency=medium
 
+  * Backup current artwork items to 1510 items, and prepare 1604 ones.
   * src/usr/share/icons:
    - Update icons
    - Fix fctix icon (LP: #1511980)
