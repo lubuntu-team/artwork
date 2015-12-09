@@ -180,6 +180,7 @@ Provides: plymouth-theme
 Replaces: lubuntu-plymouth-theme,
           plymouth (<< 0.8.1-1~)
 Conflicts: lubuntu-plymouth-theme
+Breaks: plymouth (<< 0.9.2-3ubuntu1~),
 Description: plymouth theme for Lubuntu
  This package contain a specific Lubuntu theme for plymouth.
 
@@ -192,6 +193,7 @@ Depends: plymouth,
          ${shlibs:Depends}
 Provides: plymouth-theme
 Replaces: plymouth (<< 0.8.1-1~)
+Breaks: plymouth (<< 0.9.2-3ubuntu1~),
 Description: plymouth text theme for Lubuntu
  This package contain a specific Lubuntu theme for plymouth, which display a
  simple text.

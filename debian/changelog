@@ -1,4 +1,4 @@
-lubuntu-artwork (0.57) UNRELEASED; urgency=medium
+lubuntu-artwork (0.58) UNRELEASED; urgency=medium
 
   * src/usr/share/icons:
    - Update icons
@@ -9,6 +9,16 @@ lubuntu-artwork (0.57) UNRELEASED; urgency=medium
    - Update current theme.
 
  -- Julien Lavergne <gilir@ubuntu.com>  Sun, 06 Dec 2015 21:19:23 +0100
+
+lubuntu-artwork (0.57) xenial; urgency=medium
+
+  * Transition with new plymouth from /usr/share to /lib:
+    - replace /lib instances by /usr/share
+    - move src/lib/plymouth to src/usr/share/plymouth and adapt Makefile
+    - breaks against older plymouth.
+    - ensure we can transition the alternatives to the new version
+
+ -- Didier Roche <didrocks@ubuntu.com>  Wed, 09 Dec 2015 08:35:36 +0100
 
 lubuntu-artwork (0.56) wily; urgency=medium
 

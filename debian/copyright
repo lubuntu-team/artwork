@@ -2,7 +2,7 @@ Format-Specification: http://wiki.debian.org/Proposals/CopyrightFormat
 Upstream-Name: Lubuntu Artwork
 Upstream-Maintainer: Lubuntu Team <lubuntu-desktop@lists.launchpad.net>
 
-Files: lib/
+Files: usr/share/plymouth/*
 Copyright: Copyright (C) 2009 Canonical Ltd.
            Copyright (C) 2010 Rafael Laguna <rafaellaguna@gmail.com>
 License: GPL-2+
