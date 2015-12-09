@@ -7,6 +7,8 @@ lubuntu-artwork (0.58) UNRELEASED; urgency=medium
    - Fix metacity labels
   * src/usr/share/lxqt/themes/Lubuntu/
    - Update current theme.
+  * src/usr/share/plymouth/themes/lubuntu-text
+   - Update to 16.04
 
  -- Julien Lavergne <gilir@ubuntu.com>  Sun, 06 Dec 2015 21:19:23 +0100
 
