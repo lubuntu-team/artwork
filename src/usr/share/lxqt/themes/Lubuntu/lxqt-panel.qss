@@ -171,14 +171,18 @@ TrayIcon {
  */
 #MainMenu {
     margin: 1px;
-    border: 1px solid #004e6c;
+    margin-left: 2px;
+    margin-right: 2px;
+    border: 0px solid #004e6c;
     border-radius: 3px;
-    background: qlineargradient(x1:1, y1:0, x2:0, y2:1, stop:0 #0078A6, stop:0.3 #006891, stop:1 #005576);
+    background: transparent;
     qproperty-icon: url(mainmenu.svg);
     color: #EEEEEE;
 }
 
-
+#MainMenu:hover {
+    background: #a6bfc7;
+}
 /*
  * Mount plugin
  */
