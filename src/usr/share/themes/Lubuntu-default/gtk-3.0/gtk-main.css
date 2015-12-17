@@ -62,6 +62,8 @@
 @define-color toolbar_border_top_color @toolbar_base;
 @define-color toolbar_border_bottom_color @toolbar_border;
 
+@define-color colorAccent @selected_bg_color;
+
 @import url("gtk-widgets-borders.css");
 @import url("gtk-widgets-borders-radiance.css");
 @import url("gtk-widgets-assets.css");

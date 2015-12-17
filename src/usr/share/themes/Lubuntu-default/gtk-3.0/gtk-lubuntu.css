@@ -1,3 +1,7 @@
+*:link,
+*:visited {
+    color: @link_color;
+}
 
 /**********
  * states *

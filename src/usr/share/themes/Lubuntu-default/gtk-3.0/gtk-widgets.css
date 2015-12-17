@@ -18,7 +18,7 @@
     -GtkMenuBar-internal-padding: 0;
     -GtkMenuItem-arrow-scaling: 0.6;
     -GtkNotebook-tab-overlap: 1;
-    -GtkPaned-handle-size: 6;
+    -GtkPaned-handle-size: 1px;
     -GtkProgressBar-min-horizontal-bar-height: 14;
     -GtkProgressBar-min-vertical-bar-width: 14;
     -GtkRange-trough-border: 0;
