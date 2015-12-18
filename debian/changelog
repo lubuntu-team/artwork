@@ -1,4 +1,4 @@
-lubuntu-artwork (0.58) UNRELEASED; urgency=medium
+lubuntu-artwork (0.58) xenial; urgency=medium
 
   * Backup current artwork items to 1510 items, and prepare 1604 ones.
   * src/usr/share/icons:
@@ -11,7 +11,7 @@ lubuntu-artwork (0.58) UNRELEASED; urgency=medium
   * src/usr/share/plymouth/themes/lubuntu-text
    - Update to 16.04
 
- -- Julien Lavergne <gilir@ubuntu.com>  Sun, 06 Dec 2015 21:19:23 +0100
+ -- Julien Lavergne <gilir@ubuntu.com>  Fri, 18 Dec 2015 21:25:22 +0100
 
 lubuntu-artwork (0.57) xenial; urgency=medium
 
