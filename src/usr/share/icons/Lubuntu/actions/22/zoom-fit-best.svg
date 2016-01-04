@@ -14,7 +14,7 @@
    height="22"
    id="svg6662"
    version="1.1"
-   inkscape:version="0.48.4 r9939"
+   inkscape:version="0.91 r13725"
    sodipodi:docname="zoom-fit-best.svg">
   <defs
      id="defs6664">
@@ -37,7 +37,7 @@
        x2="210.70058"
        y1="314.82605"
        x1="210.70058"
-       gradientTransform="matrix(1.6799908,0,0,1.5097214,73.024963,-442.20512)"
+       gradientTransform="matrix(1.6799908,0,0,1.5097214,-342.97501,557.0626)"
        gradientUnits="userSpaceOnUse"
        id="linearGradient10078"
        xlink:href="#linearGradient1022-8-8-3-0-05-5"
@@ -60,7 +60,7 @@
      inkscape:window-width="730"
      inkscape:window-height="702"
      inkscape:window-x="484"
-     inkscape:window-y="100"
+     inkscape:window-y="29"
      inkscape:window-maximized="0"
      width="22px" />
   <metadata
@@ -80,27 +80,15 @@
      inkscape:groupmode="layer"
      id="capa1"
      transform="translate(0,-1030.3622)">
-    <g
-       transform="translate(-415.99997,691.00002)"
-       id="zoom-fit-best">
-      <rect
-         y="338.36218"
-         x="414.99997"
-         height="23.999996"
-         width="23.999996"
-         id="rect3107"
-         style="opacity:0.6;color:#000000;fill:none;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
-      <path
-         style="opacity:0.6;color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-         d="m 421,342.36218 -3,3 0,12 3,3 12,0 3,-3 0,-12 -3,-3 -12,0 z m 1,2 10,0 2,2 0,10 -2,2 -10,0 -2,-2 0,-10 2,-2 z m 1,1 -2,2 0,3 5,-5 -3,0 z m 5,0 5,5 0,-3 -2,-2 -3,0 z m -7,7 0,3 2,2 3,0 -5,-5 z m 12,0 -5,5 3,0 2,-2 0,-3 z"
-         id="path6411"
-         inkscape:connector-curvature="0" />
-      <path
-         inkscape:connector-curvature="0"
-         id="path5499"
-         transform="translate(0,308.2677)"
-         d="m 421,33.09375 -3,3 0,12 3,3 12,0 3,-3 0,-12 -3,-3 -12,0 z m 1,2 10,0 2,2 0,10 -2,2 -10,0 -2,-2 0,-10 2,-2 z m 1,1 -2,2 0,3 5,-5 -3,0 z m 5,0 5,5 0,-3 -2,-2 -3,0 z m -7,7 0,3 2,2 3,0 -5,-5 z m 12,0 -5,5 3,0 2,-2 0,-3 z"
-         style="opacity:0.7;color:#000000;fill:url(#linearGradient10078);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
-    </g>
+    <path
+       inkscape:connector-curvature="0"
+       id="path6411"
+       d="m 5.00003,1033.3622 -3,3 0,12 3,3 12,0 3,-3 0,-12 -3,-3 -12,0 z m 1,2 10,0 2,2 0,10 -2,2 -10,0 -2,-2 0,-10 2,-2 z m 1,1 -2,2 0,3 5,-5 -3,0 z m 5,0 5,5 0,-3 -2,-2 -3,0 z m -7,7 0,3 2,2 3,0 -5,-5 z m 12,0 -5,5 3,0 2,-2 0,-3 z"
+       style="color:#000000;display:inline;overflow:visible;visibility:visible;opacity:0.6;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;enable-background:accumulate" />
+    <path
+       style="color:#000000;display:inline;overflow:visible;visibility:visible;opacity:0.7;fill:url(#linearGradient10078);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;enable-background:accumulate"
+       d="m 5.00003,1032.3615 -3,3 0,12 3,3 12,0 3,-3 0,-12 -3,-3 -12,0 z m 1,2 10,0 2,2 0,10 -2,2 -10,0 -2,-2 0,-10 2,-2 z m 1,1 -2,2 0,3 5,-5 -3,0 z m 5,0 5,5 0,-3 -2,-2 -3,0 z m -7,7 0,3 2,2 3,0 -5,-5 z m 12,0 -5,5 3,0 2,-2 0,-3 z"
+       id="path5499"
+       inkscape:connector-curvature="0" />
   </g>
 </svg>

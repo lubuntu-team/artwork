@@ -14,34 +14,34 @@
    height="22"
    id="svg6662"
    version="1.1"
-   inkscape:version="0.48.4 r9939"
+   inkscape:version="0.91 r13725"
    sodipodi:docname="stock_text_unindent.svg">
   <defs
      id="defs6664">
     <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient1022-8-8-3-0-2-5-0"
-       id="linearGradient3002-5"
        gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(-4.3199768,0,0,0.23226486,365.50724,1.708)"
-       x1="82.293785"
-       y1="4437.4092"
-       x2="82.293785"
-       y2="4514.9067" />
-    <linearGradient
-       y2="11.02436"
-       y1="3.0069399"
+       id="linearGradient1022-8-8-3-0-2-5-0-1"
        x2="0"
-       id="linearGradient1022-8-8-3-0-2-5-0"
-       gradientUnits="userSpaceOnUse">
+       y1="3.0069399"
+       y2="11.02436">
       <stop
-         id="stop3001-0-9-4-1-6-9"
-         offset="0" />
+         offset="0"
+         id="stop3001-0-9-4-1-6-9-3" />
       <stop
-         id="stop3003-5-6-6-1-6-7"
+         offset="1"
          stop-color="#363636"
-         offset="1" />
+         id="stop3003-5-6-6-1-6-7-4" />
     </linearGradient>
+    <linearGradient
+       y2="4510.6016"
+       x2="82.525269"
+       y1="4433.1035"
+       x1="82.525269"
+       gradientTransform="matrix(-4.3199768,0,0,0.23226486,365.50724,2.708)"
+       gradientUnits="userSpaceOnUse"
+       id="linearGradient3819"
+       xlink:href="#linearGradient1022-8-8-3-0-2-5-0-1"
+       inkscape:collect="always" />
   </defs>
   <sodipodi:namedview
      id="base"
@@ -62,7 +62,14 @@
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
-     inkscape:snap-bbox="true">
+     inkscape:snap-bbox="true"
+     inkscape:bbox-nodes="true"
+     inkscape:snap-bbox-edge-midpoints="true"
+     inkscape:bbox-paths="true"
+     inkscape:snap-smooth-nodes="true"
+     inkscape:object-nodes="true"
+     inkscape:snap-intersection-paths="true"
+     inkscape:object-paths="true">
     <inkscape:grid
        type="xygrid"
        id="grid3327"
@@ -89,14 +96,14 @@
      id="capa1"
      transform="translate(0,-1030.3622)">
     <path
-       d="m 19,1039.3622 -1,0 -3,3 3,3 1,0 z m 0,10 0,2 -16,0 0,-2 16,0 z m -6,-4 0,2 -10,0 0,-2 10,0 z m 0,-4 0,2 -10,0 0,-2 z m 0,-4 0,2 -10,0 0,-2 10,0 z m 6,-4 0,2 -16,0 0,-2 z"
-       style="opacity:0.6;color:black;fill:white;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.66666669;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-       id="path3102"
+       id="path3821"
+       d="m 18,1033.3622 1,1 0,0.9688 -1,1.0312 -14,0 -1,-1 0,-1 1,-1 14,0 z m -5,5 1,1 0,0.9688 -1,1.0312 -9,0 -1,-1 0,-1 1,-1 9,0 z m 6,1 0,6 -1,0 -3,-3 3,-3 1,0 z m -6,4 1,1 0,0.9688 -1,1.0312 -9,0 -1,-1 0,-1 1,-1 9,0 z m 5,5 1,1 0,0.9688 -1,1.0312 -14,0 -1,-1 0,-1 1,-1 14,0 z"
+       style="color:#000000;display:inline;overflow:visible;visibility:visible;opacity:0.6;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.66666669;marker:none;enable-background:accumulate"
        inkscape:connector-curvature="0" />
     <path
-       id="rect3008"
-       style="opacity:0.7;color:black;fill:url(#linearGradient3002-5);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-       d="m 19,1038.3622 -1,0 -3,3 3,3 1,0 z m 0,10 0,2 -16,0 0,-2 16,0 z m -6,-4 0,2 -10,0 0,-2 10,0 z m 0,-4 0,2 -10,0 0,-2 z m 0,-4 0,2 -10,0 0,-2 10,0 z m 6,-4 0,2 -16,0 0,-2 z"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       style="color:#000000;display:inline;overflow:visible;visibility:visible;opacity:0.7;fill:url(#linearGradient3819);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;enable-background:accumulate"
+       d="m 18,1032.3622 1,1 0,0.9688 -1,1.0312 -14,0 -1,-1 0,-1 1,-1 14,0 z m -5,5 1,1 0,0.9688 -1,1.0312 -9,0 -1,-1 0,-1 1,-1 9,0 z m 6,1 0,6 -1,0 -3,-3 3,-3 1,0 z m -6,4 1,1 0,0.9688 -1,1.0312 -9,0 -1,-1 0,-1 1,-1 9,0 z m 5,5 1,1 0,0.9688 -1,1.0312 -14,0 -1,-1 0,-1 1,-1 14,0 z"
+       id="path3006" />
   </g>
 </svg>

@@ -14,8 +14,8 @@
    height="22"
    id="svg4700"
    version="1.1"
-   inkscape:version="0.48.4 r9939"
-   sodipodi:docname="laptop-lid22.svg">
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="laptop-lid.svg">
   <defs
      id="defs4702">
     <filter
@@ -329,18 +329,6 @@
          offset="1" />
     </radialGradient>
     <linearGradient
-       id="linearGradient3921"
-       inkscape:collect="always">
-      <stop
-         id="stop3923"
-         offset="0"
-         style="stop-color:#ffffff;stop-opacity:1;" />
-      <stop
-         id="stop3925"
-         offset="1"
-         style="stop-color:#ffffff;stop-opacity:0;" />
-    </linearGradient>
-    <linearGradient
        id="linearGradient3840">
       <stop
          id="stop3842"
@@ -351,16 +339,6 @@
          offset="1"
          style="stop-color:#2b2b2b;stop-opacity:1;" />
     </linearGradient>
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient3921"
-       id="linearGradient3258"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(0.48888886,0,0,0.41509433,-1.288889,26.339623)"
-       x1="22.105118"
-       y1="-7"
-       x2="22.105118"
-       y2="21" />
     <radialGradient
        inkscape:collect="always"
        xlink:href="#radialGradient4327-5-4"
@@ -432,10 +410,10 @@
      showgrid="true"
      inkscape:grid-bbox="true"
      inkscape:document-units="px"
-     inkscape:window-width="1301"
-     inkscape:window-height="744"
-     inkscape:window-x="65"
-     inkscape:window-y="24"
+     inkscape:window-width="1366"
+     inkscape:window-height="704"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
      inkscape:window-maximized="1"
      inkscape:snap-to-guides="true"
      inkscape:snap-grids="true"
@@ -501,12 +479,6 @@
        x="8.9047613"
        y="35.428574" />
     <path
-       style="color:#000000;fill:url(#linearGradient3258);fill-opacity:1;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-       d="M 4,28 18,28 1,39 1,31 c 0,-2 1,-3 3,-3 z"
-       id="rect3918"
-       inkscape:connector-curvature="0"
-       sodipodi:nodetypes="sccss" />
-    <path
        d="M 17.102481,30.113934 C 14.283704,30.113934 12,32.326243 12,35.056967 12,37.78769 14.283652,40 17.102481,40 c 0.990838,0 1.912742,-0.272748 2.695628,-0.746114 V 30.860048 C 19.01559,30.38731 18.092585,30.113934 17.102481,30.113934 z"
        id="path3687"
        style="opacity:0.33000004;fill:url(#radialGradient3280)"
@@ -519,7 +491,7 @@
        sodipodi:cy="5.5"
        sodipodi:rx="1.5"
        sodipodi:ry="1.5"
-       d="M 25,5.5 C 25,6.3284271 24.328427,7 23.5,7 22.671573,7 22,6.3284271 22,5.5 22,4.6715729 22.671573,4 23.5,4 24.328427,4 25,4.6715729 25,5.5 z"
+       d="M 25,5.5 A 1.5,1.5 0 0 1 23.5,7 1.5,1.5 0 0 1 22,5.5 1.5,1.5 0 0 1 23.5,4 1.5,1.5 0 0 1 25,5.5 Z"
        transform="matrix(0.34920634,0,0,0.34920634,2.3174605,25.555556)" />
     <rect
        style="color:#000000;fill:#00ffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"

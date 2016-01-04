@@ -11,10 +11,10 @@
    viewBox="0 0 48 48"
    id="svg2"
    version="1.1"
-   inkscape:version="0.48.4 r9939"
+   inkscape:version="0.91 r13725"
    width="100%"
    height="100%"
-   sodipodi:docname="shotwell48.svg">
+   sodipodi:docname="shotwell.svg">
   <metadata
      id="metadata64">
     <rdf:RDF>
@@ -36,15 +36,15 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="1280"
-     inkscape:window-height="975"
+     inkscape:window-width="1366"
+     inkscape:window-height="704"
      id="namedview62"
      showgrid="true"
      inkscape:zoom="10.175"
-     inkscape:cx="32.5"
-     inkscape:cy="35.5"
+     inkscape:cx="33.679361"
+     inkscape:cy="22.232187"
      inkscape:window-x="0"
-     inkscape:window-y="24"
+     inkscape:window-y="27"
      inkscape:window-maximized="1"
      inkscape:current-layer="svg2"
      inkscape:snap-nodes="true"
@@ -70,7 +70,11 @@
          offset="0"
          id="stop3892" />
       <stop
-         style="stop-color:white;stop-opacity:0;"
+         id="stop4250"
+         offset="0.44999999"
+         style="stop-color:#ffffff;stop-opacity:0" />
+      <stop
+         style="stop-color:#ffffff;stop-opacity:0.38144329"
          offset="1"
          id="stop3894" />
     </linearGradient>
@@ -133,24 +137,6 @@
          offset="1"
          stop-color="#fea"
          id="stop28" />
-    </linearGradient>
-    <linearGradient
-       gradientUnits="userSpaceOnUse"
-       id="linearGradient3179"
-       x1="8.7801"
-       x2="34.0563"
-       y1="-8.7496"
-       y2="22.4515"
-       gradientTransform="matrix(1,0,0,1.0958904,-4,0.751781)">
-      <stop
-         offset="0"
-         stop-color="#fff"
-         id="stop36" />
-      <stop
-         offset="1"
-         stop-color="#fff"
-         stop-opacity="0"
-         id="stop38" />
     </linearGradient>
     <linearGradient
        inkscape:collect="always"
@@ -655,12 +641,6 @@
        id="path56"
        inkscape:connector-curvature="0" />
   </g>
-  <path
-     d="m 18,4 19,0 c 1.3835,0 3,1.344219 3,3 l 0,37 -11.999999,0 z"
-     id="path60"
-     style="opacity:0.98999999;fill:url(#linearGradient3179);stroke:none"
-     inkscape:connector-curvature="0"
-     sodipodi:nodetypes="cssccc" />
   <rect
      style="color:#000000;fill:url(#linearGradient3871-8);fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
      id="rect3069"
@@ -676,13 +656,13 @@
      d="m 44.5,8 0,-1.5 c 0,-1.554853 -1.338,-3 -3,-3 l -35,0 c -2.961265,0 -3,3 -3,3 l 0,1.5 z"
      style="fill:url(#linearGradient3084);fill-opacity:1;fill-rule:evenodd;stroke:none" />
   <rect
-     ry="3"
+     ry="4"
      y="3.5"
      x="3.5"
      height="41"
      width="41"
      id="rect3803"
-     style="color:black;fill:none;stroke:url(#linearGradient3835);stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+     style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:none;stroke:url(#linearGradient3835);stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate" />
   <rect
      style="color:#000000;fill:#000000;fill-opacity:0.23529412;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
      id="rect3882"
@@ -698,13 +678,13 @@
      id="rect3086"
      style="color:#000000;fill:#000000;fill-opacity:0.23529412;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
   <rect
-     style="color:black;fill:none;stroke:url(#linearGradient3896);stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+     style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:none;stroke:url(#linearGradient3896);stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate"
      id="rect3886"
      width="39"
      height="39"
      x="4.5000005"
      y="4.5000005"
-     ry="2" />
+     ry="3" />
   <rect
      style="color:#000000;fill:#000000;fill-opacity:0.23529412;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
      id="rect3991"

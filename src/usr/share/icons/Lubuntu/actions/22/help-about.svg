@@ -14,7 +14,7 @@
    height="22"
    id="svg6662"
    version="1.1"
-   inkscape:version="0.48.4 r9939"
+   inkscape:version="0.91 r13725"
    sodipodi:docname="user-bookmarks.svg">
   <defs
      id="defs6664">
@@ -23,7 +23,7 @@
        xlink:href="#linearGradient1022-8-8-3-0-27-1"
        id="linearGradient4400"
        gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(1.679991,0,0,1.5097216,64.024963,296.46407)"
+       gradientTransform="matrix(1.679991,0,0,1.5097216,-141.97504,1017.4648)"
        x1="89.866577"
        y1="10.530493"
        x2="89.866577"
@@ -60,7 +60,7 @@
      inkscape:window-width="730"
      inkscape:window-height="702"
      inkscape:window-x="484"
-     inkscape:window-y="100"
+     inkscape:window-y="29"
      inkscape:window-maximized="0" />
   <metadata
      id="metadata6667">
@@ -79,32 +79,21 @@
      inkscape:groupmode="layer"
      id="capa1"
      transform="translate(0,-1030.3622)">
-    <g
-       transform="translate(-206,721.00075)"
-       id="help-about">
-      <path
-         style="opacity:0.6;color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-         inkscape:transform-center-x="0.38140394"
-         inkscape:transform-center-y="-0.43715212"
-         d="m 223,330.36218 -6,-4 -6,4 2,-7 -5,-5 6.75,0 2.25,-6 2.25,6 6.75,0 -5,5 z"
-         id="path6299"
-         inkscape:connector-curvature="0"
-         sodipodi:nodetypes="ccccccccccc" />
-      <path
-         sodipodi:nodetypes="ccccccccccc"
-         inkscape:connector-curvature="0"
-         id="path3062"
-         d="m 223,329.36218 -6,-4 -6,4 2,-7 -5,-5 6.75,0 2.25,-6 2.25,6 6.75,0 -5,5 z"
-         inkscape:transform-center-y="-0.43715212"
-         inkscape:transform-center-x="0.38140394"
-         style="opacity:0.7;color:#000000;fill:url(#linearGradient4400);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
-      <rect
-         style="opacity:0.6;color:#000000;fill:none;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-         id="rect4148"
-         width="24"
-         height="24"
-         x="205"
-         y="308.36145" />
-    </g>
+    <path
+       sodipodi:nodetypes="ccccccccccc"
+       inkscape:connector-curvature="0"
+       id="path6299"
+       d="m 17,1051.3629 -6,-4 -6,4 2,-7 -5,-5 6.75,0 2.25,-6 2.25,6 6.75,0 -5,5 z"
+       inkscape:transform-center-y="-0.43715212"
+       inkscape:transform-center-x="0.38140394"
+       style="color:#000000;display:inline;overflow:visible;visibility:visible;opacity:0.6;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;enable-background:accumulate" />
+    <path
+       style="color:#000000;display:inline;overflow:visible;visibility:visible;opacity:0.7;fill:url(#linearGradient4400);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;enable-background:accumulate"
+       inkscape:transform-center-x="0.38140394"
+       inkscape:transform-center-y="-0.43715212"
+       d="m 17,1050.3629 -6,-4 -6,4 2,-7 -5,-5 6.75,0 2.25,-6 2.25,6 6.75,0 -5,5 z"
+       id="path3062"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccccccccc" />
   </g>
 </svg>

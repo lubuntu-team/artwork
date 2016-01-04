@@ -268,10 +268,10 @@
      inkscape:bbox-nodes="true"
      inkscape:bbox-paths="true"
      inkscape:snap-bbox-edge-midpoints="true"
-     inkscape:window-width="1301"
-     inkscape:window-height="744"
-     inkscape:window-x="65"
-     inkscape:window-y="24"
+     inkscape:window-width="1366"
+     inkscape:window-height="704"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
      inkscape:window-maximized="1">
     <inkscape:grid
        type="xygrid"
@@ -331,7 +331,7 @@
        id="rect5505-21"
        y="1029.8622"
        x="1.5000044"
-       ry="2"
+       ry="3"
        height="21"
        width="21" />
     <g
@@ -372,6 +372,6 @@
        x="2.5000045"
        height="19"
        width="19"
-       ry="1" />
+       ry="2" />
   </g>
 </svg>

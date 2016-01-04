@@ -14,7 +14,7 @@
    height="24"
    id="svg6662"
    version="1.1"
-   inkscape:version="0.48.4 r9939"
+   inkscape:version="0.91 r13725"
    sodipodi:docname="view-right-new.svg">
   <defs
      id="defs6664">
@@ -38,50 +38,6 @@
        id="linearGradient3167"
        gradientUnits="userSpaceOnUse"
        gradientTransform="matrix(0,-1.6800202,0.17761428,0,-237.36736,380.96353)"
-       x1="-386.54218"
-       y1="1403.9827"
-       x2="-397.85156"
-       y2="1403.9827" />
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient1022-8-8-3-0-06-59-5-9"
-       id="linearGradient3167-6"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(0,-1.6800202,0.17761428,0,-237.36736,380.96353)"
-       x1="-386.54218"
-       y1="1403.9827"
-       x2="-397.85156"
-       y2="1403.9827" />
-    <linearGradient
-       y2="11.02436"
-       y1="3.0069399"
-       x2="0"
-       id="linearGradient1022-8-8-3-0-06-59-5-9"
-       gradientUnits="userSpaceOnUse">
-      <stop
-         id="stop3001-0-9-4-9-02-3-6"
-         offset="0" />
-      <stop
-         id="stop3003-5-6-6-5-70-4-9"
-         stop-color="#363636"
-         offset="1" />
-    </linearGradient>
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient1022-8-8-3-0-06-59-5-9"
-       id="linearGradient3060"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(-0.98001301,0,0,-0.35522856,231.72898,509.7347)"
-       x1="-386.54218"
-       y1="1403.9827"
-       x2="-397.85156"
-       y2="1403.9827" />
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient1022-8-8-3-0-06-59-5-9"
-       id="linearGradient3064"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(0,-0.98001301,0.35522856,0,-481.23472,1255.5912)"
        x1="-386.54218"
        y1="1403.9827"
        x2="-397.85156"

@@ -14,7 +14,7 @@
    height="24"
    id="svg6662"
    version="1.1"
-   inkscape:version="0.48.4 r9939"
+   inkscape:version="0.91 r13725"
    sodipodi:docname="bookmark-new.svg">
   <defs
      id="defs6664">
@@ -23,7 +23,7 @@
        xlink:href="#linearGradient1022-8-8-3-0-27-4"
        id="linearGradient5801"
        gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(1.679991,0,0,1.5097216,274.02496,47.19637)"
+       gradientTransform="matrix(1.679991,0,0,1.5097216,-140.96131,1015.4652)"
        x1="91.05706"
        y1="9.8681192"
        x2="91.05706"
@@ -60,7 +60,7 @@
      inkscape:window-width="730"
      inkscape:window-height="702"
      inkscape:window-x="484"
-     inkscape:window-y="100"
+     inkscape:window-y="29"
      inkscape:window-maximized="0" />
   <metadata
      id="metadata6667">
@@ -79,28 +79,15 @@
      inkscape:groupmode="layer"
      id="capa1"
      transform="translate(0,-1028.3622)">
-    <g
-       transform="translate(-414.98627,660.00112)"
-       id="g6637"
-       inkscape:label="#bookmark-new">
-      <path
-         inkscape:connector-curvature="0"
-         style="opacity:0.6;color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-         d="m 427,371.36218 -2.25,6 -6.75,0 5,5 -2,7 15,-12 -6.75,0 -2.25,-6 z m 5,11 0,3 -3,0 0,3 3,0 0,3 3,0 0,-3 3,0 0,-3 -3,0 0,-3 -3,0 z"
-         id="path6435" />
-      <path
-         inkscape:connector-curvature="0"
-         id="bookmark-new"
-         transform="translate(0,308.2677)"
-         d="m 427,62.09375 -2.25,6 -6.75,0 5,5 -2,7 15,-12 -6.75,0 -2.25,-6 z m 5,11 0,3 -3,0 0,3 3,0 0,3 3,0 0,-3 3,0 0,-3 -3,0 0,-3 -3,0 z"
-         style="opacity:0.7;color:#000000;fill:url(#linearGradient5801);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
-      <rect
-         style="opacity:0.6;color:#000000;fill:none;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-         id="rect3111"
-         width="23.998901"
-         height="23.998901"
-         x="414.98627"
-         y="368.36218" />
-    </g>
+    <path
+       id="path6435"
+       d="m 12.01373,1031.3633 -2.25,6 -6.75,0 5,5 -2,7 15,-12 -6.75,0 -2.25,-6 z m 5,11 0,3 -3,0 0,3 3,0 0,3 3,0 0,-3 3,0 0,-3 -3,0 0,-3 -3,0 z"
+       style="color:#000000;display:inline;overflow:visible;visibility:visible;opacity:0.6;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;enable-background:accumulate"
+       inkscape:connector-curvature="0" />
+    <path
+       style="color:#000000;display:inline;overflow:visible;visibility:visible;opacity:0.7;fill:url(#linearGradient5801);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;enable-background:accumulate"
+       d="m 12.01373,1030.3626 -2.25,6 -6.75,0 5,5 -2,7 15,-12 -6.75,0 -2.25,-6 z m 5,11 0,3 -3,0 0,3 3,0 0,3 3,0 0,-3 3,0 0,-3 -3,0 0,-3 -3,0 z"
+       id="bookmark-new"
+       inkscape:connector-curvature="0" />
   </g>
 </svg>

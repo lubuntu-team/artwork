@@ -14,7 +14,7 @@
    height="22"
    id="svg3330"
    version="1.1"
-   inkscape:version="0.48.4 r9939"
+   inkscape:version="0.91 r13725"
    sodipodi:docname="xfsm-suspend.svg">
   <defs
      id="defs3332">
@@ -51,16 +51,16 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="24.24787"
-     inkscape:cx="12"
-     inkscape:cy="12.422414"
+     inkscape:cx="11.010222"
+     inkscape:cy="11.020229"
      inkscape:document-units="px"
      inkscape:current-layer="capa1"
      showgrid="true"
      inkscape:showpageshadow="false"
-     inkscape:window-width="1280"
-     inkscape:window-height="976"
+     inkscape:window-width="1366"
+     inkscape:window-height="704"
      inkscape:window-x="0"
-     inkscape:window-y="24"
+     inkscape:window-y="27"
      inkscape:window-maximized="1">
     <inkscape:grid
        type="xygrid"
@@ -87,13 +87,6 @@
      inkscape:groupmode="layer"
      id="capa1"
      transform="translate(0,-1030.3622)">
-    <rect
-       style="opacity:0.6;color:#000000;fill:none;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-       id="rect3113"
-       width="24"
-       height="24"
-       x="-1"
-       y="1029.3622" />
     <path
        sodipodi:nodetypes="cccccccccccccccccccccc"
        inkscape:connector-curvature="0"

@@ -15,7 +15,7 @@
    id="svg4343"
    version="1.1"
    inkscape:version="0.91 r13725"
-   sodipodi:docname="128.svg">
+   sodipodi:docname="qupzilla.svg">
   <defs
      id="defs4345">
     <linearGradient
@@ -64,7 +64,7 @@
        x2="23.99999"
        y1="4.999989"
        x1="23.99999"
-       gradientTransform="matrix(2.7297298,0,0,2.7297298,-1.5135112,-62.513486)"
+       gradientTransform="matrix(2.7297298,0,0,2.7297298,-1.5135112,-64.513488)"
        gradientUnits="userSpaceOnUse"
        id="linearGradient3128"
        xlink:href="#linearGradient3924"
@@ -93,7 +93,7 @@
        xlink:href="#linearGradient2867-449-88-871-390-598-476-591-434-148-57-177"
        id="radialGradient3171"
        gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(5.1311087e-8,6.1720513,-6.5292943,-1.1371274e-7,119.17132,-93.225249)"
+       gradientTransform="matrix(5.1311087e-8,6.1720513,-6.5292943,-1.1371274e-7,119.17132,-95.225251)"
        cx="7.4956832"
        cy="8.4497671"
        fx="7.4956832"
@@ -123,7 +123,7 @@
        xlink:href="#linearGradient3707-319-631-407-324"
        id="linearGradient3173"
        gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(2.641026,0,0,2.641026,0.6153902,-60.384616)"
+       gradientTransform="matrix(2.641026,0,0,2.641026,0.6153902,-62.384618)"
        x1="24"
        y1="44"
        x2="24"
@@ -263,16 +263,16 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="4.0000001"
-     inkscape:cx="121.90114"
-     inkscape:cy="77.460284"
+     inkscape:cx="99.191296"
+     inkscape:cy="58.587855"
      inkscape:current-layer="layer1"
      showgrid="true"
      inkscape:document-units="px"
      inkscape:grid-bbox="true"
-     inkscape:window-width="1301"
-     inkscape:window-height="744"
-     inkscape:window-x="65"
-     inkscape:window-y="24"
+     inkscape:window-width="1366"
+     inkscape:window-height="704"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
      inkscape:window-maximized="1"
      inkscape:snap-bbox="true"
      inkscape:bbox-paths="true"
@@ -304,7 +304,7 @@
      inkscape:groupmode="layer"
      transform="translate(0,64)">
     <g
-       transform="matrix(2.599999,0,0,1.2222234,1.5999988,1.555537)"
+       transform="matrix(2.599999,0,0,1.2222234,1.5999988,-0.4444651)"
        id="g2036"
        style="display:inline">
       <g
@@ -336,17 +336,17 @@
       </g>
     </g>
     <rect
-       style="color:#000000;fill:url(#radialGradient3171);fill-opacity:1;fill-rule:nonzero;stroke:url(#linearGradient3173);stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:url(#radialGradient3171);fill-opacity:1;fill-rule:nonzero;stroke:url(#linearGradient3173);stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate"
        id="rect5505-21"
-       y="-48.5"
+       y="-50.500004"
        x="12.5"
-       ry="6"
-       rx="6"
+       ry="8"
        height="103"
        width="103" />
     <g
        id="g5271"
-       clip-path="url(#clipPath5318)">
+       clip-path="url(#clipPath5318)"
+       transform="translate(0,-2.0000021)">
       <path
          transform="matrix(1.0786595,0,0,1.0809947,-5.1856704,-0.237546)"
          style="fill:#000000;fill-opacity:0.40721651;fill-rule:evenodd;stroke:#000000;stroke-width:0.55564487;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter5261)"
@@ -375,12 +375,11 @@
          sodipodi:nodetypes="cccc" />
     </g>
     <rect
-       style="opacity:0.5;fill:none;stroke:url(#linearGradient3128);stroke-width:0.99999994;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       style="opacity:0.5;fill:none;stroke:url(#linearGradient3128);stroke-width:0.99999994;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect6741-7"
-       y="-47.5"
+       y="-49.500004"
        x="13.5"
-       ry="5"
-       rx="5"
+       ry="7"
        height="101"
        width="101" />
   </g>

@@ -14,8 +14,8 @@
    height="48px"
    id="svg4700"
    version="1.1"
-   inkscape:version="0.48.4 r9939"
-   sodipodi:docname="wps-office-wpsmain48.svg">
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="wps-office-wpsmain.svg">
   <defs
      id="defs4702">
     <linearGradient
@@ -245,17 +245,17 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="11.96189"
-     inkscape:cx="33.317447"
-     inkscape:cy="21.744895"
+     inkscape:zoom="8.4583335"
+     inkscape:cx="30.462029"
+     inkscape:cy="19.844178"
      inkscape:current-layer="layer1"
      showgrid="true"
      inkscape:grid-bbox="true"
      inkscape:document-units="px"
-     inkscape:window-width="1280"
-     inkscape:window-height="951"
+     inkscape:window-width="1366"
+     inkscape:window-height="704"
      inkscape:window-x="0"
-     inkscape:window-y="0"
+     inkscape:window-y="27"
      inkscape:window-maximized="1"
      inkscape:snap-to-guides="false"
      inkscape:snap-grids="true"
@@ -314,14 +314,13 @@
        style="color:#000000;fill:url(#radialGradient4003);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
        rx="2.5" />
     <rect
-       rx="3"
        width="41"
        height="41"
-       ry="3"
+       ry="4"
        x="3.5"
        y="3.5"
        id="rect5505-21-6"
-       style="color:#000000;fill:none;stroke:url(#linearGradient4012);stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+       style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:none;stroke:url(#linearGradient4012);stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate" />
     <g
        id="g4574"
        transform="matrix(1.6071093,0,0,1.6011113,-22.853896,-14.42229)" />
@@ -362,12 +361,11 @@
     <rect
        width="39"
        height="39"
-       ry="1.9999999"
+       ry="3"
        x="4.5"
        y="4.5"
        id="rect6741-1"
-       style="opacity:0.5;fill:none;stroke:url(#linearGradient4000);stroke-width:0.99999994;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
-       rx="1.9999999" />
+       style="opacity:0.5;fill:none;stroke:url(#linearGradient4000);stroke-width:0.99999994;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
     <path
        style="color:#000000;fill:#232d52;fill-opacity:1;fill-rule:evenodd;stroke:#232d52;stroke-width:1.33967638000000000;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;filter:url(#filter3834);stroke-opacity:1"
        d="m 10,11 0,26 7,0 7,-7 7,7 7,0 0,-26 -7,0 0,16.375 L 24,21 17,27.40625 17,11 10,11 z"

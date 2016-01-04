@@ -14,21 +14,10 @@
    height="48px"
    id="svg4700"
    version="1.1"
-   inkscape:version="0.48.4 r9939"
-   sodipodi:docname="slingcold.svg">
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="slingscold.svg">
   <defs
      id="defs4702">
-    <linearGradient
-       id="linearGradient4258">
-      <stop
-         style="stop-color:#000000;stop-opacity:0.47843137;"
-         offset="0"
-         id="stop4260" />
-      <stop
-         style="stop-color:#ffffff;stop-opacity:0;"
-         offset="1"
-         id="stop4262" />
-    </linearGradient>
     <linearGradient
        id="linearGradient3946">
       <stop
@@ -440,15 +429,6 @@
          id="feGaussianBlur3176-0"
          stdDeviation="1.71" />
     </filter>
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient4258"
-       id="linearGradient4264"
-       x1="25"
-       y1="44"
-       x2="25"
-       y2="4"
-       gradientUnits="userSpaceOnUse" />
   </defs>
   <sodipodi:namedview
      id="base"
@@ -458,16 +438,16 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="8.9714176"
-     inkscape:cx="37.925238"
-     inkscape:cy="33.212766"
+     inkscape:cx="40.227563"
+     inkscape:cy="24.545039"
      inkscape:current-layer="layer1"
      showgrid="true"
      inkscape:grid-bbox="true"
      inkscape:document-units="px"
-     inkscape:window-width="1280"
-     inkscape:window-height="974"
+     inkscape:window-width="1366"
+     inkscape:window-height="704"
      inkscape:window-x="0"
-     inkscape:window-y="24"
+     inkscape:window-y="27"
      inkscape:window-maximized="1"
      inkscape:snap-to-guides="true"
      inkscape:snap-grids="true"
@@ -604,14 +584,13 @@
          style="opacity:0.2;color:#000000;fill:#232323;fill-opacity:1;fill-rule:nonzero;stroke:none;marker:none;visibility:visible;display:inline;overflow:visible;filter:url(#filter4017-6);enable-background:accumulate" />
     </g>
     <rect
-       rx="3"
        width="41"
        height="41"
-       ry="3"
+       ry="4"
        x="3.5"
        y="3.5"
        id="rect5505-21-6"
-       style="color:#000000;fill:none;stroke:url(#linearGradient4012);stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+       style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:none;stroke:url(#linearGradient4012);stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate" />
     <g
        id="g4574"
        transform="matrix(1.6071093,0,0,1.6011113,-22.853896,-14.42229)" />
@@ -652,12 +631,11 @@
     <rect
        width="39"
        height="39"
-       ry="1.9999999"
+       ry="3"
        x="4.5"
        y="4.5"
        id="rect6741-1"
-       style="opacity:0.5;fill:none;stroke:url(#linearGradient4000);stroke-width:0.99999994;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
-       rx="1.9999999" />
+       style="opacity:0.5;fill:none;stroke:url(#linearGradient4000);stroke-width:0.99999994;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
     <path
        style="color:#000000;fill:url(#radialGradient3952);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.30000000999999998;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
        d="M 36.962963,11 C 22.925254,11.163045 19.473474,21.594594 19.473474,21.594594 l -2.914915,0 c 0,0 -6.539538,2.952508 -6.558559,8.324324 l 5.82983,-3.027026 -0.728729,3.783784 2.914915,3.027026 L 21.65966,32.945945 18.744745,39 c 5.264134,-0.06113 8.016016,-6.81081 8.016016,-6.81081 l 0,-3.027028 c 0,0 10.151482,-3.83731 10.202202,-18.162162 z m -5.1011,5.297297 c 1.207397,1.253836 1.207397,3.286704 0,4.540541 -1.207399,1.253835 -3.164976,1.253835 -4.372373,0 -1.207397,-1.253837 -1.207397,-3.286705 0,-4.540541 1.207397,-1.253836 3.164974,-1.253836 4.372373,0 z M 16.786286,33.891892 c -0.886866,2.696098 -3.507006,1.844594 -3.507006,1.844594 0,0 -0.881735,-2.692372 1.753503,-3.618243 -4.383612,-0.84435 -3.52978,5.41554 -3.52978,5.41554 0,0 6.14479,0.824432 5.283283,-3.641891 z"

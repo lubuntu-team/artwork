@@ -34,21 +34,6 @@
          id="stop4100" />
     </linearGradient>
     <linearGradient
-       id="linearGradient4009">
-      <stop
-         id="stop4012"
-         offset="0"
-         style="stop-color:#ffffff;stop-opacity:0;" />
-      <stop
-         style="stop-color:#ffffff;stop-opacity:0.54901963;"
-         offset="0.5"
-         id="stop4017" />
-      <stop
-         id="stop4014"
-         offset="1"
-         style="stop-color:#ffffff;stop-opacity:0;" />
-    </linearGradient>
-    <linearGradient
        id="linearGradient4390">
       <stop
          style="stop-color:#ffffff;stop-opacity:0.75384617;"
@@ -58,17 +43,6 @@
          style="stop-color:#ffffff;stop-opacity:0;"
          offset="1"
          id="stop4394" />
-    </linearGradient>
-    <linearGradient
-       id="linearGradient4517">
-      <stop
-         style="stop-color:#ffffff;stop-opacity:1;"
-         offset="0"
-         id="stop4519" />
-      <stop
-         style="stop-color:#ffffff;stop-opacity:0;"
-         offset="1"
-         id="stop4521" />
     </linearGradient>
     <filter
        id="filter3174"
@@ -95,39 +69,6 @@
          id="stop3752" />
     </linearGradient>
     <linearGradient
-       id="linearGradient3173">
-      <stop
-         offset="0"
-         style="stop-color:#d2d2d2;stop-opacity:1;"
-         id="stop3187" />
-      <stop
-         offset="1"
-         style="stop-color:#3b3b3b;stop-opacity:1;"
-         id="stop3177" />
-    </linearGradient>
-    <linearGradient
-       id="linearGradient3322">
-      <stop
-         offset="0"
-         style="stop-color:#000000;stop-opacity:1;"
-         id="stop3326" />
-      <stop
-         offset="1"
-         style="stop-color:#000000;stop-opacity:0;"
-         id="stop3330" />
-    </linearGradient>
-    <linearGradient
-       id="linearGradient986-3">
-      <stop
-         style="stop-color:#ffffff;stop-opacity:1;"
-         offset="0"
-         id="stop988-9" />
-      <stop
-         style="stop-color:#ffffff;stop-opacity:0;"
-         offset="1"
-         id="stop990-4" />
-    </linearGradient>
-    <linearGradient
        x1="45.447727"
        y1="92.539597"
        x2="45.447727"
@@ -151,48 +92,6 @@
          id="feGaussianBlur3176-3"
          stdDeviation="1.71" />
     </filter>
-    <linearGradient
-       id="linearGradient3772">
-      <stop
-         id="stop3774"
-         style="stop-color:#898989;stop-opacity:1;"
-         offset="0" />
-      <stop
-         id="stop3776"
-         style="stop-color:#000000;stop-opacity:1;"
-         offset="1" />
-    </linearGradient>
-    <linearGradient
-       x1="12.2744"
-       y1="32.4165"
-       x2="35.391201"
-       y2="14.2033"
-       id="linearGradient3263"
-       gradientUnits="userSpaceOnUse">
-      <stop
-         id="stop3265"
-         style="stop-color:#c7c7c7;stop-opacity:1;"
-         offset="0" />
-      <stop
-         id="stop3267"
-         style="stop-color:#eaeaea;stop-opacity:1;"
-         offset="0.5" />
-      <stop
-         id="stop3269"
-         style="stop-color:#c7c7c7;stop-opacity:1;"
-         offset="1" />
-    </linearGradient>
-    <linearGradient
-       id="linearGradient6036">
-      <stop
-         id="stop6038"
-         style="stop-color:#ffffff;stop-opacity:1"
-         offset="0" />
-      <stop
-         id="stop6040"
-         style="stop-color:#ffffff;stop-opacity:0"
-         offset="1" />
-    </linearGradient>
     <filter
        inkscape:collect="always"
        id="filter4092"
@@ -352,21 +251,6 @@
        xlink:href="#radialGradient4241-5"
        inkscape:collect="always" />
     <linearGradient
-       id="linearGradient5048-0">
-      <stop
-         offset="0"
-         style="stop-color:#000000;stop-opacity:0"
-         id="stop5050-0" />
-      <stop
-         offset="0.5"
-         style="stop-color:#000000;stop-opacity:1"
-         id="stop5056-5" />
-      <stop
-         offset="1"
-         style="stop-color:#000000;stop-opacity:0"
-         id="stop5052-9" />
-    </linearGradient>
-    <linearGradient
        id="linearGradient4670-2">
       <stop
          id="stop4672-0"
@@ -397,24 +281,6 @@
        y1="92.539597"
        x2="45.447727"
        y2="7.0165396" />
-    <linearGradient
-       gradientTransform="matrix(0.6270234,0,0,0.62750305,2.4255623,-15.658546)"
-       x1="6"
-       y1="77.09375"
-       x2="32"
-       y2="77.09375"
-       id="linearGradient3279-3"
-       xlink:href="#linearGradient3322-3"
-       gradientUnits="userSpaceOnUse" />
-    <linearGradient
-       gradientTransform="matrix(0.63083437,0,0,0.63748969,1.7201185,-16.328009)"
-       x1="46.430859"
-       y1="77.039726"
-       x2="46.430859"
-       y2="33.8722"
-       id="linearGradient3179-8"
-       xlink:href="#linearGradient3173-8"
-       gradientUnits="userSpaceOnUse" />
     <filter
        color-interpolation-filters="sRGB"
        id="filter3174-1">
@@ -422,33 +288,6 @@
          id="feGaussianBlur3176-8"
          stdDeviation="1.71" />
     </filter>
-    <radialGradient
-       cx="127.2645"
-       cy="95.756645"
-       r="2.5631001"
-       fx="127.2645"
-       fy="95.756645"
-       id="radialGradient2947-3-9"
-       xlink:href="#radialGradient4241-5-9"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(0.23760038,0,0,0.25220859,7.7186336,4.6241265)" />
-    <radialGradient
-       cx="113.0654"
-       cy="97.587898"
-       r="2.5631001"
-       fx="113.667"
-       fy="98"
-       id="radialGradient4241-5-9"
-       gradientUnits="userSpaceOnUse">
-      <stop
-         id="stop4243-2-0"
-         style="stop-color:#eee;stop-opacity:1"
-         offset="0" />
-      <stop
-         id="stop4249-6-9"
-         style="stop-color:#555;stop-opacity:1"
-         offset="1" />
-    </radialGradient>
     <linearGradient
        gradientUnits="userSpaceOnUse"
        y2="32.207882"
@@ -524,7 +363,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>

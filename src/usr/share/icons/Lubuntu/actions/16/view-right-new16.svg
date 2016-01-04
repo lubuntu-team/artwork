@@ -14,44 +14,10 @@
    height="16"
    id="svg6662"
    version="1.1"
-   inkscape:version="0.48.4 r9939"
+   inkscape:version="0.91 r13725"
    sodipodi:docname="view-right-new16.svg">
   <defs
      id="defs6664">
-    <linearGradient
-       y2="11.02436"
-       y1="3.0069399"
-       x2="0"
-       id="linearGradient1022-8-8-3-0-06-59-5"
-       gradientUnits="userSpaceOnUse">
-      <stop
-         id="stop3001-0-9-4-9-02-3"
-         offset="0" />
-      <stop
-         id="stop3003-5-6-6-5-70-4"
-         stop-color="#363636"
-         offset="1" />
-    </linearGradient>
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient1022-8-8-3-0-06-59-5"
-       id="linearGradient3094"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(0,-1.6290891,0.08611602,0,-111.02659,404.92337)"
-       x1="-388.21622"
-       y1="1405.39"
-       x2="-396.81"
-       y2="1405.39" />
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient1022-8-8-3-0-06-59-5-2"
-       id="linearGradient3094-8"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(0,-1.6290891,0.08611602,0,-111.02659,404.92337)"
-       x1="-388.21622"
-       y1="1405.39"
-       x2="-396.81"
-       y2="1405.39" />
     <linearGradient
        y2="11.02436"
        y1="3.0069399"
@@ -66,26 +32,6 @@
          stop-color="#363636"
          offset="1" />
     </linearGradient>
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient1022-8-8-3-0-06-59-5-2"
-       id="linearGradient3040"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(0,-1.0860625,0.17223204,0,-224.05318,272.283)"
-       x1="-388.21622"
-       y1="1405.39"
-       x2="-396.81"
-       y2="1405.39" />
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient1022-8-8-3-0-06-59-5-2"
-       id="linearGradient3044"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(0,-1.0860625,0.17223204,0,-1279.4154,275.28301)"
-       x1="-388.21622"
-       y1="1405.39"
-       x2="-396.81"
-       y2="1405.39" />
     <linearGradient
        inkscape:collect="always"
        xlink:href="#linearGradient1022-8-8-3-0-06-59-5-2"

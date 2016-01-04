@@ -34,21 +34,6 @@
          id="stop4100" />
     </linearGradient>
     <linearGradient
-       id="linearGradient4009">
-      <stop
-         id="stop4012"
-         offset="0"
-         style="stop-color:#ffffff;stop-opacity:0;" />
-      <stop
-         style="stop-color:#ffffff;stop-opacity:0.54901963;"
-         offset="0.5"
-         id="stop4017" />
-      <stop
-         id="stop4014"
-         offset="1"
-         style="stop-color:#ffffff;stop-opacity:0;" />
-    </linearGradient>
-    <linearGradient
        id="linearGradient4390">
       <stop
          style="stop-color:#ffffff;stop-opacity:0.75384617;"
@@ -58,17 +43,6 @@
          style="stop-color:#ffffff;stop-opacity:0;"
          offset="1"
          id="stop4394" />
-    </linearGradient>
-    <linearGradient
-       id="linearGradient4517">
-      <stop
-         style="stop-color:#ffffff;stop-opacity:1;"
-         offset="0"
-         id="stop4519" />
-      <stop
-         style="stop-color:#ffffff;stop-opacity:0;"
-         offset="1"
-         id="stop4521" />
     </linearGradient>
     <filter
        id="filter3174"
@@ -95,39 +69,6 @@
          id="stop3752" />
     </linearGradient>
     <linearGradient
-       id="linearGradient3173">
-      <stop
-         offset="0"
-         style="stop-color:#d2d2d2;stop-opacity:1;"
-         id="stop3187" />
-      <stop
-         offset="1"
-         style="stop-color:#3b3b3b;stop-opacity:1;"
-         id="stop3177" />
-    </linearGradient>
-    <linearGradient
-       id="linearGradient3322">
-      <stop
-         offset="0"
-         style="stop-color:#000000;stop-opacity:1;"
-         id="stop3326" />
-      <stop
-         offset="1"
-         style="stop-color:#000000;stop-opacity:0;"
-         id="stop3330" />
-    </linearGradient>
-    <linearGradient
-       id="linearGradient986-3">
-      <stop
-         style="stop-color:#ffffff;stop-opacity:1;"
-         offset="0"
-         id="stop988-9" />
-      <stop
-         style="stop-color:#ffffff;stop-opacity:0;"
-         offset="1"
-         id="stop990-4" />
-    </linearGradient>
-    <linearGradient
        x1="45.447727"
        y1="92.539597"
        x2="45.447727"
@@ -151,48 +92,6 @@
          id="feGaussianBlur3176-3"
          stdDeviation="1.71" />
     </filter>
-    <linearGradient
-       id="linearGradient3772">
-      <stop
-         id="stop3774"
-         style="stop-color:#898989;stop-opacity:1;"
-         offset="0" />
-      <stop
-         id="stop3776"
-         style="stop-color:#000000;stop-opacity:1;"
-         offset="1" />
-    </linearGradient>
-    <linearGradient
-       x1="12.2744"
-       y1="32.4165"
-       x2="35.391201"
-       y2="14.2033"
-       id="linearGradient3263"
-       gradientUnits="userSpaceOnUse">
-      <stop
-         id="stop3265"
-         style="stop-color:#c7c7c7;stop-opacity:1;"
-         offset="0" />
-      <stop
-         id="stop3267"
-         style="stop-color:#eaeaea;stop-opacity:1;"
-         offset="0.5" />
-      <stop
-         id="stop3269"
-         style="stop-color:#c7c7c7;stop-opacity:1;"
-         offset="1" />
-    </linearGradient>
-    <linearGradient
-       id="linearGradient6036">
-      <stop
-         id="stop6038"
-         style="stop-color:#ffffff;stop-opacity:1"
-         offset="0" />
-      <stop
-         id="stop6040"
-         style="stop-color:#ffffff;stop-opacity:0"
-         offset="1" />
-    </linearGradient>
     <filter
        inkscape:collect="always"
        id="filter4092"
@@ -352,21 +251,6 @@
        xlink:href="#radialGradient4241-5"
        inkscape:collect="always" />
     <linearGradient
-       id="linearGradient5048-0">
-      <stop
-         offset="0"
-         style="stop-color:#000000;stop-opacity:0"
-         id="stop5050-0" />
-      <stop
-         offset="0.5"
-         style="stop-color:#000000;stop-opacity:1"
-         id="stop5056-5" />
-      <stop
-         offset="1"
-         style="stop-color:#000000;stop-opacity:0"
-         id="stop5052-9" />
-    </linearGradient>
-    <linearGradient
        id="linearGradient4670-2">
       <stop
          id="stop4672-0"
@@ -442,7 +326,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>

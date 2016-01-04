@@ -14,7 +14,7 @@
    height="24"
    id="svg6662"
    version="1.1"
-   inkscape:version="0.48.4 r9939"
+   inkscape:version="0.91 r13725"
    sodipodi:docname="view-list-icons.svg">
   <defs
      id="defs6664">
@@ -42,16 +42,6 @@
        y1="1353.3109"
        x2="-396.36356"
        y2="1353.3109" />
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient1022-8-8-3-0-06-59-5"
-       id="linearGradient3145"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(0,-3.3600109,0.88807142,0,-1159.8368,-283.42362)"
-       x1="-391.00641"
-       y1="1372.4536"
-       x2="-396.66116"
-       y2="1372.4536" />
   </defs>
   <sodipodi:namedview
      id="base"

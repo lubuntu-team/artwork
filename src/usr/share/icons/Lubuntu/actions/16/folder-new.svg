@@ -14,7 +14,7 @@
    height="16"
    id="svg3330"
    version="1.1"
-   inkscape:version="0.48.4 r9939"
+   inkscape:version="0.91 r13725"
    sodipodi:docname="folder-new.svg">
   <defs
      id="defs3332">
@@ -37,7 +37,7 @@
        x2="162.48601"
        y1="7.5498023"
        x1="162.48601"
-       gradientTransform="matrix(1.119994,0,0,1.0064811,83.016638,141.49574)"
+       gradientTransform="matrix(1.119994,0,0,1.0064811,-251.98336,1029.7635)"
        gradientUnits="userSpaceOnUse"
        id="linearGradient7097"
        xlink:href="#linearGradient1022-8-8-3-0-06-37"
@@ -60,7 +60,7 @@
      inkscape:window-width="673"
      inkscape:window-height="598"
      inkscape:window-x="534"
-     inkscape:window-y="285"
+     inkscape:window-y="133"
      inkscape:window-maximized="0" />
   <metadata
      id="metadata3335">
@@ -79,27 +79,15 @@
      inkscape:groupmode="layer"
      id="capa1"
      transform="translate(0,-1036.3622)">
-    <g
-       transform="translate(-335,580.00002)"
-       id="folder-new">
-      <rect
-         y="456.36218"
-         x="335"
-         height="16"
-         width="16"
-         id="rect3125"
-         style="opacity:0.6;color:#000000;fill:none;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
-      <path
-         id="path4383"
-         d="m 347,458.36218 0,2 -2,0 0,2 2,0 0,2 2,0 0,-2 2,0 0,-2 -2,0 0,-2 -2,0 z m -9,4 -1,1 0,8 1,1 10,0 1,-1 0,-4 -2,-2 0,5 -8,0 0,-6 3,0 1,1 4,0 -2,-2 -1,0 -1,-1 -5,0 z"
-         style="opacity:0.6;color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-         inkscape:connector-curvature="0" />
-      <path
-         inkscape:connector-curvature="0"
-         style="opacity:0.7;color:#000000;fill:url(#linearGradient7097);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-         d="m 347,149.09375 0,2 -2,0 0,2 2,0 0,2 2,0 0,-2 2,0 0,-2 -2,0 0,-2 -2,0 z m -9,4 -1,1 0,8 1,1 10,0 1,-1 0,-4 -2,-2 0,5 -8,0 0,-6 3,0 1,1 4,0 -2,-2 -1,0 -1,-1 -5,0 z"
-         transform="translate(0,308.2677)"
-         id="path3168-9" />
-    </g>
+    <path
+       inkscape:connector-curvature="0"
+       style="color:#000000;display:inline;overflow:visible;visibility:visible;opacity:0.6;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;enable-background:accumulate"
+       d="m 12,1038.3622 0,2 -2,0 0,2 2,0 0,2 2,0 0,-2 2,0 0,-2 -2,0 0,-2 -2,0 z m -9,4 -1,1 0,8 1,1 10,0 1,-1 0,-4 -2,-2 0,5 -8,0 0,-6 3,0 1,1 4,0 -2,-2 -1,0 -1,-1 -5,0 z"
+       id="path4383" />
+    <path
+       id="path3168-9"
+       d="m 12,1037.3615 0,2 -2,0 0,2 2,0 0,2 2,0 0,-2 2,0 0,-2 -2,0 0,-2 -2,0 z m -9,4 -1,1 0,8 1,1 10,0 1,-1 0,-4 -2,-2 0,5 -8,0 0,-6 3,0 1,1 4,0 -2,-2 -1,0 -1,-1 -5,0 z"
+       style="color:#000000;display:inline;overflow:visible;visibility:visible;opacity:0.7;fill:url(#linearGradient7097);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;enable-background:accumulate"
+       inkscape:connector-curvature="0" />
   </g>
 </svg>
