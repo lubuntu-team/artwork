@@ -4,7 +4,7 @@
 # More info at: https://launchpad.net/~lubuntu-art
 
 [Icon Theme]
-Name=Lubuntu
+Name=Box
 Comment=Default Lubuntu theme
 Inherits=Adwaita,hicolor
 Example=directory-x-normal
@@ -55,6 +55,11 @@ Type=Threshold
 
 [apps/24]
 Size=24
+Context=Applications
+Type=Threshold
+
+[apps/32]
+Size=32
 Context=Applications
 Type=Threshold
 
