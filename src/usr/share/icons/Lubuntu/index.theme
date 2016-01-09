@@ -4,7 +4,7 @@
 # More info at: https://launchpad.net/~lubuntu-art
 
 [Icon Theme]
-Name=Box
+Name=Lubuntu
 Comment=Default Lubuntu theme
 Inherits=Adwaita,hicolor
 Example=directory-x-normal
