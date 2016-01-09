@@ -108,6 +108,11 @@ Size=24
 Context=Devices
 Type=Threshold
 
+[devices/32]
+Size=32
+Context=Devices
+Type=Threshold
+
 [devices/48]
 Size=48
 Context=Devices
