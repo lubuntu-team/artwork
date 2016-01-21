@@ -20,13 +20,13 @@ UnityDecoration {
 }
 
 UnityDecoration.top {
-    border: 1px solid rgba (72, 72, 72, 0.3568); /* shade (@dark_bg_color, 0.8) - shade (#edebe6, 1.06) */
+    border: 1px solid rgba (72, 72, 72, 0.3568); /* shade (@bg_color, 0.8) - shade (#ededed, 1.06) */
     border-bottom-width: 0;
     border-radius: 8px 8px 0 0;
     padding: 1px 8px 0 8px;
 
     box-shadow: inset 0 0 transparent, inset 0 0 transparent,
-                inset 0 1px shade (#edebe6, 1.08), inset 0 0 transparent;
+                inset 0 1px shade (#ededed, 1.08), inset 0 0 transparent;
 
     background-color: transparent;
     background-clip: border-box;
@@ -87,14 +87,14 @@ UnityPanelWidget,
 .unity-panel {
     background-image: -gtk-gradient (linear, left top, left bottom,
                                      from (shade (#e0e0e0, 1.06)),
-                                     to (@dark_bg_color));
-    border-top-color: shade (#edebe6, 1.08);
+                                     to (@bg_color));
+    border-top-color: shade (#ededed, 1.08);
     border-style: solid;
     border-width: 1px 0 0 0;
 
     color: @dark_fg_color;
-    text-shadow: 1px 0 1px shade (@dark_bg_color, 1.06), -1px 0 1px shade (@dark_bg_color, 1.06),
-                 0 1px 1px shade (@dark_bg_color, 1.06), 0 -1px 1px shade (@dark_bg_color, 1.06);
+    text-shadow: 1px 0 1px shade (@bg_color, 1.06), -1px 0 1px shade (@dark_bg_color, 1.06),
+                 0 1px 1px shade (@bg_color, 1.06), 0 -1px 1px shade (@dark_bg_color, 1.06);
 }
 
 .unity-panel.menubar,
