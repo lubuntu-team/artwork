@@ -37,20 +37,6 @@ case "$1" in
 	    update-initramfs -u
 	fi
 	;;
-
-    purge)
-	;;
-
-    upgrade|failed-upgrade|disappear)
-	;;
-
-    abort-install|abort-upgrade)
-	;;
-
-    *)
-	echo "$0 called with unknown argument \`$1'" 1>&2
-	exit 1
-	;;
 esac
 
 #DEBHELPER#

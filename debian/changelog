@@ -1,3 +1,13 @@
+lubuntu-artwork (0.59) xenial; urgency=medium
+
+  * plymouth theme: don't use a Break but a versioned dep to avoid end up
+    unconfigured during wily -> xenial upgrade. wily's prerm is broken and
+    doesn't handle deconfigure action. (LP: #1524480)
+  * Fix maintainer scripts to not be restrictive on arguments passed to them
+    for future upgrades.
+
+ -- Didier Roche <didrocks@ubuntu.com>  Fri, 08 Jan 2016 09:03:24 +0100
+
 lubuntu-artwork (0.58) xenial; urgency=medium
 
   * Backup current artwork items to 1510 items, and prepare 1604 ones.
