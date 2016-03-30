@@ -37,20 +37,20 @@ style "thunar-handle" {
 	}
 }
 
-#style "thunar-statusbar" {
-#	bg[NORMAL] = @base_color
-#
-#	engine "pixmap"	{
-#		image {
-#			function	= RESIZE_GRIP
-#			recolorable	= FALSE
-#			detail		= "statusbar"
-#			overlay_file	= "/images/null.png"
-#			overlay_border	= {0,0,0,0 }
-#			overlay_stretch	= FALSE
-#		}
-#        }
-#}
+style "thunar-statusbar" {
+	bg[NORMAL] = @base_color
+
+	engine "pixmap"	{
+		image {
+			function	= RESIZE_GRIP
+			recolorable	= FALSE
+			detail		= "statusbar"
+			overlay_file	= "/images/null.png"
+			overlay_border	= {0,0,0,0 }
+			overlay_stretch	= FALSE
+		}
+        }
+}
 
 style "thunar-location" {
 	ThunarLocationButtons::spacing = 0
@@ -67,4 +67,4 @@ widget_class "*ThunarLocationButtons*" style "thunar-location"
 widget_class "*ThunarShortcutsView*" style "thunar-sidepane"
 widget_class "*ThunarTreeView*" style "thunar-sidepane"
 widget_class "*ThunarWindow*.<GtkHPaned>" style "thunar-handle"
-#widget_class "*ThunarStatusbar*" style "thunar-statusbar"
+widget_class "*ThunarStatusbar*" style "thunar-statusbar"

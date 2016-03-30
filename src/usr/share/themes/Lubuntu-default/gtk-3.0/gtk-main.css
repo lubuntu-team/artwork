@@ -1,5 +1,5 @@
 /*default color scheme */
-@define-color bg_color #f2f1f0;
+@define-color bg_color #f1f1f1;
 @define-color fg_color #4c4c4c;
 @define-color base_color #ffffff;
 @define-color text_color #333333;
@@ -63,12 +63,15 @@
 @import url("gtk-widgets-radiance.css");
 @import url("apps/geary.css");
 @import url("apps/unity.css");
+@import url("apps/unity-greeter.css");
 @import url("apps/baobab.css");
 @import url("apps/gedit.css");
 @import url("apps/nautilus.css");
 @import url("apps/gnome-panel.css");
 @import url("apps/gnome-terminal.css");
 @import url("apps/gnome-system-log.css");
+@import url("apps/glade.css");
+@import url("apps/software-center.css");
 @import url("public-colors.css");
 
 @import url("gtk-lubuntu.css");

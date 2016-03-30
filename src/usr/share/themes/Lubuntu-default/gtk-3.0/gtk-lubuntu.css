@@ -144,7 +144,7 @@
  *************************/
 
 .scale.trough.highlight {
-    background-color: @progress_color;
+    background-color: #ff0000;
     background-image: none;
     background-clip: content-box;
 }

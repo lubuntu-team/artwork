@@ -1,3 +1,8 @@
-- new unity controls
-- improved rc files
+- improve rc files
+- fix gnome / gtk3 scrollbars
+- fix progress bars
+- add more icons
+- more icon resolutions
 - re-merge with ubuntu themes
+- overall re-compress
+
