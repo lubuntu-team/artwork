@@ -1,3 +1,16 @@
+lubuntu-artwork (0.61) UNRELEASED; urgency=medium
+
+  * src/usr/share/icons:
+   - Fix synatic apply icon.
+   - Fix power panel icon.
+   - Fix jockey icon.
+   - Fix bluetooth panel icon.
+   - Add missing nm-device-wireless icon.
+  * src/usr/share/themes/Lubuntu-default/
+   - Various fixes on the gtk theme.
+
+ -- Julien Lavergne <gilir@ubuntu.com>  Sun, 10 Apr 2016 12:03:30 +0200
+
 lubuntu-artwork (0.60) xenial; urgency=medium
 
   * src/usr/share/themes/Lubuntu-default/
