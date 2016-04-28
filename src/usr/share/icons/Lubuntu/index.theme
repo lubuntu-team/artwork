@@ -218,6 +218,11 @@ Size=24
 Context=Status
 Type=Threshold
 
+[status/32]
+Size=32
+Context=Status
+Type=Threshold
+
 [status/48]
 Size=48
 Context=Status
