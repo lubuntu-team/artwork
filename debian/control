@@ -213,10 +213,11 @@ Description: plymouth text theme for Lubuntu
 
 Package: lubuntu-icon-theme
 Architecture: all
-Depends: adwaita-icon-theme-full,
-         hicolor-icon-theme,
-         gnome-icon-theme-symbolic,
+Depends: hicolor-icon-theme,
          ${misc:Depends}
+Provides: adwaita-icon-theme-full,
+          gnome-icon-theme-symbolic,
+          hicolor-icon-theme
 Description: icon theme for Lubuntu
  This package contains a specific icon theme for Lubuntu.
 
