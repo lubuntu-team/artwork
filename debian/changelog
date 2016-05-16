@@ -1,3 +1,10 @@
+lubuntu-artwork (0.62) UNRELEASED; urgency=medium
+
+  * Move remaining files from src/lib/plymouth/ to src/usr/share/plymouth/
+    (LP: #1582046). Thanks Benoît Thébaudeau for the patch.
+
+ -- Julien Lavergne <gilir@ubuntu.com>  Mon, 16 May 2016 14:21:23 +0200
+
 lubuntu-artwork (0.61) xenial; urgency=medium
 
   * src/usr/share/icons:
