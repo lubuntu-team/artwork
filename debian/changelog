@@ -1,9 +1,11 @@
-lubuntu-artwork (0.62) UNRELEASED; urgency=medium
+lubuntu-artwork (0.62ubuntu1) UNRELEASED; urgency=medium
 
   * Move remaining files from src/lib/plymouth/ to src/usr/share/plymouth/
     (LP: #1582046). Thanks Benoît Thébaudeau for the patch.
+  * Backup current artwork items to 1604 items, and prepare 1610 ones.
+  * Stop copying LXDM theme, since it didn't change since ages. 
 
- -- Julien Lavergne <gilir@ubuntu.com>  Mon, 16 May 2016 14:21:23 +0200
+ -- Julien Lavergne <gilir@ubuntu.com>  Mon, 16 May 2016 15:13:03 +0200
 
 lubuntu-artwork (0.61) xenial; urgency=medium
 
