@@ -233,7 +233,8 @@ Provides: adwaita-icon-theme,
           adwaita-icon-theme-full,
           gnome-icon-theme,
           gnome-icon-theme-symbolic,
-          hicolor-icon-theme
+          hicolor-icon-theme,
+          humanity-icon-theme
 Description: icon theme for Lubuntu
  This package contains a specific icon theme for Lubuntu.
 

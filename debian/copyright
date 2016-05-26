@@ -148,6 +148,15 @@ License: GPL-2+
  On Debian systems the full text of the GNU General Public License can be found
  in the `/usr/share/common-licenses/GPL-2' file.
 
+Files: usr/share/icons/lubuntu/imported-Humanity/*
+Copyright:
+        Daniel Fore <Daniel.P.Fore@gmail.com>
+        Jonian Guveli <jonian.guveli@gmail.com>
+        K.Vishnoo Charan Reddy <vish@ubuntu.com>.
+License: GPL-2
+ On Debian systems the full text of the GNU General Public License can be found
+ in the `/usr/share/common-licenses/GPL-2' file.
+
 Files: *
 Copyright: Copyright (C) 2008 Hong Jen Yee (PCMan)
 License: GPL-2+
