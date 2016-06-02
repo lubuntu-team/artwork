@@ -1,4 +1,4 @@
-lubuntu-artwork (0.62) UNRELEASED; urgency=medium
+lubuntu-artwork (0.62) yakkety; urgency=medium
 
   * Move remaining files from src/lib/plymouth/ to src/usr/share/plymouth/
     (LP: #1582046). Thanks Benoît Thébaudeau for the patch.
@@ -17,7 +17,7 @@ lubuntu-artwork (0.62) UNRELEASED; urgency=medium
      gnome-icon-theme-symbolic,hicolor-icon-theme, humanity-icon-theme.
      lubuntu-icon-theme provide the same set of icons.
 
- -- Julien Lavergne <gilir@ubuntu.com>  Mon, 16 May 2016 15:13:03 +0200
+ -- Julien Lavergne <gilir@ubuntu.com>  Thu, 02 Jun 2016 23:01:13 +0200
 
 lubuntu-artwork (0.61) xenial; urgency=medium
 
