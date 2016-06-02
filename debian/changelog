@@ -6,6 +6,16 @@ lubuntu-artwork (0.62) UNRELEASED; urgency=medium
   * Stop copying LXDM theme, since it didn't change since ages. 
   * src/usr/share/plymouth/themes/lubuntu-text
    - Update to 16.10
+  * src/usr/share/icons:
+   - Add symlinks to provide more icons from other icon themes.
+   - Add missings icons from other themes.
+   - Update icons.
+  * debian/copyright:
+   - Adjust copyright with icon adding from others themes.
+  * debian/control:
+   - Provide adwaita-icon-theme, adwaita-icon-theme-full, gnome-icon-theme,
+     gnome-icon-theme-symbolic,hicolor-icon-theme, humanity-icon-theme.
+     lubuntu-icon-theme provide the same set of icons.
 
  -- Julien Lavergne <gilir@ubuntu.com>  Mon, 16 May 2016 15:13:03 +0200
 
