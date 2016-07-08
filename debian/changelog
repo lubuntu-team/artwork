@@ -1,3 +1,9 @@
+lubuntu-artwork (0.63) UNRELEASED; urgency=medium
+
+  *
+
+ -- Julien Lavergne <gilir@ubuntu.com>  Mon, 04 Jul 2016 23:21:20 +0200
+
 lubuntu-artwork (0.62) yakkety; urgency=medium
 
   * Move remaining files from src/lib/plymouth/ to src/usr/share/plymouth/
