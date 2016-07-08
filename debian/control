@@ -229,7 +229,7 @@ Package: lubuntu-icon-theme
 Architecture: all
 Depends: hicolor-icon-theme,
          ${misc:Depends}
-Provides: adwaita-icon-theme,
+Provides: adwaita-icon-theme (= 3.18),
           adwaita-icon-theme-full,
           gnome-icon-theme,
           gnome-icon-theme-symbolic,
