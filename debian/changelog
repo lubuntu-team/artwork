@@ -1,8 +1,14 @@
 lubuntu-artwork (0.63) UNRELEASED; urgency=medium
 
-  *
+  * src/usr/share/icons:
+   - Add missings icons (some sizes and directories).
+  * src/usr/share/lubuntu/wallpapers/1610-lubuntu-default-wallpaper.png
+   - Add wallpaper for 16.10.
+  * debian/control:
+   - Don't provide hicolor-icon-theme, it's the fallback theme.
+   - Provide adwaita-icon-theme = 3.18, needed by gtk3.
 
- -- Julien Lavergne <gilir@ubuntu.com>  Mon, 04 Jul 2016 23:21:20 +0200
+ -- Julien Lavergne <gilir@ubuntu.com>  Thu, 28 Jul 2016 14:58:52 +0200
 
 lubuntu-artwork (0.62) yakkety; urgency=medium
 
