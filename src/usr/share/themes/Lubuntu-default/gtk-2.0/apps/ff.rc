@@ -10,6 +10,9 @@ style "ff-default" {
 	}
 }
 
+style	"ff-statusbar" {
+}
+
 #widget	"MozillaGtkWidget*Toolbar*"		style	"theme-toolbar"
 #widget	"MozillaGtkWidget*Statusbar*"	style	"ff-statusbar"
 
