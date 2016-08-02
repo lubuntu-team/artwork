@@ -1,3 +1,15 @@
+lubuntu-artwork (0.64) UNRELEASED; urgency=medium
+
+  * src/usr/share/themes/Lubuntu-default:
+   - Update themes for GTK 3.20 (LP: #1597526).
+  * src/usr/share/icons:
+   - Add new icons from adwaita-icon-theme 3.20.
+  * debian/control:
+   - Bump depends on libgtk-3-0 to >= 3.20, for the theme update.
+   - Update Provide adwaita-icon-theme = 3.20.
+
+ -- Julien Lavergne <gilir@ubuntu.com>  Tue, 02 Aug 2016 22:12:58 +0200
+
 lubuntu-artwork (0.63) yakkety; urgency=medium
 
   * src/usr/share/icons:
