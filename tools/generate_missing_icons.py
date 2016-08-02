@@ -456,14 +456,15 @@ for icon in list_icons:
         destination_path = os.path.join(destination_prefix,"imported-" + theme_name,size_location)
 
         if theme_name != "Lubuntu":
-            if theme_name != "hicolor":
-                if theme_name != "share":
-                    icon_to_copy = Gio.File.new_for_path(path)
-                    destination = Gio.File.new_for_path(os.path.join(destination_path,file_name))
+            if theme_name != "icons":
+                if theme_name != "hicolor":
+                    if theme_name != "share":
+                        icon_to_copy = Gio.File.new_for_path(path)
+                        destination = Gio.File.new_for_path(os.path.join(destination_path,file_name))
 
-                    if os.path.exists(destination_path) == False:
-                        os.makedirs(destination_path)
+                        if os.path.exists(destination_path) == False:
+                            os.makedirs(destination_path)
 
-                    if os.path.exists(destination.get_path()) == False:
-                        if os.path.islink(destination.get_path()) == False:
-                            icon_to_copy.copy(destination, Gio.FileCopyFlags.NOFOLLOW_SYMLINKS)
+                        if os.path.exists(destination.get_path()) == False:
+                            if os.path.islink(destination.get_path()) == False:
+                                icon_to_copy.copy(destination, Gio.FileCopyFlags.NOFOLLOW_SYMLINKS)
