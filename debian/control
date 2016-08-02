@@ -25,6 +25,7 @@ Architecture: all
 Depends: gtk2-engines,
          gtk2-engines-pixbuf,
          gtk2-engines-murrine,
+         libgtk-3-0 (>= 3.20),
          gtk3-engines-unico,
          libnewt0.52 (>= 0.52.11-2ubuntu7),
          ${misc:Depends}
