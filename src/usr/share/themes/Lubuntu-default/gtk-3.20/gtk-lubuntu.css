@@ -63,7 +63,7 @@
 /**********
  * states *
  **********/
-*:insensitive {
+*:disabled {
     color: shade (@bg_color, 0.6);
     text-shadow: none;
 }
@@ -94,17 +94,17 @@
 
 
 
-.menubar.toolbar :insensitive,
-.primary-toolbar :insensitive {
+.menubar.toolbar :disabled,
+.primary-toolbar :disabled {
 	color: mix (@toolbar_bg_color, @toolbar_fg_color, 0.35);
 }
 
 .menubar.toolbar GtkSeparatorToolItem,
 .menubar.toolbar .separator,
-.menubar.toolbar .separator:insensitive,
+.menubar.toolbar .separator:disabled,
 .primary-toolbar GtkSeparatorToolItem,
 .primary-toolbar .separator,
-.primary-toolbar .separator:insensitive {
+.primary-toolbar .separator:disabled {
 	border-color: alpha (shade (@toolbar_bg_color, 0.9), 0.5);
 	border-style: solid;
 
@@ -171,29 +171,29 @@
 	padding: 2px;
 }
 
-GtkTreeMenu.menu .menuitem:insensitive,
-GtkTreeMenu.menu .menuitem *:insensitive,
-.toolbar .primary-toolbar .menu .menuitem:insensitive,
-.toolbar .primary-toolbar .menu .menuitem *:insensitive,
-.toolbar .menubar.toolbar .menu .menuitem:insensitive,
-.toolbar .menubar.toolbar .menu .menuitem *:insensitive,
-.toolbar .header-bar .menu .menuitem:insensitive,
-.toolbar .header-bar .menu .menuitem *:insensitive,
-GtkMenuToolButton.menu .menuitem:insensitive,
-GtkMenuToolButton.menu .menuitem *:insensitive,
-.primary-toolbar .button .menu .menuitem:insensitive,
-.primary-toolbar .button .menu .menuitem *:insensitive,
-.menubar.toolbar .button .menu .menuitem:insensitive,
-.menubar.toolbar .button .menu .menuitem *:insensitive,
-.header-bar .button .menu .menuitem:insensitive,
-.header-bar .button .menu .menuitem *:insensitive,
-.menuitem:insensitive,
-.menuitem *:insensitive {
+GtkTreeMenu.menu .menuitem:disabled,
+GtkTreeMenu.menu .menuitem *:disabled,
+.toolbar .primary-toolbar .menu .menuitem:disabled,
+.toolbar .primary-toolbar .menu .menuitem *:disabled,
+.toolbar .menubar.toolbar .menu .menuitem:disabled,
+.toolbar .menubar.toolbar .menu .menuitem *:disabled,
+.toolbar .header-bar .menu .menuitem:disabled,
+.toolbar .header-bar .menu .menuitem *:disabled,
+GtkMenuToolButton.menu .menuitem:disabled,
+GtkMenuToolButton.menu .menuitem *:disabled,
+.primary-toolbar .button .menu .menuitem:disabled,
+.primary-toolbar .button .menu .menuitem *:disabled,
+.menubar.toolbar .button .menu .menuitem:disabled,
+.menubar.toolbar .button .menu .menuitem *:disabled,
+.header-bar .button .menu .menuitem:disabled,
+.header-bar .button .menu .menuitem *:disabled,
+.menuitem:disabled,
+.menuitem *:disabled {
     color: mix (@dark_fg_color, @dark_bg_color, 0.5);
     text-shadow: none;
 }
 
-.menuitem .accelerator:insensitive {
+.menuitem .accelerator:disabled {
     color: alpha (mix (@dark_fg_color, @dark_bg_color, 0.5), 0.5);
     text-shadow: none;
 }
@@ -283,7 +283,7 @@ NautilusWindow .sidebar .view {
     border-style: none;
     background: none;
     color: mix(@fg_color, @bg_color, 0.3);
-    icon-shadow: 0 1px shade(@bg_color, 1.1);
+    -gtk-icon-shadow: 0 1px shade(@bg_color, 1.1);
     box-shadow: none;
 }
 
@@ -306,7 +306,7 @@ NautilusWindow .sidebar .view {
 .titlebar .titlebutton:backdrop {
     background-image: none;
     color: mix(@fg_color, @bg_color, 0.6);
-    icon-shadow: 0 1px shade(@bg_color, 1.05);
+    -gtk-icon-shadow: 0 1px shade(@bg_color, 1.05);
 }
 
 .window-frame,
