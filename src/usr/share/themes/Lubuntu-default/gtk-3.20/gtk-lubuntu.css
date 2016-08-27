@@ -155,7 +155,7 @@
 .progressbar row,
 .progressbar row:hover,
 .progressbar row:selected,
-.progressbar row:selected:focused {
+.progressbar row:selected:focus {
     border-radius: 8px;
     border-width: 0px;
     background-image: none;
