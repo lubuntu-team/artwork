@@ -2,7 +2,17 @@ lubuntu-artwork (0.65) UNRELEASED; urgency=medium
 
   * Backup current artwork items to 1610 items, and prepare 1704 ones.
   * src/usr/share/plymouth/themes/lubuntu-text
-   - Update to 17.04
+   - Update to 17.04.
+  * usr/share/themes/Lubuntu-default:
+   - Fix some gtk warnings.
+   - Re-add 3.0 folder for backward compatibility.
+  * src/usr/share/icons/Lubuntu:
+   - Fix theme directory for index.theme.
+   - Fix totem icon.
+  * debian/control:
+   - Don't strictly depends on 3.20 for the theme, since backward compatibility
+     was re-added.
+   - Stop using unico for current theme (not useable on gtk 3.16 and newer).
 
  -- Julien Lavergne <gilir@ubuntu.com>  Sat, 26 Nov 2016 11:44:49 +0100
 
