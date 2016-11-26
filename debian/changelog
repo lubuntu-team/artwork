@@ -1,3 +1,9 @@
+lubuntu-artwork (0.65) UNRELEASED; urgency=medium
+
+  * Backup current artwork items to 1610 items, and prepare 1704 ones.
+
+ -- Julien Lavergne <gilir@ubuntu.com>  Sat, 26 Nov 2016 11:44:49 +0100
+
 lubuntu-artwork (0.64) yakkety; urgency=medium
 
   * src/usr/share/themes/Lubuntu-default:

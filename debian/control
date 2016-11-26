@@ -20,6 +20,19 @@ Description: artwork for Lubuntu
  Artwork for Lubuntu, contained the wallpaper and others specific images and
  logos.
 
+Package: lubuntu-artwork-17-04
+Architecture: all
+Depends: gtk2-engines,
+         gtk2-engines-pixbuf,
+         gtk2-engines-murrine,
+         libnewt0.52 (>= 0.52.11-2ubuntu7),
+         ${misc:Depends}
+Description: artwork for Lubuntu - 17.04 version
+ Artwork for Lubuntu, contained the wallpaper and others specific images and
+ logos.
+ .
+ This package contains theme of Lubuntu 17.04.
+
 Package: lubuntu-artwork-16-10
 Architecture: all
 Depends: gtk2-engines,
