@@ -1,6 +1,8 @@
 lubuntu-artwork (0.65) UNRELEASED; urgency=medium
 
   * Backup current artwork items to 1610 items, and prepare 1704 ones.
+  * src/usr/share/plymouth/themes/lubuntu-text
+   - Update to 17.04
 
  -- Julien Lavergne <gilir@ubuntu.com>  Sat, 26 Nov 2016 11:44:49 +0100
 
