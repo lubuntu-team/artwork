@@ -1,3 +1,10 @@
+lubuntu-artwork (0.66) UNRELEASED; urgency=medium
+
+  * debian/control:
+   - Depends on 17.04 artwork instead of the old 16.10 one (LP: #1659745)
+
+ -- Julien Lavergne <gilir@ubuntu.com>  Sun, 29 Jan 2017 15:07:48 +0100
+
 lubuntu-artwork (0.65) zesty; urgency=medium
 
   * Backup current artwork items to 1610 items, and prepare 1704 ones.
