@@ -1,3 +1,9 @@
+lubuntu-artwork (0.67) UNRELEASED; urgency=medium
+
+  * Backup current artwork items to 1704 items, and prepare 1710 ones.
+
+ -- Julien Lavergne <gilir@ubuntu.com>  Mon, 01 May 2017 17:29:56 +0200
+
 lubuntu-artwork (0.66) zesty; urgency=medium
 
   * debian/control:
