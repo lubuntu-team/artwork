@@ -1,10 +1,10 @@
-lubuntu-artwork (0.67) UNRELEASED; urgency=medium
+lubuntu-artwork (0.67) artful; urgency=medium
 
   * Backup current artwork items to 1704 items, and prepare 1710 ones.
   * debian/compat & debian/control:
    - Use debhelper v9.
 
- -- Julien Lavergne <gilir@ubuntu.com>  Mon, 01 May 2017 17:29:56 +0200
+ -- Julien Lavergne <gilir@ubuntu.com>  Mon, 01 May 2017 18:09:30 +0200
 
 lubuntu-artwork (0.66) zesty; urgency=medium
 
