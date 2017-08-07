@@ -221,116 +221,39 @@ NautilusWindow .sidebar .view {
     background-color: @sidepane_color;
 }
 
-/************************************************************
- *					 GTK3 CSD support 						*
- ************************************************************/
+*:drop(active):focus,
+*:drop(active) {
+  box-shadow: inset 0 0 0 1px #F08437; }
 
-.titlebar {
+decoration {
+  border-radius: 6px 6px 0 0;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1), 0 0 10px 0 rgba(0, 0, 0, 0.5);
+  margin: 2px; }
+  decoration:backdrop {
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1), 0 0 10px 0 transparent, 0 0 10px 0 rgba(0, 0, 0, 0.5);
+    transition: 200ms ease-out; }
+  .fullscreen decoration,
+  .tiled decoration {
+    border-radius: 0; }
+  .popup decoration {
+    box-shadow: none;
+    border-radius: 0; }
+  .ssd decoration {
     border-radius: 6px 6px 0 0;
-    background-image: linear-gradient(to bottom,
-                                      shade(@bg_color, 1.07),
-                                      shade(@bg_color, 0.88)
-                                      );
-
-    color: @fg_color;
-}
-
-.tiled .titlebar {
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1), 0 0 10px 0 rgba(0, 0, 0, 0.5); }
+    .ssd decoration.maximized {
+      border-radius: 0; }
+  .csd.popup decoration {
+    border-radius: 2px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1), 0 0 0 1px rgba(0, 0, 0, 0.1); }
+  tooltip.csd decoration {
+    border-radius: 2px;
+    box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.1); }
+  messagedialog.csd decoration {
+    border-radius: 3px; }
+  .solid-csd decoration {
     border-radius: 0;
-}
+    margin: 1px;
+    background-color: #e7e8eb;
+    box-shadow: none; }
 
-.maximized .titlebar {
-    border-radius: 0;
-}
-
-.titlebar.default-decoration {
-    border: none;
-    box-shadow: none;
-}
-
-.titlebar .title {
-    font: bold;
-    color: mix(@fg_color, @bg_color, 0.3);
-    text-shadow: 0 1px shade(@bg_color, 1.1);
-}
-
-.titlebar:backdrop {
-    background-image: linear-gradient(to bottom,
-                                      shade(@bg_color, 1.12),
-                                      shade(@bg_color, 0.98)
-                                      );
-}
-
-.titlebar .title:backdrop {
-    color: mix(@fg_color, @bg_color, 0.6);
-    text-shadow: 0 1px shade(@bg_color, 1.05);
-}
-
-.titlebar .button:backdrop {
-    color: mix(@fg_color, @bg_color, 0.6);
-}
-
-.titlebar .titlebutton {
-    padding: 4px;
-    border-style: none;
-    background: none;
-    color: mix(@fg_color, @bg_color, 0.3);
-    icon-shadow: 0 1px shade(@bg_color, 1.1);
-    box-shadow: none;
-}
-
-.titlebar .titlebutton:hover,
-.titlebar .titlebutton:hover:focus {
-    background: none;
-    color: @fg_color;
-    box-shadow: none;
-}
-
-.titlebar .titlebutton:active,
-.titlebar .titlebutton:checked,
-.titlebar .titlebutton:active:hover,
-.titlebar .titlebutton:checked:hover {
-    background: none;
-    color: @selected_bg_color;
-    box-shadow: none;
-}
-
-.titlebar .titlebutton:backdrop {
-    background-image: none;
-    color: mix(@fg_color, @bg_color, 0.6);
-    icon-shadow: 0 1px shade(@bg_color, 1.05);
-}
-
-.window-frame,
-.window-frame:backdrop {
-    border-style: none;
-    border-radius: 6px 6px 0 0;
-    box-shadow: 0 6px 22px alpha(black, 0.47),
-                0 0 0 1px alpha(black, 0.3);
-
-    /* this is used for the resize cursor area */
-    margin: 10px;
-}
-
-.window-frame.tiled {
-    border-radius: 0;
-}
-
-.window-frame.csd.popup {
-    border-style: none;
-    border-radius: 0;
-    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
-}
-
-.window-frame.csd.tooltip {
-    border-radius: 4px;
-    box-shadow: none;
-}
-
-.window-frame.solid-csd {
-    border: solid 1px shade(@bg_color, 0.5);
-    border-radius: 0;
-    margin: 2px;
-    background-color: @bg_color;
-    box-shadow: none;
-}

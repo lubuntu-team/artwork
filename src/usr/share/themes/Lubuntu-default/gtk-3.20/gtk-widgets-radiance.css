@@ -70,9 +70,7 @@ menu spinner:hover {
 }
 
 /* primary-toolbar */
-.primary-toolbar,
-headerbar,
-.maximized headerbar.titlebar:not(:backdrop) {
+.primary-toolbar {
     background-image: -gtk-gradient (linear, left top, left bottom,
                                      from (shade (@dark_bg_color, 0.96)),
                                      to (shade (@dark_bg_color, 1.1)));
@@ -103,8 +101,4 @@ headerbar button:disabled {
     background-image: -gtk-gradient (linear, left top, left bottom,
                                      from (shade (@dark_bg_color, 1.03)),
                                      to (shade (@dark_bg_color, 0.96)));
-}
-
-.titlebar {
-    border-top-width: 0px;
 }

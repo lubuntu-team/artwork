@@ -1,13 +1,13 @@
 .primary-toolbar .entry,
 menubar toolbar entry,
 headerbar entry {
-    border-image: url("assets/radiance-entry-toolbar.png") 10 12 10 12 / 10px 12px 10px 12px stretch;
+    border-image: -gtk-scaled(url("assets/radiance-entry-toolbar.png"),url("assets/radiance-entry-toolbar@2.png")) 10 12 10 12 / 10px 12px 10px 12px stretch;
 }
 
 primary-toolbar entry:focus,
 menubar toolbar entry:focus,
 headerbar entry:focus {
-    border-image: url("assets/radiance-entry-toolbar-focused.png") 10 12 10 12 / 10px 12px 10px 12px stretch;
+    border-image: -gtk-scaled(url("assets/radiance-entry-toolbar-focused.png"),url("assets/radiance-entry-toolbar-focused@2.png")) 10 12 10 12 / 10px 12px 10px 12px stretch;
 }
 
 .primary-toolbar combobox entry button,

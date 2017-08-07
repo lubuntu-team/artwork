@@ -72,6 +72,7 @@
 @import url("apps/gnome-system-log.css");
 @import url("apps/glade.css");
 @import url("apps/software-center.css");
+@import url("apps/calendar.css");
 @import url("public-colors.css");
 
 @import url("gtk-lubuntu.css");

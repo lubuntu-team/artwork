@@ -1,11 +1,11 @@
 .lightdm menu {
     background-image: none;
-    background-color: alpha (black, 0.6);
+    background-color: shade (@dark_bg_color, 1.08);
     border: none;
     border-radius: 0px;
     padding: 1px;
 
-    color: white;
+    color: @dark_fg_color;
 }
 
 .lightdm-combo menu {
@@ -13,13 +13,13 @@
     border-radius: 0px;
     padding: 0px;
 
-    color: white;
+    color: @dark_fg_color;
 }
 
 .lightdm menu menuitem *,
 .lightdm menu menuitem.check:active,
 .lightdm menu menuitem.radio:active {
-    color: white;
+    color: @dark_fg_color;
 }
 
 .lightdm menu menuitem *:disabled {

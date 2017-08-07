@@ -20,7 +20,7 @@
 
 assistant .sidebar .highlight {
         color: @fg_color;
-        font: bold;
+        font-weight: bold;
 }
 
 assistant .sidebar {
@@ -69,7 +69,8 @@ button.flat {
 button:backdrop {
     background-image: none;
     background-color: @bg_color;
-    border-image-source: url("assets/backdrop-button.png");
+    border-image-source: -gtk-scaled(url("assets/backdrop-button.png"),
+                                     url("assets/backdrop-button@2.png"));
 
     color: @backdrop_fg_color;
     text-shadow: 0 1px alpha (shade (@button_bg_color, 1.25), 0.2);
@@ -80,7 +81,8 @@ button.flat:backdrop {
 }
 
 button:focus {
-    border-image-source: url("assets/button-focused.png");
+    border-image-source: -gtk-scaled(url("assets/button-focused.png"),
+                                     url("assets/button-focused.png@2"));
 }
 
 button:hover {
@@ -88,16 +90,19 @@ button:hover {
                                      from (shade (@button_bg_color, 1.12)),
                                      color-stop (0.5, @button_bg_color),
                                      to (shade (@button_bg_color, 0.96)));
-    border-image-source: url("assets/button-hover.png");
+    border-image-source: -gtk-scaled(url("assets/button-hover.png"),
+                                     url("assets/button-hover@2.png"));
 }
 
 button:hover:backdrop {
     background-color: shade (@bg_color, 1.04);
-    border-image-source: url("assets/backdrop-button-hover.png");
+    border-image-source: -gtk-scaled(url("assets/backdrop-button-hover.png"),
+                                     url("assets/backdrop-button-hover@2.png"));
 }
 
 button:hover:focus {
-    border-image-source: url("assets/button-focused-hover.png");
+    border-image-source: -gtk-scaled(url("assets/button-focused-hover.png"),
+                                     url("assets/button-focused-hover@2.png"));
 }
 
 
@@ -106,14 +111,16 @@ button:disabled {
     background-color: mix (#ebebeb, @bg_color, 0.5);
 
     text-shadow: 0 1px alpha (shade (@button_bg_color, 1.25), 0.4);
-    border-image-source: url("assets/button-disabled.png");
+    border-image-source: -gtk-scaled(url("assets/button-disabled.png"),
+                                     url("assets/button-disabled@2.png"));
 }
 
 button:disabled:backdrop {
     background-color: #ebebeb;
 
     text-shadow: 0 1px alpha (shade (@button_bg_color, 1.25), 0.2);
-    border-image-source: url("assets/backdrop-button-disabled.png");
+    border-image-source: -gtk-scaled(url("assets/backdrop-button-disabled.png"),
+                                     url("assets/backdrop-button-disabled@2.png"));
 }
 
 button.flat:disabled,
@@ -126,22 +133,26 @@ button:checked {
     background-image: -gtk-gradient (linear, left top, left bottom,
                                      from (#cecece),
                                      to (#e8e8e8));
-    border-image-source: url("assets/button-active.png");
+    border-image-source: -gtk-scaled(url("assets/button-active.png"),
+                                     url("assets/button-active@2.png"));
 }
 
 button:checked:focus {
-    border-image-source: url("assets/button-active-focused.png");
+    border-image-source: -gtk-scaled(url("assets/button-active-focused.png"),
+                                     url("assets/button-active-focused@2.png"));
 }
 
 button:active {
     background-image: -gtk-gradient (linear, left top, left bottom,
                                      from (#dcdcdc),
                                      to (#f3f3f3));
-    border-image-source: url("assets/button-active-hover.png");
+    border-image-source: -gtk-scaled(url("assets/button-active-hover.png"),
+                                     url("assets/button-active-hover@2.png"));
 }
 
 button:active:focus {
-    border-image-source: url("assets/button-active-focused-hover.png");
+    border-image-source: -gtk-scaled(url("assets/button-active-focused-hover.png"),
+                                     url("assets/button-active-focused-hover@2.png"));
 }
 
 button:checked:disabled,
@@ -149,22 +160,26 @@ button:active:disabled {
     background-image: -gtk-gradient (linear, left top, left bottom,
                                      from (#e3e3e3),
                                      to (#f3f3f3));
-    border-image-source: url("assets/button-active-disabled.png");
+    border-image-source: -gtk-scaled(url("assets/button-active-disabled.png"),
+                                     url("assets/button-active-disabled@2.png"));
 }
 
 button:checked:backdrop {
-    border-image-source: url("assets/backdrop-button-active.png");
+    border-image-source: -gtk-scaled(url("assets/backdrop-button-active.png"),
+                                     url("assets/backdrop-button-active@2.png"));
 }
 
 button:active:backdrop {
-    border-image-source: url("assets/backdrop-button-active-hover.png");
+    border-image-source: -gtk-scaled(url("assets/backdrop-button-active-hover.png"),
+                                     url("assets/backdrop-button-active-hover@2.png"));
 }
 
 button:checked:disabled:backdrop {
     background-image: -gtk-gradient (linear, left top, left bottom,
                                      from (mix (#e3e3e3, @bg_color, 0.5)),
                                      to (mix (#f3f3f3, @bg_color, 0.5)));
-    border-image-source: url("assets/backdrop-button-active-disabled.png");
+    border-image-source: -gtk-scaled(url("assets/backdrop-button-active-disabled.png"),
+                                     url("assets/backdrop-button-active-disabled@2.png"));
 }
 
 /*
@@ -267,7 +282,7 @@ headerbar .linked button:only-child {
 }
 
 button separator { 
-	color: shade(@bg_color, 1.30);
+    color: shade(@bg_color, 1.30);
 }
 
 /* actionbar */
@@ -495,6 +510,8 @@ entry {
     padding: 5px 7px;
 
     color: @text_color;
+
+    text-shadow: none;
 }
 
 entry.flat, entry.flat:focus {
@@ -530,6 +547,14 @@ entry:disabled:backdrop {
     background-color: mix (#f5f5f5, @bg_color, 0.5);
 
     color: mix (@text_color, @base_color, 0.4);
+}
+
+entry > image.left {
+    padding-right: 5px;
+}
+
+entry > image.right {
+    padding-left: 5px;
 }
 
 .primary-toolbar entry progress,
@@ -619,17 +644,6 @@ frame > box > stack > scrolledwindow {
 
 frame > box.vertical > scrolledwindow.frame {
     border-width: 1px 0px 1px 0px;
-}
-
-
-/****************
- * window-frame *
- ****************/
-
-.csd.popup {
-    border-style: none;
-    border-radius: 0;
-    box-shadow: 0 3px 8px @shadow_color;
 }
 
 /************
@@ -783,6 +797,7 @@ combobox menu {
     background-color: @bg_color;
     border-bottom-color: shade (@bg_color, 0.66);
     border-right-color: shade (@bg_color, 0.7);
+    border-left-color: shade (@bg_color, 0.7);
     border-top-color: shade (@bg_color, 0.8);
     border-style: solid;
     padding: 0;
@@ -812,7 +827,13 @@ menu button
 }
 
 .context-menu {
-    font: regular medium;
+    font-size: medium;
+    font-weight: normal;
+}
+
+.background.popup.csd {
+    /* Delete menus background, we don't need border-radious here */
+    background-color: transparent;
 }
 
 /***********
@@ -1244,14 +1265,16 @@ trough.vertical {
 
 /* level bars as used for password quality or remaining power */
 
-levelbar {
-    min-width: 34px;
+levelbar,
+levelbar trough {
+    min-width: 150px;
     min-height: 5px;
 }
 
-levelbar.vertical {
+levelbar.vertical,
+levelbar.vertical trough {
     min-width: 5px;
-    min-height: 34px;
+    min-height: 150px;
 }
 
 levelbar trough {
@@ -1923,12 +1946,8 @@ textview {
     background-color: @base_color;
 }
 
-headerbar {
-    padding: 2px 6px;
-}
-
 /*
- * Header Bars
+ * Header Bars and decorations
  *
  * The following rules only style header bars when they are used as a window's
  * titlebar widget (i.e., they have .titlebar set as well).
@@ -1937,42 +1956,145 @@ headerbar {
  * that prefer showing traditional title bars. The rules for those are further
  * down grouped with normal toolbars.
  */
-.titlebar {
-    background-image: -gtk-gradient (linear, left top, left bottom,
-                                     from (shade (@dark_bg_color, 1.5)),
-                                     to (@dark_bg_color));
-    border-color: shade (@dark_bg_color, 1.5);
-    border-style: solid;
-    border-width: 1px 0 0 0;
-    border-radius: 7px 7px 0 0;
+decoration {
+    margin: 10px;
+    border-radius: 6px 6px 0 0;
+    box-shadow: 1px 5px 13px alpha(@active_shadow_color, 0.85);
+}
 
-    color: @dark_fg_color;
+decoration:backdrop,
+tooltip.csd decoration,
+.popup decoration {
+    box-shadow: 1px 5px 13px transparent, /* this should match normal shadow geometries */
+                1px 5px 8px @inactive_shadow_color;
+    transition: 100ms ease-out;
+}
+
+.ssd decoration {
+    box-shadow: none;
+}
+
+popover {
+/* FIXME: we can't reuse the default shadow definition as increasing marging
+ *        would break the tip
+ */
+    margin: 13px;
+    box-shadow: 1px 3px 6px @inactive_shadow_color;
+}
+
+popover:backdrop,
+popover.background:backdrop {
+    box-shadow: 1px 3px 6px alpha(@inactive_shadow_color, 0.5);
+}
+
+tooltip decoration {
+    background-color: transparent;
+    background-image: none;
+}
+
+.maximized decoration,
+.fullscreen decoration,
+.unity-csd decoration {
+    margin: 0;
+    border-radius: 0;
+    box-shadow: none;
+}
+
+.tiled decoration {
+    border-radius: 0;
+}
+
+.default-decoration.titlebar:not(headerbar),
+messagedialog.csd .titlebar:not(headerbar),
+messagedialog.solid-csd .titlebar:not(headerbar),
+headerbar.default-decoration {
+    min-height: 26px;
+}
+
+.solid-csd .titlebar:backdrop:dir(rtl):not(headerbar),
+.solid-csd .titlebar:backdrop:dir(ltr):not(headerbar),
+.solid-csd .titlebar:dir(rtl):not(headerbar),
+.solid-csd .titlebar:dir(ltr):not(headerbar),
+.solid-csd headerbar:backdrop:dir(rtl),
+.solid-csd headerbar:backdrop:dir(ltr),
+.solid-csd headerbar,
+.solid-csd headerbar:dir(ltr) {
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    border-radius: 0;
+    box-shadow: none;
+}
+
+.solid-csd decoration {
+    margin: 0;
+    box-shadow: none;
+    border-width: 2px;
+    border-style: solid;
+    border-color: shade (@dark_bg_color, 0.85);
+    border-radius: 0;
+}
+
+.solid-csd:backdrop decoration {
+    border-color: @dark_bg_color
+}
+
+.titlebar,
+UnityDecoration .top {
+    border: 1px solid rgba (85, 40, 0, 0.04); /* shade (@dark_bg_color) (shade (#edebe6, 1.06) */
+    border-radius: 6px 6px 0 0;
+    padding: 1px 6px 1px 6px;
+
+    box-shadow: inset 0 0 transparent, inset 0 0 transparent,
+                inset 0 1px shade (@edebe6, 1.065), inset 0 0 transparent;
+
+    background-color: transparent;
+    background-clip: border-box;
+    background-image: -gtk-gradient (linear, left top, left bottom,
+                                     from (shade (#edebe6, 1.06)),
+                                     to (@dark_bg_color));
+
+    color: shade (@dark_bg_color, 0.4);
+    text-shadow: 1px 0 shade (@dark_bg_color, 1.06), -1px 0 shade (@dark_bg_color, 1.06),
+                 0 1px shade (@dark_bg_color, 1.06), 0 -1px shade (@dark_bg_color, 1.06);
+}
+
+.titlebar:backdrop,
+UnityDecoration .top:backdrop {
+    border: 1px solid rgba (110, 27, 0, 0.04); /* shade @dark_bg_color - shade (#edebe6, 0.96) */
+    background-color: transparent;
+    background-clip: border-box;
+    background-image: -gtk-gradient (linear, left top, left bottom,
+                                     from (shade (#edebe6, 0.96)),
+                                     to (@dark_bg_color));
+    box-shadow: inset 0 0 transparent, inset 0 0 transparent,
+                inset 0 1px shade (#edebe6, 0.97), inset 0 0 transparent;
+
+    color: #a39e9a;
+    text-shadow: 1px 0 1px shade (@dark_bg_color, 1.08), -1px 0 1px shade (@dark_bg_color, 1.08),
+                 0 1px 1px shade (@dark_bg_color, 1.08), 0 -1px 1px shade (@dark_bg_color, 1.08);
+}
+
+.maximized .titlebar,
+.tiled .titlebar {
+    border-radius: 0;
+    border-image: none;
+    border: none;
+    box-shadow: none;
+}
+
+.maximized .titlebar:not(:backdrop):not(.toolbar-mode),
+.tiled .titlebar:not(:backdrop):not(.toolbar-mode) {
+    box-shadow: inset 0 1px shade (#edebe6, 1.08);
 }
 
 .titlebar .title {
-    font: bold;
+    font-weight: bold;
 }
 
 .titlebar .subtitle {
     font-size: smaller;
     opacity: 0.5;
-}
-
-.titlebar:backdrop {
-    color: @backdrop_fg_color;
-    background-image: none;
-    background-color: @dark_bg_color;
-    border-top-color: @dark_bg_color;
-    box-shadow: inset 0 1px shade (@dark_bg_color, 1.2);
-}
-
-.maximized .titlebar {
-    border-radius: 0;
-    border: none;
-}
-
-.maximized .titlebar.toolbar-mode {
-    box-shadow: none;
 }
 
 .titlebar button.titlebutton {
@@ -1984,6 +2106,20 @@ headerbar {
     padding: 0;
     box-shadow: none;
     background-image: linear-gradient(to top, #d5d2ce, #ece8e4 50%, #f7f4f3);
+}
+
+/* keep buttons closer */
+.titlebar button.titlebutton {
+    margin-left: -2px;
+    margin-right: -2px;
+}
+
+.titlebar button.titlebutton:first-child {
+    margin-left: inherit;
+}
+
+.titlebar button.titlebutton:last-child {
+    margin-right: inherit;
 }
 
 .titlebar button.titlebutton.close {
@@ -2017,10 +2153,12 @@ headerbar {
 }
 
 
+
+
 /***********
  * toolbar *
  ***********/
-.toolbar {
+.toolbar:not(.titlebar):not(headerbar) {
     border-style: none;
     padding: 1px;
 
@@ -2029,7 +2167,7 @@ headerbar {
     text-shadow: none;
 }
 
-.toolbar:backdrop {
+.toolbar:not(.titlebar):not(headerbar):backdrop {
     color: @backdrop_fg_color;
 }
 
@@ -2037,8 +2175,9 @@ headerbar {
  * primary-toolbar *
  *******************/
 .primary-toolbar,
-headerbar,
-.maximized headerbar.titlebar:not(:backdrop) {
+/* Workaround for LP: #1689239, selects headerbars used as toolbar in Unity */
+:not(.titlebar) > headerbar:not(.titlebar),
+.titlebar.toolbar-mode {
     -GtkWidget-window-dragging: true;
 
     background-image: -gtk-gradient (linear, left top, left bottom,
@@ -2056,12 +2195,10 @@ headerbar,
     box-shadow: inset 0 1px shade (@dark_bg_color, 0.94);
 }
 
-.maximized headerbar.titlebar.toolbar-mode:not(:backdrop) {
-    border-width: 0;
-}
-
 .primary-toolbar:backdrop,
-headerbar:backdrop {
+/* Workaround for LP: #1689239, selects headerbars used as toolbar in Unity */
+:not(.titlebar) > headerbar:not(.titlebar):backdrop,
+.titlebar.toolbar-mode:backdrop {
     background-image: none;
     background-color: @dark_bg_color;
     box-shadow: none;
@@ -2072,16 +2209,19 @@ headerbar:backdrop {
 }
 
 .primary-toolbar:disabled,
+.titlebar.toolbar-mode:disabled,
 headerbar:disabled {
     text-shadow: 0 -1px shade (@dark_bg_color, 0.7);
 }
 
 .primary-toolbar button,
+.titlebar button,
 headerbar button,
 headerbar button:disabled,
 .primary-toolbar button.flat:hover {
     background: transparent;
-    border-image-source: url("assets/radiance-button-toolbar.png");
+    border-image-source: -gtk-scaled(url("assets/radiance-button-toolbar.png"),
+                                     url("assets/radiance-button-toolbar@2.png"));
     padding: 9px;
     color: @dark_fg_color;
 }
@@ -2099,14 +2239,16 @@ headerbar button:disabled * {
 
 .primary-toolbar button:focus,
 headerbar button:focus {
-    border-image-source: url("assets/radiance-button-toolbar-focused.png");
+    border-image-source: -gtk-scaled(url("assets/radiance-button-toolbar-focused.png"),
+                                     url("assets/radiance-button-toolbar-focused@2.png"));
 }
 
 .primary-toolbar button:active,
 .primary-toolbar button:checked,
 headerbar button:active,
 headerbar button:checked {
-    border-image-source: url("assets/radiance-button-toolbar-active.png");
+    border-image-source: -gtk-scaled(url("assets/radiance-button-toolbar-active.png"),
+                                     url("assets/radiance-button-toolbar-active@2.png"));
 }
 
 .primary-toolbar button:active:focus,
@@ -2114,7 +2256,8 @@ headerbar button:checked {
 headerbar button:active:focus,
 headerbar button:checked:focus,
 headerbar button:hover:focus {
-    border-image-source: url("assets/radiance-button-toolbar-active-focused.png");
+    border-image-source: -gtk-scaled(url("assets/radiance-button-toolbar-active-focused.png"),
+                                     url("assets/radiance-button-toolbar-active-focused@2.png"));
 }
 
 .primary-toolbar button:backdrop,
@@ -2123,7 +2266,8 @@ headerbar button:disabled:backdrop,
 headerbar button:checked:backdrop {
     color: @backdrop_dark_fg_color;
     background-color: transparent;
-    border-image-source: url("assets/radiance-backdrop-button-toolbar.png");
+    border-image-source: -gtk-scaled(url("assets/radiance-backdrop-button-toolbar.png"),
+                                     url("assets/radiance-backdrop-button-toolbar@2.png"));
 }
 
 .primary-toolbar button:backdrop,
@@ -2140,7 +2284,8 @@ headerbar button:checked:backdrop * {
 .primary-toolbar button:active:backdrop,
 .primary-toolbar button:checked:backdrop,
 headerbar button:active:backdrop {
-    border-image-source: url("assets/radiance-backdrop-button-toolbar-active.png");
+    border-image-source: -gtk-scaled(url("assets/radiance-backdrop-button-toolbar-active.png"),
+                                     url("assets/radiance-backdrop-button-toolbar-active@2.png"));
 }
 
 .primary-toolbar button:hover,
@@ -2153,7 +2298,8 @@ headerbar button:backdrop:checked {
     background-image: -gtk-gradient (linear, left top, left bottom,
                                      from (shade (@dark_bg_color, 1.2)),
                                      to (shade (@dark_bg_color, 1.1)));
-    border-image-source: url("assets/radiance-backdrop-button-toolbar.png");
+    border-image-source: -gtk-scaled(url("assets/radiance-backdrop-button-toolbar.png"),
+                                     url("assets/radiance-backdrop-button-toolbar@2.png"));
 }
 
 .primary-toolbar button:active,
@@ -2176,7 +2322,8 @@ headerbar button:disabled {
     background-image: -gtk-gradient (linear, left top, left bottom,
                                      from (shade (@dark_bg_color, 1.01)),
                                      to (shade (@dark_bg_color, 0.99)));
-    border-image-source: url("assets/button-toolbar.png");
+    border-image-source: -gtk-scaled(url("assets/button-toolbar.png"),
+                                     url("assets/button-toolbar@2.png"));
 }
 
 .primary-toolbar button.flat:disabled {
@@ -2189,14 +2336,17 @@ headerbar button:checked:disabled {
     background-image: -gtk-gradient (linear, left top, left bottom,
                                      from (shade (@dark_bg_color, 0.94)),
                                      to (shade (@dark_bg_color, 1.02)));
-    border-image-source: url("assets/button-toolbar.png");
+    border-image-source: -gtk-scaled(url("assets/button-toolbar.png"),
+                                     url("assets/button-toolbar@2.png"));
 }
 
 .primary-toolbar separator,
 .primary-toolbar separator,
 .primary-toolbar separator:disabled,
 headerbar separator,
-headerbar separator:disabled {
+headerbar separator:disabled,
+.titlebar separator,
+.titlebar separator:disabled {
     border-color: alpha (shade (@dark_bg_color, 0.94), 0.35);
     border-bottom-color: alpha (shade (@dark_bg_color, 1.26), 0.5);
     border-right-color: alpha (shade (@dark_bg_color, 1.26), 0.5);
@@ -2323,10 +2473,18 @@ tooltip {
     background-image: -gtk-gradient (radial, center 0, 0, center 0, 0.8,
                                      from (alpha (mix (@tooltip_bg_color, #ffffff, 0.2), 0.86)),
                                      to (alpha (@tooltip_bg_color, 0.86)));
-    border-color: alpha (#ffffff, 0.2);
+    border-color: alpha (white, 0.2);
     border-radius: 5px;
     border-style: solid;
     border-width: 1px;
+}
+
+tooltip.csd:not(.unity-csd) decoration {
+    border-radius: 5px;
+}
+
+tooltip.background {
+    background-color: transparent;
 }
 
 tooltip label {
@@ -2381,14 +2539,7 @@ popover {
 
     border-radius: 5px;
     border: 1px solid darker(@bg_color);
-
-    box-shadow: 0 2px 3px @shadow_color;
-    margin: 10px;
     padding: 2px;
-}
-
-popover:backdrop {
-    box-shadow: none;
 }
 
 /* Popover menuitems are actually buttons. The following rules reset most of
@@ -2587,6 +2738,7 @@ undershoot {
 *:disabled {
     color: shade (@bg_color, 0.6);
     text-shadow: 0 1px alpha (shade (@bg_color, 1.25), 0.5);
+    -gtk-icon-effect: dim;
 }
 
 label selection,
