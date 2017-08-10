@@ -1,3 +1,10 @@
+lubuntu-artwork (0.68) artful; urgency=medium
+
+  * src/usr/share/themes/Lubuntu-default/gtk-3*
+   - Update gtk theme to fix various issues with gtk3 applications.
+
+ -- Julien Lavergne <gilir@ubuntu.com>  Thu, 10 Aug 2017 10:48:09 +0200
+
 lubuntu-artwork (0.67) artful; urgency=medium
 
   * Backup current artwork items to 1704 items, and prepare 1710 ones.
