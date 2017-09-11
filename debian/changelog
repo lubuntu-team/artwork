@@ -1,3 +1,10 @@
+lubuntu-artwork (0.69) artful; urgency=medium
+
+  * src/usr/share/lubuntu/wallpapers/1710-lubuntu-default-wallpaper.png
+   - Update wallpaper for 17.10.
+
+ -- Julien Lavergne <gilir@ubuntu.com>  Mon, 11 Sep 2017 23:56:33 +0200
+
 lubuntu-artwork (0.68) artful; urgency=medium
 
   * src/usr/share/themes/Lubuntu-default/gtk-3*
