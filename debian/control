@@ -13,12 +13,25 @@ Vcs-Browser: http://bazaar.launchpad.net/~lubuntu-desktop/+junk/artwork/files
 Package: lubuntu-artwork
 Architecture: all
 Depends: libnewt0.52 (>= 0.52.11-2ubuntu7),
-         lubuntu-artwork-17-10,
+         lubuntu-artwork-18-04,
          lubuntu-lxpanel-icons,
          ${misc:Depends}
 Description: artwork for Lubuntu
  Artwork for Lubuntu, contained the wallpaper and others specific images and
  logos.
+
+Package: lubuntu-artwork-18-04
+Architecture: all
+Depends: gtk2-engines,
+         gtk2-engines-pixbuf,
+         gtk2-engines-murrine,
+         libnewt0.52 (>= 0.52.11-2ubuntu7),
+         ${misc:Depends}
+Description: artwork for Lubuntu - 18.04 version
+ Artwork for Lubuntu, contained the wallpaper and others specific images and
+ logos.
+ .
+ This package contains theme of Lubuntu 18.04.
 
 Package: lubuntu-artwork-17-10
 Architecture: all
@@ -31,7 +44,7 @@ Description: artwork for Lubuntu - 17.10 version
  Artwork for Lubuntu, contained the wallpaper and others specific images and
  logos.
  .
- This package contains theme of Lubuntu 17.04.
+ This package contains theme of Lubuntu 17.10.
 
 Package: lubuntu-artwork-17-04
 Architecture: all

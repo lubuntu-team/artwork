@@ -1,3 +1,9 @@
+lubuntu-artwork (0.70) UNRELEASED; urgency=medium
+
+  * Backup current artwork items to 1710 items, and prepare 1804 ones.
+
+ -- Julien Lavergne <gilir@ubuntu.com>  Wed, 10 Jan 2018 21:02:39 +0100
+
 lubuntu-artwork (0.69) artful; urgency=medium
 
   * src/usr/share/lubuntu/wallpapers/1710-lubuntu-default-wallpaper.png
