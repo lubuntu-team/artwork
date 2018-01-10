@@ -1,6 +1,7 @@
 lubuntu-artwork (0.70) UNRELEASED; urgency=medium
 
   * Backup current artwork items to 1710 items, and prepare 1804 ones.
+  * Add new plymouth theme for Lubuntu Next.
 
  -- Julien Lavergne <gilir@ubuntu.com>  Wed, 10 Jan 2018 21:02:39 +0100
 
