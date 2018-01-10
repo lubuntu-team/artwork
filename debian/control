@@ -263,6 +263,32 @@ Description: plymouth text theme for Lubuntu
  This package contain a specific Lubuntu theme for plymouth, which display a
  simple text.
 
+Package: plymouth-theme-lubuntu-next-logo
+Architecture: all
+Depends: plymouth (>= 0.9.2-3ubuntu1~),
+         plymouth-label,
+         ${misc:Depends},
+         ${shlibs:Depends}
+Provides: plymouth-theme
+Replaces: lubuntu-plymouth-theme,
+          plymouth (<< 0.8.1-1~)
+Conflicts: lubuntu-plymouth-theme
+Description: plymouth theme for Lubuntu Next
+ This package contain a specific Lubuntu Next theme for plymouth.
+
+Package: plymouth-theme-lubuntu-next-text
+Architecture: all
+Depends: plymouth (>= 0.9.2-3ubuntu1~),
+         plymouth-label,
+         plymouth-theme-ubuntu-text,
+         ${misc:Depends},
+         ${shlibs:Depends}
+Provides: plymouth-theme
+Replaces: plymouth (<< 0.8.1-1~)
+Description: plymouth text theme for Lubuntu Next
+ This package contain a specific Lubuntu Next theme for plymouth, which display a
+ simple text.
+
 Package: lubuntu-icon-theme
 Architecture: all
 Depends: hicolor-icon-theme,
