@@ -1,11 +1,13 @@
-lubuntu-artwork (0.70ubuntu1) UNRELEASED; urgency=medium
+lubuntu-artwork (0.70) UNRELEASED; urgency=medium
 
   * Backup current artwork items to 1710 items, and prepare 1804 ones.
   * Add new plymouth theme for Lubuntu Next.
   * debian/gbp.conf:
    - Add configuration file for git-buildpackage.
+  * debian/control:
+   - Update VCS fields to point to git repository.
 
- -- Julien Lavergne <gilir@ubuntu.com>  Tue, 23 Jan 2018 00:13:07 +0100
+ -- Julien Lavergne <gilir@ubuntu.com>  Tue, 23 Jan 2018 00:19:51 +0100
 
 lubuntu-artwork (0.69) artful; urgency=medium
 
