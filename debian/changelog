@@ -1,4 +1,4 @@
-lubuntu-artwork (0.70) UNRELEASED; urgency=medium
+lubuntu-artwork (0.70) bionic; urgency=medium
 
   * Backup current artwork items to 1710 items, and prepare 1804 ones.
   * Add new plymouth theme for Lubuntu Next.
@@ -13,7 +13,7 @@ lubuntu-artwork (0.70) UNRELEASED; urgency=medium
   * src/usr/share/lxqt/themes/Lubuntu Arc
    - Add lxqt theme for Lubuntu-Next.
 
- -- Julien Lavergne <gilir@ubuntu.com>  Tue, 23 Jan 2018 00:19:51 +0100
+ -- Julien Lavergne <gilir@ubuntu.com>  Wed, 31 Jan 2018 21:16:42 +0100
 
 lubuntu-artwork (0.69) artful; urgency=medium
 
