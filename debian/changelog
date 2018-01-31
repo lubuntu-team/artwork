@@ -6,6 +6,12 @@ lubuntu-artwork (0.70) UNRELEASED; urgency=medium
    - Add configuration file for git-buildpackage.
   * debian/control:
    - Update VCS fields to point to git repository.
+  * debian/lubuntu-artwork.install
+   - Add missing wildcard.
+  * src/usr/share/themes/Lubuntu Arc/openbox-3
+   - Add openbox theme for Lubuntu-Next.
+  * src/usr/share/lxqt/themes/Lubuntu Arc
+   - Add lxqt theme for Lubuntu-Next.
 
  -- Julien Lavergne <gilir@ubuntu.com>  Tue, 23 Jan 2018 00:19:51 +0100
 
