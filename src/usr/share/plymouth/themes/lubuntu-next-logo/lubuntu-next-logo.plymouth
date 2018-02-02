@@ -5,4 +5,4 @@ ModuleName=script
 
 [script]
 ImageDir=/usr/share/plymouth/themes/lubuntu-next-logo
-ScriptFile=/usr/share/plymouth/themes/lubuntu-next-logo/lubuntu-logo.script
+ScriptFile=/usr/share/plymouth/themes/lubuntu-next-logo/lubuntu-next-logo.script
