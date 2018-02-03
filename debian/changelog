@@ -1,4 +1,4 @@
-lubuntu-artwork (0.71) UNRELEASED; urgency=medium
+lubuntu-artwork (0.71) bionic; urgency=medium
 
   * src/usr/share/plymouth/themes/lubuntu-next-logo:
    - Fix the locations of the files.
