@@ -1,4 +1,9 @@
-Organisation of the source
+[![Build Status](https://travis-ci.org/lubuntu-team/lubuntu-artwork.svg?branch=ubuntu%2Fcosmic)](https://travis-ci.org/lubuntu-team/lubuntu-artwork)
+## Automatic build testing
+Automatic build are on Travis : https://travis-ci.org/lubuntu-team/lubuntu-artwork
+
+
+## Organisation of the source
 ==========================
 
 This branch contains all the theme of Lubuntu. A prefix with 4 digits is used
@@ -12,7 +17,7 @@ but for 12.04 release, it's just a link to the file usr/share/lubuntu/images/120
 
 
 
-Map of the source
+## Map of the source
 =================
 
 Icon theme (unique for all themes) : usr/share/icons/lubuntu
@@ -25,7 +30,7 @@ LXDM theme (Lubuntu is the current one) : usr/share/lxdm/themes
 
 
 
-How to propose changes
+## How to propose changes
 ======================
 1- Branch the main branch, by doing "git branch the_name_your_new_branch"
 2- Do your modification, and commit by doing "git commit the_changed_file", and by writing a
