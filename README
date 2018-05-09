@@ -27,14 +27,11 @@ LXDM theme (Lubuntu is the current one) : usr/share/lxdm/themes
 
 How to propose changes
 ======================
-1- Branch the main branch, by doing "bzr branch lp:~lubuntu-art/+junk/lubuntu-artwork"
-2- Do your modification, and commit by doing "bzr commit", and by writing a
+1- Branch the main branch, by doing "git branch the_name_your_new_branch"
+2- Do your modification, and commit by doing "git commit the_changed_file", and by writing a
 message explaining your changes. 
-3- If you need to add a file, use "bzr add the_file" before "bzr commit"
+3- If you need to add a new file, use "git add the_file" before "git commit"
 4- You can make any numbers of commit you want. It's even better to have many
 small commits, than one big commit
 5- When it's finish, just push your branch anywhere on launchpad
 (see https://help.launchpad.net/Code/UploadingABranch)
-6- If the main is updated, you can merge the changes by doing "bzr pull lp:~lubuntu-art/+junk/lubuntu-artwork"
-If a conflict is detected, you can use "bzr merge lp:~lubuntu-art/+junk/lubuntu-artwork"
-to merge your changes.
