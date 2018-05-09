@@ -1,0 +1,11 @@
+sudo: required
+language: generic
+
+services:
+  - docker
+
+script:
+  - wget -O- https://raw.githubusercontent.com/gilir/travis.debian.net/gh-pages/script.sh | sh -
+
+if:
+  tag IS blank
