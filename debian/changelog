@@ -1,3 +1,9 @@
+lubuntu-artwork (1.1) cosmic; urgency=medium
+
+  * Add additional Conflicts/Replaces on the 18.04 artwork package.
+
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Wed, 16 May 2018 22:35:15 -0500
+
 lubuntu-artwork (1.0) cosmic; urgency=medium
 
   * Rename the Lubuntu Next Plymouth theme to Lubuntu, and retire the

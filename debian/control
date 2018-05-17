@@ -12,6 +12,8 @@ Vcs-Git: https://git.launchpad.net/lubuntu-artwork
 Package: lubuntu-artwork
 Architecture: all
 Depends: ${misc:Depends}
+Conflicts: lubuntu-artwork-18-04 (<< 1.0)
+Replaces: lubuntu-artwork-18-04 (<< 1.0)
 Description: artwork for Lubuntu
  Artwork for Lubuntu which contains the default wallpaper and default theming.
 
