@@ -1,3 +1,17 @@
+lubuntu-artwork (1.0) cosmic; urgency=medium
+
+  * Rename the Lubuntu Next Plymouth theme to Lubuntu, and retire the
+    old Lubuntu Plymouth theme.
+  * Remove all packages besides lubuntu-artwork, plymouth-theme-lubuntu-logo,
+    plymouth-theme-lubuntu-text, and sddm-theme-lubuntu-chooser. The other
+    files are now in a separate repository.
+  * Bump Standards-version to 4.1.4, no changes needed.
+  * Bump debhelper compat to 11.
+  * Update the Maintainer to Lubuntu Developers.
+  * Completely rewrite the copyright file.
+
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Tue, 15 May 2018 23:19:32 -0500
+
 lubuntu-artwork (0.71) bionic; urgency=medium
 
   * src/usr/share/plymouth/themes/lubuntu-next-logo:
@@ -100,7 +114,7 @@ lubuntu-artwork (0.62) yakkety; urgency=medium
   * Move remaining files from src/lib/plymouth/ to src/usr/share/plymouth/
     (LP: #1582046). Thanks Benoît Thébaudeau for the patch.
   * Backup current artwork items to 1604 items, and prepare 1610 ones.
-  * Stop copying LXDM theme, since it didn't change since ages. 
+  * Stop copying LXDM theme, since it didn't change since ages.
   * src/usr/share/plymouth/themes/lubuntu-text
    - Update to 16.10
   * src/usr/share/icons:
@@ -135,7 +149,7 @@ lubuntu-artwork (0.60) xenial; urgency=medium
   * src/usr/share/lxqt/themes/Lubuntu/
    - Update current theme.
   * src/usr/share/icons:
-   - Update icons. 
+   - Update icons.
 
  -- Julien Lavergne <gilir@ubuntu.com>  Sat, 27 Feb 2016 16:21:13 +0100
 
@@ -214,7 +228,7 @@ lubuntu-artwork (0.53) vivid; urgency=medium
   * src/usr/share/themes/Lubuntu-default/
    - Update current theme.
   * src/usr/share/lubuntu/wallpapers/
-   - Added community wallpapers for 15.04. 
+   - Added community wallpapers for 15.04.
 
  -- Julien Lavergne <gilir@ubuntu.com>  Tue, 10 Mar 2015 09:40:15 +0100
 
@@ -254,7 +268,7 @@ lubuntu-artwork (0.50) vivid; urgency=medium
   * src/usr/share/unity-greeter
    - Add LXQt badge.
   * src/usr/share/icons/Lubuntu/index.theme
-   - Change type to threshold, to make it compatible with LXQt. 
+   - Change type to threshold, to make it compatible with LXQt.
 
  -- Julien Lavergne <gilir@ubuntu.com>  Sat, 13 Dec 2014 08:48:01 +0100
 
@@ -292,7 +306,7 @@ lubuntu-artwork (0.47) utopic; urgency=medium
    - Make battery icons monochrome (LP: #1306914)
    - Fix inherit for Lubuntu-dark-panel (LP: #1314288)
   * debian/plymouth-theme-lubuntu-*.{postrm|prerm}
-   - Move scripts to .prerm according to lintian. 
+   - Move scripts to .prerm according to lintian.
 
  -- Julien Lavergne <gilir@ubuntu.com>  Mon, 09 Jun 2014 16:42:40 +0200
 
@@ -411,7 +425,7 @@ lubuntu-artwork (0.37) raring; urgency=low
    - Update the panel background for 13.04.
   * usr/share/lubuntu/wallpapers
    - Add 2 new wallpapers for 13.04.
-  * Update icon theme. 
+  * Update icon theme.
 
  -- Julien Lavergne <gilir@ubuntu.com>  Thu, 07 Mar 2013 09:28:55 +0100
 
@@ -452,10 +466,10 @@ lubuntu-artwork (0.33) quantal; urgency=low
   * usr/share/lubuntu/wallpapers:
    - Rename correctly the 12.04 default wallpaper.
   * usr/share/icons
-   - Add missing "yes" icons. 
+   - Add missing "yes" icons.
    - Add missing power manager and battery icons (LP: #1051298)
    - Add missing volume icons (LP: #1051307)
-   - Adjust panel icons.  
+   - Adjust panel icons.
 
  -- Julien Lavergne <gilir@ubuntu.com>  Tue, 09 Oct 2012 02:33:45 +0200
 
@@ -574,7 +588,7 @@ lubuntu-artwork (0.25) precise; urgency=low
 lubuntu-artwork (0.24) precise; urgency=low
 
   * usr/share/themes/Lubuntu-default:
-   - Fix some warnings in gtk3 theme. 
+   - Fix some warnings in gtk3 theme.
 
  -- Julien Lavergne <gilir@ubuntu.com>  Mon, 20 Feb 2012 01:43:52 +0100
 
@@ -812,7 +826,7 @@ lubuntu-artwork (0.3) lucid; urgency=low
 
 lubuntu-artwork (0.2) lucid; urgency=low
 
-  * Add specific lxpanel background file, the same that LXDE for now.  
+  * Add specific lxpanel background file, the same that LXDE for now.
 
  -- Julien Lavergne <gilir@ubuntu.com>  Sat, 28 Nov 2009 00:14:24 +0100
 

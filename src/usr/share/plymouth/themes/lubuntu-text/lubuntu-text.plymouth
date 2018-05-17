@@ -4,7 +4,7 @@ Description=Text mode theme based on kubuntu-logo theme
 ModuleName=ubuntu-text
 
 [ubuntu-text]
-title=Lubuntu 18.04
+title=Lubuntu 18.10
 black=0x0078C2
 white=0xffffff
 brown=0x009DFD

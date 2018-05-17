@@ -13,8 +13,5 @@ override_dh_auto_build:
 		(cd $$d; for c in *; do /usr/lib/icon-naming-utils/icon-name-mapping -c $$c; done); \
 	done
 
-override_dh_install:
-	# Make lintian happy by not installing extra copyright files.
-	find $(CURDIR)/debian/*/ -name "COPYING" -delete
-
-	dh_install --fail-missing
+override_dh_missing:
+	dh_missing --fail-missing
