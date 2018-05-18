@@ -1,3 +1,10 @@
+lubuntu-artwork (1.2) cosmic; urgency=high
+
+  * Add back the Lubuntu Arc Openbox theme which was accidentally removed
+    during the 1.0 upload.
+
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Thu, 17 May 2018 21:18:35 -0500
+
 lubuntu-artwork (1.1) cosmic; urgency=medium
 
   * Add additional Conflicts/Replaces on the 18.04 artwork package.
