@@ -6,7 +6,7 @@ Uploaders: Simon Quigley <tsimonq2@ubuntu.com>
 Build-Depends: debhelper (>= 11), icon-naming-utils, intltool
 Standards-Version: 4.1.5
 Homepage: https://lubuntu.me
-Vcs-Browser: https://git.launchpad.net/lubuntu-artwork?h=master
+Vcs-Browser: https://git.launchpad.net/lubuntu-artwork?h=ubuntu/cosmic
 Vcs-Git: https://git.launchpad.net/lubuntu-artwork
 
 Package: lubuntu-artwork
