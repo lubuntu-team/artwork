@@ -4,7 +4,7 @@ Priority: optional
 Maintainer: Lubuntu Developers <lubuntu-devel@lists.ubuntu.com>
 Uploaders: Simon Quigley <tsimonq2@ubuntu.com>
 Build-Depends: debhelper (>= 11), icon-naming-utils, intltool
-Standards-Version: 4.1.4
+Standards-Version: 4.1.5
 Homepage: https://launchpad.net/~lubuntu-desktop
 Vcs-Browser: https://git.launchpad.net/lubuntu-artwork?h=master
 Vcs-Git: https://git.launchpad.net/lubuntu-artwork
