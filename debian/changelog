@@ -4,6 +4,7 @@ lubuntu-artwork (1.4) UNRELEASED; urgency=medium
   * Since Ubuntu's sddm is hardcoded to use the Breeze theme, add postinst and
     prerm scripts which install the Lubuntu SDDM theme as the Breeze theme.
     Conflict against sddm-theme-breeze accordingly.
+  * Run wrap-and-sort.
 
  -- Simon Quigley <tsimonq2@ubuntu.com>  Sat, 07 Jul 2018 16:09:18 -0500
 

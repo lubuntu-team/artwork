@@ -24,7 +24,9 @@ Depends: plymouth (>= 0.9.2-3ubuntu1~),
          ${misc:Depends},
          ${shlibs:Depends}
 Provides: plymouth-theme
-Replaces: lubuntu-plymouth-theme, plymouth (<< 0.8.1-1~), plymouth-theme-lubuntu-next-logo (<< 1.0)
+Replaces: lubuntu-plymouth-theme,
+          plymouth (<< 0.8.1-1~),
+          plymouth-theme-lubuntu-next-logo (<< 1.0)
 Conflicts: lubuntu-plymouth-theme, plymouth-theme-lubuntu-next-logo (<< 1.0)
 Description: plymouth theme for Lubuntu
  This package contains a Lubuntu theme for Plymouth, which displays the
@@ -48,7 +50,7 @@ Package: sddm-theme-lubuntu
 Architecture: all
 Depends: ${misc:Depends}
 Recommends: sddm
-Conflicts: sddm-theme-lubuntu-chooser (<< 1.4), sddm-theme-breeze
+Conflicts: sddm-theme-breeze, sddm-theme-lubuntu-chooser (<< 1.4)
 Replaces: sddm-theme-lubuntu-chooser (<< 1.4)
 Provides: sddm-theme
 Description: 'Lubuntu chooser' theme for SDDM X11 display manager
