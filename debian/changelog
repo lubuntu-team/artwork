@@ -1,9 +1,9 @@
-lubuntu-artwork (1.5) UNRELEASED; urgency=medium
+lubuntu-artwork (1.5) cosmic; urgency=medium
 
   * Change the SDDM theme wallpaper to the default 18.04 one.
   * Fix the description for sddm-theme-lubuntu.
 
- -- Simon Quigley <tsimonq2@ubuntu.com>  Wed, 11 Jul 2018 22:57:59 -0500
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Wed, 11 Jul 2018 23:05:25 -0500
 
 lubuntu-artwork (1.4) cosmic; urgency=medium
 
