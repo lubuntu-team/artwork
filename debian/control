@@ -53,5 +53,5 @@ Recommends: sddm
 Conflicts: sddm-theme-breeze, sddm-theme-lubuntu-chooser (<< 1.4)
 Replaces: sddm-theme-lubuntu-chooser (<< 1.4)
 Provides: sddm-theme
-Description: 'Lubuntu chooser' theme for SDDM X11 display manager
+Description: Lubuntu theme for SDDM X11 display manager
  Lubuntu chooser theme for SDDM
