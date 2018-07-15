@@ -2510,6 +2510,11 @@ treeview.view {
 	border-color: @selected_bg_color;
 }
 
+treeview.view.separator {
+    min-height: 2px;
+    color: @borders;
+}
+
 /************
  * viewport *
  ************/

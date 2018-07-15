@@ -1,3 +1,9 @@
+lubuntu-artwork (0.71.1) bionic; urgency=medium
+
+  * Fix support for GtkTreeView separators (LP: #1781689).
+
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Sat, 14 Jul 2018 01:58:17 -0500
+
 lubuntu-artwork (0.71) bionic; urgency=medium
 
   * src/usr/share/plymouth/themes/lubuntu-next-logo:
