@@ -3,7 +3,7 @@ set -e
 
 if [ "$1" = "remove" ] || [ "$1" = "deconfigure" ]; then
     update-alternatives --remove \
-        breeze \
+        sddm-ubuntu-theme \
         /usr/share/sddm/themes/lubuntu
 fi
 

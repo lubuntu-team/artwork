@@ -50,7 +50,7 @@ Package: sddm-theme-lubuntu
 Architecture: all
 Depends: ${misc:Depends}
 Recommends: sddm
-Conflicts: sddm-theme-breeze, sddm-theme-lubuntu-chooser (<< 1.4)
+Conflicts: sddm-theme-lubuntu-chooser (<< 1.4)
 Replaces: sddm-theme-lubuntu-chooser (<< 1.4)
 Provides: sddm-theme
 Description: Lubuntu theme for SDDM X11 display manager
