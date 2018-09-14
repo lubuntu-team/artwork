@@ -211,6 +211,15 @@ Rectangle {
                 anchors.right: parent.right
                 anchors.margins: 5
                 spacing: 5
+                
+            Clock {
+			id: clock
+			color: "white"
+			timeFont.family: "Ubuntu"
+			timeFont.bold: true
+			timeFont.pixelSize: 28
+			dateFont.pixelSize: 12    
+        	}
 
 			ImageButton {
 			id: btnReboot
@@ -229,16 +238,7 @@ Rectangle {
 			onClicked: sddm.powerOff()
 			KeyNavigation.backtab: btnReboot; KeyNavigation.tab: prevUser
 			}
-	Clock {
-		id: clock
-		anchors.margins: 5
-		anchors.top: parent.top; anchors.right: parent.right
-		color: "white"
-		timeFont.family: "Ubuntu"
-		timeFont.bold: true
-		timeFont.pixelSize: 28
-		dateFont.pixelSize: 12            
-        	}
+			
 	}
 
 
