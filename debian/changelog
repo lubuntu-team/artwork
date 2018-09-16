@@ -1,4 +1,4 @@
-lubuntu-artwork (1.7) UNRELEASED; urgency=medium
+lubuntu-artwork (1.7) cosmic; urgency=medium
 
   [ Wendy Hill ]
   * Fix the shutdown and restart buttons for the SDDM greeter.
@@ -6,7 +6,7 @@ lubuntu-artwork (1.7) UNRELEASED; urgency=medium
   [ Simon Quigley ]
   * Fix whitespace and bump the copyright date for the artwork team.
 
- -- Simon Quigley <tsimonq2@ubuntu.com>  Sun, 16 Sep 2018 15:03:22 -0500
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Sun, 16 Sep 2018 15:05:08 -0500
 
 lubuntu-artwork (1.6) cosmic; urgency=medium
 
