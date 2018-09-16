@@ -1,6 +1,6 @@
 /***************************************************************************
 * Copyright (c) 2013 Abdurrahman AVCI <abdurrahmanavci@gmail.com
-* Copyright (c) 2015 Lubuntu Artwork Team
+* Copyright (c) 2015-2018 Lubuntu Artwork Team
 *
 * Permission is hereby granted, free of charge, to any person
 * obtaining a copy of this software and associated documentation
@@ -211,14 +211,14 @@ Rectangle {
                 anchors.right: parent.right
                 anchors.margins: 5
                 spacing: 5
-                
+
             Clock {
 			id: clock
 			color: "white"
 			timeFont.family: "Ubuntu"
 			timeFont.bold: true
 			timeFont.pixelSize: 28
-			dateFont.pixelSize: 12    
+			dateFont.pixelSize: 12
         	}
 
 			ImageButton {
@@ -238,7 +238,7 @@ Rectangle {
 			onClicked: sddm.powerOff()
 			KeyNavigation.backtab: btnReboot; KeyNavigation.tab: prevUser
 			}
-			
+
 	}
 
 
