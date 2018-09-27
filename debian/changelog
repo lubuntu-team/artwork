@@ -1,3 +1,10 @@
+lubuntu-artwork (1.8) cosmic; urgency=medium
+
+  * Changed active window border to light blue.
+  * Increase window border so it is easier to grab.
+
+ -- Hans P. Möller <hmoller@gmail.com>  Thu, 27 Sep 2018 16:01:47 -0300
+
 lubuntu-artwork (1.7) cosmic; urgency=medium
 
   [ Wendy Hill ]
