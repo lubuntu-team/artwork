@@ -1,3 +1,10 @@
+lubuntu-artwork (1.9) disco; urgency=low
+
+  * Add space on the left side to the Lubuntu splash screen logo.
+    The logo is now centered. This closes T178
+
+ -- apt-ghetto <apt-ghetto@protonmail.com>  Fri, 08 Feb 2019 17:20:32 +0100
+
 lubuntu-artwork (1.8) cosmic; urgency=medium
 
   * Changed active window border to light blue.
