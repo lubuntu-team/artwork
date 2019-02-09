@@ -1,3 +1,10 @@
+lubuntu-artwork (19.04.1) UNRELEASED; urgency=medium
+
+  * Bump the version to be partial release-based partial semver-based rather
+    than completely based on semver.
+
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Sat, 09 Feb 2019 11:20:59 -0600
+
 lubuntu-artwork (1.9) disco; urgency=low
 
   * Add space on the left side to the Lubuntu splash screen logo.
