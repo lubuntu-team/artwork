@@ -1,11 +1,11 @@
-lubuntu-artwork (19.04.1) UNRELEASED; urgency=medium
+lubuntu-artwork (19.04.1) disco; urgency=medium
 
   * Bump the version to be partial release-based partial semver-based rather
     than completely based on semver.
   * Change the default wallpaper to the hummingbird rather than the blank
     Cosmic background.
 
- -- Simon Quigley <tsimonq2@ubuntu.com>  Sat, 09 Feb 2019 11:20:59 -0600
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Tue, 05 Mar 2019 19:04:06 -0600
 
 lubuntu-artwork (1.9) disco; urgency=low
 
