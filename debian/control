@@ -14,6 +14,7 @@ Architecture: all
 Depends: ${misc:Depends}
 Conflicts: lubuntu-artwork-18-04 (<< 1.0)
 Replaces: lubuntu-artwork-18-04 (<< 1.0)
+Provides: lxqt-branding
 Description: artwork for Lubuntu
  Artwork for Lubuntu which contains the default wallpaper and default theming.
 

@@ -1,3 +1,9 @@
+lubuntu-artwork (19.04.2) UNRELEASED; urgency=medium
+
+  * Provide lxqt-branding so the Debian LXQt branding is not pulled in.
+
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Sat, 09 Mar 2019 16:06:53 -0600
+
 lubuntu-artwork (19.04.1) disco; urgency=medium
 
   * Bump the version to be partial release-based partial semver-based rather
