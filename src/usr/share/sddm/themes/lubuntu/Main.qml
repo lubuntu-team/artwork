@@ -222,12 +222,21 @@ Rectangle {
         	}
 
 			ImageButton {
+			id: btnSuspend
+			height: parent.height
+			source: "suspend.png"
+			visible: sddm.canSuspend
+			onClicked: sddm.suspend()
+			KeyNavigation.backtab: layoutBox; KeyNavigation.tab: btnReboot
+			}
+
+			ImageButton {
 			id: btnReboot
 			height: parent.height
 			source: "reboot.png"
 			visible: sddm.canReboot
 			onClicked: sddm.reboot()
-			KeyNavigation.backtab: layoutBox; KeyNavigation.tab: btnShutdown
+			KeyNavigation.backtab: btnSuspend; KeyNavigation.tab: btnShutdown
 			}
 
 			ImageButton {
