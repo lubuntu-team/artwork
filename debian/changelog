@@ -1,8 +1,10 @@
 lubuntu-artwork (19.04.3) eoan; urgency=medium
 
   * Add suspend button, thanks to Guephren!
+  * Bump Standards-Version & debhelper compat version, no changes needed.
+  * Removed legacy debian/compat.
 
- -- Walter Lapchynski <wxl@ubuntu.com>  Wed, 21 Aug 2019 21:55:10 -0700
+ -- Walter Lapchynski <wxl@ubuntu.com>  Wed, 21 Aug 2019 22:06:10 -0700
 
 lubuntu-artwork (19.04.2) disco; urgency=medium
 

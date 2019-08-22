@@ -3,8 +3,8 @@ Section: x11
 Priority: optional
 Maintainer: Lubuntu Developers <lubuntu-devel@lists.ubuntu.com>
 Uploaders: Simon Quigley <tsimonq2@ubuntu.com>
-Build-Depends: debhelper (>= 11), icon-naming-utils, intltool
-Standards-Version: 4.1.5
+Build-Depends: debhelper (>= 12), icon-naming-utils, intltool
+Standards-Version: 4.4.0
 Homepage: https://lubuntu.me
 Vcs-Browser: https://git.launchpad.net/lubuntu-artwork?h=ubuntu/cosmic
 Vcs-Git: https://git.launchpad.net/lubuntu-artwork
