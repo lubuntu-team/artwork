@@ -1,3 +1,9 @@
+lubuntu-artwork (19.10.1) eoan; urgency=medium
+
+  * Fix version number to be consistent with the release name.
+
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Thu, 29 Aug 2019 17:08:43 -0500
+
 lubuntu-artwork (19.04.3) eoan; urgency=medium
 
   * Add suspend button, thanks to Guephren!
