@@ -56,3 +56,11 @@ Replaces: sddm-theme-lubuntu-chooser (<< 1.4)
 Provides: sddm-theme
 Description: Lubuntu theme for SDDM X11 display manager
  Lubuntu chooser theme for SDDM
+
+Package: lubuntu-grub-theme
+Architecture: all
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Recommends: grub2
+Description: Theme for Lubuntu grub screen
+ Custom grub theme for Lubuntu. Inspired from 
+ breeze theme.

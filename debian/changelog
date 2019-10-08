@@ -1,3 +1,10 @@
+lubuntu-artwork (19.10.2) eoan; urgency=medium
+
+  * Added lubuntu-grub-theme
+  * Removed unnecessary link from the top of readme.
+
+ -- Raman Sarda <theloudspeaker@lubuntu.me>  Wed, 24 Sep 2019 11:10:29 +0530
+
 lubuntu-artwork (19.10.1) eoan; urgency=medium
 
   * Fix version number to be consistent with the release name.

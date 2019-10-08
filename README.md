@@ -1,8 +1,3 @@
-[![Build Status](https://travis-ci.org/lubuntu-team/lubuntu-artwork.svg?branch=ubuntu%2Fcosmic)](https://travis-ci.org/lubuntu-team/lubuntu-artwork)
-## Automatic build testing
-Automatic build are on Travis : https://travis-ci.org/lubuntu-team/lubuntu-artwork
-
-
 ## Organisation of the source
 ==========================
 
