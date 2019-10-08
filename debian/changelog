@@ -1,7 +1,11 @@
 lubuntu-artwork (19.10.2) eoan; urgency=medium
 
+  [ Raman Sarda ]
   * Added lubuntu-grub-theme
   * Removed unnecessary link from the top of readme.
+
+  [ Dan Simmons ]
+  * Add wallpapers from the wallpaper contest.
 
  -- Raman Sarda <theloudspeaker@lubuntu.me>  Wed, 24 Sep 2019 11:10:29 +0530
 
