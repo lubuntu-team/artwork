@@ -1,3 +1,9 @@
+lubuntu-artwork (20.04.1) UNRELEASED; urgency=medium
+
+  * Replace wall.png with a symbolic link to the default wallpaper.
+
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Thu, 07 Nov 2019 11:42:29 -0600
+
 lubuntu-artwork (19.10.3) eoan; urgency=medium
 
   * Add wallpapers to artwork install.
