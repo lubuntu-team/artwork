@@ -1,8 +1,16 @@
-lubuntu-artwork (20.04.1) UNRELEASED; urgency=medium
+lubuntu-artwork (20.04.1) focal; urgency=medium
 
+  [ Simon Quigley ]
   * Replace wall.png with a symbolic link to the default wallpaper.
 
- -- Simon Quigley <tsimonq2@ubuntu.com>  Thu, 07 Nov 2019 11:42:29 -0600
+  [ Raman Sarda ]
+  * Modified lubuntu-grub-theme
+   - Removed postinstall and preinstall files.
+   - Removed cfg script from /etc/default/grub.d/
+   - Modified install file accordingly.
+   - Make hummingbird logo appear on grub menu entry.
+
+ -- Raman Sarda <theloudspeaker@lubuntu.me>  Sat, 09 Nov 2019 22:57:03 +0530
 
 lubuntu-artwork (19.10.3) eoan; urgency=medium
 
