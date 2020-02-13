@@ -1,3 +1,11 @@
+lubuntu-artwork (20.04.2) focal; urgency=medium
+
+  * Added Lubuntu Round Openbox Theme.
+  * Changed background and hover color on in menu search.
+  * Bumped Standards-Version to 4.5.0, no changes needed.
+
+ -- Hans P Möller <hmollercl@lubuntu.me>  Fri, 24 Jan 2020 23:31:02 -0300
+
 lubuntu-artwork (20.04.1) focal; urgency=medium
 
   [ Simon Quigley ]

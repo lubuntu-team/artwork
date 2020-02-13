@@ -3,11 +3,12 @@ Section: x11
 Priority: optional
 Maintainer: Lubuntu Developers <lubuntu-devel@lists.ubuntu.com>
 Uploaders: Simon Quigley <tsimonq2@ubuntu.com>
-Build-Depends: debhelper (>= 12), icon-naming-utils, intltool
-Standards-Version: 4.4.0
+Build-Depends: debhelper-compat (= 12), icon-naming-utils, intltool
+Standards-Version: 4.5.0
 Homepage: https://lubuntu.me
 Vcs-Browser: https://git.launchpad.net/lubuntu-artwork?h=ubuntu/cosmic
 Vcs-Git: https://git.launchpad.net/lubuntu-artwork
+Rules-Requires-Root: no
 
 Package: lubuntu-artwork
 Architecture: all
@@ -59,8 +60,8 @@ Description: Lubuntu theme for SDDM X11 display manager
 
 Package: lubuntu-grub-theme
 Architecture: all
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
 Recommends: grub2
 Description: Theme for Lubuntu grub screen
- Custom grub theme for Lubuntu. Inspired from 
+ Custom grub theme for Lubuntu. Inspired from
  breeze theme.

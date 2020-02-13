@@ -352,7 +352,7 @@ TrayIcon {
 
 #MainMenu ActionView {
     border: none;
-    background: palette(text);
+    background: rgb(64, 69, 82);
     color: #D2D8E0;
 }
 
@@ -363,7 +363,7 @@ TrayIcon {
 
 #MainMenu ActionView::item:selected, ActionView::item:hover {
     border: 1px solid rgb(39, 44, 53);
-    background: rgb(79, 86, 101);
+    background: #5294e2;
     color: #D2D8E0;
 }
 
