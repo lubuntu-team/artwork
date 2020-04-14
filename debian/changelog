@@ -1,3 +1,11 @@
+lubuntu-artwork (20.04.3) focal; urgency=medium
+
+  * Add wallpapers from wallpaper contest.
+  * Add wallpapers to artwork install file.
+  * Remove old wallpapers.
+
+ -- Dan Simmons <kc2bez@lubuntu.me>  Tue, 14 Apr 2020 00:39:15 -0400
+
 lubuntu-artwork (20.04.2) focal; urgency=medium
 
   * Added Lubuntu Round Openbox Theme.
