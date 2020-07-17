@@ -1,3 +1,17 @@
+lubuntu-artwork (20.10.1) groovy; urgency=medium
+
+  [ Jacob Sawicki ]
+  * Created artwork for the Lubuntu spinner theme.
+
+  [ apt-ghetto ]
+  * Welcome to the Groovy Gorilla
+  * Changed the Lubuntu plymouth theme:
+    - Changed plymouth-theme-lubuntu-logo to use the Ubuntu spinner theme 
+      (LP: #1872669)
+    - Updated plymouth-theme-lubuntu-text to print actual release version.
+
+ -- apt-ghetto <apt-ghetto@lubuntu.me>  Sat, 11 Jul 2020 11:42:02 +0200
+
 lubuntu-artwork (20.04.3) focal; urgency=medium
 
   * Add wallpapers from wallpaper contest.
