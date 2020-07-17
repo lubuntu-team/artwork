@@ -10,7 +10,12 @@ lubuntu-artwork (20.10.1) groovy; urgency=medium
       (LP: #1872669)
     - Updated plymouth-theme-lubuntu-text to print actual release version.
 
- -- apt-ghetto <apt-ghetto@lubuntu.me>  Sat, 11 Jul 2020 11:42:02 +0200
+  [ Raman Sarda ]
+  * Update lubuntu-grub-theme
+   - Change default location of theme files.
+   - Remove grub2 dependency.
+
+ -- Raman Sarda <theloudspeaker@lubuntu.me>  Fri, 17 Jul 2020 23:47:13 +0530
 
 lubuntu-artwork (20.04.3) focal; urgency=medium
 

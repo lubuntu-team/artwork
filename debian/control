@@ -62,7 +62,6 @@ Description: Lubuntu theme for SDDM X11 display manager
 Package: lubuntu-grub-theme
 Architecture: all
 Depends: ${misc:Depends}, ${shlibs:Depends}
-Recommends: grub2
 Description: Theme for Lubuntu grub screen
  Custom grub theme for Lubuntu. Inspired from
  breeze theme.
