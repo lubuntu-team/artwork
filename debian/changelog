@@ -1,6 +1,7 @@
 lubuntu-artwork (20.10.3) UNRELEASED; urgency=medium
 
   * Update default wallpaper link.
+  * Change selected item color for grub theme. (LP: #1892303)
 
  -- Dan Simmons <kc2bez@lubuntu.me>  Sat, 03 Oct 2020 14:48:44 -0400
 

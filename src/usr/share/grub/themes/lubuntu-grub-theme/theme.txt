@@ -20,7 +20,7 @@ terminal-box: "terminal_*.png"
   item_icon_space = 8
   item_spacing = 2
 
-  selected_item_color= "#eff0f1"
+  selected_item_color= "#f9fb06"
   selected_item_pixmap_style = "select_*.png"
   
   icon_height = 48
