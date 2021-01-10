@@ -1,3 +1,9 @@
+lubuntu-artwork (21.04.1) hirsute; urgency=medium
+
+  * Added Lubuntu Breeze Openbox Theme.
+
+ -- Hans P Möller <hmollercl@lubuntu.me>  Sun, 10 Jan 2021 17:38:38 -0300
+
 lubuntu-artwork (20.10.3) groovy; urgency=medium
 
   * Update default wallpaper link.
