@@ -5,6 +5,8 @@ lubuntu-artwork (21.04.1) hirsute; urgency=medium
 
   [ Dan Simmons ]
   * Update plymouth text to 21.04.
+  * Update debian/copyright.
+  * Add Artwork from contest and update links.
 
  -- Hans P Möller <hmollercl@lubuntu.me>  Sun, 10 Jan 2021 17:38:38 -0300
 
