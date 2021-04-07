@@ -1,4 +1,4 @@
-lubuntu-artwork (21.04.1~ppa1) hirsute; urgency=medium
+lubuntu-artwork (21.04.1) hirsute; urgency=medium
 
   [ Hans P Möller ]
   * Added Lubuntu Breeze Openbox Theme.
@@ -6,9 +6,9 @@ lubuntu-artwork (21.04.1~ppa1) hirsute; urgency=medium
   [ Dan Simmons ]
   * Update plymouth text to 21.04.
   * Update debian/copyright.
-  * Add Artwork from contest and update links.
+  * Add Artwork from contest and update links. (LP: #1922962)
 
- -- Dan Simmons <kc2bez@lubuntu.me>  Tue, 06 Apr 2021 11:31:58 -0400
+ -- Dan Simmons <kc2bez@lubuntu.me>  Wed, 07 Apr 2021 15:50:37 -0400
 
 lubuntu-artwork (20.10.3) groovy; urgency=medium
 
