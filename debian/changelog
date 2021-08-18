@@ -1,3 +1,9 @@
+lubuntu-artwork (21.10.1) UNRELEASED; urgency=medium
+
+  * Update plymouth text to 21.10.
+
+ -- Dan Simmons <kc2bez@lubuntu.me>  Wed, 18 Aug 2021 19:40:07 -0400
+
 lubuntu-artwork (21.04.1) hirsute; urgency=medium
 
   [ Hans P Möller ]
