@@ -1,4 +1,4 @@
-lubuntu-artwork (21.10.1) UNRELEASED; urgency=medium
+lubuntu-artwork (21.10.1) impish; urgency=medium
 
   * Update plymouth text to 21.10.
   * Add new wallpapers.
@@ -6,7 +6,7 @@ lubuntu-artwork (21.10.1) UNRELEASED; urgency=medium
     - Update debian/copyright.
   * Update artwork install file.
 
- -- Dan Simmons <kc2bez@lubuntu.me>  Wed, 18 Aug 2021 19:40:07 -0400
+ -- Dan Simmons <kc2bez@lubuntu.me>  Wed, 18 Aug 2021 20:22:07 -0400
 
 lubuntu-artwork (21.04.1) hirsute; urgency=medium
 
