@@ -1,6 +1,9 @@
 lubuntu-artwork (21.10.1) UNRELEASED; urgency=medium
 
   * Update plymouth text to 21.10.
+  * Add new wallpapers.
+    - Update links for default images in SDDM and main wallpaper.
+    - Update debian/copyright.
 
  -- Dan Simmons <kc2bez@lubuntu.me>  Wed, 18 Aug 2021 19:40:07 -0400
 
