@@ -4,7 +4,7 @@ lubuntu-artwork (22.04.1) jammy; urgency=medium
     - Update debian/copyright.
   * Update plymouth text to 22.04 LTS.
 
- -- Dan Simmons <kc2bez@lubuntu.me>  Mon, 21 Feb 2022 07:56:58 -0500
+ -- Dan Simmons <kc2bez@lubuntu.me>  Mon, 21 Feb 2022 08:18:10 -0500
 
 lubuntu-artwork (21.10.1) impish; urgency=medium
 
