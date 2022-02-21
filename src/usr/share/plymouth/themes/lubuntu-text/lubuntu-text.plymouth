@@ -4,7 +4,7 @@ Description=Text mode theme based on kubuntu-logo theme
 ModuleName=ubuntu-text
 
 [ubuntu-text]
-title=Lubuntu 21.10
+title=Lubuntu 22.04 LTS
 black=0x0078C2
 white=0xffffff
 brown=0x009DFD

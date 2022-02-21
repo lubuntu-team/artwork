@@ -2,6 +2,7 @@ lubuntu-artwork (22.04.1) jammy; urgency=medium
 
   * Remove some 20.04 wallpapers.
     - Update debian/copyright.
+  * Update plymouth text to 22.04 LTS.
 
  -- Dan Simmons <kc2bez@lubuntu.me>  Mon, 21 Feb 2022 07:56:58 -0500
 
