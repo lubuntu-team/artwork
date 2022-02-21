@@ -1,3 +1,10 @@
+lubuntu-artwork (22.04.1) jammy; urgency=medium
+
+  * Remove some 20.04 wallpapers.
+    - Update debian/copyright.
+
+ -- Dan Simmons <kc2bez@lubuntu.me>  Mon, 21 Feb 2022 07:56:58 -0500
+
 lubuntu-artwork (21.10.1) impish; urgency=medium
 
   * Update plymouth text to 21.10.
@@ -41,7 +48,7 @@ lubuntu-artwork (20.10.1) groovy; urgency=medium
   [ apt-ghetto ]
   * Welcome to the Groovy Gorilla
   * Changed the Lubuntu plymouth theme:
-    - Changed plymouth-theme-lubuntu-logo to use the Ubuntu spinner theme 
+    - Changed plymouth-theme-lubuntu-logo to use the Ubuntu spinner theme
       (LP: #1872669)
     - Updated plymouth-theme-lubuntu-text to print actual release version.
 
