@@ -3,11 +3,11 @@ Section: x11
 Priority: optional
 Maintainer: Lubuntu Developers <lubuntu-devel@lists.ubuntu.com>
 Uploaders: Simon Quigley <tsimonq2@ubuntu.com>
-Build-Depends: debhelper-compat (= 12), icon-naming-utils, intltool
-Standards-Version: 4.5.0
+Build-Depends: debhelper-compat (= 13), icon-naming-utils, intltool
+Standards-Version: 4.6.0
 Homepage: https://lubuntu.me
-Vcs-Browser: https://git.launchpad.net/lubuntu-artwork?h=ubuntu/cosmic
-Vcs-Git: https://git.launchpad.net/lubuntu-artwork
+Vcs-Browser: https://phab.lubuntu.me/source/lubuntu-artwork/
+Vcs-Git: https://phab.lubuntu.me/source/lubuntu-artwork.git
 Rules-Requires-Root: no
 
 Package: lubuntu-artwork
