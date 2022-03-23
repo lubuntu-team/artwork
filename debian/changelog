@@ -1,15 +1,15 @@
-lubuntu-artwork (22.04.2) UNRELEASED; urgency=medium
+lubuntu-artwork (22.04.2) jammy; urgency=medium
 
   * Add new Jellyfish wallpaper. (LP: #1965995)
-    - Update debian/copyright. 
-    - Add new wallpaper to install file. 
-    - Update link to default wallpaper. 
+    - Update debian/copyright.
+    - Add new wallpaper to install file.
+    - Update link to default wallpaper.
   * Update debian/control.
     - Update VCS links to phab.
     - Update standards-version to 4.6.0, no changes needed.
     - Use debhelper-compat (=13).
 
- -- Dan Simmons <kc2bez@lubuntu.me>  Tue, 22 Mar 2022 19:31:44 -0400
+ -- Dan Simmons <kc2bez@lubuntu.me>  Tue, 22 Mar 2022 20:16:19 -0400
 
 lubuntu-artwork (22.04.1) jammy; urgency=medium
 
