@@ -1,10 +1,10 @@
-lubuntu-artwork (22.10.1) UNRELEASED; urgency=medium
+lubuntu-artwork (22.10.1) kinetic; urgency=medium
 
   * Update plymouth text to 22.10.
   * Add kudu wallpaper.
     - Update debian/copright.
 
- -- Dan Simmons <kc2bez@lubuntu.me>  Sat, 11 Jun 2022 19:43:53 -0400
+ -- Dan Simmons <kc2bez@lubuntu.me>  Sat, 11 Jun 2022 20:05:40 -0400
 
 lubuntu-artwork (22.04.2) jammy; urgency=medium
 
