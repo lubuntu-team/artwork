@@ -1,4 +1,4 @@
-lubuntu-artwork (22.10.1ubuntu1) UNRELEASED; urgency=medium
+lubuntu-artwork (22.10.2) kinetic; urgency=medium
 
   * Add new Kinetic Kudu wallpaper and SDDM background. (LP: #1990636)
     - Update install file. 
