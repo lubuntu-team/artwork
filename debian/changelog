@@ -1,6 +1,7 @@
 lubuntu-artwork (22.10.1ubuntu1) UNRELEASED; urgency=medium
 
   * Add new Kinetic Kudu wallpaper and SDDM background. (LP: #1990636)
+    - Update install file. 
 
  -- Aaron Rainbolt <arraybolt3@gmail.com>  Thu, 29 Sep 2022 03:46:29 -0500
 
