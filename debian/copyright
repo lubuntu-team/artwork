@@ -35,9 +35,18 @@ Files: /usr/share/lubuntu/wallpapers/2204-jellyfish.png
 Copyright: 2022 Danist Soh
 License: CC0
 
-Files: /usr/share/lubuntu/wallpapers/2210kudu.png
+Files: /usr/share/lubuntu/wallpapers/2210-kudu-photo.png
 Copyright: 2022 Jamie Muller
 License: CC0
+
+Files: /usr/share/lubuntu/wallpapers/2210-kudu.png
+Copyright: 2022 Aaron Rainbolt
+           2022 MediaMom Ministries
+License: CC-BY-SA-4.0
+
+Files: /usr/share/lubuntu/wallpapers/2210-blue-logo.jpg
+Copyright: 2022 sudodus
+License: CC-BY-SA-4.0
 
 License: GPL-2+
  This package is free software; you can redistribute it and/or modify
