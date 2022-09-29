@@ -1,7 +1,7 @@
 lubuntu-artwork (22.10.2) kinetic; urgency=medium
 
   * Add new Kinetic Kudu wallpaper and SDDM background. (LP: #1990636)
-    - Update install file. 
+    - Update install file.
     - Update debian/copyright.
 
  -- Aaron Rainbolt <arraybolt3@gmail.com>  Thu, 29 Sep 2022 03:46:29 -0500
@@ -11,7 +11,7 @@ lubuntu-artwork (22.10.1) kinetic; urgency=medium
   * Update plymouth text to 22.10.
   * Add kudu wallpaper.
     - Update debian/copright.
-    - Add new wallpaper to install file. 
+    - Add new wallpaper to install file.
 
  -- Dan Simmons <kc2bez@lubuntu.me>  Sat, 11 Jun 2022 20:10:15 -0400
 
