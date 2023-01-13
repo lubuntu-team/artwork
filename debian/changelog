@@ -1,11 +1,11 @@
-lubuntu-artwork (23.04.1ubuntu1) UNRELEASED; urgency=medium
+lubuntu-artwork (23.04.2) lunar; urgency=medium
 
   * Added back dropped changed from version 22.10.2.
   * Added new artwork for 23.04.
     - Update debian/copyright.
     - Update install file.
 
- -- Aaron Rainbolt <arraybolt3@ubuntu.com>  Fri, 13 Jan 2023 16:35:14 -0600
+ -- Aaron Rainbolt <arraybolt3@ubuntu.com>  Fri, 13 Jan 2023 16:47:08 -0600
 
 lubuntu-artwork (23.04.1) lunar; urgency=medium
 
