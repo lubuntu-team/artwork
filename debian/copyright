@@ -40,8 +40,10 @@ Copyright: 2022 Jamie Muller
 License: CC0
 
 Files: /usr/share/lubuntu/wallpapers/2210-kudu.png
-Copyright: 2022 Aaron Rainbolt
-           2022 MediaMom Ministries
+       /usr/share/lubuntu/wallpapers/2304-lunar-lobster.png
+       /usr/share/lubuntu/wallpapers/2304-clear-lobster.png
+Copyright: 2022-2023 Aaron Rainbolt
+           2022-2023 MediaMom Ministries
 License: CC-BY-SA-4.0
 
 Files: /usr/share/lubuntu/wallpapers/2210-blue-logo.jpg
