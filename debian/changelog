@@ -4,6 +4,7 @@ lubuntu-artwork (23.04.2) lunar; urgency=medium
   * Added new artwork for 23.04.
     - Update debian/copyright.
     - Update install file.
+  * Removed trailing whitespace from changelog.
 
  -- Aaron Rainbolt <arraybolt3@ubuntu.com>  Fri, 13 Jan 2023 16:47:08 -0600
 
@@ -26,7 +27,7 @@ lubuntu-artwork (22.10.1) kinetic; urgency=medium
   * Update plymouth text to 22.10.
   * Add kudu wallpaper.
     - Update debian/copright.
-    - Add new wallpaper to install file. 
+    - Add new wallpaper to install file.
 
  -- Dan Simmons <kc2bez@lubuntu.me>  Sat, 11 Jun 2022 20:10:15 -0400
 
