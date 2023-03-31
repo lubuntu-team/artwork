@@ -1,3 +1,11 @@
+lubuntu-artwork (23.04.3) lunar; urgency=medium
+
+  * Fixed a boffo in the [ubuntu-text] section of
+    src/usr/share/plymouth/themes/lubuntu-text/lubuntu-text.plymouth (the
+    title should be "Lubuntu 23.04", not "Lubuntu 22.10").
+
+ -- Aaron Rainbolt <arraybolt3@ubuntu.com>  Thu, 30 Mar 2023 20:42:20 -0500
+
 lubuntu-artwork (23.04.2) lunar; urgency=medium
 
   * Added back dropped changed from version 22.10.2.
