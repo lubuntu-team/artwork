@@ -5,6 +5,7 @@ Upstream-Contact: Lubuntu Developers <lubuntu-devel@lists.ubuntu.com>
 Files: *
 Copyright: 2009-2017 Julien Lavergne <gilir@ubuntu.com>
            2018 Simon Quigley <tsimonq2@ubuntu.com>
+           2023 Walter Lapchynski <wxl@ubuntu.com>
 License: GPL-2+
 
 Files: usr/share/plymouth/*

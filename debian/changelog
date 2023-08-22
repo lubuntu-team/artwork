@@ -1,3 +1,13 @@
+lubuntu-artwork (23.10.1) mantic; urgency=medium
+
+  * Welcome to the Mantic Minotaur!
+  * Update Plymouth text to 23.10.
+  * Update Lubuntu Arc LXQt theme preview image.
+    - Removed unnecessary SVG version.
+    - Update debian/copyright.
+
+ -- Walter Lapchynski <wxl@ubuntu.com>  Tue, 22 Aug 2023 16:53:15 +0000
+
 lubuntu-artwork (23.04.3) lunar; urgency=medium
 
   * Fixed a boffo in the [ubuntu-text] section of
