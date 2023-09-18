@@ -1,3 +1,9 @@
+lubuntu-artwork (23.10.3) mantic; urgency=medium
+
+  * Install Mantic wallpaper. 
+
+ -- Walter Lapchynski <wxl@ubuntu.com>  Sun, 17 Sep 2023 17:31:27 -0700
+
 lubuntu-artwork (23.10.2) mantic; urgency=medium
 
   * Add new wallpaper by Walter Lapchynski & Erich Eickmeyer. 
