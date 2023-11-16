@@ -1,3 +1,9 @@
+lubuntu-artwork (24.04.2) noble; urgency=medium
+
+  * Move the watermark text on the SDDM screen.
+
+ -- Aaron Rainbolt <arraybolt3@gmail.com>  Thu, 16 Nov 2023 17:38:54 -0600
+
 lubuntu-artwork (24.04.1) noble; urgency=medium
 
   * Add placeholder images for Noble.
