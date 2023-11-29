@@ -1,3 +1,9 @@
+lubuntu-artwork (24.04.3) UNRELEASED; urgency=medium
+
+  * Add sddm-conf, lxqt-themes-extra, and lxqt-themes as Recommends.
+
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Wed, 29 Nov 2023 09:16:45 -0600
+
 lubuntu-artwork (24.04.2) noble; urgency=medium
 
   * Move the watermark text on the SDDM screen.
