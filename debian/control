@@ -6,8 +6,8 @@ Uploaders: Simon Quigley <tsimonq2@ubuntu.com>
 Build-Depends: debhelper-compat (= 13), icon-naming-utils, intltool
 Standards-Version: 4.6.2
 Homepage: https://lubuntu.me
-Vcs-Browser: https://phab.lubuntu.me/source/lubuntu-artwork/
-Vcs-Git: https://phab.lubuntu.me/source/lubuntu-artwork.git
+Vcs-Browser: https://git.lubuntu.me/Lubuntu/artwork
+Vcs-Git: https://git.lubuntu.me/Lubuntu/artwork.git
 Rules-Requires-Root: no
 
 Package: lubuntu-artwork

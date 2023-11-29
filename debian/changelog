@@ -3,6 +3,7 @@ lubuntu-artwork (24.04.3) UNRELEASED; urgency=medium
   * Add sddm-conf, lxqt-themes-extra, and lxqt-themes as Recommends.
   * Wraaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaap.
   * Update Standards-version to 4.6.2, no changes needed.
+  * Update Vcs-* to match the move to Gitea.
 
  -- Simon Quigley <tsimonq2@ubuntu.com>  Wed, 29 Nov 2023 09:16:45 -0600
 
