@@ -14,38 +14,30 @@ Package: lubuntu-artwork
 Architecture: all
 Depends: ${misc:Depends}
 Recommends: lxqt-themes, lxqt-themes-extra
-Conflicts: lubuntu-artwork-18-04 (<< 1.0)
-Replaces: lubuntu-artwork-18-04 (<< 1.0)
 Provides: lxqt-branding
 Description: artwork for Lubuntu
  Artwork for Lubuntu which contains the default wallpaper and default theming.
 
 Package: plymouth-theme-lubuntu-logo
 Architecture: all
-Depends: plymouth (>= 0.9.2-3ubuntu1~),
+Depends: plymouth,
          plymouth-label,
          plymouth-theme-spinner,
          ${misc:Depends},
          ${shlibs:Depends}
 Provides: plymouth-theme
-Replaces: lubuntu-plymouth-theme,
-          plymouth (<< 0.8.1-1~),
-          plymouth-theme-lubuntu-next-logo (<< 1.0)
-Conflicts: lubuntu-plymouth-theme, plymouth-theme-lubuntu-next-logo (<< 1.0)
 Description: plymouth theme for Lubuntu
  This package contains a Lubuntu theme for Plymouth, which displays the
  Lubuntu logo on boot.
 
 Package: plymouth-theme-lubuntu-text
 Architecture: all
-Depends: plymouth (>= 0.9.2-3ubuntu1~),
+Depends: plymouth,
          plymouth-label,
          plymouth-theme-ubuntu-text,
          ${misc:Depends},
          ${shlibs:Depends}
 Provides: plymouth-theme
-Conflicts: plymouth-theme-lubuntu-next-text (<< 1.0)
-Replaces: plymouth (<< 0.8.1-1~), plymouth-theme-lubuntu-next-text (<< 1.0)
 Description: plymouth text theme for Lubuntu
  This package contains a Lubuntu theme for Plymouth, which displays some
  simple text on boot.
@@ -54,8 +46,6 @@ Package: sddm-theme-lubuntu
 Architecture: all
 Depends: ${misc:Depends}
 Recommends: sddm, sddm-conf
-Conflicts: sddm-theme-lubuntu-chooser (<< 1.4)
-Replaces: sddm-theme-lubuntu-chooser (<< 1.4)
 Provides: sddm-theme
 Description: Lubuntu theme for SDDM X11 display manager
  Lubuntu chooser theme for SDDM

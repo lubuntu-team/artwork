@@ -4,6 +4,8 @@ lubuntu-artwork (24.04.3) UNRELEASED; urgency=medium
   * Wraaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaap.
   * Update Standards-version to 4.6.2, no changes needed.
   * Update Vcs-* to match the move to Gitea.
+  * Relax several dependencies that have been satisfiable since Focal, and
+    remove some ancient Conflicts/Replaces present for several LTSes now.
 
  -- Simon Quigley <tsimonq2@ubuntu.com>  Wed, 29 Nov 2023 09:16:45 -0600
 
