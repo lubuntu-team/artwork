@@ -1,3 +1,11 @@
+lubuntu-artwork (24.04.4) noble; urgency=medium
+
+  * Added official wallpaper and SDDM screen for Noble.
+  * Removed the old SDDM placeholder screen, it calls the OS a "development"
+    version, which will no longer be correct when 24.04 is released.
+
+ -- Aaron Rainbolt <arraybolt3@ubuntu.com>  Sun, 18 Feb 2024 19:32:03 -0600
+
 lubuntu-artwork (24.04.3) noble; urgency=medium
 
   * Add sddm-conf, lxqt-themes-extra, and lxqt-themes as Recommends.
