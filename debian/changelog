@@ -1,3 +1,9 @@
+lubuntu-artwork (24.04.5) noble; urgency=medium
+
+  * Update Plymouth text for Noble. 
+
+ -- Walter Lapchynski <wxl@ubuntu.com>  Wed, 17 Apr 2024 22:32:11 +0000
+
 lubuntu-artwork (24.04.4) noble; urgency=medium
 
   * Added official wallpaper and SDDM screen for Noble.
