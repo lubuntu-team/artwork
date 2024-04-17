@@ -1,6 +1,6 @@
 lubuntu-artwork (24.04.5) noble; urgency=medium
 
-  * Update Plymouth text for Noble. 
+  * Update Plymouth text for Noble. (LP: #2060960)
 
  -- Walter Lapchynski <wxl@ubuntu.com>  Wed, 17 Apr 2024 22:32:11 +0000
 
