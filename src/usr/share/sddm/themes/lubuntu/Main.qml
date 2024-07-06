@@ -1,6 +1,6 @@
 /***************************************************************************
 * Copyright (c) 2013 Abdurrahman AVCI <abdurrahmanavci@gmail.com
-* Copyright (c) 2015-2018 Lubuntu Artwork Team
+* Copyright (c) 2015-2024 Lubuntu Artwork Team
 *
 * Permission is hereby granted, free of charge, to any person
 * obtaining a copy of this software and associated documentation
@@ -49,7 +49,7 @@ Rectangle {
     Repeater {
         model: screenModel
         Background {
-            x: geometry.x; y: geometry.y; width: geometry.width; height:geometry.height
+            x: geometry.x; y: geometry.y; width: geometry.width; height: geometry.height
             source: config.background
             fillMode: Image.PreserveAspectCrop
             onStatusChanged: {
@@ -90,166 +90,171 @@ Rectangle {
         Row {
             anchors.fill: parent
 
-                Text {
-                    id: txtMessage
-                    anchors.top: usersContainer.bottom;
-                    anchors.margins: 20
-                    anchors.horizontalCenter: parent.horizontalCenter
-                    color: "white"
-                    text: textConstants.promptSelectUser
-                    font.pixelSize: 16
-                    font.family: "Ubuntu"
+            Text {
+                id: txtMessage
+                anchors.top: usersContainer.bottom
+                anchors.margins: 20
+                anchors.horizontalCenter: parent.horizontalCenter
+                color: "white"
+                text: textConstants.promptSelectUser
+                font.pixelSize: 16
+                font.family: "Ubuntu"
+            }
+
+            Item {
+                id: usersContainer
+                width: parent.width
+                height: 300
+                anchors.verticalCenter: parent.verticalCenter
+
+                ImageButton {
+                    id: prevUser
+                    anchors.left: parent.left
+                    anchors.verticalCenter: parent.verticalCenter
+                    anchors.margins: 10
+                    source: "angle-left.png"
+                    onClicked: listView.decrementCurrentIndex()
+
+                    KeyNavigation.backtab: btnShutdown
+                    KeyNavigation.tab: listView
                 }
 
-		Item {
-			id: usersContainer
-			width: parent.width; height: 300
-			anchors.verticalCenter: parent.verticalCenter
+                ListView {
+                    id: listView
+                    height: parent.height
+                    anchors.left: prevUser.right
+                    anchors.right: nextUser.left
+                    anchors.verticalCenter: parent.verticalCenter
+                    anchors.margins: 10
 
-                    ImageButton {
-                        id: prevUser
-                        anchors.left: parent.left
-                        anchors.verticalCenter: parent.verticalCenter
-                        anchors.margins: 10
-                        source: "angle-left.png"
-                        onClicked: listView.decrementCurrentIndex()
+                    clip: true
+                    focus: true
 
-                        KeyNavigation.backtab: btnShutdown; KeyNavigation.tab: listView
-                    }
+                    spacing: 5
 
+                    model: userModel
+                    delegate: userDelegate
+                    orientation: ListView.Horizontal
+                    currentIndex: userModel.lastIndex
 
-
-                    ListView {
-                        id: listView
-                        height: parent.height
-                        anchors.left: prevUser.right; anchors.right: nextUser.left
-                        anchors.verticalCenter: parent.verticalCenter
-                        anchors.margins: 10
-
-                        clip: true
-                        focus: true
-
-                        spacing: 5
-
-                        model: userModel
-                        delegate: userDelegate
-                        orientation: ListView.Horizontal
-                        currentIndex: userModel.lastIndex
-
-                        KeyNavigation.backtab: prevUser; KeyNavigation.tab: nextUser
-                    }
-
-                    ImageButton {
-                        id: nextUser
-                        anchors.right: parent.right
-                        anchors.verticalCenter: parent.verticalCenter
-                        anchors.margins: 10
-                        source: "angle-right.png"
-                        onClicked: listView.incrementCurrentIndex()
-                        KeyNavigation.backtab: listView; KeyNavigation.tab: session
-                    }
+                    KeyNavigation.backtab: prevUser
+                    KeyNavigation.tab: nextUser
                 }
 
+                ImageButton {
+                    id: nextUser
+                    anchors.right: parent.right
+                    anchors.verticalCenter: parent.verticalCenter
+                    anchors.margins: 10
+                    source: "angle-right.png"
+                    onClicked: listView.incrementCurrentIndex()
+                    KeyNavigation.backtab: listView
+                    KeyNavigation.tab: session
+                }
+            }
+        }
+    }
+
+    Rectangle {
+        id: actionBar
+        anchors.top: parent.top
+        anchors.horizontalCenter: parent.horizontalCenter
+        width: parent.width
+        height: 64
+        color: "#44ffffff"
+
+        Row {
+            anchors.left: parent.left
+            anchors.margins: 5
+            height: parent.height
+            spacing: 5
+
+            Text {
+                height: parent.height
+                anchors.verticalCenter: parent.verticalCenter
+                text: textConstants.session
+                font.pixelSize: 14
+                color: "white"
+                verticalAlignment: Text.AlignVCenter
+            }
+
+            ComboBox {
+                id: session
+                width: 245
+                anchors.verticalCenter: parent.verticalCenter
+                arrowIcon: "angle-down.png"
+                model: sessionModel
+                index: sessionModel.lastIndex
+                font.pixelSize: 14
+                color: "#44ffffff"
+                KeyNavigation.backtab: nextUser
+                KeyNavigation.tab: layoutBox
+            }
+
+            Text {
+                height: parent.height
+                anchors.verticalCenter: parent.verticalCenter
+                text: textConstants.layout
+                font.pixelSize: 14
+                color: "white"
+                verticalAlignment: Text.AlignVCenter
+            }
+
+            LayoutBox {
+                id: layoutBox
+                width: 90
+                anchors.verticalCenter: parent.verticalCenter
+                font.pixelSize: 14
+                arrowIcon: "angle-down.png"
+                KeyNavigation.backtab: session
+                KeyNavigation.tab: btnShutdown
             }
         }
 
-        Rectangle {
-            id: actionBar
-            anchors.top: parent.top;
-            anchors.horizontalCenter: parent.horizontalCenter
-            width: parent.width; height: 64
-            color: "#44ffffff"
-
-            Row {
-                anchors.left: parent.left
-                anchors.margins: 5
-                height: parent.height
-                spacing: 5
-
-                Text {
-			height: parent.height
-			anchors.verticalCenter: parent.verticalCenter
-			text: textConstants.session
-			font.pixelSize: 14
-			color: "white"
-			verticalAlignment: Text.AlignVCenter
-                }
-
-                ComboBox {
-			id: session
-			width: 245
-			anchors.verticalCenter: parent.verticalCenter
-			arrowIcon: "angle-down.png"
-			model: sessionModel
-			index: sessionModel.lastIndex
-			font.pixelSize: 14
-			color: "#44ffffff"
-			KeyNavigation.backtab: nextUser; KeyNavigation.tab: layoutBox
-                }
-
-                Text {
-                    height: parent.height
-                    anchors.verticalCenter: parent.verticalCenter
-                    text: textConstants.layout
-                    font.pixelSize: 14
-                    color: "white"
-                    verticalAlignment: Text.AlignVCenter
-                }
-
-                LayoutBox {
-                    id: layoutBox
-                    width: 90
-                    anchors.verticalCenter: parent.verticalCenter
-                    font.pixelSize: 14
-                    arrowIcon: "angle-down.png"
-                    KeyNavigation.backtab: session; KeyNavigation.tab: btnShutdown
-                }
-            }
-
-            Row {
-                height: parent.height
-                anchors.right: parent.right
-                anchors.margins: 5
-                spacing: 5
+        Row {
+            height: parent.height
+            anchors.right: parent.right
+            anchors.margins: 5
+            spacing: 5
 
             Clock {
-			id: clock
-			color: "white"
-			timeFont.family: "Ubuntu"
-			timeFont.bold: true
-			timeFont.pixelSize: 28
-			dateFont.pixelSize: 12
-        	}
+                id: clock
+                color: "white"
+                timeFont.family: "Ubuntu"
+                timeFont.bold: true
+                timeFont.pixelSize: 28
+                dateFont.pixelSize: 12
+            }
 
-			ImageButton {
-			id: btnSuspend
-			height: parent.height
-			source: "suspend.png"
-			visible: sddm.canSuspend
-			onClicked: sddm.suspend()
-			KeyNavigation.backtab: layoutBox; KeyNavigation.tab: btnReboot
-			}
+            ImageButton {
+                id: btnSuspend
+                height: parent.height
+                source: "suspend.png"
+                visible: sddm.canSuspend
+                onClicked: sddm.suspend()
+                KeyNavigation.backtab: layoutBox
+                KeyNavigation.tab: btnReboot
+            }
 
-			ImageButton {
-			id: btnReboot
-			height: parent.height
-			source: "reboot.png"
-			visible: sddm.canReboot
-			onClicked: sddm.reboot()
-			KeyNavigation.backtab: btnSuspend; KeyNavigation.tab: btnShutdown
-			}
+            ImageButton {
+                id: btnReboot
+                height: parent.height
+                source: "reboot.png"
+                visible: sddm.canReboot
+                onClicked: sddm.reboot()
+                KeyNavigation.backtab: btnSuspend
+                KeyNavigation.tab: btnShutdown
+            }
 
-			ImageButton {
-			id: btnShutdown
-			height: parent.height
-			source: "shutdown.png"
-			visible: sddm.canPowerOff
-			onClicked: sddm.powerOff()
-			KeyNavigation.backtab: btnReboot; KeyNavigation.tab: prevUser
-			}
-
-	}
-
-
+            ImageButton {
+                id: btnShutdown
+                height: parent.height
+                source: "shutdown.png"
+                visible: sddm.canPowerOff
+                onClicked: sddm.powerOff()
+                KeyNavigation.backtab: btnReboot
+                KeyNavigation.tab: prevUser
+            }
+        }
     }
 }
