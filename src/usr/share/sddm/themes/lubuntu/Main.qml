@@ -35,6 +35,17 @@ Rectangle {
 
     TextConstants { id: textConstants }
 
+    Background {
+        anchors.fill: parent
+        source: Qt.resolvedUrl(config.background)
+        onStatusChanged: {
+            var defaultBackground = Qt.resolvedUrl(config.defaultBackground)
+            if (status == Image.Error && source != defaultBackground) {
+                source = defaultBackground
+            }
+        }
+    }
+
     Connections {
         target: sddm
         onLoginSucceeded: {
@@ -112,7 +123,7 @@ Rectangle {
                     anchors.left: parent.left
                     anchors.verticalCenter: parent.verticalCenter
                     anchors.margins: 10
-                    source: "angle-left.png"
+                    source: Qt.resolvedUrl("angle-left.png")
                     onClicked: listView.decrementCurrentIndex()
 
                     KeyNavigation.backtab: btnShutdown
@@ -146,7 +157,7 @@ Rectangle {
                     anchors.right: parent.right
                     anchors.verticalCenter: parent.verticalCenter
                     anchors.margins: 10
-                    source: "angle-right.png"
+                    source: Qt.resolvedUrl("angle-right.png")
                     onClicked: listView.incrementCurrentIndex()
                     KeyNavigation.backtab: listView
                     KeyNavigation.tab: session
@@ -182,7 +193,7 @@ Rectangle {
                 id: session
                 width: 245
                 anchors.verticalCenter: parent.verticalCenter
-                arrowIcon: "angle-down.png"
+                arrowIcon: Qt.resolvedUrl("angle-down.png")
                 model: sessionModel
                 index: sessionModel.lastIndex
                 font.pixelSize: 14
@@ -205,7 +216,7 @@ Rectangle {
                 width: 90
                 anchors.verticalCenter: parent.verticalCenter
                 font.pixelSize: 14
-                arrowIcon: "angle-down.png"
+                arrowIcon: Qt.resolvedUrl("angle-down.png")
                 KeyNavigation.backtab: session
                 KeyNavigation.tab: btnShutdown
             }
@@ -229,7 +240,7 @@ Rectangle {
             ImageButton {
                 id: btnSuspend
                 height: parent.height
-                source: "suspend.png"
+                source: Qt.resolvedUrl("suspend.png")
                 visible: sddm.canSuspend
                 onClicked: sddm.suspend()
                 KeyNavigation.backtab: layoutBox
@@ -239,7 +250,7 @@ Rectangle {
             ImageButton {
                 id: btnReboot
                 height: parent.height
-                source: "reboot.png"
+                source: Qt.resolvedUrl("reboot.png")
                 visible: sddm.canReboot
                 onClicked: sddm.reboot()
                 KeyNavigation.backtab: btnSuspend
@@ -249,7 +260,7 @@ Rectangle {
             ImageButton {
                 id: btnShutdown
                 height: parent.height
-                source: "shutdown.png"
+                source: Qt.resolvedUrl("shutdown.png")
                 visible: sddm.canPowerOff
                 onClicked: sddm.powerOff()
                 KeyNavigation.backtab: btnReboot
