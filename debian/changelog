@@ -1,8 +1,18 @@
-lubuntu-artwork (24.10.1) UNRELEASED; urgency=medium
+lubuntu-artwork (24.10.2) oracular; urgency=medium
 
-  * Welcome to Oracular!
+  * Add Kvantum theme, fix panel stylesheet in Lubuntu Arc theme.
+    (LP: #2080442)
 
- -- Simon Quigley <tsimonq2@ubuntu.com>  Sat, 06 Jul 2024 11:01:51 -0500
+  [ Simon Quigley ]
+  * Port SDDM theme to Qt 6.
+
+ -- Aaron Rainbolt <arraybolt3@ubuntu.com>  Wed, 11 Sep 2024 17:38:45 -0500
+
+lubuntu-artwork (24.10.1) oracular; urgency=medium
+
+  * Welcome to Oracular Oriole!
+
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Tue, 30 Apr 2024 15:21:06 -0500
 
 lubuntu-artwork (24.04.6) noble; urgency=medium
 

@@ -318,10 +318,11 @@ TrayIcon {
 }
 
 #MainMenu  QMenu {
-    margin: 0px;
+    margin: 0;
     background-color: rgb(56, 60, 74);
 }
 #MainMenu  QMenu::icon {
+    padding: 4px;
     background-color: transparent;
 }
 
@@ -343,7 +344,6 @@ TrayIcon {
     background: rgb(64, 69, 82);
     border: 2px solid #2D303B;
     padding: 4px;
-    margin-button: 2px;
     margin-right: 2px;
     margin-left: 2px;
     color: #D2D8E0;
@@ -358,7 +358,7 @@ TrayIcon {
 
 #MainMenu ActionView::item {
     border: 0px;
-    padding: 3px 0;
+    padding: 6px 0;
 }
 
 #MainMenu ActionView::item:selected, ActionView::item:hover {
