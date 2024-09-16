@@ -1,3 +1,10 @@
+lubuntu-artwork (24.10.3) oracular; urgency=medium
+
+  * Fix clock positioning. (LP: #2080815)
+  * Add wallpaper and login screen artwork. (LP: #2080816)
+
+ -- Aaron Rainbolt <arraybolt3@ubuntu.com>  Mon, 16 Sep 2024 02:46:47 -0500
+
 lubuntu-artwork (24.10.2) oracular; urgency=medium
 
   * Add Kvantum theme, fix panel stylesheet in Lubuntu Arc theme.

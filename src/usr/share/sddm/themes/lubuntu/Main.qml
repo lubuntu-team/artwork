@@ -231,6 +231,7 @@ Rectangle {
             Clock {
                 id: clock
                 color: "white"
+                anchors.verticalCenter: parent.verticalCenter
                 timeFont.family: "Ubuntu"
                 timeFont.bold: true
                 timeFont.pixelSize: 28
