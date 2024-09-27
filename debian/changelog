@@ -1,3 +1,9 @@
+lubuntu-artwork (24.10.4) oracular; urgency=medium
+
+  * Fix decryption keyboard layout indicator. (LP: #2063895)
+
+ -- Aaron Rainbolt <arraybolt3@ubuntu.com>  Thu, 26 Sep 2024 20:18:48 -0500
+
 lubuntu-artwork (24.10.3) oracular; urgency=medium
 
   * Fix clock positioning. (LP: #2080815)
