@@ -1,3 +1,10 @@
+lubuntu-artwork (25.04.1) plucky; urgency=medium
+
+  * Welcome to Plucky Puffin!
+  * Bump Standards-version to 4.7.0, no changes needed.
+
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Tue, 15 Oct 2024 20:38:25 -0500
+
 lubuntu-artwork (24.10.4) oracular; urgency=medium
 
   * Fix decryption keyboard layout indicator. (LP: #2063895)
