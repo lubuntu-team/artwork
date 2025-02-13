@@ -1,3 +1,9 @@
+lubuntu-artwork (25.04.2~ppa2) plucky; urgency=medium
+
+  * Added theming for Fancy Menu.
+
+ -- Walter Lapchynski <wxl@ubuntu.com>  Thu, 13 Feb 2025 07:00:00 +0000
+
 lubuntu-artwork (25.04.1) plucky; urgency=medium
 
   * Welcome to Plucky Puffin!

@@ -300,15 +300,17 @@ TrayIcon {
  * Main menu
  */
 
-#MainMenu {
+#MainMenu, 
+#FancyMenu {
+    color: #D2D8E0;
     margin: 2px;
     padding: 2px;
     border: 0px solid rgba(0, 0, 0, 30%);
     background: rgba(0, 0, 0, 0%);
     qproperty-icon: url(mainmenu.svg);
-    color: #D2D8E0;
 }
-#MainMenu:hover {
+#MainMenu:hover,
+#FancyMenu:hover {
     border: 1px solid rgb(39, 44, 53);
     background: rgb(79, 86, 101);
 }
@@ -340,7 +342,8 @@ TrayIcon {
 }
 
 
-#MainMenu QLineEdit {
+#MainMenu QLineEdit,
+#FancyMenu #AppView {
     background: rgb(64, 69, 82);
     border: 2px solid #2D303B;
     padding: 4px;
@@ -348,7 +351,6 @@ TrayIcon {
     margin-left: 2px;
     color: #D2D8E0;
 }
-
 
 #MainMenu ActionView {
     border: none;
@@ -524,4 +526,72 @@ TrayIcon {
     background-repeat: repeat-x;
     margin-right: 2px;
     margin-left: 2px;
+}
+
+
+/*
+ * Fancy Menu
+ */
+
+
+#FancyMenu QListView::item {
+    color: #D2D8E0;
+    background-color: #2d313c;
+    padding-left: 4px;
+}
+
+#FancyMenu QListView::item::selected {
+    color: #D2D8E0;    
+    background: rgb(79, 86, 101);
+}
+
+#FancyMenu #AppView::item  {
+    color: #D2D8E0;    
+    background: rgb(64, 69, 82);
+}
+
+#FancyMenu #AppView::item::selected  {
+    color: #D2D8E0;
+    background: #3c8ce6;    
+}
+
+#FancyMenu QToolButton {
+    background: rgb(64, 69, 82);
+    width: 32px;
+    height: 32px;
+    qproperty-iconSize: 26px;
+    border: 1px solid transparent;
+}    
+
+#FancyMenu QToolButton:hover,
+#FancyMenu QToolButton:focus {
+    width: 32px;
+    height: 32px;
+    qproperty-iconSize: 26px;
+    background: rgb(79, 86, 101);
+    border: 1px solid transparent;
+}
+
+LXQtFancyMenuWindow { 
+    background: #2d313c;
+}
+
+#FancyMenu QLineEdit:focus {
+    border: 2px solid #3c8ce6;
+    border-radius: 4px;
+}
+
+#FancyMenu QListView {
+    color: #D2D8E0;    
+}
+
+
+#FancyMenu QLineEdit {
+    background: rgb(64, 69, 82);
+    border: 2px solid #2D303B;
+    border-radius: 2px;
+    padding: 4px;
+    margin-right: 2px;
+    margin-left: 2px;
+    color: #D2D8E0;
 }
