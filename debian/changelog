@@ -1,3 +1,9 @@
+lubuntu-artwork (25.04.4) plucky; urgency=medium
+
+  * Add official wallpaper and login screen for Plucky
+
+ -- Aaron Rainbolt <arraybolt3@ubuntu.com>  Tue, 04 Mar 2025 23:09:35 -0600
+
 lubuntu-artwork (25.04.3) plucky; urgency=medium
 
   * Improved theming for favorites area on Fancy Menu. 
