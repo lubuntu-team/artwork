@@ -1,3 +1,9 @@
+lubuntu-artwork (25.04.5) plucky; urgency=medium
+
+  * Flip wallpaper horizontally to reduce clutter.
+
+ -- Aaron Rainbolt <arraybolt3@ubuntu.com>  Wed, 12 Mar 2025 13:40:09 -0500
+
 lubuntu-artwork (25.04.4) plucky; urgency=medium
 
   * Add official wallpaper and login screen for Plucky
