@@ -541,8 +541,13 @@ TrayIcon {
     padding-right: 4px;
 }
 
+#FancyMenu QListView::item::hover {
+    color: rgb(210, 216, 224);
+    background: rgb(58, 63, 75);
+}
+
 #FancyMenu QListView::item::selected {
-    color: #D2D8E0;    
+    color: rgb(255, 255, 255);
     background: rgb(79, 86, 101);
 }
 
@@ -553,9 +558,14 @@ TrayIcon {
     padding-right: 2px;
 }
 
-#FancyMenu #AppView::item::selected  {
+#FancyMenu #AppView::item::hover  {
     color: #D2D8E0;
-    background: #3c8ce6;    
+    background: #3A597C;
+}
+
+#FancyMenu #AppView::item::selected  {
+    color:#E6E9EE;
+    background: #3c8ce6;
 }
 
 #FancyMenu QToolButton {
