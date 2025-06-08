@@ -2,6 +2,7 @@ lubuntu-artwork (25.10.1) questing; urgency=medium
 
   * Add hover styling to LXQt menu (contributed by Sean West, thank you!)
   * Updated copyright file.
+  * Bump Standards-Version to 4.7.2, no changes necessary.
 
  -- Aaron Rainbolt <arraybolt3@ubuntu.com>  Sun, 08 Jun 2025 01:41:55 -0500
 

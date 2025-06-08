@@ -4,7 +4,7 @@ Priority: optional
 Maintainer: Lubuntu Developers <lubuntu-devel@lists.ubuntu.com>
 Uploaders: Simon Quigley <tsimonq2@ubuntu.com>
 Build-Depends: debhelper-compat (= 13), icon-naming-utils, intltool
-Standards-Version: 4.7.0
+Standards-Version: 4.7.2
 Homepage: https://lubuntu.me
 Vcs-Browser: https://git.lubuntu.me/Lubuntu/artwork
 Vcs-Git: https://git.lubuntu.me/Lubuntu/artwork.git
