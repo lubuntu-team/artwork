@@ -300,7 +300,7 @@ TrayIcon {
  * Main menu
  */
 
-#MainMenu, 
+#MainMenu,
 #FancyMenu {
     color: #D2D8E0;
     margin: 2px;
@@ -541,21 +541,31 @@ TrayIcon {
     padding-right: 4px;
 }
 
+#FancyMenu QListView::item::hover {
+    color: rgb(210, 216, 224);
+    background: rgb(58, 63, 75);
+}
+
 #FancyMenu QListView::item::selected {
-    color: #D2D8E0;    
+    color: rgb(255, 255, 255);
     background: rgb(79, 86, 101);
 }
 
 #FancyMenu #AppView::item  {
-    color: #D2D8E0;    
+    color: #D2D8E0;
     background: rgb(64, 69, 82);
     padding-left: 2px;
     padding-right: 2px;
 }
 
-#FancyMenu #AppView::item::selected  {
+#FancyMenu #AppView::item::hover {
     color: #D2D8E0;
-    background: #3c8ce6;    
+    background: #3A597C;
+}
+
+#FancyMenu #AppView::item::selected {
+    color: #E6E9EE;
+    background: #3c8ce6;
 }
 
 #FancyMenu QToolButton {
@@ -564,7 +574,7 @@ TrayIcon {
     height: 32px;
     qproperty-iconSize: 26px;
     border: 1px solid transparent;
-}    
+}
 
 #FancyMenu QToolButton:hover,
 #FancyMenu QToolButton:focus {
@@ -575,7 +585,7 @@ TrayIcon {
     border: 1px solid transparent;
 }
 
-LXQtFancyMenuWindow { 
+LXQtFancyMenuWindow {
     background: #2d313c;
 }
 
@@ -585,7 +595,7 @@ LXQtFancyMenuWindow {
 }
 
 #FancyMenu QListView {
-    color: #D2D8E0;    
+    color: #D2D8E0;
 }
 
 #FancyMenu QLabel {
