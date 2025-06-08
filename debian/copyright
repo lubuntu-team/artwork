@@ -6,6 +6,8 @@ Files: *
 Copyright: 2009-2017 Julien Lavergne <gilir@ubuntu.com>
            2018-2024 Simon Quigley <tsimonq2@ubuntu.com>
            2023 Walter Lapchynski <wxl@ubuntu.com>
+           2025 Sean West
+           2025 Aaron Rainbolt <arraybolt3@ubuntu.com>
 License: GPL-2+
 
 Files: usr/share/plymouth/*
