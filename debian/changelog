@@ -1,3 +1,15 @@
+lubuntu-artwork (25.10.2) questing; urgency=medium
+
+  * Upload Questing Quokka artwork.
+  * Adjust SDDM theming for new login screen background.
+  * Fix background aspect ratio distortion. (LP: #2122069)
+  * Don't end up with the text message stuck as "Login failed" if a wrong
+    password is entered. (LP: #2122068)
+  * Fix the code that clears the password box if a wrong password is input.
+    (LP: #2122062)
+
+ -- Aaron Rainbolt <arraybolt3@ubuntu.com>  Thu, 04 Sep 2025 12:08:40 -0500
+
 lubuntu-artwork (25.10.1) questing; urgency=medium
 
   * Add hover styling to LXQt menu (contributed by Sean West, thank you!)

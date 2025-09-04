@@ -35,9 +35,22 @@ Rectangle {
 
     TextConstants { id: textConstants }
 
+    Timer {
+        id: loginFailedResetTimer
+        interval: 2000
+        repeat: false
+        running: false
+        triggeredOnStart: false
+
+        onTriggered: {
+            txtMessage.text = textConstants.promptSelectUser
+        }
+    }
+
     Background {
         anchors.fill: parent
-        source: Qt.resolvedUrl(config.background)
+	source: Qt.resolvedUrl(config.background)
+        fillMode: Image.PreserveAspectCrop
         onStatusChanged: {
             var defaultBackground = Qt.resolvedUrl(config.defaultBackground)
             if (status == Image.Error && source != defaultBackground) {
@@ -53,7 +66,8 @@ Rectangle {
 
         onLoginFailed: {
             txtMessage.text = textConstants.loginFailed
-            listView.currentItem.password.text = ""
+            listView.currentItem.password = ""
+            loginFailedResetTimer.restart()
         }
     }
 
@@ -104,8 +118,9 @@ Rectangle {
             Text {
                 id: txtMessage
                 anchors.top: usersContainer.bottom
-                anchors.margins: 20
-                anchors.horizontalCenter: parent.horizontalCenter
+                anchors.topMargin: 0
+                anchors.leftMargin: 55
+                anchors.left: usersContainer.left
                 color: "white"
                 text: textConstants.promptSelectUser
                 font.pixelSize: 16
@@ -185,7 +200,7 @@ Rectangle {
                 anchors.verticalCenter: parent.verticalCenter
                 text: textConstants.session
                 font.pixelSize: 14
-                color: "white"
+                color: "black"
                 verticalAlignment: Text.AlignVCenter
             }
 
@@ -207,7 +222,7 @@ Rectangle {
                 anchors.verticalCenter: parent.verticalCenter
                 text: textConstants.layout
                 font.pixelSize: 14
-                color: "white"
+                color: "black"
                 verticalAlignment: Text.AlignVCenter
             }
 
@@ -230,7 +245,7 @@ Rectangle {
 
             Clock {
                 id: clock
-                color: "white"
+                color: "black"
                 anchors.verticalCenter: parent.verticalCenter
                 timeFont.family: "Ubuntu"
                 timeFont.bold: true
