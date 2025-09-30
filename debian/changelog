@@ -1,3 +1,9 @@
+lubuntu-artwork (25.10.3) questing; urgency=medium
+
+  * Fix Plymouth theme keyboard layout indicator. (LP: #2125433)
+
+ -- Aaron Rainbolt <arraybolt3@ubuntu.com>  Tue, 30 Sep 2025 15:36:22 -0500
+
 lubuntu-artwork (25.10.2) questing; urgency=medium
 
   * Upload Questing Quokka artwork.
