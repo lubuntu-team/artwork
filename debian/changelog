@@ -1,3 +1,9 @@
+lubuntu-artwork (26.04.1) resolute; urgency=medium
+
+  * Switch to using the correct Kvantum packages to unbreak ISO builds.
+
+ -- Aaron Rainbolt <arraybolt3@ubuntu.com>  Thu, 05 Mar 2026 14:47:25 -0500
+
 lubuntu-artwork (25.10.3) questing; urgency=medium
 
   * Fix Plymouth theme keyboard layout indicator. (LP: #2125433)

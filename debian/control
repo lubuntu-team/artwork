@@ -12,10 +12,10 @@ Rules-Requires-Root: no
 
 Package: lubuntu-artwork
 Architecture: all
-Depends: qt6-style-kvantum,
-         qt6-style-kvantum-l10n,
+Depends: qt-style-kvantum,
+         qt-style-kvantum-l10n,
          ${misc:Depends}
-Recommends: lxqt-themes, lxqt-themes-extra, qt6-style-kvantum-themes
+Recommends: lxqt-themes, lxqt-themes-extra, qt-style-kvantum-themes
 Provides: lxqt-branding
 Description: artwork for Lubuntu
  Artwork for Lubuntu which contains the default wallpaper and default theming.
