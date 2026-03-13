@@ -1,3 +1,9 @@
+lubuntu-artwork (26.04.2) resolute; urgency=medium
+
+  * Add new SDDM background and wallpaper for Resolute.
+
+ -- Aaron Rainbolt <arraybolt3@ubuntu.com>  Fri, 13 Mar 2026 12:28:26 -0400
+
 lubuntu-artwork (26.04.1) resolute; urgency=medium
 
   * Switch to using the correct Kvantum packages to unbreak ISO builds.
