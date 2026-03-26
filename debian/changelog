@@ -1,3 +1,9 @@
+lubuntu-artwork (26.04.3) resolute; urgency=medium
+
+  * Fix version number in text-mode Plymouth theme. (LP: #2126627)
+
+ -- Aaron Rainbolt <arraybolt3@ubuntu.com>  Thu, 26 Mar 2026 12:36:08 -0400
+
 lubuntu-artwork (26.04.2) resolute; urgency=medium
 
   * Add new SDDM background and wallpaper for Resolute.
