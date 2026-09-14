@@ -3,7 +3,7 @@ lubuntu-artwork (26.10.1) stonking; urgency=medium
   * Add new SDDM background and wallpaper for Stonking.
   * Fix version number in text-mode Plymouth theme.
 
- -- Aaron Rainbolt <arainbolt@kfocus.org>  Sun, 13 Sep 2026 22:54:52 -0500
+ -- Aaron Rainbolt <arraybolt3@ubuntu.com>  Sun, 13 Sep 2026 22:54:52 -0500
 
 lubuntu-artwork (26.04.3) resolute; urgency=medium
 
