@@ -24,6 +24,7 @@
 ***************************************************************************/
 
 import QtQuick 2.0
+import QtQuick.Controls as QQC
 import SddmComponents 2.0
 
 Rectangle {
@@ -31,7 +32,7 @@ Rectangle {
     width: 1024
     height: 768
 
-    property int sessionIndex: session.index
+    property int sessionIndex: session.currentIndex
 
     TextConstants { id: textConstants }
 
@@ -204,15 +205,43 @@ Rectangle {
                 verticalAlignment: Text.AlignVCenter
             }
 
-            ComboBox {
+            QQC.ComboBox {
                 id: session
+                height: 30
                 width: 245
                 anchors.verticalCenter: parent.verticalCenter
-                arrowIcon: Qt.resolvedUrl("angle-down.png")
                 model: sessionModel
-                index: sessionModel.lastIndex
+                currentIndex: sessionModel.lastIndex
+                textRole: "name"
                 font.pixelSize: 14
-                color: "#44ffffff"
+                hoverEnabled: true
+
+                contentItem: Text {
+                    leftPadding: 6
+                    rightPadding: 24
+                    text: session.currentText
+                    color: "black"
+                    font: session.font
+                    verticalAlignment: Text.AlignVCenter
+                    elide: Text.ElideRight
+                }
+
+                indicator: Image {
+                    x: session.width - width - 4
+                    y: (session.height - height) / 2
+                    width: 20
+                    height: 20
+                    source: Qt.resolvedUrl("angle-down.png")
+                    fillMode: Image.PreserveAspectFit
+                    smooth: true
+                }
+
+                background: Rectangle {
+                    color: "#44ffffff"
+                    border.width: session.visualFocus ? 1 : 0
+                    border.color: "#5692c4"
+                }
+
                 KeyNavigation.backtab: nextUser
                 KeyNavigation.tab: layoutBox
             }
