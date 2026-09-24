@@ -1,3 +1,10 @@
+lubuntu-artwork (26.10.3) stonking; urgency=medium
+
+  * Remove the keyboard layout box, it is non-functional and very likely
+    unnecessary.
+
+ -- Aaron Rainbolt <arraybolt3@ubuntu.com>  Thu, 24 Sep 2026 12:39:09 -0400
+
 lubuntu-artwork (26.10.2) stonking; urgency=medium
 
   * Fix the dropdown box on the SDDM theme.

@@ -243,26 +243,7 @@ Rectangle {
                 }
 
                 KeyNavigation.backtab: nextUser
-                KeyNavigation.tab: layoutBox
-            }
-
-            Text {
-                height: parent.height
-                anchors.verticalCenter: parent.verticalCenter
-                text: textConstants.layout
-                font.pixelSize: 14
-                color: "black"
-                verticalAlignment: Text.AlignVCenter
-            }
-
-            LayoutBox {
-                id: layoutBox
-                width: 90
-                anchors.verticalCenter: parent.verticalCenter
-                font.pixelSize: 14
-                arrowIcon: Qt.resolvedUrl("angle-down.png")
-                KeyNavigation.backtab: session
-                KeyNavigation.tab: btnShutdown
+                KeyNavigation.tab: btnSuspend
             }
         }
 
@@ -288,7 +269,7 @@ Rectangle {
                 source: Qt.resolvedUrl("suspend.png")
                 visible: sddm.canSuspend
                 onClicked: sddm.suspend()
-                KeyNavigation.backtab: layoutBox
+                KeyNavigation.backtab: session
                 KeyNavigation.tab: btnReboot
             }
 
